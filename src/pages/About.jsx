@@ -1,1 +1,54 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTGluayB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBMaW5rMiwgQXJyb3dMZWZ0IH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IEhlYWRlciBmcm9tICJAL2NvbXBvbmVudHMvYmYvSGVhZGVyIjsKaW1wb3J0IEZvb3RlciBmcm9tICJAL2NvbXBvbmVudHMvYmYvRm9vdGVyIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFib3V0KCkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLXdoaXRlIj4KICAgICAgPEhlYWRlciAvPgogICAgICA8bWFpbiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctM3hsIHB4LTQgcHktMTYgc206cHgtNiI+CiAgICAgICAgPExpbmsgdG89Ii8iIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHRleHQtc20gdGV4dC1zbGF0ZS01MDAgaG92ZXI6dGV4dC1zbGF0ZS05MDAiPgogICAgICAgICAgPEFycm93TGVmdCBjbGFzc05hbWU9Im1yLTEgaC00IHctNCIgLz4gQmFjayB0byBob21lCiAgICAgICAgPC9MaW5rPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC02IGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBoLTkgdy05IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWxnIGJnLXNsYXRlLTkwMCB0ZXh0LXdoaXRlIj4KICAgICAgICAgICAgPExpbmsyIGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQgdGV4dC1zbGF0ZS05MDAiPkFib3V0IEJhY2tsaW5rRm9yZ2U8L2gxPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHJvc2UgbXQtOCBtYXgtdy1ub25lIHRleHQtc2xhdGUtNjAwIj4KICAgICAgICAgIDxwPgogICAgICAgICAgICBCYWNrbGlua0ZvcmdlIGlzIGEgZm9jdXNlZCBTRU8gdG9vbGtpdCBidWlsdCB0byBoZWxwIG1hcmtldGVycywgYWdlbmNpZXMsIGFuZCB3ZWJzaXRlIG93bmVycwogICAgICAgICAgICBzdHJlbmd0aGVuIHRoZWlyIHNlYXJjaCB2aXNpYmlsaXR5IHRocm91Z2ggc21hcnRlciBsaW5rIGJ1aWxkaW5nLiBUaGUgcGxhdGZvcm0gc3RyZWFtbGluZXMKICAgICAgICAgICAgdGhlIHdvcmsgdGhhdCB1c3VhbGx5IGVhdHMgdXAgYW4gU0VPIHByb2Zlc3Npb25hbCdzIGRheTogZGlzY292ZXJpbmcgaGlnaC1xdWFsaXR5IGJhY2tsaW5rIGFuZAogICAgICAgICAgICBndWVzdCBwb3N0aW5nIG9wcG9ydHVuaXRpZXMsIHVuZGVyc3RhbmRpbmcgd2hlcmUgY29tcGV0aXRvcnMgYXJlIGVhcm5pbmcgbGlua3MsIGFuZCBrZWVwaW5nIGEKICAgICAgICAgICAgd2Vic2l0ZSdzIHRlY2huaWNhbCBmb3VuZGF0aW9uIGNsZWFuIGZvciBzZWFyY2ggZW5naW5lcy4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxwPgogICAgICAgICAgICBXaXRoIEJhY2tsaW5rRm9yZ2UsIHlvdSBjYW4gc2VhcmNoIGZvciByZWxldmFudCB3ZWJzaXRlcyB0aGF0IGFjY2VwdCBndWVzdCBwb3N0cyBhbmQgb2ZmZXIKICAgICAgICAgICAgYmFja2xpbmtzLCBmaWx0ZXIgcmVzdWx0cyBieSBkb21haW4gYXV0aG9yaXR5IGFuZCByZWxldmFuY2UsIGFuZCBzYXZlIHRoZSBvcHBvcnR1bml0aWVzIHdvcnRoCiAgICAgICAgICAgIHB1cnN1aW5nLiBUaGUgQmFja2xpbmsgR2FwIEZpbmRlciBjb21wYXJlcyB5b3VyIGxpbmsgcHJvZmlsZSBhZ2FpbnN0IGNvbXBldGl0b3JzIHRvIHN1cmZhY2UgdGhlCiAgICAgICAgICAgIGRvbWFpbnMgbGlua2luZyB0byB0aGVtIGJ1dCBub3QgdG8geW91LCBwcmlvcml0aXplZCBieSBvcHBvcnR1bml0eSBzY29yZSBzbyB5b3Uga25vdyBleGFjdGx5CiAgICAgICAgICAgIHdoZXJlIHRvIGZvY3VzIHlvdXIgb3V0cmVhY2guIFRoZSBYTUwgU2l0ZW1hcCBHZW5lcmF0b3IgJmFtcDsgVmFsaWRhdG9yIGNyYXdscyB5b3VyIHNpdGUsCiAgICAgICAgICAgIHJlc3BlY3RzIHJvYm90cy50eHQgcnVsZXMsIGRldGVjdHMgaW5kZXhhYmxlIHBhZ2VzLCBhbmQgcHJvZHVjZXMgYSBzdGFuZGFyZHMtY29tcGxpYW50IHNpdGVtYXAg4oCUCiAgICAgICAgICAgIHRoZW4gdmFsaWRhdGVzIGV4aXN0aW5nIHNpdGVtYXBzIGZvciBicm9rZW4gVVJMcywgcmVkaXJlY3RzLCBhbmQgWE1MIGVycm9ycyBiZWZvcmUgeW91IHN1Ym1pdAogICAgICAgICAgICB0aGVtIHRvIHNlYXJjaCBlbmdpbmVzLgogICAgICAgICAgPC9wPgogICAgICAgICAgPHA+CiAgICAgICAgICAgIEJhY2tsaW5rRm9yZ2UgaXMgYnVpbHQgYnkgYSBzbWFsbCwgaW5kZXBlbmRlbnQgcHJvZHVjdCB0ZWFtIHRoYXQgYmVsaWV2ZXMgU0VPIHRvb2xzIHNob3VsZCBiZQogICAgICAgICAgICBwcmFjdGljYWwsIHRyYW5zcGFyZW50LCBhbmQgZnJlZSBvZiBjbHV0dGVyLiBSYXRoZXIgdGhhbiBidW5kbGluZyB1bnJlbGF0ZWQgdXRpbGl0aWVzLCB3ZSBrZWVwCiAgICAgICAgICAgIHRoZSBwcm9kdWN0IHRpZ2h0bHkgZm9jdXNlZCBvbiBsaW5rIGJ1aWxkaW5nIGFuZCB0ZWNobmljYWwgU0VPIGVzc2VudGlhbHMuIFdlJ3JlIGNvbnRpbnVhbGx5CiAgICAgICAgICAgIGltcHJvdmluZyB0aGUgcGxhdGZvcm0gYW5kIHdvcmtpbmcgdG93YXJkIGxpdmUgaW50ZWdyYXRpb25zIHdpdGggbGVhZGluZyBTRU8gZGF0YSBwcm92aWRlcnMgc28KICAgICAgICAgICAgdGhhdCB0aGUgbWV0cmljcyB5b3UgcmVseSBvbiByZWZsZWN0IHRoZSByZWFsIHN0YXRlIG9mIHRoZSB3ZWIuIFdoZXRoZXIgeW91J3JlIG1hbmFnaW5nIGEgc2luZ2xlCiAgICAgICAgICAgIHNpdGUgb3IgaGFuZGxpbmcgb3V0cmVhY2ggZm9yIG11bHRpcGxlIGNsaWVudHMsIEJhY2tsaW5rRm9yZ2UgaXMgZGVzaWduZWQgdG8gaGVscCB5b3UgZmluZAogICAgICAgICAgICBiZXR0ZXIgbGlua3MsIGZhc3Rlci4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9tYWluPgogICAgICA8Rm9vdGVyIC8+CiAgICA8L2Rpdj4KICApOwp9
+import React from "react";
+import { Link } from "react-router-dom";
+import { Link2, ArrowLeft } from "lucide-react";
+import Header from "@/components/bf/Header";
+import Footer from "@/components/bf/Footer";
+
+export default function About() {
+  return (
+    <div className="min-h-screen bg-white">
+      <Header />
+      <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+        <Link to="/" className="inline-flex items-center text-sm text-slate-500 hover:text-slate-900">
+          <ArrowLeft className="mr-1 h-4 w-4" /> Back to home
+        </Link>
+        <div className="mt-6 flex items-center gap-2">
+          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-900 text-white">
+            <Link2 className="h-4 w-4" />
+          </span>
+          <h1 className="text-3xl font-semibold tracking-tight text-slate-900">About BacklinkForge</h1>
+        </div>
+
+        <div className="prose mt-8 max-w-none text-slate-600">
+          <p>
+            BacklinkForge is a focused SEO toolkit built to help marketers, agencies, and website owners
+            strengthen their search visibility through smarter link building. The platform streamlines
+            the work that usually eats up an SEO professional's day: discovering high-quality backlink and
+            guest posting opportunities, understanding where competitors are earning links, and keeping a
+            website's technical foundation clean for search engines.
+          </p>
+          <p>
+            With BacklinkForge, you can search for relevant websites that accept guest posts and offer
+            backlinks, filter results by domain authority and relevance, and save the opportunities worth
+            pursuing. The Backlink Gap Finder compares your link profile against competitors to surface the
+            domains linking to them but not to you, prioritized by opportunity score so you know exactly
+            where to focus your outreach. The XML Sitemap Generator &amp; Validator crawls your site,
+            respects robots.txt rules, detects indexable pages, and produces a standards-compliant sitemap —
+            then validates existing sitemaps for broken URLs, redirects, and XML errors before you submit
+            them to search engines.
+          </p>
+          <p>
+            BacklinkForge is built by a small, independent product team that believes SEO tools should be
+            practical, transparent, and free of clutter. Rather than bundling unrelated utilities, we keep
+            the product tightly focused on link building and technical SEO essentials. We're continually
+            improving the platform and working toward live integrations with leading SEO data providers so
+            that the metrics you rely on reflect the real state of the web. Whether you're managing a single
+            site or handling outreach for multiple clients, BacklinkForge is designed to help you find
+            better links, faster.
+          </p>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}

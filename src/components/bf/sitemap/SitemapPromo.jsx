@@ -1,1 +1,67 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgdXNlTmF2aWdhdGUgfSBmcm9tICJyZWFjdC1yb3V0ZXItZG9tIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IEZpbGVDb2RlMiwgQXJyb3dSaWdodCwgQm90LCBGaWxlVGV4dCwgQ2hlY2tDaXJjbGUyIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFNpdGVtYXBQcm9tbygpIHsKICBjb25zdCBuYXZpZ2F0ZSA9IHVzZU5hdmlnYXRlKCk7CiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iYmctc2xhdGUtNTAgcHktMTYiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy02eGwgcHgtNCBzbTpweC02Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBpdGVtcy1jZW50ZXIgZ2FwLTEwIGxnOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgcm91bmRlZC1mdWxsIGJnLXNsYXRlLTEwMCBweC0zIHB5LTEgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTcwMCI+CiAgICAgICAgICAgICAgPEZpbGVDb2RlMiBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPiBOZXcKICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJtdC00IHRleHQtM3hsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQgdGV4dC1zbGF0ZS05MDAgc206dGV4dC00eGwiPgogICAgICAgICAgICAgIEdlbmVyYXRlICYgVmFsaWRhdGUgWE1MIFNpdGVtYXBzCiAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtNCB0ZXh0LWxnIHRleHQtc2xhdGUtNjAwIj4KICAgICAgICAgICAgICBDcmF3bCB5b3VyIHdlYnNpdGUsIGRpc2NvdmVyIGluZGV4YWJsZSBwYWdlcywgYW5kIHByb2R1Y2UgYSBjbGVhbiwgc3RhbmRhcmRzLWNvbXBsaWFudAogICAgICAgICAgICAgIFhNTCBzaXRlbWFwLiBWYWxpZGF0ZSBleGlzdGluZyBzaXRlbWFwcyBmb3IgYnJva2VuIFVSTHMsIHJlZGlyZWN0cywgYW5kIGVycm9ycyBiZWZvcmUKICAgICAgICAgICAgICBzdWJtaXR0aW5nIHRvIHNlYXJjaCBlbmdpbmVzLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC02Ij4KICAgICAgICAgICAgICA8QnV0dG9uIHNpemU9ImxnIiBvbkNsaWNrPXsoKSA9PiBuYXZpZ2F0ZSgiL3NpdGVtYXAtZ2VuZXJhdG9yIil9PgogICAgICAgICAgICAgICAgT3BlbiBTaXRlbWFwIEdlbmVyYXRvciA8QXJyb3dSaWdodCBjbGFzc05hbWU9Im1sLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9Im10LTUgc3BhY2UteS0yIHRleHQtc20gdGV4dC1zbGF0ZS02MDAiPgogICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj48Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT0iaC00IHctNCB0ZXh0LWVtZXJhbGQtNTAwIiAvPiBSZWFsIHdlYnNpdGUgY3Jhd2wgd2l0aCByb2JvdHMudHh0IHN1cHBvcnQ8L2xpPgogICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj48Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT0iaC00IHctNCB0ZXh0LWVtZXJhbGQtNTAwIiAvPiBJbmRleGFiaWxpdHkgJmFtcDsgY2Fub25pY2FsIGRldGVjdGlvbjwvbGk+CiAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPjxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtZW1lcmFsZC01MDAiIC8+IFNpdGVtYXAgdmFsaWRhdGlvbiB3aXRoIGhlYWx0aCBzY29yZTwvbGk+CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgcC01IHNoYWRvdy1zbSI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJnLXNsYXRlLTkwMCBwLTQgZm9udC1tb25vIHRleHQteHMgbGVhZGluZy1yZWxheGVkIHRleHQtc2xhdGUtMzAwIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbGF0ZS01MDAiPiZsdDs/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8mZ3Q7PC9kaXY+CiAgICAgICAgICAgICAgPGRpdj4mbHQ7dXJsc2V0IHhtbG5zPSJodHRwOi8vd3d3LnNpdGVtYXBzLm9yZy88d2JyLz5zY2hlbWFzL3NpdGVtYXAvMC45IiZndDs8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icGwtMyI+Jmx0O3VybCZndDs8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icGwtNiI+Jmx0O2xvYyZndDtodHRwczovL2V4YW1wbGUuY29tLyZsdDsvbG9jJmd0OzwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwbC0zIj4mbHQ7L3VybCZndDs8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icGwtMyI+Jmx0O3VybCZndDs8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icGwtNiI+Jmx0O2xvYyZndDtodHRwczovL2V4YW1wbGUuY29tL2Fib3V0Jmx0Oy9sb2MmZ3Q7PC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InBsLTMiPiZsdDsvdXJsJmd0OzwvZGl2PgogICAgICAgICAgICAgIDxkaXY+Jmx0Oy91cmxzZXQmZ3Q7PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBncmlkIGdyaWQtY29scy0zIGdhcC0yIj4KICAgICAgICAgICAgICA8RmVhdHVyZSBpY29uPXtCb3R9IGxhYmVsPSJSb2JvdHMudHh0IGF3YXJlIiAvPgogICAgICAgICAgICAgIDxGZWF0dXJlIGljb249e0ZpbGVUZXh0fSBsYWJlbD0iWE1MICsgQ1NWIGV4cG9ydCIgLz4KICAgICAgICAgICAgICA8RmVhdHVyZSBpY29uPXtDaGVja0NpcmNsZTJ9IGxhYmVsPSJJc3N1ZSByZXBvcnRzIiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9CgpmdW5jdGlvbiBGZWF0dXJlKHsgaWNvbjogSWNvbiwgbGFiZWwgfSkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBiZy1zbGF0ZS01MCBwLTMgdGV4dC1jZW50ZXIiPgogICAgICA8SWNvbiBjbGFzc05hbWU9Im14LWF1dG8gaC00IHctNCB0ZXh0LXNsYXRlLTUwMCIgLz4KICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgdGV4dC14cyB0ZXh0LXNsYXRlLTYwMCI+e2xhYmVsfTwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQ==
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { FileCode2, ArrowRight, Bot, FileText, CheckCircle2 } from "lucide-react";
+
+export default function SitemapPromo() {
+  const navigate = useNavigate();
+  return (
+    <section className="bg-slate-50 py-16">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="grid items-center gap-10 lg:grid-cols-2">
+          <div>
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700">
+              <FileCode2 className="h-3.5 w-3.5" /> New
+            </span>
+            <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+              Generate & Validate XML Sitemaps
+            </h2>
+            <p className="mt-4 text-lg text-slate-600">
+              Crawl your website, discover indexable pages, and produce a clean, standards-compliant
+              XML sitemap. Validate existing sitemaps for broken URLs, redirects, and errors before
+              submitting to search engines.
+            </p>
+            <div className="mt-6">
+              <Button size="lg" onClick={() => navigate("/sitemap-generator")}>
+                Open Sitemap Generator <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </div>
+            <ul className="mt-5 space-y-2 text-sm text-slate-600">
+              <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-emerald-500" /> Real website crawl with robots.txt support</li>
+              <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-emerald-500" /> Indexability &amp; canonical detection</li>
+              <li className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-emerald-500" /> Sitemap validation with health score</li>
+            </ul>
+          </div>
+
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <div className="rounded-lg bg-slate-900 p-4 font-mono text-xs leading-relaxed text-slate-300">
+              <div className="text-slate-500">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</div>
+              <div>&lt;urlset xmlns="http://www.sitemaps.org/<wbr/>schemas/sitemap/0.9"&gt;</div>
+              <div className="pl-3">&lt;url&gt;</div>
+              <div className="pl-6">&lt;loc&gt;https://example.com/&lt;/loc&gt;</div>
+              <div className="pl-3">&lt;/url&gt;</div>
+              <div className="pl-3">&lt;url&gt;</div>
+              <div className="pl-6">&lt;loc&gt;https://example.com/about&lt;/loc&gt;</div>
+              <div className="pl-3">&lt;/url&gt;</div>
+              <div>&lt;/urlset&gt;</div>
+            </div>
+            <div className="mt-3 grid grid-cols-3 gap-2">
+              <Feature icon={Bot} label="Robots.txt aware" />
+              <Feature icon={FileText} label="XML + CSV export" />
+              <Feature icon={CheckCircle2} label="Issue reports" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Feature({ icon: Icon, label }) {
+  return (
+    <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
+      <Icon className="mx-auto h-4 w-4 text-slate-500" />
+      <div className="mt-1 text-xs text-slate-600">{label}</div>
+    </div>
+  );
+}

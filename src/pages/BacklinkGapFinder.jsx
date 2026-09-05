@@ -1,1 +1,258 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTGluaywgdXNlTmF2aWdhdGUsIHVzZVNlYXJjaFBhcmFtcyB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBiYXNlNDQgfSBmcm9tICJAL2FwaS9iYXNlNDRDbGllbnQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgdXNlVG9hc3QgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdXNlLXRvYXN0IjsKaW1wb3J0IHsgTGluazIsIEFycm93TGVmdCwgVGFyZ2V0LCBBbGVydENpcmNsZSwgR2F1Z2UgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgR2FwRm9ybSBmcm9tICJAL2NvbXBvbmVudHMvYmYvZ2FwL0dhcEZvcm0iOwppbXBvcnQgR2FwTG9hZGluZ1N0YXRlIGZyb20gIkAvY29tcG9uZW50cy9iZi9nYXAvR2FwTG9hZGluZ1N0YXRlIjsKaW1wb3J0IEdhcFJlc3VsdHMgZnJvbSAiQC9jb21wb25lbnRzL2JmL2dhcC9HYXBSZXN1bHRzIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEJhY2tsaW5rR2FwRmluZGVyKCkgewogIGNvbnN0IHsgdG9hc3QgfSA9IHVzZVRvYXN0KCk7CiAgY29uc3QgbmF2aWdhdGUgPSB1c2VOYXZpZ2F0ZSgpOwogIGNvbnN0IFtzZWFyY2hQYXJhbXMsIHNldFNlYXJjaFBhcmFtc10gPSB1c2VTZWFyY2hQYXJhbXMoKTsKCiAgY29uc3QgW2F1dGhlZCwgc2V0QXV0aGVkXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSBSZWFjdC51c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2RhdGEsIHNldERhdGFdID0gUmVhY3QudXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW3F1ZXJ5LCBzZXRRdWVyeV0gPSBSZWFjdC51c2VTdGF0ZShudWxsKTsKICBjb25zdCBbYW5hbHlzaXNJZCwgc2V0QW5hbHlzaXNJZF0gPSBSZWFjdC51c2VTdGF0ZShudWxsKTsKICBjb25zdCBbYXBpRXJyb3IsIHNldEFwaUVycm9yXSA9IFJlYWN0LnVzZVN0YXRlKCIiKTsKICBjb25zdCBbc2F2ZWRJZHMsIHNldFNhdmVkSWRzXSA9IFJlYWN0LnVzZVN0YXRlKG5ldyBTZXQoKSk7CiAgY29uc3QgW3VzYWdlLCBzZXRVc2FnZV0gPSBSZWFjdC51c2VTdGF0ZShudWxsKTsKCiAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsKICAgIGJhc2U0NC5hdXRoLmlzQXV0aGVudGljYXRlZCgpLnRoZW4oKGEpID0+IHsKICAgICAgc2V0QXV0aGVkKGEpOwogICAgICBpZiAoYSkgewogICAgICAgIGxvYWRTYXZlZCgpOwogICAgICAgIGNvbnN0IHJlb3BlbklkID0gc2VhcmNoUGFyYW1zLmdldCgiYW5hbHlzaXMiKTsKICAgICAgICBpZiAocmVvcGVuSWQpIGxvYWRBbmFseXNpcyhyZW9wZW5JZCk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiL2xvZ2luIjsKICAgICAgfQogICAgfSkuY2F0Y2goKCkgPT4gewogICAgICBzZXRBdXRoZWQoZmFsc2UpOwogICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICIvbG9naW4iOwogICAgfSk7CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgfSwgW10pOwoKICBjb25zdCBsb2FkU2F2ZWQgPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCBzYXZlZCA9IGF3YWl0IGJhc2U0NC5lbnRpdGllcy5TYXZlZEdhcE9wcG9ydHVuaXR5Lmxpc3QoIi1jcmVhdGVkX2RhdGUiLCAyMDApOwogICAgICBzZXRTYXZlZElkcyhuZXcgU2V0KChzYXZlZCB8fCBbXSkubWFwKChzKSA9PiBzLmJhY2tsaW5rX2dhcF9pZCkpKTsKICAgIH0gY2F0Y2ggKGUpIHsgLyogaWdub3JlICovIH0KICB9OwoKICBjb25zdCBsb2FkQW5hbHlzaXMgPSBhc3luYyAoaWQpID0+IHsKICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICBzZXRBcGlFcnJvcigiIik7CiAgICB0cnkgewogICAgICBjb25zdCBhbmFseXNpcyA9IGF3YWl0IGJhc2U0NC5lbnRpdGllcy5CYWNrbGlua0dhcEFuYWx5c2lzLmdldChpZCk7CiAgICAgIGNvbnN0IFtjb21wZXRpdG9ycywgZ2Fwc10gPSBhd2FpdCBQcm9taXNlLmFsbChbCiAgICAgICAgYmFzZTQ0LmVudGl0aWVzLkNvbXBldGl0b3IuZmlsdGVyKHsgYW5hbHlzaXNfaWQ6IGlkIH0pLmNhdGNoKCgpID0+IFtdKSwKICAgICAgICBiYXNlNDQuZW50aXRpZXMuQmFja2xpbmtHYXAuZmlsdGVyKHsgYW5hbHlzaXNfaWQ6IGlkIH0pLmNhdGNoKCgpID0+IFtdKQogICAgICBdKTsKICAgICAgY29uc3QgbnVtQ29tcGV0aXRvcnMgPSAoY29tcGV0aXRvcnMgfHwgW10pLmxlbmd0aCB8fCAxOwogICAgICBjb25zdCBnYXBMaXN0ID0gKGdhcHMgfHwgW10pLm1hcCgoZykgPT4gKHsKICAgICAgICAuLi5nLAogICAgICAgIHdlYnNpdGU6IGcuZG9tYWluLAogICAgICAgIG51bUNvbXBldGl0b3JzLAogICAgICAgIF9nYXBJZDogYCR7aWR9OiR7Zy5kb21haW59YAogICAgICB9KSk7CiAgICAgIGNvbnN0IHRvdGFsT3BwcyA9IGdhcExpc3QubGVuZ3RoOwogICAgICBjb25zdCByZWZlcnJpbmdEb21haW5zID0gbmV3IFNldChnYXBMaXN0Lm1hcCgoZykgPT4gZy5kb21haW4pKS5zaXplOwogICAgICBjb25zdCBoaWdoUXVhbGl0eSA9IGdhcExpc3QuZmlsdGVyKChnKSA9PiBnLm9wcG9ydHVuaXR5X3Njb3JlID49IDc1KS5sZW5ndGg7CiAgICAgIGNvbnN0IGd1ZXN0UG9zdE9wcHMgPSBnYXBMaXN0LmZpbHRlcigoZykgPT4gZy5ndWVzdF9wb3N0X3VybCkubGVuZ3RoOwogICAgICBjb25zdCBhdmdEYSA9IGdhcExpc3QubGVuZ3RoCiAgICAgICAgPyBNYXRoLnJvdW5kKGdhcExpc3QucmVkdWNlKChzLCBnKSA9PiBzICsgKGcuZG9tYWluX2F1dGhvcml0eSB8fCAwKSwgMCkgLyBnYXBMaXN0Lmxlbmd0aCkKICAgICAgICA6IDA7CiAgICAgIGNvbnN0IGNvbW1vbkRvbWFpbnMgPSBnYXBMaXN0CiAgICAgICAgLmZpbHRlcigoZykgPT4gZy5jb21wZXRpdG9yX2NvdW50ID49IDIpCiAgICAgICAgLnNvcnQoKGEsIGIpID0+IGIuY29tcGV0aXRvcl9jb3VudCAtIGEuY29tcGV0aXRvcl9jb3VudCB8fCBiLm9wcG9ydHVuaXR5X3Njb3JlIC0gYS5vcHBvcnR1bml0eV9zY29yZSkKICAgICAgICAuc2xpY2UoMCwgMTApCiAgICAgICAgLm1hcCgoZykgPT4gKHsKICAgICAgICAgIGRvbWFpbjogZy5kb21haW4sIGNvbXBldGl0b3JfY291bnQ6IGcuY29tcGV0aXRvcl9jb3VudCwgbnVtQ29tcGV0aXRvcnMsCiAgICAgICAgICBkb21haW5fYXV0aG9yaXR5OiBnLmRvbWFpbl9hdXRob3JpdHksIHByaW9yaXR5OiBnLnByaW9yaXR5LCBvcHBvcnR1bml0eV9zY29yZTogZy5vcHBvcnR1bml0eV9zY29yZQogICAgICAgIH0pKTsKICAgICAgc2V0RGF0YSh7CiAgICAgICAgaXNfZGVtbzogYW5hbHlzaXMuaXNfZGVtbywKICAgICAgICB1c2VyOiB7IGRvbWFpbjogZG9tYWluT2YoYW5hbHlzaXMud2Vic2l0ZV91cmwpLCB1cmw6IGFuYWx5c2lzLndlYnNpdGVfdXJsLCByZWZlcnJpbmdfZG9tYWluczogMCB9LAogICAgICAgIGNvbXBldGl0b3JzOiAoY29tcGV0aXRvcnMgfHwgW10pLm1hcCgoYykgPT4gKHsKICAgICAgICAgIG5hbWU6IGMuY29tcGV0aXRvcl9uYW1lLCB1cmw6IGMuY29tcGV0aXRvcl91cmwsIGRvbWFpbjogZG9tYWluT2YoYy5jb21wZXRpdG9yX3VybCksCiAgICAgICAgICByZWZlcnJpbmdfZG9tYWluczogYy5yZWZlcnJpbmdfZG9tYWlucwogICAgICAgIH0pKSwKICAgICAgICBnYXBzOiBnYXBMaXN0LAogICAgICAgIHN0YXRzOiB7IHRvdGFsT3Bwb3J0dW5pdGllczogdG90YWxPcHBzLCByZWZlcnJpbmdEb21haW5zLCBoaWdoUXVhbGl0eSwgZ3Vlc3RQb3N0T3BwcywgYXZnRGEgfSwKICAgICAgICBjb21tb25Eb21haW5zLAogICAgICAgIGNvbnRlbnRHYXBzOiBnYXBMaXN0LmZpbHRlcigoZykgPT4gZy5zb3VyY2VfdGl0bGUpLnNsaWNlKDAsIDYpLm1hcCgoZykgPT4gKHsKICAgICAgICAgIGRvbWFpbjogZy5kb21haW4sIHNvdXJjZV90aXRsZTogZy5zb3VyY2VfdGl0bGUsIHNvdXJjZV91cmw6IGcuc291cmNlX3VybCwKICAgICAgICAgIGRvbWFpbl9hdXRob3JpdHk6IGcuZG9tYWluX2F1dGhvcml0eSwKICAgICAgICAgIHN1Z2dlc3Rpb246ICJDcmVhdGUgYSBiZXR0ZXIgcmVzb3VyY2UgYW5kIHBpdGNoIGl0IHRvIHdlYnNpdGVzIGxpbmtpbmcgdG8gdGhpcyBhcnRpY2xlLiIKICAgICAgICB9KSksCiAgICAgICAgYnJva2VuTGlua3M6IGdhcExpc3QuZmlsdGVyKChnKSA9PiBnLmlzX2Jyb2tlbikuc2xpY2UoMCwgNikubWFwKChnKSA9PiAoewogICAgICAgICAgZG9tYWluOiBnLmRvbWFpbiwgYnJva2VuX3RhcmdldDogYCR7ZG9tYWluT2YoYW5hbHlzaXMud2Vic2l0ZV91cmwpfS9vbGQtcGFnZWAsCiAgICAgICAgICBzb3VyY2VfdXJsOiBnLnNvdXJjZV91cmwsCiAgICAgICAgICBzdWdnZXN0aW9uOiAiQ3JlYXRlIGEgcmVsZXZhbnQgcmVwbGFjZW1lbnQgcGFnZSBhbmQgY29udGFjdCB0aGUgcmVmZXJyaW5nIHdlYnNpdGUuIgogICAgICAgIH0pKQogICAgICB9KTsKICAgICAgc2V0UXVlcnkoewogICAgICAgIHdlYnNpdGVfdXJsOiBhbmFseXNpcy53ZWJzaXRlX3VybCwga2V5d29yZDogYW5hbHlzaXMua2V5d29yZCwKICAgICAgICBjb21wZXRpdG9yczogKGFuYWx5c2lzLmNvbXBldGl0b3JzX3N1bW1hcnkgfHwgIiIpLnNwbGl0KCIsICIpLmZpbHRlcihCb29sZWFuKQogICAgICB9KTsKICAgICAgc2V0QW5hbHlzaXNJZChpZCk7CiAgICAgIHNldFNlYXJjaFBhcmFtcyh7IGFuYWx5c2lzOiBpZCB9KTsKICAgICAgc2V0VGltZW91dCgoKSA9PiB7CiAgICAgICAgY29uc3QgZWwgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZ2FwLXJlc3VsdHMiKTsKICAgICAgICBpZiAoZWwpIGVsLnNjcm9sbEludG9WaWV3KHsgYmVoYXZpb3I6ICJzbW9vdGgiLCBibG9jazogInN0YXJ0IiB9KTsKICAgICAgfSwgMTAwKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0QXBpRXJyb3IoIldlIGNvdWxkbid0IGxvYWQgdGhpcyBhbmFseXNpcy4gSXQgbWF5IGhhdmUgYmVlbiByZW1vdmVkLiIpOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICB9CiAgfTsKCiAgY29uc3QgYW5hbHl6ZSA9IGFzeW5jIChwYXJhbXMpID0+IHsKICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICBzZXRBcGlFcnJvcigiIik7CiAgICBzZXREYXRhKG51bGwpOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgYmFzZTQ0LmZ1bmN0aW9ucy5pbnZva2UoImFuYWx5emVCYWNrbGlua0dhcHMiLCBwYXJhbXMpOwogICAgICBjb25zdCBkID0gcmVzLmRhdGEgfHwgcmVzOwogICAgICBpZiAoZC5lcnJvcikgewogICAgICAgIHNldEFwaUVycm9yKGQuZXJyb3IpOwogICAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBjb25zdCBudW1Db21wZXRpdG9ycyA9IChkLmNvbXBldGl0b3JzIHx8IFtdKS5sZW5ndGggfHwgMTsKICAgICAgY29uc3QgZ2FwcyA9IChkLmdhcHMgfHwgW10pLm1hcCgoZykgPT4gKHsKICAgICAgICAuLi5nLAogICAgICAgIHdlYnNpdGU6IGcud2Vic2l0ZSB8fCBnLmRvbWFpbiwKICAgICAgICBudW1Db21wZXRpdG9ycywKICAgICAgICBfZ2FwSWQ6IGAke2QuYW5hbHlzaXNfaWR9OiR7Zy5kb21haW59YAogICAgICB9KSk7CiAgICAgIGNvbnN0IHJlc3VsdCA9IHsgLi4uZCwgZ2FwcyB9OwogICAgICBzZXREYXRhKHJlc3VsdCk7CiAgICAgIHNldFF1ZXJ5KGQucXVlcnkpOwogICAgICBzZXRBbmFseXNpc0lkKGQuYW5hbHlzaXNfaWQpOwogICAgICBzZXRVc2FnZShkLnVzYWdlKTsKICAgICAgc2V0U2VhcmNoUGFyYW1zKHsgYW5hbHlzaXM6IGQuYW5hbHlzaXNfaWQgfSk7CiAgICAgIHNldFRpbWVvdXQoKCkgPT4gewogICAgICAgIGNvbnN0IGVsID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImdhcC1yZXN1bHRzIik7CiAgICAgICAgaWYgKGVsKSBlbC5zY3JvbGxJbnRvVmlldyh7IGJlaGF2aW9yOiAic21vb3RoIiwgYmxvY2s6ICJzdGFydCIgfSk7CiAgICAgIH0sIDEwMCk7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgc2V0QXBpRXJyb3IoIkxpdmUgYmFja2xpbmsgZGF0YSBpcyBjdXJyZW50bHkgdW5hdmFpbGFibGUuIFBsZWFzZSB0cnkgYWdhaW4gbGF0ZXIuIik7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICAgIH0KICB9OwoKICBjb25zdCBoYW5kbGVTYXZlID0gYXN5bmMgKGcpID0+IHsKICAgIGNvbnN0IGdhcElkID0gZy5fZ2FwSWQgfHwgYCR7YW5hbHlzaXNJZH06JHtnLmRvbWFpbn1gOwogICAgaWYgKHNhdmVkSWRzLmhhcyhnYXBJZCkpIHJldHVybjsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGJhc2U0NC5lbnRpdGllcy5TYXZlZEdhcE9wcG9ydHVuaXR5LmNyZWF0ZSh7CiAgICAgICAgYmFja2xpbmtfZ2FwX2lkOiBnYXBJZCwKICAgICAgICBhbmFseXNpc19pZDogYW5hbHlzaXNJZCwKICAgICAgICBkb21haW46IGcuZG9tYWluLAogICAgICAgIHNvdXJjZV91cmw6IGcuc291cmNlX3VybCwKICAgICAgICBkb21haW5fYXV0aG9yaXR5OiBnLmRvbWFpbl9hdXRob3JpdHksCiAgICAgICAgdHJhZmZpYzogZy50cmFmZmljLAogICAgICAgIGJhY2tsaW5rX3R5cGU6IGcuYmFja2xpbmtfdHlwZSwKICAgICAgICBjb21wZXRpdG9yX25hbWVzOiBnLmNvbXBldGl0b3JfbmFtZXMsCiAgICAgICAgY29tcGV0aXRvcl9jb3VudDogZy5jb21wZXRpdG9yX2NvdW50LAogICAgICAgIHJlbGV2YW5jZV9zY29yZTogZy5yZWxldmFuY2Vfc2NvcmUsCiAgICAgICAgb3Bwb3J0dW5pdHlfc2NvcmU6IGcub3Bwb3J0dW5pdHlfc2NvcmUsCiAgICAgICAgcHJpb3JpdHk6IGcucHJpb3JpdHksCiAgICAgICAgZ3Vlc3RfcG9zdF91cmw6IGcuZ3Vlc3RfcG9zdF91cmwsCiAgICAgICAgY29udGFjdF91cmw6IGcuY29udGFjdF91cmwsCiAgICAgICAgbmljaGU6IGcubmljaGUsCiAgICAgICAgY291bnRyeTogZy5jb3VudHJ5CiAgICAgIH0pOwogICAgICBzZXRTYXZlZElkcygocHJldikgPT4gbmV3IFNldChwcmV2KS5hZGQoZ2FwSWQpKTsKICAgICAgdG9hc3QoeyB0aXRsZTogIk9wcG9ydHVuaXR5IHNhdmVkIiwgZGVzY3JpcHRpb246IGcuZG9tYWluIH0pOwogICAgfSBjYXRjaCAoZSkgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQ291bGQgbm90IHNhdmUiLCBkZXNjcmlwdGlvbjogIlBsZWFzZSB0cnkgYWdhaW4uIiwgdmFyaWFudDogImRlc3RydWN0aXZlIiB9KTsKICAgIH0KICB9OwoKICBjb25zdCBoYW5kbGVTaWduT3V0ID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgYmFzZTQ0LmF1dGgubG9nb3V0KCk7CiAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICIvIjsKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1zbGF0ZS01MCI+CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJzdGlja3kgdG9wLTAgei00MCBib3JkZXItYiBib3JkZXItc2xhdGUtMjAwIGJnLXdoaXRlLzgwIGJhY2tkcm9wLWJsdXItbWQiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIGZsZXggaC0xNiBtYXgtdy02eGwgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC00IHNtOnB4LTYiPgogICAgICAgICAgPExpbmsgdG89Ii8iIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaC04IHctOCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1sZyBiZy1zbGF0ZS05MDAgdGV4dC13aGl0ZSI+CiAgICAgICAgICAgICAgPExpbmsyIGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1zZW1pYm9sZCB0cmFja2luZy10aWdodCB0ZXh0LXNsYXRlLTkwMCI+QmFja2xpbmtGb3JnZTwvc3Bhbj4KICAgICAgICAgIDwvTGluaz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxMaW5rIHRvPSIvZGFzaGJvYXJkIj48QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJzbSI+RGFzaGJvYXJkPC9CdXR0b24+PC9MaW5rPgogICAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJvdXRsaW5lIiBvbkNsaWNrPXtoYW5kbGVTaWduT3V0fT5TaWduIG91dDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctNnhsIHB4LTQgcHktOCBzbTpweC02Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPExpbmsgdG89Ii8iIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCBob3Zlcjp0ZXh0LXNsYXRlLTkwMCI+CiAgICAgICAgICAgIDxBcnJvd0xlZnQgY2xhc3NOYW1lPSJpbmxpbmUgaC00IHctNCIgLz4gQmFjayB0byB0b29sCiAgICAgICAgICA8L0xpbms+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGgtOCB3LTggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbGcgYmctc2xhdGUtOTAwIHRleHQtd2hpdGUiPgogICAgICAgICAgICA8VGFyZ2V0IGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQgdGV4dC1zbGF0ZS05MDAiPkJhY2tsaW5rIEdhcCBGaW5kZXI8L2gxPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXNtIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICAgIENvbXBhcmUgeW91ciBiYWNrbGluayBwcm9maWxlIHdpdGggY29tcGV0aXRvcnMgYW5kIGZpbmQgd2Vic2l0ZXMgdGhhdCBsaW5rIHRvIHRoZW0gYnV0IG5vdCB0byB5b3UuCiAgICAgICAgPC9wPgoKICAgICAgICB7dXNhZ2UgJiYgdXNhZ2UubGltaXQgIT0gbnVsbCAmJiAhZGF0YSAmJiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNCBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBiZy13aGl0ZSBweC0zIHB5LTEuNSB0ZXh0LXhzIHRleHQtc2xhdGUtNjAwIj4KICAgICAgICAgICAgPEdhdWdlIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUgdGV4dC1zbGF0ZS00MDAiIC8+CiAgICAgICAgICAgIHt1c2FnZS51c2VkfSAvIHt1c2FnZS5saW1pdH0gYW5hbHlzZXMgdXNlZCB0aGlzIG1vbnRoCiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtdC02IG1heC13LTN4bCI+CiAgICAgICAgICA8R2FwRm9ybSBvbkFuYWx5emU9e2FuYWx5emV9IGxvYWRpbmc9e2xvYWRpbmd9IC8+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHtsb2FkaW5nICYmICgKICAgICAgICAgIDxkaXYgaWQ9ImdhcC1yZXN1bHRzIiBjbGFzc05hbWU9Im14LWF1dG8gbXQtOCBtYXgtdy01eGwgc2Nyb2xsLW10LTIwIj4KICAgICAgICAgICAgPEdhcExvYWRpbmdTdGF0ZSAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KCiAgICAgICAge2FwaUVycm9yICYmICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG10LTggZmxleCBtYXgtdy0zeGwgaXRlbXMtc3RhcnQgZ2FwLTIgcm91bmRlZC14bCBiZy1yb3NlLTUwIHB4LTQgcHktMyB0ZXh0LXNtIHRleHQtcm9zZS03MDAiPgogICAgICAgICAgICA8QWxlcnRDaXJjbGUgY2xhc3NOYW1lPSJtdC0wLjUgaC00IHctNCBmbGV4LXNocmluay0wIiAvPiB7YXBpRXJyb3J9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICB7IWxvYWRpbmcgJiYgZGF0YSAmJiAoCiAgICAgICAgICA8ZGl2IGlkPSJnYXAtcmVzdWx0cyIgY2xhc3NOYW1lPSJteC1hdXRvIG10LTggbWF4LXctNXhsIHNjcm9sbC1tdC0yMCI+CiAgICAgICAgICAgIDxHYXBSZXN1bHRzIGRhdGE9e2RhdGF9IHF1ZXJ5PXtxdWVyeX0gc2F2ZWRJZHM9e3NhdmVkSWRzfSBvblNhdmU9e2hhbmRsZVNhdmV9IC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0KCmZ1bmN0aW9uIGRvbWFpbk9mKHVybCkgewogIHRyeSB7CiAgICByZXR1cm4gbmV3IFVSTCh1cmwuc3RhcnRzV2l0aCgiaHR0cCIpID8gdXJsIDogYGh0dHBzOi8vJHt1cmx9YCkuaG9zdG5hbWUucmVwbGFjZSgvXnd3d1wuLywgIiIpOwogIH0gY2F0Y2ggKGUpIHsgcmV0dXJuIHVybCB8fCAiIjsgfQp9
+import React from "react";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
+import { base44 } from "@/api/base44Client";
+import { Button } from "@/components/ui/button";
+import { useToast } from "@/components/ui/use-toast";
+import { Link2, ArrowLeft, Target, AlertCircle, Gauge } from "lucide-react";
+import GapForm from "@/components/bf/gap/GapForm";
+import GapLoadingState from "@/components/bf/gap/GapLoadingState";
+import GapResults from "@/components/bf/gap/GapResults";
+
+export default function BacklinkGapFinder() {
+  const { toast } = useToast();
+  const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const [authed, setAuthed] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
+  const [data, setData] = React.useState(null);
+  const [query, setQuery] = React.useState(null);
+  const [analysisId, setAnalysisId] = React.useState(null);
+  const [apiError, setApiError] = React.useState("");
+  const [savedIds, setSavedIds] = React.useState(new Set());
+  const [usage, setUsage] = React.useState(null);
+
+  React.useEffect(() => {
+    base44.auth.isAuthenticated().then((a) => {
+      setAuthed(a);
+      if (a) {
+        loadSaved();
+        const reopenId = searchParams.get("analysis");
+        if (reopenId) loadAnalysis(reopenId);
+      } else {
+        window.location.href = "/login";
+      }
+    }).catch(() => {
+      setAuthed(false);
+      window.location.href = "/login";
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const loadSaved = async () => {
+    try {
+      const saved = await base44.entities.SavedGapOpportunity.list("-created_date", 200);
+      setSavedIds(new Set((saved || []).map((s) => s.backlink_gap_id)));
+    } catch (e) { /* ignore */ }
+  };
+
+  const loadAnalysis = async (id) => {
+    setLoading(true);
+    setApiError("");
+    try {
+      const analysis = await base44.entities.BacklinkGapAnalysis.get(id);
+      const [competitors, gaps] = await Promise.all([
+        base44.entities.Competitor.filter({ analysis_id: id }).catch(() => []),
+        base44.entities.BacklinkGap.filter({ analysis_id: id }).catch(() => [])
+      ]);
+      const numCompetitors = (competitors || []).length || 1;
+      const gapList = (gaps || []).map((g) => ({
+        ...g,
+        website: g.domain,
+        numCompetitors,
+        _gapId: `${id}:${g.domain}`
+      }));
+      const totalOpps = gapList.length;
+      const referringDomains = new Set(gapList.map((g) => g.domain)).size;
+      const highQuality = gapList.filter((g) => g.opportunity_score >= 75).length;
+      const guestPostOpps = gapList.filter((g) => g.guest_post_url).length;
+      const avgDa = gapList.length
+        ? Math.round(gapList.reduce((s, g) => s + (g.domain_authority || 0), 0) / gapList.length)
+        : 0;
+      const commonDomains = gapList
+        .filter((g) => g.competitor_count >= 2)
+        .sort((a, b) => b.competitor_count - a.competitor_count || b.opportunity_score - a.opportunity_score)
+        .slice(0, 10)
+        .map((g) => ({
+          domain: g.domain, competitor_count: g.competitor_count, numCompetitors,
+          domain_authority: g.domain_authority, priority: g.priority, opportunity_score: g.opportunity_score
+        }));
+      setData({
+        is_demo: analysis.is_demo,
+        user: { domain: domainOf(analysis.website_url), url: analysis.website_url, referring_domains: 0 },
+        competitors: (competitors || []).map((c) => ({
+          name: c.competitor_name, url: c.competitor_url, domain: domainOf(c.competitor_url),
+          referring_domains: c.referring_domains
+        })),
+        gaps: gapList,
+        stats: { totalOpportunities: totalOpps, referringDomains, highQuality, guestPostOpps, avgDa },
+        commonDomains,
+        contentGaps: gapList.filter((g) => g.source_title).slice(0, 6).map((g) => ({
+          domain: g.domain, source_title: g.source_title, source_url: g.source_url,
+          domain_authority: g.domain_authority,
+          suggestion: "Create a better resource and pitch it to websites linking to this article."
+        })),
+        brokenLinks: gapList.filter((g) => g.is_broken).slice(0, 6).map((g) => ({
+          domain: g.domain, broken_target: `${domainOf(analysis.website_url)}/old-page`,
+          source_url: g.source_url,
+          suggestion: "Create a relevant replacement page and contact the referring website."
+        }))
+      });
+      setQuery({
+        website_url: analysis.website_url, keyword: analysis.keyword,
+        competitors: (analysis.competitors_summary || "").split(", ").filter(Boolean)
+      });
+      setAnalysisId(id);
+      setSearchParams({ analysis: id });
+      setTimeout(() => {
+        const el = document.getElementById("gap-results");
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 100);
+    } catch (e) {
+      setApiError("We couldn't load this analysis. It may have been removed.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const analyze = async (params) => {
+    setLoading(true);
+    setApiError("");
+    setData(null);
+    try {
+      const res = await base44.functions.invoke("analyzeBacklinkGaps", params);
+      const d = res.data || res;
+      if (d.error) {
+        setApiError(d.error);
+        setLoading(false);
+        return;
+      }
+      const numCompetitors = (d.competitors || []).length || 1;
+      const gaps = (d.gaps || []).map((g) => ({
+        ...g,
+        website: g.website || g.domain,
+        numCompetitors,
+        _gapId: `${d.analysis_id}:${g.domain}`
+      }));
+      const result = { ...d, gaps };
+      setData(result);
+      setQuery(d.query);
+      setAnalysisId(d.analysis_id);
+      setUsage(d.usage);
+      setSearchParams({ analysis: d.analysis_id });
+      setTimeout(() => {
+        const el = document.getElementById("gap-results");
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 100);
+    } catch (err) {
+      setApiError("Live backlink data is currently unavailable. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleSave = async (g) => {
+    const gapId = g._gapId || `${analysisId}:${g.domain}`;
+    if (savedIds.has(gapId)) return;
+    try {
+      await base44.entities.SavedGapOpportunity.create({
+        backlink_gap_id: gapId,
+        analysis_id: analysisId,
+        domain: g.domain,
+        source_url: g.source_url,
+        domain_authority: g.domain_authority,
+        traffic: g.traffic,
+        backlink_type: g.backlink_type,
+        competitor_names: g.competitor_names,
+        competitor_count: g.competitor_count,
+        relevance_score: g.relevance_score,
+        opportunity_score: g.opportunity_score,
+        priority: g.priority,
+        guest_post_url: g.guest_post_url,
+        contact_url: g.contact_url,
+        niche: g.niche,
+        country: g.country
+      });
+      setSavedIds((prev) => new Set(prev).add(gapId));
+      toast({ title: "Opportunity saved", description: g.domain });
+    } catch (e) {
+      toast({ title: "Could not save", description: "Please try again.", variant: "destructive" });
+    }
+  };
+
+  const handleSignOut = async () => {
+    await base44.auth.logout();
+    window.location.href = "/";
+  };
+
+  return (
+    <div className="min-h-screen bg-slate-50">
+      <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/80 backdrop-blur-md">
+        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
+          <Link to="/" className="flex items-center gap-2">
+            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-white">
+              <Link2 className="h-4 w-4" />
+            </span>
+            <span className="text-lg font-semibold tracking-tight text-slate-900">BacklinkForge</span>
+          </Link>
+          <div className="flex items-center gap-2">
+            <Link to="/dashboard"><Button variant="ghost" size="sm">Dashboard</Button></Link>
+            <Button size="sm" variant="outline" onClick={handleSignOut}>Sign out</Button>
+          </div>
+        </div>
+      </header>
+
+      <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+        <div className="flex items-center gap-2">
+          <Link to="/" className="text-sm text-slate-500 hover:text-slate-900">
+            <ArrowLeft className="inline h-4 w-4" /> Back to tool
+          </Link>
+        </div>
+        <div className="mt-3 flex items-center gap-2">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-white">
+            <Target className="h-4 w-4" />
+          </span>
+          <h1 className="text-2xl font-semibold tracking-tight text-slate-900">Backlink Gap Finder</h1>
+        </div>
+        <p className="mt-1 text-sm text-slate-500">
+          Compare your backlink profile with competitors and find websites that link to them but not to you.
+        </p>
+
+        {usage && usage.limit != null && !data && (
+          <div className="mt-4 inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs text-slate-600">
+            <Gauge className="h-3.5 w-3.5 text-slate-400" />
+            {usage.used} / {usage.limit} analyses used this month
+          </div>
+        )}
+
+        <div className="mx-auto mt-6 max-w-3xl">
+          <GapForm onAnalyze={analyze} loading={loading} />
+        </div>
+
+        {loading && (
+          <div id="gap-results" className="mx-auto mt-8 max-w-5xl scroll-mt-20">
+            <GapLoadingState />
+          </div>
+        )}
+
+        {apiError && (
+          <div className="mx-auto mt-8 flex max-w-3xl items-start gap-2 rounded-xl bg-rose-50 px-4 py-3 text-sm text-rose-700">
+            <AlertCircle className="mt-0.5 h-4 w-4 flex-shrink-0" /> {apiError}
+          </div>
+        )}
+
+        {!loading && data && (
+          <div id="gap-results" className="mx-auto mt-8 max-w-5xl scroll-mt-20">
+            <GapResults data={data} query={query} savedIds={savedIds} onSave={handleSave} />
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function domainOf(url) {
+  try {
+    return new URL(url.startsWith("http") ? url : `https://${url}`).hostname.replace(/^www\./, "");
+  } catch (e) { return url || ""; }
+}

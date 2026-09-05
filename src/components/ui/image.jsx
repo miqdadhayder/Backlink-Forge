@@ -1,1 +1,198 @@
-aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAicmVhY3QiCmltcG9ydCB7IHVzZVNpemUgfSBmcm9tICJAL2hvb2tzL3VzZS1zaXplIgppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIgppbXBvcnQgewogIGJ1aWxkU3JjU2V0LAogIGJ1aWxkVHJhbnNmb3JtVXJsLAogIERFRkFVTFRfVFJBTlNGT1JNX1dJRFRILAogIGdldE9yaWdpbmFsSW1hZ2VVcmwsCiAgSU1BR0VfTE9BRF9NT0RFLAogIG5leHRJbWFnZUxvYWRNb2RlLAogIHBhcnNlV2l4TWVkaWFVcmwsCn0gZnJvbSAiLi9pbWFnZS1oZWxwZXJzIgoKY29uc3QgRkFMTEJBQ0tfSU1BR0VfVVJMID0KICAiaHR0cHM6Ly9zdGF0aWMud2l4c3RhdGljLmNvbS9tZWRpYS8xMmQzNjdfNGYyNmNjZDE3ZjhmNGUzYTg5NTgzMDZlYTA4YzIzMzJ+bXYyLnBuZyIKCmNvbnN0IEltYWdlV3JhcHBlciA9IFJlYWN0LmZvcndhcmRSZWYoKHsgYXNwZWN0UmF0aW8sIGNsYXNzTmFtZSwgc3R5bGUsIGNoaWxkcmVuIH0sIHJlZikgPT4gKAogIDxzcGFuCiAgICByZWY9e3JlZn0KICAgIGNsYXNzTmFtZT17Y24oImlubGluZS1ibG9jayByZWxhdGl2ZSIsIGNsYXNzTmFtZSl9CiAgICBzdHlsZT17eyBhc3BlY3RSYXRpbywgLi4uc3R5bGUgfX0KICA+CiAgICB7Y2hpbGRyZW59CiAgPC9zcGFuPgopKQpJbWFnZVdyYXBwZXIuZGlzcGxheU5hbWUgPSAiSW1hZ2VXcmFwcGVyIgoKY29uc3QgUmVzcG9uc2l2ZUltYWdlID0gUmVhY3QuZm9yd2FyZFJlZigKICAoeyBwYXJzZWQsIGZpdHRpbmdUeXBlLCBmb2NhbFBvaW50LCBxdWFsaXR5LCBjbGFzc05hbWUsIHN0eWxlLCBhc3BlY3RSYXRpbywgb25Mb2FkLCAuLi5wcm9wcyB9LCBwYXJlbnRSZWYpID0+IHsKICAgIGNvbnN0IHdyYXBwZXJSZWYgPSBSZWFjdC51c2VSZWYobnVsbCkKICAgIGNvbnN0IGltZ1JlZiA9IFJlYWN0LnVzZVJlZihudWxsKQogICAgY29uc3Qgc2l6ZSA9IHVzZVNpemUod3JhcHBlclJlZikKICAgIGNvbnN0IFtsb2FkZWQsIHNldExvYWRlZF0gPSBSZWFjdC51c2VTdGF0ZShmYWxzZSkKCiAgICBSZWFjdC51c2VJbXBlcmF0aXZlSGFuZGxlKHBhcmVudFJlZiwgKCkgPT4gaW1nUmVmLmN1cnJlbnQpCgogICAgLy8gUmVzZXQgdGhlIGJsdXItdXAgd2hlbiB0aGUgdW5kZXJseWluZyBpbWFnZSBjaGFuZ2VzLgogICAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsKICAgICAgc2V0TG9hZGVkKGZhbHNlKQogICAgfSwgW3BhcnNlZC5iYXNlVXJsXSkKCiAgICBjb25zdCBjcm9wID0gZml0dGluZ1R5cGUgIT09ICJmaXQiCiAgICAvLyBgc2l6ZWAgaXMgbnVsbCBleGFjdGx5IG9uY2U6IHRoZSBwcmUtbWVhc3VyZW1lbnQgZmlyc3QgcmVuZGVyLCB3aGljaCB3ZQogICAgLy8gbmV2ZXIgbGV0IHJlYWNoIHRoZSBuZXR3b3JrIChzZWUgYmVsb3cg4oCUIHVzZVNpemUgbWVhc3VyZXMgYmVmb3JlIHBhaW50KS4KICAgIC8vIEEgKm1lYXN1cmVkKiB6ZXJvIChjb250ZW50LXNpemVkIHdyYXBwZXIgd2l0aCBubyBDU1MgZGltZW5zaW9ucykgZmFsbHMKICAgIC8vIGJhY2sgdG8gYSBmaXhlZCB0cmFuc2Zvcm0gd2lkdGggc28gdGhlIGltYWdlIGl0c2VsZiBjYW4gc2l6ZSB0aGUgYm94LgogICAgY29uc3Qgb3B0aW9ucyA9IHNpemUgJiYgewogICAgICB3aWR0aDogc2l6ZS53aWR0aCB8fCBERUZBVUxUX1RSQU5TRk9STV9XSURUSCwKICAgICAgaGVpZ2h0OiBzaXplLmhlaWdodCA/IHNpemUuaGVpZ2h0IDogdW5kZWZpbmVkLAogICAgICBjcm9wLAogICAgICBmb2NhbFBvaW50OiBjcm9wID8gZm9jYWxQb2ludCA6IHVuZGVmaW5lZCwKICAgICAgcXVhbGl0eSwKICAgIH0KCiAgICAvLyBCb3RoIGxheWVycyByZW5kZXIgb25seSBvbmNlIHRoZSBjb250YWluZXIgaXMgbWVhc3VyZWQsIHNvIHRoZSBmaXJzdAogICAgLy8gVVJMIHRoZSBicm93c2VyIGV2ZXIgZmV0Y2hlcyBpcyBhbHJlYWR5IHRoZSByaWdodCBzaXplIOKAlCBuZXZlciBhCiAgICAvLyBERUZBVUxUX1RSQU5TRk9STV9XSURUSCBndWVzcyB0aGF0IGdldHMgcmVwbGFjZWQgYSBmcmFtZSBsYXRlciAoYQogICAgLy8gd2FzdGVkIGZ1bGwtc2l6ZSBkb3dubG9hZCBwZXIgaW1hZ2UpLiB1c2VTaXplIG1lYXN1cmVzIGluCiAgICAvLyB1c2VMYXlvdXRFZmZlY3QsIHNvIG5vdGhpbmcgaXMgbG9zdDogbWVhc3VyZW1lbnQgbGFuZHMgYmVmb3JlIHRoZQogICAgLy8gZmlyc3QgcGFpbnQuCiAgICByZXR1cm4gKAogICAgICA8SW1hZ2VXcmFwcGVyIHJlZj17d3JhcHBlclJlZn0gYXNwZWN0UmF0aW89e2FzcGVjdFJhdGlvfSBjbGFzc05hbWU9e2NsYXNzTmFtZX0gc3R5bGU9e3N0eWxlfT4KICAgICAgICB7LyogVGlueSBibHVycmVkIHBsYWNlaG9sZGVyIChhIGZldyBodW5kcmVkIGJ5dGVzKSBjb3ZlcmluZyB0aGUgbWFpbgogICAgICAgICAgICBpbWFnZSdzIGxvYWQgdGltZS4gU2FtZSBjcm9wIHNoYXBlIGFuZCBmb2NhbCBhbmNob3IgYXMgdGhlIG1haW4KICAgICAgICAgICAgaW1hZ2Ug4oCUIGZwXyBpcyByZWxhdGl2ZSB0byB0aGUgY3JvcCBib3gsIHNvIGEgc3F1YXJlIG9yIGNlbnRlcmVkCiAgICAgICAgICAgIHBsYWNlaG9sZGVyIHdvdWxkIGJsdXItcHJldmlldyBhIGRpZmZlcmVudCByZWdpb24uICovfQogICAgICAgIHtvcHRpb25zICYmICFsb2FkZWQgJiYgKAogICAgICAgICAgPGltZwogICAgICAgICAgICBzcmM9e2J1aWxkVHJhbnNmb3JtVXJsKHBhcnNlZCwgewogICAgICAgICAgICAgIC4uLm9wdGlvbnMsCiAgICAgICAgICAgICAgd2lkdGg6IDIwLAogICAgICAgICAgICAgIGhlaWdodDogb3B0aW9ucy5oZWlnaHQKICAgICAgICAgICAgICAgID8gTWF0aC5tYXgoMSwgTWF0aC5yb3VuZCgoMjAgKiBvcHRpb25zLmhlaWdodCkgLyBvcHRpb25zLndpZHRoKSkKICAgICAgICAgICAgICAgIDogdW5kZWZpbmVkLAogICAgICAgICAgICAgIHF1YWxpdHk6IDIwLAogICAgICAgICAgICB9KX0KICAgICAgICAgICAgYWx0PSIiCiAgICAgICAgICAgIGFyaWEtaGlkZGVuPSJ0cnVlIgogICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwgaW5zZXQtMCBhYnNvbHV0ZSIKICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICBvYmplY3RGaXQ6IGZpdHRpbmdUeXBlID09PSAiZml0IiA/ICJjb250YWluIiA6ICJjb3ZlciIsCiAgICAgICAgICAgICAgZmlsdGVyOiAiYmx1cigxMHB4KSIsCiAgICAgICAgICAgICAgdHJhbnNmb3JtOiAic2NhbGUoMS4xKSIsCiAgICAgICAgICAgIH19CiAgICAgICAgICAvPgogICAgICAgICl9CiAgICAgICAge29wdGlvbnMgJiYgKAogICAgICAgICAgPGltZwogICAgICAgICAgICByZWY9e2ltZ1JlZn0KICAgICAgICAgICAgc3JjPXtidWlsZFRyYW5zZm9ybVVybChwYXJzZWQsIG9wdGlvbnMpfQogICAgICAgICAgICBzcmNTZXQ9e2J1aWxkU3JjU2V0KHBhcnNlZCwgb3B0aW9ucyl9CiAgICAgICAgICAgIGxvYWRpbmc9ImxhenkiCiAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgInctZnVsbCBoLWZ1bGwgaW5zZXQtMCBhYnNvbHV0ZSIsCiAgICAgICAgICAgICAgZml0dGluZ1R5cGUgPT09ICJmaXQiID8gIm9iamVjdC1jb250YWluIiA6ICJvYmplY3QtY292ZXIiCiAgICAgICAgICAgICl9CiAgICAgICAgICAgIG9uTG9hZD17KGUpID0+IHsKICAgICAgICAgICAgICBzZXRMb2FkZWQodHJ1ZSkKICAgICAgICAgICAgICBvbkxvYWQ/LihlKQogICAgICAgICAgICB9fQogICAgICAgICAgICB7Li4ucHJvcHN9CiAgICAgICAgICAvPgogICAgICAgICl9CiAgICAgIDwvSW1hZ2VXcmFwcGVyPgogICAgKQogIH0KKQpSZXNwb25zaXZlSW1hZ2UuZGlzcGxheU5hbWUgPSAiUmVzcG9uc2l2ZUltYWdlIgoKLyoqCiAqIEltYWdlIHdpdGggYnVpbHQtaW4gV2l4IE1lZGlhIFBsYXRmb3JtIHN1cHBvcnQ6IGNhbm9uaWNhbCBwdWJsaWMgaW1hZ2VzIG9uCiAqIG1lZGlhLmJhc2U0NC5jb20gYW5kIHN0YXRpYy53aXhzdGF0aWMuY29tL21lZGlhIGFyZSByZXNpemVkIHRvIHRoZSByZW5kZXJlZAogKiBjb250YWluZXIgcGVyIGRldmljZSBwaXhlbCByYXRpbyBhbmQgcmUtZW5jb2RlZCB0byBXZWJQOyBgZml0dGluZ1R5cGU9ImZpbGwiYAogKiBjcm9wcyBzZXJ2ZXItc2lkZSwgb3B0aW9uYWxseSBhbmNob3JlZCBhdCBhIGZvY2FsIHBvaW50LiBPdGhlciBVUkxzIHJlbmRlcgogKiBhcyBhIHBsYWluIDxpbWc+LiBGYWlsZWQgdHJhbnNmb3JtcyByZXRyeSB0aGUgb3JpZ2luYWwgVVJMOyBvbmx5IGEgYnJva2VuCiAqIG9yaWdpbmFsIHN3YXBzIHRvIHRoZSBnZW5lcmljIGZhbGxiYWNrIGltYWdlLgogKi8KY29uc3QgSW1hZ2UgPSBSZWFjdC5mb3J3YXJkUmVmKAogICgKICAgIHsKICAgICAgc3JjLAogICAgICBmaXR0aW5nVHlwZSA9ICJmaWxsIiwKICAgICAgb3JpZ2luV2lkdGgsCiAgICAgIG9yaWdpbkhlaWdodCwKICAgICAgZm9jYWxQb2ludFgsCiAgICAgIGZvY2FsUG9pbnRZLAogICAgICBxdWFsaXR5ID0gOTAsCiAgICAgIG9uRXJyb3IsCiAgICAgIC4uLnByb3BzCiAgICB9LAogICAgcmVmCiAgKSA9PiB7CiAgICBjb25zdCBwYXJzZWRTb3VyY2UgPSBzcmMgJiYgc3JjICE9PSBGQUxMQkFDS19JTUFHRV9VUkwgPyBwYXJzZVdpeE1lZGlhVXJsKHNyYykgOiBudWxsCiAgICBjb25zdCBpbml0aWFsTW9kZSA9IHBhcnNlZFNvdXJjZSA/IElNQUdFX0xPQURfTU9ERS5PUFRJTUlaRUQgOiBJTUFHRV9MT0FEX01PREUuT1JJR0lOQUwKICAgIGNvbnN0IFtsb2FkU3RhdGUsIHNldExvYWRTdGF0ZV0gPSBSZWFjdC51c2VTdGF0ZSh7IHNyYywgbW9kZTogaW5pdGlhbE1vZGUgfSkKICAgIGNvbnN0IG1vZGUgPSBsb2FkU3RhdGUuc3JjID09PSBzcmMgPyBsb2FkU3RhdGUubW9kZSA6IGluaXRpYWxNb2RlCgogICAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsKICAgICAgc2V0TG9hZFN0YXRlKHsgc3JjLCBtb2RlOiBpbml0aWFsTW9kZSB9KQogICAgfSwgW3NyYywgaW5pdGlhbE1vZGVdKQoKICAgIGNvbnN0IGhhbmRsZUVycm9yID0gKGV2ZW50KSA9PiB7CiAgICAgIGlmIChtb2RlID09PSBJTUFHRV9MT0FEX01PREUuRkFMTEJBQ0spIHJldHVybgogICAgICBjb25zdCBuZXh0TW9kZSA9IG5leHRJbWFnZUxvYWRNb2RlKG1vZGUpCiAgICAgIHNldExvYWRTdGF0ZSh7IHNyYywgbW9kZTogbmV4dE1vZGUgfSkKICAgICAgaWYgKG5leHRNb2RlID09PSBJTUFHRV9MT0FEX01PREUuRkFMTEJBQ0spIG9uRXJyb3I/LihldmVudCkKICAgIH0KCiAgICBjb25zdCBpbWFnZVByb3BzID0gewogICAgICAuLi5wcm9wcywKICAgICAgb25FcnJvcjogaGFuZGxlRXJyb3IsCiAgICB9CgogICAgaWYgKCFzcmMpIHsKICAgICAgLy8gUmVuZGVycyBhcyBhIHJlYWwgPGltZz4gKG5vdCBhIDxkaXY+KSDigJQgdGhlIHZpc3VhbCBlZGl0b3IncwogICAgICAvLyBjbGljay10by1lZGl0IHRvb2xiYXIga2V5cyBpdHMgIlJlcGxhY2UgSW1hZ2UiIGFjdGlvbiBvZmYgdGhlIERPTQogICAgICAvLyB0YWcgYmVpbmcgYGltZ2AsIHNvIGEgcGxhY2Vob2xkZXIgZGl2IHdvdWxkIGJlIHVucmVjb3ZlcmFibGUgaW4gdGhlCiAgICAgIC8vIGVkaXRvci4gRkFMTEJBQ0tfSU1BR0VfVVJMIGRvdWJsZXMgYXMgdGhlICJubyBpbWFnZSBjaG9zZW4iIGdyYXBoaWMuCiAgICAgIHJldHVybiA8aW1nIHJlZj17cmVmfSBzcmM9e0ZBTExCQUNLX0lNQUdFX1VSTH0gey4uLmltYWdlUHJvcHN9IGRhdGEtZW1wdHktaW1hZ2UgLz4KICAgIH0KCiAgICAvLyBBIGZhaWxlZCB0cmFuc2Zvcm0gcmV0cmllcyB0aGUgdW5kZXJseWluZyBvcmlnaW5hbCBhcyBhIHBsYWluIGltYWdlLgogICAgLy8gT25seSBhIGZhaWx1cmUgb2YgdGhhdCBvcmlnaW5hbCBhZHZhbmNlcyB0byB0aGUgZ2VuZXJpYyBmYWxsYmFjay4KICAgIGNvbnN0IHBhcnNlZCA9IG1vZGUgPT09IElNQUdFX0xPQURfTU9ERS5PUFRJTUlaRUQgPyBwYXJzZWRTb3VyY2UgOiBudWxsCgogICAgaWYgKCFwYXJzZWQpIHsKICAgICAgY29uc3QgaXNFcnJvck1vZGUgPSBtb2RlID09PSBJTUFHRV9MT0FEX01PREUuRkFMTEJBQ0sKICAgICAgY29uc3QgaW1hZ2VTcmMgPSBpc0Vycm9yTW9kZSA/IEZBTExCQUNLX0lNQUdFX1VSTCA6IGdldE9yaWdpbmFsSW1hZ2VVcmwoc3JjLCBwYXJzZWRTb3VyY2UpCiAgICAgIHJldHVybiAoCiAgICAgICAgPGltZyByZWY9e3JlZn0gc3JjPXtpbWFnZVNyY30gey4uLmltYWdlUHJvcHN9IGRhdGEtZXJyb3ItaW1hZ2U9e2lzRXJyb3JNb2RlIHx8IHVuZGVmaW5lZH0gLz4KICAgICAgKQogICAgfQoKICAgIGNvbnN0IGZvY2FsUG9pbnQgPQogICAgICB0eXBlb2YgZm9jYWxQb2ludFggPT09ICJudW1iZXIiICYmIHR5cGVvZiBmb2NhbFBvaW50WSA9PT0gIm51bWJlciIKICAgICAgICA/IHsgeDogZm9jYWxQb2ludFgsIHk6IGZvY2FsUG9pbnRZIH0KICAgICAgICA6IHVuZGVmaW5lZAogICAgLy8gT3JpZ2luIGRpbWVuc2lvbnMgYXJlIG9wdGlvbmFsIOKAlCB3aGVuIGtub3duIHRoZXkgc3RhYmlsaXplIGxheW91dCB2aWEKICAgIC8vIHRoZSB3cmFwcGVyJ3MgYXNwZWN0LXJhdGlvIGJlZm9yZSB0aGUgaW1hZ2UgbG9hZHMuCiAgICBjb25zdCBhc3BlY3RSYXRpbyA9CiAgICAgIG9yaWdpbldpZHRoICYmIG9yaWdpbkhlaWdodCA/IGAke29yaWdpbldpZHRofSAvICR7b3JpZ2luSGVpZ2h0fWAgOiB1bmRlZmluZWQKCiAgICByZXR1cm4gKAogICAgICA8UmVzcG9uc2l2ZUltYWdlCiAgICAgICAgcmVmPXtyZWZ9CiAgICAgICAgcGFyc2VkPXtwYXJzZWR9CiAgICAgICAgZml0dGluZ1R5cGU9e2ZpdHRpbmdUeXBlfQogICAgICAgIGZvY2FsUG9pbnQ9e2ZvY2FsUG9pbnR9CiAgICAgICAgcXVhbGl0eT17cXVhbGl0eX0KICAgICAgICBhc3BlY3RSYXRpbz17YXNwZWN0UmF0aW99CiAgICAgICAgey4uLmltYWdlUHJvcHN9CiAgICAgIC8+CiAgICApCiAgfQopCkltYWdlLmRpc3BsYXlOYW1lID0gIkltYWdlIgoKZXhwb3J0IHsgSW1hZ2UgfQo=
+import * as React from "react"
+import { useSize } from "@/hooks/use-size"
+import { cn } from "@/lib/utils"
+import {
+  buildSrcSet,
+  buildTransformUrl,
+  DEFAULT_TRANSFORM_WIDTH,
+  getOriginalImageUrl,
+  IMAGE_LOAD_MODE,
+  nextImageLoadMode,
+  parseWixMediaUrl,
+} from "./image-helpers"
+
+const FALLBACK_IMAGE_URL =
+  "https://static.wixstatic.com/media/12d367_4f26ccd17f8f4e3a8958306ea08c2332~mv2.png"
+
+const ImageWrapper = React.forwardRef(({ aspectRatio, className, style, children }, ref) => (
+  <span
+    ref={ref}
+    className={cn("inline-block relative", className)}
+    style={{ aspectRatio, ...style }}
+  >
+    {children}
+  </span>
+))
+ImageWrapper.displayName = "ImageWrapper"
+
+const ResponsiveImage = React.forwardRef(
+  ({ parsed, fittingType, focalPoint, quality, className, style, aspectRatio, onLoad, ...props }, parentRef) => {
+    const wrapperRef = React.useRef(null)
+    const imgRef = React.useRef(null)
+    const size = useSize(wrapperRef)
+    const [loaded, setLoaded] = React.useState(false)
+
+    React.useImperativeHandle(parentRef, () => imgRef.current)
+
+    // Reset the blur-up when the underlying image changes.
+    React.useEffect(() => {
+      setLoaded(false)
+    }, [parsed.baseUrl])
+
+    const crop = fittingType !== "fit"
+    // `size` is null exactly once: the pre-measurement first render, which we
+    // never let reach the network (see below — useSize measures before paint).
+    // A *measured* zero (content-sized wrapper with no CSS dimensions) falls
+    // back to a fixed transform width so the image itself can size the box.
+    const options = size && {
+      width: size.width || DEFAULT_TRANSFORM_WIDTH,
+      height: size.height ? size.height : undefined,
+      crop,
+      focalPoint: crop ? focalPoint : undefined,
+      quality,
+    }
+
+    // Both layers render only once the container is measured, so the first
+    // URL the browser ever fetches is already the right size — never a
+    // DEFAULT_TRANSFORM_WIDTH guess that gets replaced a frame later (a
+    // wasted full-size download per image). useSize measures in
+    // useLayoutEffect, so nothing is lost: measurement lands before the
+    // first paint.
+    return (
+      <ImageWrapper ref={wrapperRef} aspectRatio={aspectRatio} className={className} style={style}>
+        {/* Tiny blurred placeholder (a few hundred bytes) covering the main
+            image's load time. Same crop shape and focal anchor as the main
+            image — fp_ is relative to the crop box, so a square or centered
+            placeholder would blur-preview a different region. */}
+        {options && !loaded && (
+          <img
+            src={buildTransformUrl(parsed, {
+              ...options,
+              width: 20,
+              height: options.height
+                ? Math.max(1, Math.round((20 * options.height) / options.width))
+                : undefined,
+              quality: 20,
+            })}
+            alt=""
+            aria-hidden="true"
+            className="w-full h-full inset-0 absolute"
+            style={{
+              objectFit: fittingType === "fit" ? "contain" : "cover",
+              filter: "blur(10px)",
+              transform: "scale(1.1)",
+            }}
+          />
+        )}
+        {options && (
+          <img
+            ref={imgRef}
+            src={buildTransformUrl(parsed, options)}
+            srcSet={buildSrcSet(parsed, options)}
+            loading="lazy"
+            className={cn(
+              "w-full h-full inset-0 absolute",
+              fittingType === "fit" ? "object-contain" : "object-cover"
+            )}
+            onLoad={(e) => {
+              setLoaded(true)
+              onLoad?.(e)
+            }}
+            {...props}
+          />
+        )}
+      </ImageWrapper>
+    )
+  }
+)
+ResponsiveImage.displayName = "ResponsiveImage"
+
+/**
+ * Image with built-in Wix Media Platform support: canonical public images on
+ * media.base44.com and static.wixstatic.com/media are resized to the rendered
+ * container per device pixel ratio and re-encoded to WebP; `fittingType="fill"`
+ * crops server-side, optionally anchored at a focal point. Other URLs render
+ * as a plain <img>. Failed transforms retry the original URL; only a broken
+ * original swaps to the generic fallback image.
+ */
+const Image = React.forwardRef(
+  (
+    {
+      src,
+      fittingType = "fill",
+      originWidth,
+      originHeight,
+      focalPointX,
+      focalPointY,
+      quality = 90,
+      onError,
+      ...props
+    },
+    ref
+  ) => {
+    const parsedSource = src && src !== FALLBACK_IMAGE_URL ? parseWixMediaUrl(src) : null
+    const initialMode = parsedSource ? IMAGE_LOAD_MODE.OPTIMIZED : IMAGE_LOAD_MODE.ORIGINAL
+    const [loadState, setLoadState] = React.useState({ src, mode: initialMode })
+    const mode = loadState.src === src ? loadState.mode : initialMode
+
+    React.useEffect(() => {
+      setLoadState({ src, mode: initialMode })
+    }, [src, initialMode])
+
+    const handleError = (event) => {
+      if (mode === IMAGE_LOAD_MODE.FALLBACK) return
+      const nextMode = nextImageLoadMode(mode)
+      setLoadState({ src, mode: nextMode })
+      if (nextMode === IMAGE_LOAD_MODE.FALLBACK) onError?.(event)
+    }
+
+    const imageProps = {
+      ...props,
+      onError: handleError,
+    }
+
+    if (!src) {
+      // Renders as a real <img> (not a <div>) — the visual editor's
+      // click-to-edit toolbar keys its "Replace Image" action off the DOM
+      // tag being `img`, so a placeholder div would be unrecoverable in the
+      // editor. FALLBACK_IMAGE_URL doubles as the "no image chosen" graphic.
+      return <img ref={ref} src={FALLBACK_IMAGE_URL} {...imageProps} data-empty-image />
+    }
+
+    // A failed transform retries the underlying original as a plain image.
+    // Only a failure of that original advances to the generic fallback.
+    const parsed = mode === IMAGE_LOAD_MODE.OPTIMIZED ? parsedSource : null
+
+    if (!parsed) {
+      const isErrorMode = mode === IMAGE_LOAD_MODE.FALLBACK
+      const imageSrc = isErrorMode ? FALLBACK_IMAGE_URL : getOriginalImageUrl(src, parsedSource)
+      return (
+        <img ref={ref} src={imageSrc} {...imageProps} data-error-image={isErrorMode || undefined} />
+      )
+    }
+
+    const focalPoint =
+      typeof focalPointX === "number" && typeof focalPointY === "number"
+        ? { x: focalPointX, y: focalPointY }
+        : undefined
+    // Origin dimensions are optional — when known they stabilize layout via
+    // the wrapper's aspect-ratio before the image loads.
+    const aspectRatio =
+      originWidth && originHeight ? `${originWidth} / ${originHeight}` : undefined
+
+    return (
+      <ResponsiveImage
+        ref={ref}
+        parsed={parsed}
+        fittingType={fittingType}
+        focalPoint={focalPoint}
+        quality={quality}
+        aspectRatio={aspectRatio}
+        {...imageProps}
+      />
+    )
+  }
+)
+Image.displayName = "Image"
+
+export { Image }

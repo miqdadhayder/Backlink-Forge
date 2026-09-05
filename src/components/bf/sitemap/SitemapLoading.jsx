@@ -1,1 +1,34 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKCmNvbnN0IFNURVBTID0gWwogICJDaGVja2luZyB3ZWJzaXRlLi4uIiwKICAiUmVhZGluZyByb2JvdHMudHh0Li4uIiwKICAiRGlzY292ZXJpbmcgcGFnZXMuLi4iLAogICJDaGVja2luZyBVUkxzLi4uIiwKICAiRmlsdGVyaW5nIG5vbi1pbmRleGFibGUgVVJMcy4uLiIsCiAgIkdlbmVyYXRpbmcgc2l0ZW1hcC4uLiIsCiAgIlZhbGlkYXRpbmcgWE1MLi4uIiwKICAiU2l0ZW1hcCBSZWFkeSIKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFNpdGVtYXBMb2FkaW5nKCkgewogIGNvbnN0IFtzdGVwLCBzZXRTdGVwXSA9IFJlYWN0LnVzZVN0YXRlKDApOwogIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBpZCA9IHNldEludGVydmFsKCgpID0+IHNldFN0ZXAoKHMpID0+IChzIDwgU1RFUFMubGVuZ3RoIC0gMSA/IHMgKyAxIDogcykpLCA5MDApOwogICAgcmV0dXJuICgpID0+IGNsZWFySW50ZXJ2YWwoaWQpOwogIH0sIFtdKTsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXdoaXRlIHAtMTAgdGV4dC1jZW50ZXIgc2hhZG93LXNtIj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gaC0xMCB3LTEwIGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTQgYm9yZGVyLXNsYXRlLTIwMCBib3JkZXItdC1zbGF0ZS05MDAiIC8+CiAgICAgIDxwIGNsYXNzTmFtZT0ibXQtNSB0ZXh0LWJhc2UgZm9udC1tZWRpdW0gdGV4dC1zbGF0ZS05MDAiPntTVEVQU1tzdGVwXX08L3A+CiAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXNtIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICB7c3RlcCA8IFNURVBTLmxlbmd0aCAtIDEgPyAiQ3Jhd2xpbmcgeW91ciB3ZWJzaXRlIG9uIG91ciBzZXJ2ZXJzIOKAlCBwbGVhc2Ugd2FpdC4iIDogIllvdXIgc2l0ZW1hcCBpcyByZWFkeSBiZWxvdy4ifQogICAgICA8L3A+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG10LTYgZmxleCBtYXgtdy1tZCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTEuNSI+CiAgICAgICAge1NURVBTLm1hcCgoXywgaSkgPT4gKAogICAgICAgICAgPHNwYW4ga2V5PXtpfSBjbGFzc05hbWU9e2BoLTEuNSBmbGV4LTEgcm91bmRlZC1mdWxsIHRyYW5zaXRpb24gJHtpIDw9IHN0ZXAgPyAiYmctc2xhdGUtOTAwIiA6ICJiZy1zbGF0ZS0yMDAifWB9IC8+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQ==
+import React from "react";
+
+const STEPS = [
+  "Checking website...",
+  "Reading robots.txt...",
+  "Discovering pages...",
+  "Checking URLs...",
+  "Filtering non-indexable URLs...",
+  "Generating sitemap...",
+  "Validating XML...",
+  "Sitemap Ready"
+];
+
+export default function SitemapLoading() {
+  const [step, setStep] = React.useState(0);
+  React.useEffect(() => {
+    const id = setInterval(() => setStep((s) => (s < STEPS.length - 1 ? s + 1 : s)), 900);
+    return () => clearInterval(id);
+  }, []);
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center shadow-sm">
+      <div className="mx-auto h-10 w-10 animate-spin rounded-full border-4 border-slate-200 border-t-slate-900" />
+      <p className="mt-5 text-base font-medium text-slate-900">{STEPS[step]}</p>
+      <p className="mt-1 text-sm text-slate-500">
+        {step < STEPS.length - 1 ? "Crawling your website on our servers — please wait." : "Your sitemap is ready below."}
+      </p>
+      <div className="mx-auto mt-6 flex max-w-md items-center justify-center gap-1.5">
+        {STEPS.map((_, i) => (
+          <span key={i} className={`h-1.5 flex-1 rounded-full transition ${i <= step ? "bg-slate-900" : "bg-slate-200"}`} />
+        ))}
+      </div>
+    </div>
+  );
+}

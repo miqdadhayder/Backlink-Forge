@@ -1,1 +1,35 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IEFycm93UmlnaHQsIFBsYXkgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSGVybyh7IG9uU3RhcnQsIG9uU2VlSG93SXRXb3JrcyB9KSB7CiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIGJnLXdoaXRlIj4KICAgICAgPGRpdiBjbGFzc05hbWU9InBvaW50ZXItZXZlbnRzLW5vbmUgYWJzb2x1dGUgaW5zZXQtMCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtMS8yIHRvcC0wIGgtWzQwMHB4XSB3LVs4MDBweF0gLXRyYW5zbGF0ZS14LTEvMiByb3VuZGVkLWZ1bGwgYmctZ3JhZGllbnQtdG8tYiBmcm9tLWluZGlnby0xMDAvNjAgdmlhLXZpb2xldC01MC80MCB0by10cmFuc3BhcmVudCBibHVyLTN4bCIgLz4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBteC1hdXRvIG1heC13LTZ4bCBweC00IHB0LTE2IHBiLTEwIHRleHQtY2VudGVyIHNtOnB4LTYgc206cHQtMjQiPgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBiZy1zbGF0ZS01MCBweC0zIHB5LTEgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTYwMCI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImgtMS41IHctMS41IHJvdW5kZWQtZnVsbCBiZy1lbWVyYWxkLTUwMCIgLz4KICAgICAgICAgIE9uZSB0b29sLiBPbmUgcHVycG9zZS4gQmV0dGVyIGJhY2tsaW5rcy4KICAgICAgICA8L3NwYW4+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0ibXgtYXV0byBtdC02IG1heC13LTN4bCB0ZXh0LTR4bCBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtc2xhdGUtOTAwIHNtOnRleHQtNXhsIG1kOnRleHQtNnhsIj4KICAgICAgICAgIEZpbmQgSGlnaC1RdWFsaXR5IEJhY2tsaW5rIE9wcG9ydHVuaXRpZXMgaW4gTWludXRlcwogICAgICAgIDwvaDE+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJteC1hdXRvIG10LTUgbWF4LXctMnhsIHRleHQtbGcgbGVhZGluZy1yZWxheGVkIHRleHQtc2xhdGUtNjAwIj4KICAgICAgICAgIERpc2NvdmVyIGd1ZXN0IHBvc3Rpbmcgc2l0ZXMsIHJlc291cmNlIHBhZ2VzLCBkaXJlY3RvcmllcywgYW5kIG90aGVyCiAgICAgICAgICBiYWNrbGluayBvcHBvcnR1bml0aWVzIGZvciB5b3VyIHdlYnNpdGUuCiAgICAgICAgPC9wPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC04IGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0zIHNtOmZsZXgtcm93Ij4KICAgICAgICAgIDxCdXR0b24gc2l6ZT0ibGciIG9uQ2xpY2s9e29uU3RhcnR9IGNsYXNzTmFtZT0iZ3JvdXAiPgogICAgICAgICAgICBTdGFydCBGaW5kaW5nIEJhY2tsaW5rcwogICAgICAgICAgICA8QXJyb3dSaWdodCBjbGFzc05hbWU9Im1sLTIgaC00IHctNCB0cmFuc2l0aW9uLXRyYW5zZm9ybSBncm91cC1ob3Zlcjp0cmFuc2xhdGUteC0wLjUiIC8+CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDxCdXR0b24gc2l6ZT0ibGciIHZhcmlhbnQ9Im91dGxpbmUiIG9uQ2xpY2s9e29uU2VlSG93SXRXb3Jrc30+CiAgICAgICAgICAgIDxQbGF5IGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPiBTZWUgSG93IEl0IFdvcmtzCiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQ==
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Play } from "lucide-react";
+
+export default function Hero({ onStart, onSeeHowItWorks }) {
+  return (
+    <section className="relative overflow-hidden bg-white">
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute left-1/2 top-0 h-[400px] w-[800px] -translate-x-1/2 rounded-full bg-gradient-to-b from-indigo-100/60 via-violet-50/40 to-transparent blur-3xl" />
+      </div>
+      <div className="relative mx-auto max-w-6xl px-4 pt-16 pb-10 text-center sm:px-6 sm:pt-24">
+        <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600">
+          <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+          One tool. One purpose. Better backlinks.
+        </span>
+        <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl md:text-6xl">
+          Find High-Quality Backlink Opportunities in Minutes
+        </h1>
+        <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-slate-600">
+          Discover guest posting sites, resource pages, directories, and other
+          backlink opportunities for your website.
+        </p>
+        <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <Button size="lg" onClick={onStart} className="group">
+            Start Finding Backlinks
+            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+          </Button>
+          <Button size="lg" variant="outline" onClick={onSeeHowItWorks}>
+            <Play className="mr-2 h-4 w-4" /> See How It Works
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+}

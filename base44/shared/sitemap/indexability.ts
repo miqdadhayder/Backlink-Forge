@@ -1,1 +1,32 @@
-Ly8gRGVjaWRlcyB3aGV0aGVyIGEgY3Jhd2xlZCBVUkwgaXMgaW5kZXhhYmxlIC8gc2hvdWxkIGJlIGluY2x1ZGVkIGluIHRoZSBzaXRlbWFwLgoKZXhwb3J0IGludGVyZmFjZSBJbmRleERlY2lzaW9uIHsKICBpbmRleGFibGU6IGJvb2xlYW47CiAgaW5jbHVkZWQ6IGJvb2xlYW47CiAgcmVhc29uOiBzdHJpbmcgfCBudWxsOwp9CgpleHBvcnQgZnVuY3Rpb24gZGVjaWRlSW5kZXhhYmxlKG9wdHM6IHsKICBzdGF0dXNDb2RlOiBudW1iZXI7CiAgaXNSZWRpcmVjdDogYm9vbGVhbjsKICBjb250ZW50VHlwZTogc3RyaW5nOwogIGNhbm9uaWNhbDogc3RyaW5nIHwgbnVsbDsKICBzZWxmVXJsOiBzdHJpbmc7CiAgbm9pbmRleDogYm9vbGVhbjsKICBpbmNsdWRlTm9uSHRtbDogYm9vbGVhbjsKfSk6IEluZGV4RGVjaXNpb24gewogIGNvbnN0IHsgc3RhdHVzQ29kZSwgaXNSZWRpcmVjdCwgY29udGVudFR5cGUsIGNhbm9uaWNhbCwgc2VsZlVybCwgbm9pbmRleCwgaW5jbHVkZU5vbkh0bWwgfSA9IG9wdHM7CiAgY29uc3QgaXNIdG1sID0gL3RleHRcL2h0bWx8YXBwbGljYXRpb25cL3hodG1sL2kudGVzdChjb250ZW50VHlwZSk7CiAgaWYgKHN0YXR1c0NvZGUgPT09IDApIHJldHVybiB7IGluZGV4YWJsZTogZmFsc2UsIGluY2x1ZGVkOiBmYWxzZSwgcmVhc29uOiAiVW5yZWFjaGFibGUiIH07CiAgaWYgKHN0YXR1c0NvZGUgPj0gNTAwKSByZXR1cm4geyBpbmRleGFibGU6IGZhbHNlLCBpbmNsdWRlZDogZmFsc2UsIHJlYXNvbjogYFNlcnZlciBlcnJvciAoJHtzdGF0dXNDb2RlfSlgIH07CiAgaWYgKHN0YXR1c0NvZGUgPj0gNDAwKSByZXR1cm4geyBpbmRleGFibGU6IGZhbHNlLCBpbmNsdWRlZDogZmFsc2UsIHJlYXNvbjogYENsaWVudCBlcnJvciAoJHtzdGF0dXNDb2RlfSlgIH07CiAgaWYgKGlzUmVkaXJlY3QpIHJldHVybiB7IGluZGV4YWJsZTogZmFsc2UsIGluY2x1ZGVkOiBmYWxzZSwgcmVhc29uOiAiUmVkaXJlY3QiIH07CiAgaWYgKG5vaW5kZXgpIHJldHVybiB7IGluZGV4YWJsZTogZmFsc2UsIGluY2x1ZGVkOiBmYWxzZSwgcmVhc29uOiAibm9pbmRleCBkaXJlY3RpdmUiIH07CiAgaWYgKGNhbm9uaWNhbCAmJiBjYW5vbmljYWwgIT09IHNlbGZVcmwpIHsKICAgIHJldHVybiB7IGluZGV4YWJsZTogZmFsc2UsIGluY2x1ZGVkOiBmYWxzZSwgcmVhc29uOiAiQ2Fub25pY2FsIHBvaW50cyBlbHNld2hlcmUiIH07CiAgfQogIGlmICghaXNIdG1sICYmICFpbmNsdWRlTm9uSHRtbCkgewogICAgcmV0dXJuIHsgaW5kZXhhYmxlOiBmYWxzZSwgaW5jbHVkZWQ6IGZhbHNlLCByZWFzb246ICJOb24tSFRNTCAoZXhjbHVkZWQgYnkgc2V0dGluZ3MpIiB9OwogIH0KICByZXR1cm4geyBpbmRleGFibGU6IHRydWUsIGluY2x1ZGVkOiB0cnVlLCByZWFzb246IG51bGwgfTsKfQ==
+// Decides whether a crawled URL is indexable / should be included in the sitemap.
+
+export interface IndexDecision {
+  indexable: boolean;
+  included: boolean;
+  reason: string | null;
+}
+
+export function decideIndexable(opts: {
+  statusCode: number;
+  isRedirect: boolean;
+  contentType: string;
+  canonical: string | null;
+  selfUrl: string;
+  noindex: boolean;
+  includeNonHtml: boolean;
+}): IndexDecision {
+  const { statusCode, isRedirect, contentType, canonical, selfUrl, noindex, includeNonHtml } = opts;
+  const isHtml = /text\/html|application\/xhtml/i.test(contentType);
+  if (statusCode === 0) return { indexable: false, included: false, reason: "Unreachable" };
+  if (statusCode >= 500) return { indexable: false, included: false, reason: `Server error (${statusCode})` };
+  if (statusCode >= 400) return { indexable: false, included: false, reason: `Client error (${statusCode})` };
+  if (isRedirect) return { indexable: false, included: false, reason: "Redirect" };
+  if (noindex) return { indexable: false, included: false, reason: "noindex directive" };
+  if (canonical && canonical !== selfUrl) {
+    return { indexable: false, included: false, reason: "Canonical points elsewhere" };
+  }
+  if (!isHtml && !includeNonHtml) {
+    return { indexable: false, included: false, reason: "Non-HTML (excluded by settings)" };
+  }
+  return { indexable: true, included: true, reason: null };
+}

@@ -1,1 +1,93 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IERvd25sb2FkLCBGaWxlVGV4dCwgUm90YXRlQ2N3IH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IFNjb3JlR2F1Z2UgZnJvbSAiLi9TY29yZUdhdWdlIjsKaW1wb3J0IFNjb3JlQnJlYWtkb3duIGZyb20gIi4vU2NvcmVCcmVha2Rvd24iOwppbXBvcnQgTGlua0RldGFpbHMgZnJvbSAiLi9MaW5rRGV0YWlscyI7CmltcG9ydCBSaXNrQW5hbHlzaXMgZnJvbSAiLi9SaXNrQW5hbHlzaXMiOwppbXBvcnQgUmVjb21tZW5kYXRpb24gZnJvbSAiLi9SZWNvbW1lbmRhdGlvbiI7CmltcG9ydCBTY29yZUV4cGxhbmF0aW9uIGZyb20gIi4vU2NvcmVFeHBsYW5hdGlvbiI7CmltcG9ydCB7IHJlcG9ydFRvQ3N2LCBkb3dubG9hZENzdiwgZG93bmxvYWRSZXBvcnRQZGYgfSBmcm9tICJAL3V0aWxzL3F1YWxpdHlFeHBvcnQiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUXVhbGl0eVJlcG9ydCh7IHJlcG9ydCwgb25SZWFuYWx5emUgfSkgewogIGNvbnN0IHdoeVRleHQgPSBidWlsZFdoeShyZXBvcnQpOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNiI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBiZy13aGl0ZSBwLTYgc2hhZG93LXNtIHNtOnAtOCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC02IGxnOmZsZXgtcm93IGxnOml0ZW1zLWNlbnRlciBsZzpqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgPFNjb3JlR2F1Z2Ugc2NvcmU9e3JlcG9ydC5vdmVyYWxsX3Njb3JlfSBjbGFzc2lmaWNhdGlvbj17cmVwb3J0LmNsYXNzaWZpY2F0aW9ufSBsYWJlbD0iT3ZlcmFsbCBRdWFsaXR5IFNjb3JlIiAvPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBsZzpwbC04Ij4KICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQgdGV4dC1zbGF0ZS05MDAiPldoeSB0aGlzIHNjb3JlPzwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIHRleHQtc2xhdGUtNjAwIj57d2h5VGV4dH08L3A+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC00IGZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMyB0ZXh0LXNtIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQtZnVsbCBiZy1zbGF0ZS0xMDAgcHgtMyBweS0xIGZvbnQtbWVkaXVtIHRleHQtc2xhdGUtNzAwIj4KICAgICAgICAgICAgICAgIFJpc2s6IDxzcGFuIGNsYXNzTmFtZT17cmlza0NvbG9yKHJlcG9ydC5yaXNrX2xldmVsKX0+e3JlcG9ydC5yaXNrX2xldmVsfTwvc3Bhbj4KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLWZ1bGwgYmctc2xhdGUtMTAwIHB4LTMgcHktMSBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTcwMCI+CiAgICAgICAgICAgICAgICBDb25maWRlbmNlOiA8c3BhbiBjbGFzc05hbWU9e2NvbmZDb2xvcihyZXBvcnQuZGF0YV9jb25maWRlbmNlKX0+e3JlcG9ydC5kYXRhX2NvbmZpZGVuY2V9PC9zcGFuPgogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAge3JlcG9ydC5zb3VyY2U/LmVycm9yICYmICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC01IHJvdW5kZWQtbGcgYmctYW1iZXItNTAgcHgtNCBweS0zIHRleHQtc20gdGV4dC1hbWJlci04MDAiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQiPldlIGNvdWxkbid0IGZ1bGx5IGFjY2VzcyB0aGlzIHBhZ2U6PC9zcGFuPiB7cmVwb3J0LnNvdXJjZS5lcnJvcn0gU29tZSBiYWNrbGluayBtZXRyaWNzIG1heSBiZSB1bmF2YWlsYWJsZS4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC02IGZsZXggZmxleC13cmFwIGdhcC0zIj4KICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IGRvd25sb2FkQ3N2KGBiYWNrbGluay1xdWFsaXR5LSR7RGF0ZS5ub3coKX0uY3N2YCwgcmVwb3J0VG9Dc3YocmVwb3J0KSl9PgogICAgICAgICAgICA8RG93bmxvYWQgY2xhc3NOYW1lPSJtci0yIGgtNCB3LTQiIC8+IEV4cG9ydCBDU1YKICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBzaXplPSJzbSIgb25DbGljaz17KCkgPT4gZG93bmxvYWRSZXBvcnRQZGYocmVwb3J0KX0+CiAgICAgICAgICAgIDxGaWxlVGV4dCBjbGFzc05hbWU9Im1yLTIgaC00IHctNCIgLz4gRG93bmxvYWQgUERGIFJlcG9ydAogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICB7b25SZWFuYWx5emUgJiYgKAogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJzbSIgb25DbGljaz17b25SZWFuYWx5emV9PgogICAgICAgICAgICAgIDxSb3RhdGVDY3cgY2xhc3NOYW1lPSJtci0yIGgtNCB3LTQiIC8+IEFuYWx5emUgYW5vdGhlcgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPFNjb3JlQnJlYWtkb3duIGZhY3RvcnM9e3JlcG9ydC5mYWN0b3JzfSAvPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtNiBsZzpncmlkLWNvbHMtMiI+CiAgICAgICAgPExpbmtEZXRhaWxzIHJlcG9ydD17cmVwb3J0fSAvPgogICAgICAgIDxSaXNrQW5hbHlzaXMgcmVwb3J0PXtyZXBvcnR9IC8+CiAgICAgIDwvZGl2PgogICAgICA8UmVjb21tZW5kYXRpb24gcmVwb3J0PXtyZXBvcnR9IC8+CiAgICAgIDxTY29yZUV4cGxhbmF0aW9uIHJlcG9ydD17cmVwb3J0fSAvPgogICAgPC9kaXY+CiAgKTsKfQoKZnVuY3Rpb24gcmlza0NvbG9yKGwpIHsKICByZXR1cm4gbCA9PT0gIkxvdyIgPyAidGV4dC1lbWVyYWxkLTYwMCIgOiBsID09PSAiTWVkaXVtIiA/ICJ0ZXh0LWFtYmVyLTYwMCIgOiAidGV4dC1yb3NlLTYwMCI7Cn0KZnVuY3Rpb24gY29uZkNvbG9yKGMpIHsKICByZXR1cm4gYyA9PT0gIkhpZ2giID8gInRleHQtZW1lcmFsZC02MDAiIDogYyA9PT0gIk1lZGl1bSIgPyAidGV4dC1hbWJlci02MDAiIDogInRleHQtcm9zZS02MDAiOwp9CgpmdW5jdGlvbiBidWlsZFdoeShyZXBvcnQpIHsKICBpZiAocmVwb3J0LmVycm9yKSByZXR1cm4gcmVwb3J0LmVycm9yOwogIGNvbnN0IHBvc2l0aXZlcyA9IFtdOwogIGNvbnN0IG5lZ2F0aXZlcyA9IFtdOwogIChyZXBvcnQuZmFjdG9ycyB8fCBbXSkuZm9yRWFjaCgoZikgPT4gewogICAgaWYgKGYuYXZhaWxhYmxlICYmIGYuc2NvcmUgIT09IG51bGwpIHsKICAgICAgaWYgKGYuc2NvcmUgPj0gNzApIHBvc2l0aXZlcy5wdXNoKGYubmFtZS50b0xvd2VyQ2FzZSgpKTsKICAgICAgZWxzZSBpZiAoZi5zY29yZSA8IDQwKSBuZWdhdGl2ZXMucHVzaChgJHtmLm5hbWUudG9Mb3dlckNhc2UoKX0gKCR7Zi5zdGF0dXMudG9Mb3dlckNhc2UoKX0pYCk7CiAgICB9CiAgfSk7CiAgbGV0IHMgPSAiIjsKICBpZiAocmVwb3J0Lm92ZXJhbGxfc2NvcmUgPj0gNzUpIHMgPSAiVGhpcyBiYWNrbGluayByZWNlaXZlcyBhIGhpZ2ggc2NvcmUgYmVjYXVzZSAiOwogIGVsc2UgaWYgKHJlcG9ydC5vdmVyYWxsX3Njb3JlID49IDUwKSBzID0gIlRoaXMgYmFja2xpbmsgaXMgbW9kZXJhdGUgYmVjYXVzZSAiOwogIGVsc2UgcyA9ICJUaGlzIGJhY2tsaW5rIHNjb3JlcyBsb3cgYmVjYXVzZSAiOwogIGNvbnN0IHBhcnRzID0gW107CiAgaWYgKHBvc2l0aXZlcy5sZW5ndGgpIHBhcnRzLnB1c2goYHBvc2l0aXZlIHNpZ25hbHMgd2VyZSBkZXRlY3RlZCBpbiAke3Bvc2l0aXZlcy5zbGljZSgwLCAzKS5qb2luKCIsICIpfWApOwogIGlmIChuZWdhdGl2ZXMubGVuZ3RoKSBwYXJ0cy5wdXNoKGB3ZWFrZXIgc2lnbmFscyBhcHBlYXJlZCBpbiAke25lZ2F0aXZlcy5zbGljZSgwLCAzKS5qb2luKCIsICIpfWApOwogIHMgKz0gKHBhcnRzLmpvaW4oIiBhbmQgIikgfHwgIm9mIHRoZSBhdmFpbGFibGUgc2lnbmFscyIpICsgIi4iOwogIGlmIChyZXBvcnQuZGF0YV9jb25maWRlbmNlID09PSAiTG93IikgcyArPSAiIE5vdGU6IHNldmVyYWwgbWV0cmljcyBjb3VsZCBub3QgYmUgdmVyaWZpZWQsIHNvIGNvbmZpZGVuY2UgaXMgbG93LiI7CiAgcmV0dXJuIHM7Cn0=
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { Download, FileText, RotateCcw } from "lucide-react";
+import ScoreGauge from "./ScoreGauge";
+import ScoreBreakdown from "./ScoreBreakdown";
+import LinkDetails from "./LinkDetails";
+import RiskAnalysis from "./RiskAnalysis";
+import Recommendation from "./Recommendation";
+import ScoreExplanation from "./ScoreExplanation";
+import { reportToCsv, downloadCsv, downloadReportPdf } from "@/utils/qualityExport";
+
+export default function QualityReport({ report, onReanalyze }) {
+  const whyText = buildWhy(report);
+
+  return (
+    <div className="space-y-6">
+      <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+        <div className="flex flex-col items-center gap-6 lg:flex-row lg:items-center lg:justify-between">
+          <ScoreGauge score={report.overall_score} classification={report.classification} label="Overall Quality Score" />
+          <div className="flex-1 lg:pl-8">
+            <h3 className="text-base font-semibold text-slate-900">Why this score?</h3>
+            <p className="mt-2 text-sm text-slate-600">{whyText}</p>
+            <div className="mt-4 flex flex-wrap items-center gap-3 text-sm">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 font-medium text-slate-700">
+                Risk: <span className={riskColor(report.risk_level)}>{report.risk_level}</span>
+              </span>
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 font-medium text-slate-700">
+                Confidence: <span className={confColor(report.data_confidence)}>{report.data_confidence}</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {report.source?.error && (
+          <div className="mt-5 rounded-lg bg-amber-50 px-4 py-3 text-sm text-amber-800">
+            <span className="font-semibold">We couldn't fully access this page:</span> {report.source.error} Some backlink metrics may be unavailable.
+          </div>
+        )}
+
+        <div className="mt-6 flex flex-wrap gap-3">
+          <Button variant="outline" size="sm" onClick={() => downloadCsv(`backlink-quality-${Date.now()}.csv`, reportToCsv(report))}>
+            <Download className="mr-2 h-4 w-4" /> Export CSV
+          </Button>
+          <Button variant="outline" size="sm" onClick={() => downloadReportPdf(report)}>
+            <FileText className="mr-2 h-4 w-4" /> Download PDF Report
+          </Button>
+          {onReanalyze && (
+            <Button variant="ghost" size="sm" onClick={onReanalyze}>
+              <RotateCcw className="mr-2 h-4 w-4" /> Analyze another
+            </Button>
+          )}
+        </div>
+      </div>
+
+      <ScoreBreakdown factors={report.factors} />
+      <div className="grid gap-6 lg:grid-cols-2">
+        <LinkDetails report={report} />
+        <RiskAnalysis report={report} />
+      </div>
+      <Recommendation report={report} />
+      <ScoreExplanation report={report} />
+    </div>
+  );
+}
+
+function riskColor(l) {
+  return l === "Low" ? "text-emerald-600" : l === "Medium" ? "text-amber-600" : "text-rose-600";
+}
+function confColor(c) {
+  return c === "High" ? "text-emerald-600" : c === "Medium" ? "text-amber-600" : "text-rose-600";
+}
+
+function buildWhy(report) {
+  if (report.error) return report.error;
+  const positives = [];
+  const negatives = [];
+  (report.factors || []).forEach((f) => {
+    if (f.available && f.score !== null) {
+      if (f.score >= 70) positives.push(f.name.toLowerCase());
+      else if (f.score < 40) negatives.push(`${f.name.toLowerCase()} (${f.status.toLowerCase()})`);
+    }
+  });
+  let s = "";
+  if (report.overall_score >= 75) s = "This backlink receives a high score because ";
+  else if (report.overall_score >= 50) s = "This backlink is moderate because ";
+  else s = "This backlink scores low because ";
+  const parts = [];
+  if (positives.length) parts.push(`positive signals were detected in ${positives.slice(0, 3).join(", ")}`);
+  if (negatives.length) parts.push(`weaker signals appeared in ${negatives.slice(0, 3).join(", ")}`);
+  s += (parts.join(" and ") || "of the available signals") + ".";
+  if (report.data_confidence === "Low") s += " Note: several metrics could not be verified, so confidence is low.";
+  return s;
+}

@@ -1,1 +1,206 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTGluayB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBiYXNlNDQgfSBmcm9tICJAL2FwaS9iYXNlNDRDbGllbnQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgTGluazIsIEFycm93TGVmdCwgRmlsZUNvZGUyLCBHYXVnZSwgSW5mbyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBTaXRlbWFwRm9ybSBmcm9tICJAL2NvbXBvbmVudHMvYmYvc2l0ZW1hcC9TaXRlbWFwRm9ybSI7CmltcG9ydCBTaXRlbWFwTG9hZGluZyBmcm9tICJAL2NvbXBvbmVudHMvYmYvc2l0ZW1hcC9TaXRlbWFwTG9hZGluZyI7CmltcG9ydCBTaXRlbWFwUmVzdWx0cyBmcm9tICJAL2NvbXBvbmVudHMvYmYvc2l0ZW1hcC9TaXRlbWFwUmVzdWx0cyI7CmltcG9ydCBWYWxpZGF0ZUZvcm0gZnJvbSAiQC9jb21wb25lbnRzL2JmL3NpdGVtYXAvVmFsaWRhdGVGb3JtIjsKaW1wb3J0IFZhbGlkYXRlUmVzdWx0cyBmcm9tICJAL2NvbXBvbmVudHMvYmYvc2l0ZW1hcC9WYWxpZGF0ZVJlc3VsdHMiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU2l0ZW1hcEdlbmVyYXRvcigpIHsKICBjb25zdCBbYXV0aGVkLCBzZXRBdXRoZWRdID0gUmVhY3QudXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFt0YWIsIHNldFRhYl0gPSBSZWFjdC51c2VTdGF0ZSgiZ2VuZXJhdGUiKTsKICBjb25zdCBbZ2VuTG9hZGluZywgc2V0R2VuTG9hZGluZ10gPSBSZWFjdC51c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2dlblJlc3VsdCwgc2V0R2VuUmVzdWx0XSA9IFJlYWN0LnVzZVN0YXRlKG51bGwpOwogIGNvbnN0IFtnZW5QYXJhbXMsIHNldEdlblBhcmFtc10gPSBSZWFjdC51c2VTdGF0ZShudWxsKTsKICBjb25zdCBbZ2VuRXJyb3IsIHNldEdlbkVycm9yXSA9IFJlYWN0LnVzZVN0YXRlKCIiKTsKICBjb25zdCBbdmFsTG9hZGluZywgc2V0VmFsTG9hZGluZ10gPSBSZWFjdC51c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3ZhbFJlc3VsdCwgc2V0VmFsUmVzdWx0XSA9IFJlYWN0LnVzZVN0YXRlKG51bGwpOwogIGNvbnN0IFt2YWxFcnJvciwgc2V0VmFsRXJyb3JdID0gUmVhY3QudXNlU3RhdGUoIiIpOwogIGNvbnN0IFt2YWxQcmVmaWxsLCBzZXRWYWxQcmVmaWxsXSA9IFJlYWN0LnVzZVN0YXRlKCIiKTsKICBjb25zdCBbdXNhZ2UsIHNldFVzYWdlXSA9IFJlYWN0LnVzZVN0YXRlKG51bGwpOwoKICBSZWFjdC51c2VFZmZlY3QoKCkgPT4gewogICAgYmFzZTQ0LmF1dGguaXNBdXRoZW50aWNhdGVkKCkudGhlbigoYSkgPT4gewogICAgICBzZXRBdXRoZWQoYSk7CiAgICAgIGlmICghYSkgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiL2xvZ2luIjsKICAgIH0pLmNhdGNoKCgpID0+IHsKICAgICAgc2V0QXV0aGVkKGZhbHNlKTsKICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiL2xvZ2luIjsKICAgIH0pOwogIH0sIFtdKTsKCiAgY29uc3Qgc2Nyb2xsVG9SZXMgPSAoKSA9PiB7CiAgICBjb25zdCBlbCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJzaXRlbWFwLXJlc3VsdHMiKTsKICAgIGlmIChlbCkgZWwuc2Nyb2xsSW50b1ZpZXcoeyBiZWhhdmlvcjogInNtb290aCIsIGJsb2NrOiAic3RhcnQiIH0pOwogIH07CgogIGNvbnN0IGdlbmVyYXRlID0gYXN5bmMgKHBhcmFtcykgPT4gewogICAgc2V0R2VuTG9hZGluZyh0cnVlKTsKICAgIHNldEdlbkVycm9yKCIiKTsKICAgIHNldEdlblJlc3VsdChudWxsKTsKICAgIHNldEdlblBhcmFtcyhwYXJhbXMpOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgYmFzZTQ0LmZ1bmN0aW9ucy5pbnZva2UoImdlbmVyYXRlU2l0ZW1hcCIsIHBhcmFtcyk7CiAgICAgIGNvbnN0IGQgPSByZXMuZGF0YSB8fCByZXM7CiAgICAgIGlmIChkLmVycm9yKSB7IHNldEdlbkVycm9yKGQuZXJyb3IpOyByZXR1cm47IH0KICAgICAgc2V0R2VuUmVzdWx0KGQpOwogICAgICBzZXRVc2FnZShkLnVzYWdlKTsKICAgICAgc2V0VGltZW91dChzY3JvbGxUb1JlcywgMTAwKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0R2VuRXJyb3IoIldlIGNvdWxkbid0IGdlbmVyYXRlIGEgc2l0ZW1hcC4gUGxlYXNlIGNoZWNrIHRoZSBVUkwgYW5kIHRyeSBhZ2Fpbi4iKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldEdlbkxvYWRpbmcoZmFsc2UpOwogICAgfQogIH07CgogIGNvbnN0IHZhbGlkYXRlID0gYXN5bmMgKHBhcmFtcykgPT4gewogICAgc2V0VmFsTG9hZGluZyh0cnVlKTsKICAgIHNldFZhbEVycm9yKCIiKTsKICAgIHNldFZhbFJlc3VsdChudWxsKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGJhc2U0NC5mdW5jdGlvbnMuaW52b2tlKCJ2YWxpZGF0ZVNpdGVtYXAiLCBwYXJhbXMpOwogICAgICBjb25zdCBkID0gcmVzLmRhdGEgfHwgcmVzOwogICAgICBpZiAoZC5lcnJvcikgeyBzZXRWYWxFcnJvcihkLmVycm9yKTsgcmV0dXJuOyB9CiAgICAgIHNldFZhbFJlc3VsdChkKTsKICAgICAgc2V0VGltZW91dChzY3JvbGxUb1JlcywgMTAwKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0VmFsRXJyb3IoIldlIGNvdWxkbid0IHZhbGlkYXRlIHRoaXMgc2l0ZW1hcC4gUGxlYXNlIHRyeSBhZ2Fpbi4iKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldFZhbExvYWRpbmcoZmFsc2UpOwogICAgfQogIH07CgogIGNvbnN0IHZhbGlkYXRlRXhpc3RpbmcgPSAodXJsKSA9PiB7CiAgICBzZXRWYWxQcmVmaWxsKHVybCk7CiAgICBzZXRUYWIoInZhbGlkYXRlIik7CiAgICBzZXRWYWxSZXN1bHQobnVsbCk7CiAgICBzZXRWYWxFcnJvcigiIik7CiAgfTsKCiAgY29uc3QgaGFuZGxlU2lnbk91dCA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IGJhc2U0NC5hdXRoLmxvZ291dCgpOwogICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiLyI7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctc2xhdGUtNTAiPgogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0ic3RpY2t5IHRvcC0wIHotNDAgYm9yZGVyLWIgYm9yZGVyLXNsYXRlLTIwMCBiZy13aGl0ZS84MCBiYWNrZHJvcC1ibHVyLW1kIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBmbGV4IGgtMTYgbWF4LXctNnhsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHgtNCBzbTpweC02Ij4KICAgICAgICAgIDxMaW5rIHRvPSIvIiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGgtOCB3LTggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbGcgYmctc2xhdGUtOTAwIHRleHQtd2hpdGUiPgogICAgICAgICAgICAgIDxMaW5rMiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQgdGV4dC1zbGF0ZS05MDAiPkJhY2tsaW5rRm9yZ2U8L3NwYW4+CiAgICAgICAgICA8L0xpbms+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8TGluayB0bz0iL2Rhc2hib2FyZCI+PEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iPkRhc2hib2FyZDwvQnV0dG9uPjwvTGluaz4KICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgdmFyaWFudD0ib3V0bGluZSIgb25DbGljaz17aGFuZGxlU2lnbk91dH0+U2lnbiBvdXQ8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2hlYWRlcj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTZ4bCBweC00IHB5LTggc206cHgtNiI+CiAgICAgICAgPExpbmsgdG89Ii8iIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCBob3Zlcjp0ZXh0LXNsYXRlLTkwMCI+CiAgICAgICAgICA8QXJyb3dMZWZ0IGNsYXNzTmFtZT0iaW5saW5lIGgtNCB3LTQiIC8+IEJhY2sgdG8gdG9vbAogICAgICAgIDwvTGluaz4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaC04IHctOCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1sZyBiZy1zbGF0ZS05MDAgdGV4dC13aGl0ZSI+CiAgICAgICAgICAgIDxGaWxlQ29kZTIgY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1zZW1pYm9sZCB0cmFja2luZy10aWdodCB0ZXh0LXNsYXRlLTkwMCI+WE1MIFNpdGVtYXAgR2VuZXJhdG9yICYgVmFsaWRhdG9yPC9oMT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgbWF4LXctMnhsIHRleHQtc20gdGV4dC1zbGF0ZS01MDAiPgogICAgICAgICAgR2VuZXJhdGUgJiBWYWxpZGF0ZSBYTUwgU2l0ZW1hcHMgaW4gU2Vjb25kcyDigJQgY3Jhd2wgeW91ciB3ZWJzaXRlLCBkaXNjb3ZlciBpbmRleGFibGUgcGFnZXMsCiAgICAgICAgICBnZW5lcmF0ZSBhIGNsZWFuIFhNTCBzaXRlbWFwLCBhbmQgaWRlbnRpZnkgc2l0ZW1hcCBlcnJvcnMgYmVmb3JlIHN1Ym1pdHRpbmcgaXQgdG8gc2VhcmNoIGVuZ2luZXMuCiAgICAgICAgPC9wPgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNiBmbGV4IGdhcC0xIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgcC0xIHNtOm1heC13LXhzIj4KICAgICAgICAgIHtbCiAgICAgICAgICAgIHsgaWQ6ICJnZW5lcmF0ZSIsIGxhYmVsOiAiR2VuZXJhdGUgU2l0ZW1hcCIgfSwKICAgICAgICAgICAgeyBpZDogInZhbGlkYXRlIiwgbGFiZWw6ICJWYWxpZGF0ZSBTaXRlbWFwIiB9CiAgICAgICAgICBdLm1hcCgodCkgPT4gKAogICAgICAgICAgICA8YnV0dG9uIGtleT17dC5pZH0gb25DbGljaz17KCkgPT4gc2V0VGFiKHQuaWQpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YGZsZXgtMSByb3VuZGVkLWxnIHB4LTMgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtICR7dGFiID09PSB0LmlkID8gImJnLXNsYXRlLTkwMCB0ZXh0LXdoaXRlIiA6ICJ0ZXh0LXNsYXRlLTYwMCBob3ZlcjpiZy1zbGF0ZS0xMDAifWB9PgogICAgICAgICAgICAgIHt0LmxhYmVsfQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgoKICAgICAgICB7dXNhZ2UgJiYgdXNhZ2UubGltaXQgIT0gbnVsbCAmJiAhZ2VuUmVzdWx0ICYmIHRhYiA9PT0gImdlbmVyYXRlIiAmJiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNCBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBiZy13aGl0ZSBweC0zIHB5LTEuNSB0ZXh0LXhzIHRleHQtc2xhdGUtNjAwIj4KICAgICAgICAgICAgPEdhdWdlIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUgdGV4dC1zbGF0ZS00MDAiIC8+IHt1c2FnZS51c2VkfSAvIHt1c2FnZS5saW1pdH0gZ2VuZXJhdGlvbnMgdXNlZCB0aGlzIG1vbnRoCiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNiI+CiAgICAgICAgICB7dGFiID09PSAiZ2VuZXJhdGUiICYmICgKICAgICAgICAgICAgPD4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy0yeGwiPgogICAgICAgICAgICAgICAgPFNpdGVtYXBGb3JtIG9uR2VuZXJhdGU9e2dlbmVyYXRlfSBsb2FkaW5nPXtnZW5Mb2FkaW5nfSB1c2FnZT17dXNhZ2V9IC8+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAge2dlbkxvYWRpbmcgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBpZD0ic2l0ZW1hcC1yZXN1bHRzIiBjbGFzc05hbWU9Im14LWF1dG8gbXQtOCBtYXgtdy0zeGwgc2Nyb2xsLW10LTIwIj48U2l0ZW1hcExvYWRpbmcgLz48L2Rpdj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIHtnZW5FcnJvciAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtdC04IGZsZXggbWF4LXctM3hsIGl0ZW1zLXN0YXJ0IGdhcC0yIHJvdW5kZWQteGwgYmctcm9zZS01MCBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LXJvc2UtNzAwIj4KICAgICAgICAgICAgICAgICAgPEluZm8gY2xhc3NOYW1lPSJtdC0wLjUgaC00IHctNCBmbGV4LXNocmluay0wIiAvPiB7Z2VuRXJyb3J9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIHshZ2VuTG9hZGluZyAmJiBnZW5SZXN1bHQgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBpZD0ic2l0ZW1hcC1yZXN1bHRzIiBjbGFzc05hbWU9Im14LWF1dG8gbXQtOCBtYXgtdy01eGwgc2Nyb2xsLW10LTIwIj4KICAgICAgICAgICAgICAgICAgPFNpdGVtYXBSZXN1bHRzCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0PXtnZW5SZXN1bHR9CiAgICAgICAgICAgICAgICAgICAgb25SZWdlbmVyYXRlPXsoKSA9PiBnZW5QYXJhbXMgJiYgZ2VuZXJhdGUoZ2VuUGFyYW1zKX0KICAgICAgICAgICAgICAgICAgICBvblZhbGlkYXRlRXhpc3Rpbmc9eygpID0+IGdlblJlc3VsdC5leGlzdGluZ19zaXRlbWFwc1swXSAmJiB2YWxpZGF0ZUV4aXN0aW5nKGdlblJlc3VsdC5leGlzdGluZ19zaXRlbWFwc1swXSl9CiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8Lz4KICAgICAgICAgICl9CiAgICAgICAgICB7dGFiID09PSAidmFsaWRhdGUiICYmICgKICAgICAgICAgICAgPD4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy0yeGwiPgogICAgICAgICAgICAgICAgPFZhbGlkYXRlRm9ybSBvblZhbGlkYXRlPXt2YWxpZGF0ZX0gbG9hZGluZz17dmFsTG9hZGluZ30gcHJlZmlsbFVybD17dmFsUHJlZmlsbH0gLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICB7dmFsTG9hZGluZyAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGlkPSJzaXRlbWFwLXJlc3VsdHMiIGNsYXNzTmFtZT0ibXgtYXV0byBtdC04IG1heC13LTN4bCBzY3JvbGwtbXQtMjAiPjxTaXRlbWFwTG9hZGluZyAvPjwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAge3ZhbEVycm9yICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG10LTggZmxleCBtYXgtdy0zeGwgaXRlbXMtc3RhcnQgZ2FwLTIgcm91bmRlZC14bCBiZy1yb3NlLTUwIHB4LTQgcHktMyB0ZXh0LXNtIHRleHQtcm9zZS03MDAiPgogICAgICAgICAgICAgICAgICA8SW5mbyBjbGFzc05hbWU9Im10LTAuNSBoLTQgdy00IGZsZXgtc2hyaW5rLTAiIC8+IHt2YWxFcnJvcn0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgeyF2YWxMb2FkaW5nICYmIHZhbFJlc3VsdCAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGlkPSJzaXRlbWFwLXJlc3VsdHMiIGNsYXNzTmFtZT0ibXgtYXV0byBtdC04IG1heC13LTV4bCBzY3JvbGwtbXQtMjAiPgogICAgICAgICAgICAgICAgICA8VmFsaWRhdGVSZXN1bHRzIHJlc3VsdD17dmFsUmVzdWx0fSAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC8+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtdC0xNiBtYXgtdy0zeGwgc3BhY2UteS04IGJvcmRlci10IGJvcmRlci1zbGF0ZS0yMDAgcHQtMTAiPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LXNlbWlib2xkIHRleHQtc2xhdGUtOTAwIj5XaGF0IGlzIGFuIFhNTCBTaXRlbWFwPzwvaDI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIHRleHQtc2xhdGUtNjAwIj4KICAgICAgICAgICAgICBBbiBYTUwgc2l0ZW1hcCBpcyBhIGZpbGUgdGhhdCBsaXN0cyB0aGUgVVJMcyBvbiB5b3VyIHdlYnNpdGUgc28gc2VhcmNoIGVuZ2luZXMgbGlrZSBHb29nbGUgY2FuCiAgICAgICAgICAgICAgZGlzY292ZXIgYW5kIGNyYXdsIHRoZW0gZWZmaWNpZW50bHkuIEl0J3MgZXNwZWNpYWxseSB1c2VmdWwgZm9yIG5ldyBzaXRlcywgbGFyZ2Ugc2l0ZXMsIGFuZAogICAgICAgICAgICAgIHNpdGVzIHdpdGggcGFnZXMgdGhhdCBhcmVuJ3Qgd2VsbCBsaW5rZWQgaW50ZXJuYWxseS4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdGV4dC1zbGF0ZS05MDAiPldoeSBWYWxpZGF0ZSBZb3VyIFNpdGVtYXA/PC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQtc20gdGV4dC1zbGF0ZS02MDAiPgogICAgICAgICAgICAgIENvbW1vbiBzaXRlbWFwIHByb2JsZW1zIGh1cnQgY3Jhd2xpbmc6IGJyb2tlbiAoNDA0KSBVUkxzLCByZWRpcmVjdHMgdGhhdCB3YXN0ZSBjcmF3bCBidWRnZXQsCiAgICAgICAgICAgICAgaW52YWxpZCBYTUwgdGhhdCBzZWFyY2ggZW5naW5lcyByZWplY3QsIGR1cGxpY2F0ZSBVUkxzLCBub2luZGV4IHBhZ2VzIHRoYXQgc2hvdWxkbid0IGJlIGxpc3RlZCwKICAgICAgICAgICAgICBhbmQgVVJMcyBibG9ja2VkIGJ5IHJvYm90cy50eHQuIFZhbGlkYXRpbmcgYmVmb3JlIHN1Ym1pc3Npb24gY2F0Y2hlcyB0aGVzZSBpc3N1ZXMuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0=
+import React from "react";
+import { Link } from "react-router-dom";
+import { base44 } from "@/api/base44Client";
+import { Button } from "@/components/ui/button";
+import { Link2, ArrowLeft, FileCode2, Gauge, Info } from "lucide-react";
+import SitemapForm from "@/components/bf/sitemap/SitemapForm";
+import SitemapLoading from "@/components/bf/sitemap/SitemapLoading";
+import SitemapResults from "@/components/bf/sitemap/SitemapResults";
+import ValidateForm from "@/components/bf/sitemap/ValidateForm";
+import ValidateResults from "@/components/bf/sitemap/ValidateResults";
+
+export default function SitemapGenerator() {
+  const [authed, setAuthed] = React.useState(false);
+  const [tab, setTab] = React.useState("generate");
+  const [genLoading, setGenLoading] = React.useState(false);
+  const [genResult, setGenResult] = React.useState(null);
+  const [genParams, setGenParams] = React.useState(null);
+  const [genError, setGenError] = React.useState("");
+  const [valLoading, setValLoading] = React.useState(false);
+  const [valResult, setValResult] = React.useState(null);
+  const [valError, setValError] = React.useState("");
+  const [valPrefill, setValPrefill] = React.useState("");
+  const [usage, setUsage] = React.useState(null);
+
+  React.useEffect(() => {
+    base44.auth.isAuthenticated().then((a) => {
+      setAuthed(a);
+      if (!a) window.location.href = "/login";
+    }).catch(() => {
+      setAuthed(false);
+      window.location.href = "/login";
+    });
+  }, []);
+
+  const scrollToRes = () => {
+    const el = document.getElementById("sitemap-results");
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  const generate = async (params) => {
+    setGenLoading(true);
+    setGenError("");
+    setGenResult(null);
+    setGenParams(params);
+    try {
+      const res = await base44.functions.invoke("generateSitemap", params);
+      const d = res.data || res;
+      if (d.error) { setGenError(d.error); return; }
+      setGenResult(d);
+      setUsage(d.usage);
+      setTimeout(scrollToRes, 100);
+    } catch (e) {
+      setGenError("We couldn't generate a sitemap. Please check the URL and try again.");
+    } finally {
+      setGenLoading(false);
+    }
+  };
+
+  const validate = async (params) => {
+    setValLoading(true);
+    setValError("");
+    setValResult(null);
+    try {
+      const res = await base44.functions.invoke("validateSitemap", params);
+      const d = res.data || res;
+      if (d.error) { setValError(d.error); return; }
+      setValResult(d);
+      setTimeout(scrollToRes, 100);
+    } catch (e) {
+      setValError("We couldn't validate this sitemap. Please try again.");
+    } finally {
+      setValLoading(false);
+    }
+  };
+
+  const validateExisting = (url) => {
+    setValPrefill(url);
+    setTab("validate");
+    setValResult(null);
+    setValError("");
+  };
+
+  const handleSignOut = async () => {
+    await base44.auth.logout();
+    window.location.href = "/";
+  };
+
+  return (
+    <div className="min-h-screen bg-slate-50">
+      <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/80 backdrop-blur-md">
+        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
+          <Link to="/" className="flex items-center gap-2">
+            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-white">
+              <Link2 className="h-4 w-4" />
+            </span>
+            <span className="text-lg font-semibold tracking-tight text-slate-900">BacklinkForge</span>
+          </Link>
+          <div className="flex items-center gap-2">
+            <Link to="/dashboard"><Button variant="ghost" size="sm">Dashboard</Button></Link>
+            <Button size="sm" variant="outline" onClick={handleSignOut}>Sign out</Button>
+          </div>
+        </div>
+      </header>
+
+      <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+        <Link to="/" className="text-sm text-slate-500 hover:text-slate-900">
+          <ArrowLeft className="inline h-4 w-4" /> Back to tool
+        </Link>
+        <div className="mt-3 flex items-center gap-2">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-white">
+            <FileCode2 className="h-4 w-4" />
+          </span>
+          <h1 className="text-2xl font-semibold tracking-tight text-slate-900">XML Sitemap Generator & Validator</h1>
+        </div>
+        <p className="mt-1 max-w-2xl text-sm text-slate-500">
+          Generate & Validate XML Sitemaps in Seconds — crawl your website, discover indexable pages,
+          generate a clean XML sitemap, and identify sitemap errors before submitting it to search engines.
+        </p>
+
+        <div className="mt-6 flex gap-1 rounded-xl border border-slate-200 bg-white p-1 sm:max-w-xs">
+          {[
+            { id: "generate", label: "Generate Sitemap" },
+            { id: "validate", label: "Validate Sitemap" }
+          ].map((t) => (
+            <button key={t.id} onClick={() => setTab(t.id)}
+              className={`flex-1 rounded-lg px-3 py-2 text-sm font-medium ${tab === t.id ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"}`}>
+              {t.label}
+            </button>
+          ))}
+        </div>
+
+        {usage && usage.limit != null && !genResult && tab === "generate" && (
+          <div className="mt-4 inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs text-slate-600">
+            <Gauge className="h-3.5 w-3.5 text-slate-400" /> {usage.used} / {usage.limit} generations used this month
+          </div>
+        )}
+
+        <div className="mt-6">
+          {tab === "generate" && (
+            <>
+              <div className="mx-auto max-w-2xl">
+                <SitemapForm onGenerate={generate} loading={genLoading} usage={usage} />
+              </div>
+              {genLoading && (
+                <div id="sitemap-results" className="mx-auto mt-8 max-w-3xl scroll-mt-20"><SitemapLoading /></div>
+              )}
+              {genError && (
+                <div className="mx-auto mt-8 flex max-w-3xl items-start gap-2 rounded-xl bg-rose-50 px-4 py-3 text-sm text-rose-700">
+                  <Info className="mt-0.5 h-4 w-4 flex-shrink-0" /> {genError}
+                </div>
+              )}
+              {!genLoading && genResult && (
+                <div id="sitemap-results" className="mx-auto mt-8 max-w-5xl scroll-mt-20">
+                  <SitemapResults
+                    result={genResult}
+                    onRegenerate={() => genParams && generate(genParams)}
+                    onValidateExisting={() => genResult.existing_sitemaps[0] && validateExisting(genResult.existing_sitemaps[0])}
+                  />
+                </div>
+              )}
+            </>
+          )}
+          {tab === "validate" && (
+            <>
+              <div className="mx-auto max-w-2xl">
+                <ValidateForm onValidate={validate} loading={valLoading} prefillUrl={valPrefill} />
+              </div>
+              {valLoading && (
+                <div id="sitemap-results" className="mx-auto mt-8 max-w-3xl scroll-mt-20"><SitemapLoading /></div>
+              )}
+              {valError && (
+                <div className="mx-auto mt-8 flex max-w-3xl items-start gap-2 rounded-xl bg-rose-50 px-4 py-3 text-sm text-rose-700">
+                  <Info className="mt-0.5 h-4 w-4 flex-shrink-0" /> {valError}
+                </div>
+              )}
+              {!valLoading && valResult && (
+                <div id="sitemap-results" className="mx-auto mt-8 max-w-5xl scroll-mt-20">
+                  <ValidateResults result={valResult} />
+                </div>
+              )}
+            </>
+          )}
+        </div>
+
+        <div className="mx-auto mt-16 max-w-3xl space-y-8 border-t border-slate-200 pt-10">
+          <div>
+            <h2 className="text-lg font-semibold text-slate-900">What is an XML Sitemap?</h2>
+            <p className="mt-2 text-sm text-slate-600">
+              An XML sitemap is a file that lists the URLs on your website so search engines like Google can
+              discover and crawl them efficiently. It's especially useful for new sites, large sites, and
+              sites with pages that aren't well linked internally.
+            </p>
+          </div>
+          <div>
+            <h2 className="text-lg font-semibold text-slate-900">Why Validate Your Sitemap?</h2>
+            <p className="mt-2 text-sm text-slate-600">
+              Common sitemap problems hurt crawling: broken (404) URLs, redirects that waste crawl budget,
+              invalid XML that search engines reject, duplicate URLs, noindex pages that shouldn't be listed,
+              and URLs blocked by robots.txt. Validating before submission catches these issues.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

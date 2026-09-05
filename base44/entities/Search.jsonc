@@ -1,1 +1,56 @@
-ewogICJuYW1lIjogIlNlYXJjaCIsCiAgInR5cGUiOiAib2JqZWN0IiwKICAicHJvcGVydGllcyI6IHsKICAgICJ3ZWJzaXRlX3VybCI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIgogICAgfSwKICAgICJrZXl3b3JkIjogewogICAgICAidHlwZSI6ICJzdHJpbmciCiAgICB9LAogICAgImNvdW50cnkiOiB7CiAgICAgICJ0eXBlIjogInN0cmluZyIsCiAgICAgICJkZWZhdWx0IjogIkdsb2JhbCIKICAgIH0sCiAgICAiYmFja2xpbmtfdHlwZSI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgImRlZmF1bHQiOiAiQWxsIE9wcG9ydHVuaXRpZXMiCiAgICB9LAogICAgIm1pbmltdW1fZGEiOiB7CiAgICAgICJ0eXBlIjogIm51bWJlciIsCiAgICAgICJkZWZhdWx0IjogMjAKICAgIH0sCiAgICAicmVzdWx0c19jb3VudCI6IHsKICAgICAgInR5cGUiOiAibnVtYmVyIiwKICAgICAgImRlZmF1bHQiOiAyNQogICAgfSwKICAgICJjb21wZXRpdG9yX3VybCI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIgogICAgfSwKICAgICJzZWFyY2hfdHlwZSI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgImVudW0iOiBbCiAgICAgICAgImJhY2tsaW5rcyIsCiAgICAgICAgImd1ZXN0X3Bvc3RzIiwKICAgICAgICAiY29tcGV0aXRvciIKICAgICAgXSwKICAgICAgImRlZmF1bHQiOiAiYmFja2xpbmtzIgogICAgfSwKICAgICJpc19kZW1vIjogewogICAgICAidHlwZSI6ICJib29sZWFuIiwKICAgICAgImRlZmF1bHQiOiB0cnVlCiAgICB9LAogICAgIm9wcG9ydHVuaXRpZXNfZm91bmQiOiB7CiAgICAgICJ0eXBlIjogIm51bWJlciIsCiAgICAgICJkZWZhdWx0IjogMAogICAgfSwKICAgICJkZXNjcmlwdGlvbiI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgIm1heExlbmd0aCI6IDEwMDAKICAgIH0KICB9LAogICJyZXF1aXJlZCI6IFsKICAgICJ3ZWJzaXRlX3VybCIsCiAgICAia2V5d29yZCIKICBdCn0=
+{
+  "name": "Search",
+  "type": "object",
+  "properties": {
+    "website_url": {
+      "type": "string"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string",
+      "default": "Global"
+    },
+    "backlink_type": {
+      "type": "string",
+      "default": "All Opportunities"
+    },
+    "minimum_da": {
+      "type": "number",
+      "default": 20
+    },
+    "results_count": {
+      "type": "number",
+      "default": 25
+    },
+    "competitor_url": {
+      "type": "string"
+    },
+    "search_type": {
+      "type": "string",
+      "enum": [
+        "backlinks",
+        "guest_posts",
+        "competitor"
+      ],
+      "default": "backlinks"
+    },
+    "is_demo": {
+      "type": "boolean",
+      "default": true
+    },
+    "opportunities_found": {
+      "type": "number",
+      "default": 0
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 1000
+    }
+  },
+  "required": [
+    "website_url",
+    "keyword"
+  ]
+}

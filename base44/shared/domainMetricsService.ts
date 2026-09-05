@@ -1,1 +1,36 @@
-Ly8gZG9tYWluTWV0cmljc1NlcnZpY2UKLy8gUmVzcG9uc2libGUgZm9yIERvbWFpbiBBdXRob3JpdHkgLyB0cmFmZmljIGVzdGltYXRlcy4KLy8gV2hlbiBhIHJlYWwgcHJvdmlkZXIga2V5IChlLmcuIE1PWl9BUElfS0VZLCBBSFJFRlNfQVBJX0tFWSkgaXMgYXZhaWxhYmxlLAovLyBjYWxsIHRoZSBsaXZlIEFQSSBoZXJlLiBPdGhlcndpc2UgcmV0dXJuIGRldGVybWluaXN0aWMgZGVtbyBtZXRyaWNzLgppbXBvcnQgeyBzZWNyZXRzIH0gZnJvbSAiYmFzZTQ0OnJ1bnRpbWUiOwoKZXhwb3J0IGZ1bmN0aW9uIGhhc0xpdmVNZXRyaWNzUHJvdmlkZXIoKSB7CiAgcmV0dXJuIEJvb2xlYW4oc2VjcmV0cy5nZXQoIk1PWl9BUElfS0VZIikgfHwgc2VjcmV0cy5nZXQoIkFIUkVGU19BUElfS0VZIikpOwp9CgovLyBEZXRlcm1pbmlzdGljIHBzZXVkby1yYW5kb20gc28gdGhlIHNhbWUgZG9tYWluIGFsd2F5cyByZXR1cm5zIHRoZSBzYW1lIG1ldHJpY3MuCmZ1bmN0aW9uIGhhc2hTdHJpbmcoc3RyKSB7CiAgbGV0IGggPSAyMTY2MTM2MjYxOwogIGZvciAobGV0IGkgPSAwOyBpIDwgc3RyLmxlbmd0aDsgaSsrKSB7CiAgICBoIF49IHN0ci5jaGFyQ29kZUF0KGkpOwogICAgaCA9IE1hdGguaW11bChoLCAxNjc3NzYxOSk7CiAgfQogIHJldHVybiBNYXRoLmFicyhoKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldERvbWFpbk1ldHJpY3MoZG9tYWluLCBuaWNoZSkgewogIGlmIChoYXNMaXZlTWV0cmljc1Byb3ZpZGVyKCkpIHsKICAgIC8vIFRPRE86IGNhbGwgTW96L0FocmVmcyBBUEkgdXNpbmcgc2VjcmV0cy5nZXQoIk1PWl9BUElfS0VZIikKICAgIC8vIEZvciBub3cgdGhlIGtleSBtYXkgYmUgc2V0IGJ1dCBpbnRlZ3JhdGlvbiB3aXJpbmcgaXMgbm90IHlldCBpbXBsZW1lbnRlZCwKICAgIC8vIHNvIHdlIHN0aWxsIGZhbGwgdGhyb3VnaCB0byBkZXRlcm1pbmlzdGljIGRlbW8gbWV0cmljcy4KICB9CiAgY29uc3Qgc2VlZCA9IGhhc2hTdHJpbmcoZG9tYWluKTsKICBjb25zdCBkb21haW5fYXV0aG9yaXR5ID0gMTUgKyAoc2VlZCAlIDgwKTsgLy8gMTUgLSA5NAogIGNvbnN0IHRyYWZmaWNCYXNlID0gNTAwICsgKHNlZWQgJSA5MDAwMCk7CiAgY29uc3QgdHJhZmZpYyA9IE1hdGgucm91bmQodHJhZmZpY0Jhc2UgLyAxMDApICogMTAwOwogIHJldHVybiB7CiAgICBkb21haW5fYXV0aG9yaXR5LAogICAgdHJhZmZpYywKICAgIHNvdXJjZTogImRlbW8iCiAgfTsKfQ==
+// domainMetricsService
+// Responsible for Domain Authority / traffic estimates.
+// When a real provider key (e.g. MOZ_API_KEY, AHREFS_API_KEY) is available,
+// call the live API here. Otherwise return deterministic demo metrics.
+import { secrets } from "base44:runtime";
+
+export function hasLiveMetricsProvider() {
+  return Boolean(secrets.get("MOZ_API_KEY") || secrets.get("AHREFS_API_KEY"));
+}
+
+// Deterministic pseudo-random so the same domain always returns the same metrics.
+function hashString(str) {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return Math.abs(h);
+}
+
+export async function getDomainMetrics(domain, niche) {
+  if (hasLiveMetricsProvider()) {
+    // TODO: call Moz/Ahrefs API using secrets.get("MOZ_API_KEY")
+    // For now the key may be set but integration wiring is not yet implemented,
+    // so we still fall through to deterministic demo metrics.
+  }
+  const seed = hashString(domain);
+  const domain_authority = 15 + (seed % 80); // 15 - 94
+  const trafficBase = 500 + (seed % 90000);
+  const traffic = Math.round(trafficBase / 100) * 100;
+  return {
+    domain_authority,
+    traffic,
+    source: "demo"
+  };
+}

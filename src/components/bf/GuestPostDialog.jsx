@@ -1,1 +1,51 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsKICBEaWFsb2csIERpYWxvZ0NvbnRlbnQsIERpYWxvZ0hlYWRlciwgRGlhbG9nVGl0bGUsIERpYWxvZ0Rlc2NyaXB0aW9uCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBFeHRlcm5hbExpbmssIE1haWwgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gR3Vlc3RQb3N0RGlhbG9nKHsgb3Bwb3J0dW5pdHksIG9uQ2xvc2UgfSkgewogIHJldHVybiAoCiAgICA8RGlhbG9nIG9wZW49e0Jvb2xlYW4ob3Bwb3J0dW5pdHkpfSBvbk9wZW5DaGFuZ2U9eyhvcGVuKSA9PiAhb3BlbiAmJiBvbkNsb3NlKCl9PgogICAgICA8RGlhbG9nQ29udGVudCBjbGFzc05hbWU9InNtOm1heC13LWxnIj4KICAgICAgICB7b3Bwb3J0dW5pdHkgJiYgKAogICAgICAgICAgPD4KICAgICAgICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICAgICAgICA8RGlhbG9nVGl0bGU+R3Vlc3QgUG9zdCBHdWlkZWxpbmVzIOKAlCB7b3Bwb3J0dW5pdHkud2Vic2l0ZX08L0RpYWxvZ1RpdGxlPgogICAgICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgICAgICAgIERvbWFpbiBBdXRob3JpdHkge29wcG9ydHVuaXR5LmRvbWFpbl9hdXRob3JpdHl9IMK3IH57b3Bwb3J0dW5pdHkudHJhZmZpYy50b0xvY2FsZVN0cmluZygpfSBtb250aGx5IHZpc2l0cwogICAgICAgICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtc2xhdGUtNTAwIj5TdWJtaXNzaW9uIFJlcXVpcmVtZW50czwvcD4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXNtIHRleHQtc2xhdGUtNzAwIj57b3Bwb3J0dW5pdHkuc3VibWlzc2lvbl9yZXF1aXJlbWVudHMgfHwgIk5vdCBzcGVjaWZpZWQuIn08L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYmctc2xhdGUtNTAgcC0zIj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyBmb250LW1lZGl1bSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZSB0ZXh0LXNsYXRlLTUwMCI+V3JpdGUgZm9yIFVzIHBhZ2U8L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdHJ1bmNhdGUgdGV4dC1zbSB0ZXh0LXNsYXRlLTcwMCI+e29wcG9ydHVuaXR5Lmd1ZXN0X3Bvc3RfdXJsfTwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBiZy1zbGF0ZS01MCBwLTMiPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtc2xhdGUtNTAwIj5Db250YWN0IHBhZ2U8L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdHJ1bmNhdGUgdGV4dC1zbSB0ZXh0LXNsYXRlLTcwMCI+e29wcG9ydHVuaXR5LmNvbnRhY3RfdXJsfTwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMiBzbTpmbGV4LXJvdyI+CiAgICAgICAgICAgICAgICA8YSBocmVmPXtvcHBvcnR1bml0eS5ndWVzdF9wb3N0X3VybH0gdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIgY2xhc3NOYW1lPSJmbGV4LTEiPgogICAgICAgICAgICAgICAgICA8QnV0dG9uIGNsYXNzTmFtZT0idy1mdWxsIj4KICAgICAgICAgICAgICAgICAgICA8RXh0ZXJuYWxMaW5rIGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPiBWaWV3IEd1ZXN0IFBvc3QgR3VpZGVsaW5lcwogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICAgIDxhIGhyZWY9e29wcG9ydHVuaXR5LmNvbnRhY3RfdXJsfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciBub3JlZmVycmVyIiBjbGFzc05hbWU9ImZsZXgtMSI+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgY2xhc3NOYW1lPSJ3LWZ1bGwiPgogICAgICAgICAgICAgICAgICAgIDxNYWlsIGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPiBWaXNpdCBXZWJzaXRlCiAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvPgogICAgICAgICl9CiAgICAgIDwvRGlhbG9nQ29udGVudD4KICAgIDwvRGlhbG9nPgogICk7Cn0=
+import React from "react";
+import {
+  Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { ExternalLink, Mail } from "lucide-react";
+
+export default function GuestPostDialog({ opportunity, onClose }) {
+  return (
+    <Dialog open={Boolean(opportunity)} onOpenChange={(open) => !open && onClose()}>
+      <DialogContent className="sm:max-w-lg">
+        {opportunity && (
+          <>
+            <DialogHeader>
+              <DialogTitle>Guest Post Guidelines — {opportunity.website}</DialogTitle>
+              <DialogDescription>
+                Domain Authority {opportunity.domain_authority} · ~{opportunity.traffic.toLocaleString()} monthly visits
+              </DialogDescription>
+            </DialogHeader>
+            <div className="space-y-4">
+              <div>
+                <p className="text-xs font-medium uppercase tracking-wide text-slate-500">Submission Requirements</p>
+                <p className="mt-1 text-sm text-slate-700">{opportunity.submission_requirements || "Not specified."}</p>
+              </div>
+              <div className="rounded-lg bg-slate-50 p-3">
+                <p className="text-xs font-medium uppercase tracking-wide text-slate-500">Write for Us page</p>
+                <p className="mt-1 truncate text-sm text-slate-700">{opportunity.guest_post_url}</p>
+              </div>
+              <div className="rounded-lg bg-slate-50 p-3">
+                <p className="text-xs font-medium uppercase tracking-wide text-slate-500">Contact page</p>
+                <p className="mt-1 truncate text-sm text-slate-700">{opportunity.contact_url}</p>
+              </div>
+              <div className="flex flex-col gap-2 sm:flex-row">
+                <a href={opportunity.guest_post_url} target="_blank" rel="noopener noreferrer" className="flex-1">
+                  <Button className="w-full">
+                    <ExternalLink className="mr-2 h-4 w-4" /> View Guest Post Guidelines
+                  </Button>
+                </a>
+                <a href={opportunity.contact_url} target="_blank" rel="noopener noreferrer" className="flex-1">
+                  <Button variant="outline" className="w-full">
+                    <Mail className="mr-2 h-4 w-4" /> Visit Website
+                  </Button>
+                </a>
+              </div>
+            </div>
+          </>
+        )}
+      </DialogContent>
+    </Dialog>
+  );
+}

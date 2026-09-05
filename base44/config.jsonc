@@ -1,1 +1,9 @@
-ewogICJuYW1lIjogIkJhY2tsaW5rRm9yZ2UiLAogICJzaXRlIjogewogICAgImluc3RhbGxDb21tYW5kIjogIm5wbSBpbnN0YWxsIiwKICAgICJidWlsZENvbW1hbmQiOiAibnBtIHJ1biBidWlsZCIsCiAgICAic2VydmVDb21tYW5kIjogIm5wbSBydW4gZGV2IiwKICAgICJvdXRwdXREaXJlY3RvcnkiOiAiLi9kaXN0IgogIH0KfQ==
+{
+  "name": "BacklinkForge",
+  "site": {
+    "installCommand": "npm install",
+    "buildCommand": "npm run build",
+    "serveCommand": "npm run dev",
+    "outputDirectory": "./dist"
+  }
+}

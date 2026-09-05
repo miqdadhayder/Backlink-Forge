@@ -1,1 +1,37 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKCmZ1bmN0aW9uIGNvbG9yRm9yKHNjb3JlKSB7CiAgaWYgKHNjb3JlID49IDc1KSByZXR1cm4gIiMxNmEzNGEiOwogIGlmIChzY29yZSA+PSA1MCkgcmV0dXJuICIjY2E4YTA0IjsKICBpZiAoc2NvcmUgPj0gMjUpIHJldHVybiAiI2VhNTgwYyI7CiAgcmV0dXJuICIjZGMyNjI2IjsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU2NvcmVHYXVnZSh7IHNjb3JlID0gMCwgY2xhc3NpZmljYXRpb24sIGxhYmVsIH0pIHsKICBjb25zdCByID0gNzA7CiAgY29uc3QgY2lyYyA9IDIgKiBNYXRoLlBJICogcjsKICBjb25zdCBwY3QgPSBNYXRoLm1heCgwLCBNYXRoLm1pbigxMDAsIHNjb3JlKSkgLyAxMDA7CiAgY29uc3QgZGFzaCA9IGNpcmMgKiBwY3Q7CiAgY29uc3QgY29sID0gY29sb3JGb3Ioc2NvcmUpOwogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIiPgogICAgICA8c3ZnIHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiB2aWV3Qm94PSIwIDAgMTgwIDE4MCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPXtgUXVhbGl0eSBzY29yZSAke3Njb3JlfSBvdXQgb2YgMTAwYH0+CiAgICAgICAgPGNpcmNsZSBjeD0iOTAiIGN5PSI5MCIgcj17cn0gZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZTJlOGYwIiBzdHJva2VXaWR0aD0iMTQiIC8+CiAgICAgICAgPGNpcmNsZQogICAgICAgICAgY3g9IjkwIiBjeT0iOTAiIHI9e3J9IGZpbGw9Im5vbmUiIHN0cm9rZT17Y29sfSBzdHJva2VXaWR0aD0iMTQiIHN0cm9rZUxpbmVjYXA9InJvdW5kIgogICAgICAgICAgc3Ryb2tlRGFzaGFycmF5PXtgJHtkYXNofSAke2NpcmMgLSBkYXNofWB9CiAgICAgICAgICB0cmFuc2Zvcm09InJvdGF0ZSgtOTAgOTAgOTApIgogICAgICAgICAgc3R5bGU9e3sgdHJhbnNpdGlvbjogInN0cm9rZS1kYXNoYXJyYXkgMC42cyBlYXNlIiB9fQogICAgICAgIC8+CiAgICAgICAgPHRleHQgeD0iOTAiIHk9Ijg2IiB0ZXh0QW5jaG9yPSJtaWRkbGUiIGNsYXNzTmFtZT0iZmlsbC1zbGF0ZS05MDAiIHN0eWxlPXt7IGZvbnRTaXplOiA0MCwgZm9udFdlaWdodDogNzAwIH19PntzY29yZX08L3RleHQ+CiAgICAgICAgPHRleHQgeD0iOTAiIHk9IjEwOCIgdGV4dEFuY2hvcj0ibWlkZGxlIiBjbGFzc05hbWU9ImZpbGwtc2xhdGUtNDAwIiBzdHlsZT17eyBmb250U2l6ZTogMTMsIGZvbnRXZWlnaHQ6IDUwMCB9fT4vIDEwMDwvdGV4dD4KICAgICAgPC9zdmc+CiAgICAgIHtjbGFzc2lmaWNhdGlvbiAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgdGV4dC1jZW50ZXIiPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQiIHN0eWxlPXt7IGNvbG9yOiBjb2wgfX0+e2NsYXNzaWZpY2F0aW9ufTwvcD4KICAgICAgICAgIHtsYWJlbCAmJiA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1zbGF0ZS01MDAiPntsYWJlbH08L3A+fQogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfQ==
+import React from "react";
+
+function colorFor(score) {
+  if (score >= 75) return "#16a34a";
+  if (score >= 50) return "#ca8a04";
+  if (score >= 25) return "#ea580c";
+  return "#dc2626";
+}
+
+export default function ScoreGauge({ score = 0, classification, label }) {
+  const r = 70;
+  const circ = 2 * Math.PI * r;
+  const pct = Math.max(0, Math.min(100, score)) / 100;
+  const dash = circ * pct;
+  const col = colorFor(score);
+  return (
+    <div className="flex flex-col items-center">
+      <svg width="180" height="180" viewBox="0 0 180 180" role="img" aria-label={`Quality score ${score} out of 100`}>
+        <circle cx="90" cy="90" r={r} fill="none" stroke="#e2e8f0" strokeWidth="14" />
+        <circle
+          cx="90" cy="90" r={r} fill="none" stroke={col} strokeWidth="14" strokeLinecap="round"
+          strokeDasharray={`${dash} ${circ - dash}`}
+          transform="rotate(-90 90 90)"
+          style={{ transition: "stroke-dasharray 0.6s ease" }}
+        />
+        <text x="90" y="86" textAnchor="middle" className="fill-slate-900" style={{ fontSize: 40, fontWeight: 700 }}>{score}</text>
+        <text x="90" y="108" textAnchor="middle" className="fill-slate-400" style={{ fontSize: 13, fontWeight: 500 }}>/ 100</text>
+      </svg>
+      {classification && (
+        <div className="mt-2 text-center">
+          <p className="text-lg font-semibold" style={{ color: col }}>{classification}</p>
+          {label && <p className="text-sm text-slate-500">{label}</p>}
+        </div>
+      )}
+    </div>
+  );
+}

@@ -1,1 +1,113 @@
-Ly8gVVJMIHZhbGlkYXRpb24sIG5vcm1hbGl6YXRpb24sIGFuZCBTU1JGIHByb3RlY3Rpb24gZm9yIHRoZSBzaXRlbWFwIHRvb2xzLgovLyBPbmx5IHB1YmxpYyBIVFRQL0hUVFBTIHRhcmdldHMgYXJlIGFsbG93ZWQ7IHByaXZhdGUvcmVzZXJ2ZWQgcmFuZ2VzIGFyZSBibG9ja2VkLgoKY29uc3QgUFJJVkFURV9IT1NUTkFNRVMgPSBuZXcgU2V0KFsKICAibG9jYWxob3N0IiwgImlwNi1sb2NhbGhvc3QiLCAiaXA2LWxvb3BiYWNrIiwKICAibWV0YWRhdGEuZ29vZ2xlLmludGVybmFsIiwgIm1ldGFkYXRhLmF3cy5pbnRlcm5hbCIsICJtZXRhZGF0YS5henVyZS5jb20iCl0pOwoKZnVuY3Rpb24gcGFyc2VJcHY0KGhvc3Q6IHN0cmluZyk6IG51bWJlcltdIHwgbnVsbCB7CiAgY29uc3QgcGFydHMgPSBob3N0LnNwbGl0KCIuIik7CiAgaWYgKHBhcnRzLmxlbmd0aCAhPT0gNCkgcmV0dXJuIG51bGw7CiAgY29uc3QgbnVtczogbnVtYmVyW10gPSBbXTsKICBmb3IgKGNvbnN0IHAgb2YgcGFydHMpIHsKICAgIGlmICghL15cZCskLy50ZXN0KHApKSByZXR1cm4gbnVsbDsKICAgIGNvbnN0IG4gPSBOdW1iZXIocCk7CiAgICBpZiAobiA8IDAgfHwgbiA+IDI1NSkgcmV0dXJuIG51bGw7CiAgICBudW1zLnB1c2gobik7CiAgfQogIHJldHVybiBudW1zOwp9CgpleHBvcnQgZnVuY3Rpb24gaXNQcml2YXRlSG9zdChob3N0bmFtZTogc3RyaW5nKTogYm9vbGVhbiB7CiAgY29uc3QgaCA9IGhvc3RuYW1lLnRvTG93ZXJDYXNlKCkucmVwbGFjZSgvXlxbfFxdJC9nLCAiIik7CiAgaWYgKFBSSVZBVEVfSE9TVE5BTUVTLmhhcyhoKSkgcmV0dXJuIHRydWU7CiAgaWYgKGguZW5kc1dpdGgoIi5sb2NhbCIpIHx8IGguZW5kc1dpdGgoIi5pbnRlcm5hbCIpKSByZXR1cm4gdHJ1ZTsKICBjb25zdCBpcCA9IHBhcnNlSXB2NChoKTsKICBpZiAoaXApIHsKICAgIGNvbnN0IFthLCBiXSA9IGlwOwogICAgaWYgKGEgPT09IDEwKSByZXR1cm4gdHJ1ZTsKICAgIGlmIChhID09PSAxMjcpIHJldHVybiB0cnVlOwogICAgaWYgKGEgPT09IDApIHJldHVybiB0cnVlOwogICAgaWYgKGEgPT09IDE3MiAmJiBiID49IDE2ICYmIGIgPD0gMzEpIHJldHVybiB0cnVlOwogICAgaWYgKGEgPT09IDE5MiAmJiBiID09PSAxNjgpIHJldHVybiB0cnVlOwogICAgaWYgKGEgPT09IDE2OSAmJiBiID09PSAyNTQpIHJldHVybiB0cnVlOyAvLyBsaW5rLWxvY2FsICsgY2xvdWQgbWV0YWRhdGEKICAgIGlmIChhID09PSAxMDAgJiYgYiA+PSA2NCAmJiBiIDw9IDEyNykgcmV0dXJuIHRydWU7IC8vIENHTkFUCiAgICByZXR1cm4gZmFsc2U7CiAgfQogIGlmIChoID09PSAiOjoxIiB8fCBoID09PSAiOjoiKSByZXR1cm4gdHJ1ZTsKICBpZiAoaC5zdGFydHNXaXRoKCJmZTgwOiIpKSByZXR1cm4gdHJ1ZTsgLy8gbGluay1sb2NhbCBJUHY2CiAgaWYgKGguc3RhcnRzV2l0aCgiZmMiKSB8fCBoLnN0YXJ0c1dpdGgoImZkIikpIHJldHVybiB0cnVlOyAvLyB1bmlxdWUgbG9jYWwgSVB2NgogIHJldHVybiBmYWxzZTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHNhZmVVcmwoc3RyOiBzdHJpbmcpOiBVUkwgfCBudWxsIHsKICB0cnkgewogICAgY29uc3QgdSA9IG5ldyBVUkwoc3RyKTsKICAgIGlmICh1LnByb3RvY29sICE9PSAiaHR0cDoiICYmIHUucHJvdG9jb2wgIT09ICJodHRwczoiKSByZXR1cm4gbnVsbDsKICAgIGlmICghdS5ob3N0bmFtZSkgcmV0dXJuIG51bGw7CiAgICBpZiAoaXNQcml2YXRlSG9zdCh1Lmhvc3RuYW1lKSkgcmV0dXJuIG51bGw7CiAgICByZXR1cm4gdTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4gbnVsbDsKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBpc1ZhbGlkSHR0cFVybChzdHI6IHN0cmluZyk6IGJvb2xlYW4gewogIGNvbnN0IHUgPSBzYWZlVXJsKHN0cik7CiAgaWYgKCF1KSByZXR1cm4gZmFsc2U7CiAgcmV0dXJuIEJvb2xlYW4odS5ob3N0bmFtZS5pbmNsdWRlcygiLiIpKTsKfQoKZnVuY3Rpb24gc3RyaXBEZWZhdWx0UG9ydCh1OiBVUkwpIHsKICBpZiAoKHUucHJvdG9jb2wgPT09ICJodHRwOiIgJiYgdS5wb3J0ID09PSAiODAiKSB8fCAodS5wcm90b2NvbCA9PT0gImh0dHBzOiIgJiYgdS5wb3J0ID09PSAiNDQzIikpIHsKICAgIHUucG9ydCA9ICIiOwogIH0KfQoKLy8gTm9ybWFsaXplIGZvciBkZS1kdXBsaWNhdGlvbjogbG93ZXJjYXNlIGhvc3QsIHN0cmlwIGRlZmF1bHQgcG9ydCArIGZyYWdtZW50LAovLyBjb2xsYXBzZSB0cmFpbGluZyBzbGFzaGVzIChleGNlcHQgcm9vdCksIHNvcnQgcXVlcnkgcGFyYW1zLgpleHBvcnQgZnVuY3Rpb24gbm9ybWFsaXplVXJsKHJhdzogc3RyaW5nLCBiYXNlPzogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCB7CiAgbGV0IHU6IFVSTDsKICB0cnkgewogICAgdSA9IG5ldyBVUkwocmF3LCBiYXNlKTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4gbnVsbDsKICB9CiAgaWYgKHUucHJvdG9jb2wgIT09ICJodHRwOiIgJiYgdS5wcm90b2NvbCAhPT0gImh0dHBzOiIpIHJldHVybiBudWxsOwogIGlmIChpc1ByaXZhdGVIb3N0KHUuaG9zdG5hbWUpKSByZXR1cm4gbnVsbDsKICB1Lmhvc3RuYW1lID0gdS5ob3N0bmFtZS50b0xvd2VyQ2FzZSgpOwogIHN0cmlwRGVmYXVsdFBvcnQodSk7CiAgdS5oYXNoID0gIiI7CiAgbGV0IHBhdGggPSB1LnBhdGhuYW1lLnJlcGxhY2UoL1wvKy9nLCAiLyIpOwogIGlmIChwYXRoICE9PSAiLyIgJiYgcGF0aC5lbmRzV2l0aCgiLyIpKSBwYXRoID0gcGF0aC5yZXBsYWNlKC9cLyQvLCAiIik7CiAgdS5wYXRobmFtZSA9IHBhdGg7CiAgY29uc3Qga2V5cyA9IEFycmF5LmZyb20obmV3IFNldCh1LnNlYXJjaFBhcmFtcy5rZXlzKCkpKS5zb3J0KCk7CiAgY29uc3Qgc29ydGVkID0gbmV3IFVSTFNlYXJjaFBhcmFtcygpOwogIGZvciAoY29uc3QgayBvZiBrZXlzKSB7CiAgICB1LnNlYXJjaFBhcmFtcy5nZXRBbGwoaykuZm9yRWFjaCgodikgPT4gc29ydGVkLmFwcGVuZChrLCB2KSk7CiAgfQogIHUuc2VhcmNoID0gc29ydGVkLnRvU3RyaW5nKCk7CiAgcmV0dXJuIHUudG9TdHJpbmcoKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHNhbWVIb3N0KGE6IHN0cmluZywgYjogc3RyaW5nKTogYm9vbGVhbiB7CiAgdHJ5IHsKICAgIHJldHVybiBuZXcgVVJMKGEpLmhvc3RuYW1lLnRvTG93ZXJDYXNlKCkgPT09IG5ldyBVUkwoYikuaG9zdG5hbWUudG9Mb3dlckNhc2UoKTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gZXNjYXBlWG1sKHN0cjogc3RyaW5nKTogc3RyaW5nIHsKICByZXR1cm4gU3RyaW5nKHN0cikKICAgIC5yZXBsYWNlKC8mL2csICImYW1wOyIpCiAgICAucmVwbGFjZSgvPC9nLCAiJmx0OyIpCiAgICAucmVwbGFjZSgvPi9nLCAiJmd0OyIpCiAgICAucmVwbGFjZSgvIi9nLCAiJnF1b3Q7IikKICAgIC5yZXBsYWNlKC8nL2csICImYXBvczsiKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGVzY2FwZVJlKHM6IHN0cmluZyk6IHN0cmluZyB7CiAgcmV0dXJuIHMucmVwbGFjZSgvWy4qKz9eJHt9KCl8W1xdXFxdL2csICJcXCQmIik7Cn0=
+// URL validation, normalization, and SSRF protection for the sitemap tools.
+// Only public HTTP/HTTPS targets are allowed; private/reserved ranges are blocked.
+
+const PRIVATE_HOSTNAMES = new Set([
+  "localhost", "ip6-localhost", "ip6-loopback",
+  "metadata.google.internal", "metadata.aws.internal", "metadata.azure.com"
+]);
+
+function parseIpv4(host: string): number[] | null {
+  const parts = host.split(".");
+  if (parts.length !== 4) return null;
+  const nums: number[] = [];
+  for (const p of parts) {
+    if (!/^\d+$/.test(p)) return null;
+    const n = Number(p);
+    if (n < 0 || n > 255) return null;
+    nums.push(n);
+  }
+  return nums;
+}
+
+export function isPrivateHost(hostname: string): boolean {
+  const h = hostname.toLowerCase().replace(/^\[|\]$/g, "");
+  if (PRIVATE_HOSTNAMES.has(h)) return true;
+  if (h.endsWith(".local") || h.endsWith(".internal")) return true;
+  const ip = parseIpv4(h);
+  if (ip) {
+    const [a, b] = ip;
+    if (a === 10) return true;
+    if (a === 127) return true;
+    if (a === 0) return true;
+    if (a === 172 && b >= 16 && b <= 31) return true;
+    if (a === 192 && b === 168) return true;
+    if (a === 169 && b === 254) return true; // link-local + cloud metadata
+    if (a === 100 && b >= 64 && b <= 127) return true; // CGNAT
+    return false;
+  }
+  if (h === "::1" || h === "::") return true;
+  if (h.startsWith("fe80:")) return true; // link-local IPv6
+  if (h.startsWith("fc") || h.startsWith("fd")) return true; // unique local IPv6
+  return false;
+}
+
+export function safeUrl(str: string): URL | null {
+  try {
+    const u = new URL(str);
+    if (u.protocol !== "http:" && u.protocol !== "https:") return null;
+    if (!u.hostname) return null;
+    if (isPrivateHost(u.hostname)) return null;
+    return u;
+  } catch (e) {
+    return null;
+  }
+}
+
+export function isValidHttpUrl(str: string): boolean {
+  const u = safeUrl(str);
+  if (!u) return false;
+  return Boolean(u.hostname.includes("."));
+}
+
+function stripDefaultPort(u: URL) {
+  if ((u.protocol === "http:" && u.port === "80") || (u.protocol === "https:" && u.port === "443")) {
+    u.port = "";
+  }
+}
+
+// Normalize for de-duplication: lowercase host, strip default port + fragment,
+// collapse trailing slashes (except root), sort query params.
+export function normalizeUrl(raw: string, base?: string): string | null {
+  let u: URL;
+  try {
+    u = new URL(raw, base);
+  } catch (e) {
+    return null;
+  }
+  if (u.protocol !== "http:" && u.protocol !== "https:") return null;
+  if (isPrivateHost(u.hostname)) return null;
+  u.hostname = u.hostname.toLowerCase();
+  stripDefaultPort(u);
+  u.hash = "";
+  let path = u.pathname.replace(/\/+/g, "/");
+  if (path !== "/" && path.endsWith("/")) path = path.replace(/\/$/, "");
+  u.pathname = path;
+  const keys = Array.from(new Set(u.searchParams.keys())).sort();
+  const sorted = new URLSearchParams();
+  for (const k of keys) {
+    u.searchParams.getAll(k).forEach((v) => sorted.append(k, v));
+  }
+  u.search = sorted.toString();
+  return u.toString();
+}
+
+export function sameHost(a: string, b: string): boolean {
+  try {
+    return new URL(a).hostname.toLowerCase() === new URL(b).hostname.toLowerCase();
+  } catch (e) {
+    return false;
+  }
+}
+
+export function escapeXml(str: string): string {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+export function escapeRe(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}

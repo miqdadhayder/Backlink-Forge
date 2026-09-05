@@ -1,1 +1,73 @@
-Ly8gYmFja2xpbmtTZXJ2aWNlCi8vIE9yY2hlc3RyYXRlcyBzZWFyY2hTZXJ2aWNlICsgZG9tYWluTWV0cmljc1NlcnZpY2UgKyBndWVzdFBvc3RTZXJ2aWNlIHRvIGJ1aWxkCi8vIGEgZnVsbCBvcHBvcnR1bml0eSBsaXN0LiBUaGlzIGlzIHRoZSBzaW5nbGUgZW50cnkgcG9pbnQgdGhlIGJhY2tlbmQgZnVuY3Rpb24gdXNlcy4KaW1wb3J0IHsgZmluZENhbmRpZGF0ZVNpdGVzIH0gZnJvbSAiLi9zZWFyY2hTZXJ2aWNlLnRzIjsKaW1wb3J0IHsgZ2V0RG9tYWluTWV0cmljcyB9IGZyb20gIi4vZG9tYWluTWV0cmljc1NlcnZpY2UudHMiOwppbXBvcnQgeyBlbnJpY2hHdWVzdFBvc3QgfSBmcm9tICIuL2d1ZXN0UG9zdFNlcnZpY2UudHMiOwppbXBvcnQgeyBzZWNyZXRzIH0gZnJvbSAiYmFzZTQ0OnJ1bnRpbWUiOwoKZXhwb3J0IGZ1bmN0aW9uIGlzTGl2ZU1vZGUoKSB7CiAgcmV0dXJuIEJvb2xlYW4oCiAgICBzZWNyZXRzLmdldCgiTU9aX0FQSV9LRVkiKSB8fCBzZWNyZXRzLmdldCgiQUhSRUZTX0FQSV9LRVkiKSB8fAogICAgc2VjcmV0cy5nZXQoIlNFUlBBUElfS0VZIikgfHwgc2VjcmV0cy5nZXQoIkRBVEFGT1JTRU9fS0VZIikgfHwKICAgIHNlY3JldHMuZ2V0KCJHVUVTVFBPU1RfQVBJX0tFWSIpCiAgKTsKfQoKZnVuY3Rpb24gZGlmZmljdWx0eUZyb21EYShkYSkgewogIGlmIChkYSA+PSA3MCkgcmV0dXJuICJIYXJkIjsKICBpZiAoZGEgPj0gNDApIHJldHVybiAiTWVkaXVtIjsKICByZXR1cm4gIkVhc3kiOwp9CgpmdW5jdGlvbiByZWxldmFuY2VGb3JOaWNoZSh0YXJnZXROaWNoZSwgc2l0ZU5pY2hlKSB7CiAgY29uc3QgYSA9ICh0YXJnZXROaWNoZSB8fCAiIikudG9Mb3dlckNhc2UoKTsKICBjb25zdCBiID0gKHNpdGVOaWNoZSB8fCAiIikudG9Mb3dlckNhc2UoKTsKICBsZXQgc2NvcmUgPSA2MCArIChNYXRoLmFicyhhLmxlbmd0aCAtIGIubGVuZ3RoKSAlIDMwKTsKICBpZiAoYSAmJiBiICYmIChhLmluY2x1ZGVzKGIpIHx8IGIuaW5jbHVkZXMoYSkpKSBzY29yZSA9IDk1OwogIHJldHVybiBNYXRoLm1pbig5OSwgc2NvcmUpOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGVPcHBvcnR1bml0aWVzKHBhcmFtcykgewogIGNvbnN0IHsKICAgIGtleXdvcmQsCiAgICBjb3VudHJ5ID0gIkdsb2JhbCIsCiAgICBiYWNrbGlua190eXBlID0gIkFsbCBPcHBvcnR1bml0aWVzIiwKICAgIG1pbmltdW1fZGEgPSAyMCwKICAgIHJlc3VsdHNfY291bnQgPSAyNSwKICAgIGNvbXBldGl0b3JfdXJsID0gbnVsbAogIH0gPSBwYXJhbXM7CgogIGNvbnN0IGlzRGVtbyA9ICFpc0xpdmVNb2RlKCk7CiAgY29uc3QgY2FuZGlkYXRlQ291bnQgPSBNYXRoLm1heChyZXN1bHRzX2NvdW50ICogMiwgMzApOwogIGNvbnN0IGNhbmRpZGF0ZXMgPSBhd2FpdCBmaW5kQ2FuZGlkYXRlU2l0ZXMoa2V5d29yZCwgY291bnRyeSwgY2FuZGlkYXRlQ291bnQpOwoKICBsZXQgb3Bwb3J0dW5pdGllcyA9IFtdOwogIGZvciAoY29uc3QgYyBvZiBjYW5kaWRhdGVzKSB7CiAgICBjb25zdCBtZXRyaWNzID0gYXdhaXQgZ2V0RG9tYWluTWV0cmljcyhjLmRvbWFpbiwgYy5uaWNoZSk7CiAgICBpZiAobWV0cmljcy5kb21haW5fYXV0aG9yaXR5IDwgbWluaW11bV9kYSkgY29udGludWU7CiAgICBjb25zdCBncCA9IGF3YWl0IGVucmljaEd1ZXN0UG9zdChjLmRvbWFpbiwgYy5iYWNrbGlua190eXBlKTsKICAgIG9wcG9ydHVuaXRpZXMucHVzaCh7CiAgICAgIHdlYnNpdGU6IGMud2Vic2l0ZSwKICAgICAgdXJsOiBgaHR0cHM6Ly8ke2MuZG9tYWlufWAsCiAgICAgIGRvbWFpbl9hdXRob3JpdHk6IG1ldHJpY3MuZG9tYWluX2F1dGhvcml0eSwKICAgICAgdHJhZmZpYzogbWV0cmljcy50cmFmZmljLAogICAgICBuaWNoZTogYy5uaWNoZSwKICAgICAgYmFja2xpbmtfdHlwZTogY29tcGV0aXRvcl91cmwgPyAiQ29tcGV0aXRvciBPcHBvcnR1bml0eSIgOiBjLmJhY2tsaW5rX3R5cGUsCiAgICAgIC4uLmdwLAogICAgICByZWxldmFuY2Vfc2NvcmU6IHJlbGV2YW5jZUZvck5pY2hlKGtleXdvcmQsIGMubmljaGUpLAogICAgICBkaWZmaWN1bHR5OiBkaWZmaWN1bHR5RnJvbURhKG1ldHJpY3MuZG9tYWluX2F1dGhvcml0eSksCiAgICAgIHN0YXR1czogIkF2YWlsYWJsZSIsCiAgICAgIGNvdW50cnksCiAgICAgIGlzX2RlbW86IGlzRGVtbwogICAgfSk7CiAgICBpZiAob3Bwb3J0dW5pdGllcy5sZW5ndGggPj0gcmVzdWx0c19jb3VudCkgYnJlYWs7CiAgfQoKICAvLyBTb3J0IGJ5IHJlbGV2YW5jZSB0aGVuIERBIGRlc2MKICBvcHBvcnR1bml0aWVzLnNvcnQoKGEsIGIpID0+CiAgICBiLnJlbGV2YW5jZV9zY29yZSAtIGEucmVsZXZhbmNlX3Njb3JlIHx8IGIuZG9tYWluX2F1dGhvcml0eSAtIGEuZG9tYWluX2F1dGhvcml0eQogICk7CgogIHJldHVybiB7IG9wcG9ydHVuaXRpZXMsIGlzX2RlbW86IGlzRGVtbyB9Owp9
+// backlinkService
+// Orchestrates searchService + domainMetricsService + guestPostService to build
+// a full opportunity list. This is the single entry point the backend function uses.
+import { findCandidateSites } from "./searchService.ts";
+import { getDomainMetrics } from "./domainMetricsService.ts";
+import { enrichGuestPost } from "./guestPostService.ts";
+import { secrets } from "base44:runtime";
+
+export function isLiveMode() {
+  return Boolean(
+    secrets.get("MOZ_API_KEY") || secrets.get("AHREFS_API_KEY") ||
+    secrets.get("SERPAPI_KEY") || secrets.get("DATAFORSEO_KEY") ||
+    secrets.get("GUESTPOST_API_KEY")
+  );
+}
+
+function difficultyFromDa(da) {
+  if (da >= 70) return "Hard";
+  if (da >= 40) return "Medium";
+  return "Easy";
+}
+
+function relevanceForNiche(targetNiche, siteNiche) {
+  const a = (targetNiche || "").toLowerCase();
+  const b = (siteNiche || "").toLowerCase();
+  let score = 60 + (Math.abs(a.length - b.length) % 30);
+  if (a && b && (a.includes(b) || b.includes(a))) score = 95;
+  return Math.min(99, score);
+}
+
+export async function generateOpportunities(params) {
+  const {
+    keyword,
+    country = "Global",
+    backlink_type = "All Opportunities",
+    minimum_da = 20,
+    results_count = 25,
+    competitor_url = null
+  } = params;
+
+  const isDemo = !isLiveMode();
+  const candidateCount = Math.max(results_count * 2, 30);
+  const candidates = await findCandidateSites(keyword, country, candidateCount);
+
+  let opportunities = [];
+  for (const c of candidates) {
+    const metrics = await getDomainMetrics(c.domain, c.niche);
+    if (metrics.domain_authority < minimum_da) continue;
+    const gp = await enrichGuestPost(c.domain, c.backlink_type);
+    opportunities.push({
+      website: c.website,
+      url: `https://${c.domain}`,
+      domain_authority: metrics.domain_authority,
+      traffic: metrics.traffic,
+      niche: c.niche,
+      backlink_type: competitor_url ? "Competitor Opportunity" : c.backlink_type,
+      ...gp,
+      relevance_score: relevanceForNiche(keyword, c.niche),
+      difficulty: difficultyFromDa(metrics.domain_authority),
+      status: "Available",
+      country,
+      is_demo: isDemo
+    });
+    if (opportunities.length >= results_count) break;
+  }
+
+  // Sort by relevance then DA desc
+  opportunities.sort((a, b) =>
+    b.relevance_score - a.relevance_score || b.domain_authority - a.domain_authority
+  );
+
+  return { opportunities, is_demo: isDemo };
+}

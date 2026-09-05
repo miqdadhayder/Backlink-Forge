@@ -1,1 +1,36 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKCmNvbnN0IFNURVBTID0gWwogICJBbmFseXppbmcgeW91ciB3ZWJzaXRlLi4uIiwKICAiRmluZGluZyByZWxldmFudCBvcHBvcnR1bml0aWVzLi4uIiwKICAiRmlsdGVyaW5nIG9wcG9ydHVuaXRpZXMuLi4iCl07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBMb2FkaW5nU3RhdGUoKSB7CiAgY29uc3QgW3N0ZXAsIHNldFN0ZXBdID0gUmVhY3QudXNlU3RhdGUoMCk7CgogIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBpZCA9IHNldEludGVydmFsKCgpID0+IHsKICAgICAgc2V0U3RlcCgocykgPT4gKHMgPCBTVEVQUy5sZW5ndGggLSAxID8gcyArIDEgOiBzKSk7CiAgICB9LCA5MDApOwogICAgcmV0dXJuICgpID0+IGNsZWFySW50ZXJ2YWwoaWQpOwogIH0sIFtdKTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBiZy13aGl0ZSBwLTEwIHRleHQtY2VudGVyIHNoYWRvdy1zbSI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIGgtMTAgdy0xMCBhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGJvcmRlci00IGJvcmRlci1zbGF0ZS0yMDAgYm9yZGVyLXQtc2xhdGUtOTAwIiAvPgogICAgICA8cCBjbGFzc05hbWU9Im10LTUgdGV4dC1iYXNlIGZvbnQtbWVkaXVtIHRleHQtc2xhdGUtOTAwIj57U1RFUFNbc3RlcF19PC9wPgogICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCI+VGhpcyB1c3VhbGx5IHRha2VzIGEgZmV3IHNlY29uZHMuPC9wPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtdC02IGZsZXggbWF4LXcteHMgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIj4KICAgICAgICB7U1RFUFMubWFwKChfLCBpKSA9PiAoCiAgICAgICAgICA8c3BhbgogICAgICAgICAgICBrZXk9e2l9CiAgICAgICAgICAgIGNsYXNzTmFtZT17YGgtMS41IGZsZXgtMSByb3VuZGVkLWZ1bGwgdHJhbnNpdGlvbiAkewogICAgICAgICAgICAgIGkgPD0gc3RlcCA/ICJiZy1zbGF0ZS05MDAiIDogImJnLXNsYXRlLTIwMCIKICAgICAgICAgICAgfWB9CiAgICAgICAgICAvPgogICAgICAgICkpfQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0=
+import React from "react";
+
+const STEPS = [
+  "Analyzing your website...",
+  "Finding relevant opportunities...",
+  "Filtering opportunities..."
+];
+
+export default function LoadingState() {
+  const [step, setStep] = React.useState(0);
+
+  React.useEffect(() => {
+    const id = setInterval(() => {
+      setStep((s) => (s < STEPS.length - 1 ? s + 1 : s));
+    }, 900);
+    return () => clearInterval(id);
+  }, []);
+
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center shadow-sm">
+      <div className="mx-auto h-10 w-10 animate-spin rounded-full border-4 border-slate-200 border-t-slate-900" />
+      <p className="mt-5 text-base font-medium text-slate-900">{STEPS[step]}</p>
+      <p className="mt-1 text-sm text-slate-500">This usually takes a few seconds.</p>
+      <div className="mx-auto mt-6 flex max-w-xs items-center justify-center gap-2">
+        {STEPS.map((_, i) => (
+          <span
+            key={i}
+            className={`h-1.5 flex-1 rounded-full transition ${
+              i <= step ? "bg-slate-900" : "bg-slate-200"
+            }`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}

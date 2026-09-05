@@ -1,1 +1,35 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKCmNvbnN0IFNURVBTID0gWwogICJDaGVja2luZyBVUkwiLAogICJBbmFseXppbmcgc291cmNlIHBhZ2UiLAogICJDaGVja2luZyBsaW5rIGF0dHJpYnV0ZXMiLAogICJFdmFsdWF0aW5nIHJlbGV2YW5jZSIsCiAgIkV2YWx1YXRpbmcgYXV0aG9yaXR5IHNpZ25hbHMiLAogICJDYWxjdWxhdGluZyBxdWFsaXR5IHNjb3JlIgpdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUXVhbGl0eUxvYWRpbmcoKSB7CiAgY29uc3QgW3N0ZXAsIHNldFN0ZXBdID0gUmVhY3QudXNlU3RhdGUoMCk7CiAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IGlkID0gc2V0SW50ZXJ2YWwoKCkgPT4gewogICAgICBzZXRTdGVwKChzKSA9PiAocyA8IFNURVBTLmxlbmd0aCAtIDEgPyBzICsgMSA6IHMpKTsKICAgIH0sIDcwMCk7CiAgICByZXR1cm4gKCkgPT4gY2xlYXJJbnRlcnZhbChpZCk7CiAgfSwgW10pOwogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgcC0xMCB0ZXh0LWNlbnRlciBzaGFkb3ctc20iPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBoLTEwIHctMTAgYW5pbWF0ZS1zcGluIHJvdW5kZWQtZnVsbCBib3JkZXItNCBib3JkZXItc2xhdGUtMjAwIGJvcmRlci10LXNsYXRlLTkwMCIgLz4KICAgICAgPHAgY2xhc3NOYW1lPSJtdC01IHRleHQtYmFzZSBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTkwMCI+QW5hbHl6aW5nIGJhY2tsaW5r4oCmPC9wPgogICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCI+UmVhZGluZyBwdWJsaWNseSBhdmFpbGFibGUgc2lnbmFscyBmcm9tIHRoZSBzb3VyY2UgcGFnZS48L3A+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG10LTYgbWF4LXctbWQiPgogICAgICAgIHtTVEVQUy5tYXAoKHMsIGkpID0+ICgKICAgICAgICAgIDxkaXYga2V5PXtzfSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHB5LTEgdGV4dC1sZWZ0Ij4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgaC0yIHctMiBmbGV4LXNocmluay0wIHJvdW5kZWQtZnVsbCAke2kgPD0gc3RlcCA/ICJiZy1zbGF0ZS05MDAiIDogImJnLXNsYXRlLTIwMCJ9YH0gLz4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgdGV4dC1zbSAke2kgPD0gc3RlcCA/ICJ0ZXh0LXNsYXRlLTcwMCIgOiAidGV4dC1zbGF0ZS00MDAifWB9PntzfTwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICkpfQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0=
+import React from "react";
+
+const STEPS = [
+  "Checking URL",
+  "Analyzing source page",
+  "Checking link attributes",
+  "Evaluating relevance",
+  "Evaluating authority signals",
+  "Calculating quality score"
+];
+
+export default function QualityLoading() {
+  const [step, setStep] = React.useState(0);
+  React.useEffect(() => {
+    const id = setInterval(() => {
+      setStep((s) => (s < STEPS.length - 1 ? s + 1 : s));
+    }, 700);
+    return () => clearInterval(id);
+  }, []);
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center shadow-sm">
+      <div className="mx-auto h-10 w-10 animate-spin rounded-full border-4 border-slate-200 border-t-slate-900" />
+      <p className="mt-5 text-base font-medium text-slate-900">Analyzing backlink…</p>
+      <p className="mt-1 text-sm text-slate-500">Reading publicly available signals from the source page.</p>
+      <div className="mx-auto mt-6 max-w-md">
+        {STEPS.map((s, i) => (
+          <div key={s} className="flex items-center gap-2 py-1 text-left">
+            <span className={`h-2 w-2 flex-shrink-0 rounded-full ${i <= step ? "bg-slate-900" : "bg-slate-200"}`} />
+            <span className={`text-sm ${i <= step ? "text-slate-700" : "text-slate-400"}`}>{s}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}

@@ -1,1 +1,45 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKCmNvbnN0IFNURVBTID0gWwogICJBbmFseXppbmcgeW91ciB3ZWJzaXRlLi4uIiwKICAiQW5hbHl6aW5nIGNvbXBldGl0b3IgYmFja2xpbmtzLi4uIiwKICAiQ29tcGFyaW5nIGJhY2tsaW5rIGRvbWFpbnMuLi4iLAogICJSZW1vdmluZyBkdXBsaWNhdGUgb3Bwb3J0dW5pdGllcy4uLiIsCiAgIkNhbGN1bGF0aW5nIHJlbGV2YW5jZS4uLiIsCiAgIlByZXBhcmluZyB5b3VyIGJhY2tsaW5rIGdhcCByZXBvcnQuLi4iLAogICJBbmFseXNpcyBDb21wbGV0ZSIKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEdhcExvYWRpbmdTdGF0ZSgpIHsKICBjb25zdCBbc3RlcCwgc2V0U3RlcF0gPSBSZWFjdC51c2VTdGF0ZSgwKTsKCiAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IGlkID0gc2V0SW50ZXJ2YWwoKCkgPT4gewogICAgICBzZXRTdGVwKChzKSA9PiAocyA8IFNURVBTLmxlbmd0aCAtIDEgPyBzICsgMSA6IHMpKTsKICAgIH0sIDg1MCk7CiAgICByZXR1cm4gKCkgPT4gY2xlYXJJbnRlcnZhbChpZCk7CiAgfSwgW10pOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXdoaXRlIHAtMTAgdGV4dC1jZW50ZXIgc2hhZG93LXNtIj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gaC0xMCB3LTEwIGFuaW1hdGUtc3BpbiByb3VuZGVkLWZ1bGwgYm9yZGVyLTQgYm9yZGVyLXNsYXRlLTIwMCBib3JkZXItdC1zbGF0ZS05MDAiIC8+CiAgICAgIDxwIGNsYXNzTmFtZT0ibXQtNSB0ZXh0LWJhc2UgZm9udC1tZWRpdW0gdGV4dC1zbGF0ZS05MDAiPntTVEVQU1tzdGVwXX08L3A+CiAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXNtIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICB7c3RlcCA8IFNURVBTLmxlbmd0aCAtIDEgPyAiQ29tcGFyaW5nIHlvdXIgYmFja2xpbmsgcHJvZmlsZSB3aXRoIGNvbXBldGl0b3JzLi4uIiA6ICJZb3VyIGJhY2tsaW5rIGdhcCByZXBvcnQgaXMgcmVhZHkgYmVsb3cuIn0KICAgICAgPC9wPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtdC02IGZsZXggbWF4LXctbWQgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIj4KICAgICAgICB7U1RFUFMubWFwKChfLCBpKSA9PiAoCiAgICAgICAgICA8c3BhbgogICAgICAgICAgICBrZXk9e2l9CiAgICAgICAgICAgIGNsYXNzTmFtZT17YGgtMS41IGZsZXgtMSByb3VuZGVkLWZ1bGwgdHJhbnNpdGlvbiAkewogICAgICAgICAgICAgIGkgPD0gc3RlcCA/ICJiZy1zbGF0ZS05MDAiIDogImJnLXNsYXRlLTIwMCIKICAgICAgICAgICAgfWB9CiAgICAgICAgICAvPgogICAgICAgICkpfQogICAgICA8L2Rpdj4KICAgICAgPHAgY2xhc3NOYW1lPSJteC1hdXRvIG10LTUgbWF4LXctbWQgdGV4dC14cyB0ZXh0LXNsYXRlLTQwMCI+CiAgICAgICAgRGVtbyBNb2RlIOKAlCBDb25uZWN0IGEgYmFja2xpbmsgZGF0YSBwcm92aWRlciB0byBhbmFseXplIGxpdmUgYmFja2xpbmsgcHJvZmlsZXMuCiAgICAgIDwvcD4KICAgIDwvZGl2PgogICk7Cn0=
+import React from "react";
+
+const STEPS = [
+  "Analyzing your website...",
+  "Analyzing competitor backlinks...",
+  "Comparing backlink domains...",
+  "Removing duplicate opportunities...",
+  "Calculating relevance...",
+  "Preparing your backlink gap report...",
+  "Analysis Complete"
+];
+
+export default function GapLoadingState() {
+  const [step, setStep] = React.useState(0);
+
+  React.useEffect(() => {
+    const id = setInterval(() => {
+      setStep((s) => (s < STEPS.length - 1 ? s + 1 : s));
+    }, 850);
+    return () => clearInterval(id);
+  }, []);
+
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center shadow-sm">
+      <div className="mx-auto h-10 w-10 animate-spin rounded-full border-4 border-slate-200 border-t-slate-900" />
+      <p className="mt-5 text-base font-medium text-slate-900">{STEPS[step]}</p>
+      <p className="mt-1 text-sm text-slate-500">
+        {step < STEPS.length - 1 ? "Comparing your backlink profile with competitors..." : "Your backlink gap report is ready below."}
+      </p>
+      <div className="mx-auto mt-6 flex max-w-md items-center justify-center gap-2">
+        {STEPS.map((_, i) => (
+          <span
+            key={i}
+            className={`h-1.5 flex-1 rounded-full transition ${
+              i <= step ? "bg-slate-900" : "bg-slate-200"
+            }`}
+          />
+        ))}
+      </div>
+      <p className="mx-auto mt-5 max-w-md text-xs text-slate-400">
+        Demo Mode — Connect a backlink data provider to analyze live backlink profiles.
+      </p>
+    </div>
+  );
+}

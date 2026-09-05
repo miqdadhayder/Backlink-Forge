@@ -1,1 +1,30 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgSW5mbyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IFRvb2x0aXAsIFRvb2x0aXBDb250ZW50LCBUb29sdGlwVHJpZ2dlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS90b29sdGlwIjsKCmV4cG9ydCBjb25zdCBHTE9TU0FSWSA9IHsKICBEb0ZvbGxvdzogIkEgbGluayB3aXRoIG5vIG5vZm9sbG93L3Nwb25zb3JlZC91Z2MgYXR0cmlidXRlLiBTZWFyY2ggZW5naW5lcyBtYXkgZm9sbG93IGl0IGFuZCBwYXNzIGxpbmsgZXF1aXR5LiIsCiAgTm9Gb2xsb3c6ICJBIHJlbD1cIm5vZm9sbG93XCIgbGluay4gU2VhcmNoIGVuZ2luZXMgYXJlIHRvbGQgbm90IHRvIHBhc3MgZXF1aXR5LCBidXQgaXQgY2FuIHN0aWxsIGJyaW5nIHJlZmVycmFsIHRyYWZmaWMuIiwKICBTcG9uc29yZWQ6ICJyZWw9XCJzcG9uc29yZWRcIiBtYXJrcyBhIHBhaWQgb3IgYWZmaWxpYXRlIGxpbmsgYW5kIGlzIG5vdCBjb3VudGVkIGFzIGFuIGVkaXRvcmlhbCB2b3RlLiIsCiAgVUdDOiAicmVsPVwidWdjXCIgbWFya3MgdXNlci1nZW5lcmF0ZWQgY29udGVudCBsaW5rcyAoZS5nLiBjb21tZW50cywgZm9ydW1zKS4iLAogICJBbmNob3IgVGV4dCI6ICJUaGUgY2xpY2thYmxlIHRleHQgb2YgYSBsaW5rLiBJdCB0ZWxscyB1c2VycyBhbmQgc2VhcmNoIGVuZ2luZXMgd2hhdCB0aGUgbGlua2VkIHBhZ2UgaXMgYWJvdXQuIiwKICAiUmVmZXJyaW5nIERvbWFpbiI6ICJUaGUgZG9tYWluIHRoYXQgbGlua3MgdG8geW91ciBzaXRlLiBPbmUgcXVhbGl0eSBsaW5rIHBlciByZWZlcnJpbmcgZG9tYWluIGlzIGlkZWFsLiIsCiAgSW5kZXhhYmlsaXR5OiAiV2hldGhlciBhIHBhZ2UgY2FuIGJlIGNyYXdsZWQgYW5kIGFkZGVkIHRvIGEgc2VhcmNoIGVuZ2luZSdzIGluZGV4IChubyByb2JvdHMvbm9pbmRleCBibG9ja3MpLiIsCiAgIkxpbmsgUGxhY2VtZW50IjogIldoZXJlIHRoZSBsaW5rIHNpdHMgb24gdGhlIHBhZ2UuIEluLWNvbnRlbnQgbGlua3MgYXJlIG1vc3QgdmFsdWFibGU7IGZvb3RlciBsaW5rcyBsZWFzdC4iLAogICJUb3BpY2FsIFJlbGV2YW5jZSI6ICJIb3cgY2xvc2VseSB0aGUgc291cmNlIHBhZ2UncyB0b3BpYyBtYXRjaGVzIHRoZSB0YXJnZXQgcGFnZSdzIHRvcGljLiIsCiAgIlNwYW0gU2lnbmFscyI6ICJQYXR0ZXJucyB0aGF0IHN1Z2dlc3QgbG93LXF1YWxpdHkgb3IgbWFuaXB1bGF0aXZlIGxpbmtpbmcgKGhpZGRlbiBsaW5rcywgdGhpbiBjb250ZW50LCBldGMuKS4iCn07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBJbmZvVGlwKHsgdGVybSB9KSB7CiAgY29uc3QgdGV4dCA9IEdMT1NTQVJZW3Rlcm1dIHx8IHRlcm07CiAgcmV0dXJuICgKICAgIDxUb29sdGlwPgogICAgICA8VG9vbHRpcFRyaWdnZXIgYXNDaGlsZD4KICAgICAgICA8YnV0dG9uIHR5cGU9ImJ1dHRvbiIgYXJpYS1sYWJlbD17YFdoYXQgaXMgJHt0ZXJtfWB9IGNsYXNzTmFtZT0ibWwtMSBpbmxpbmUtZmxleCBhbGlnbi1taWRkbGUgdGV4dC1zbGF0ZS00MDAgaG92ZXI6dGV4dC1zbGF0ZS03MDAgZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0xIGZvY3VzLXZpc2libGU6cmluZy1zbGF0ZS00MDAgcm91bmRlZCI+CiAgICAgICAgICA8SW5mbyBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L1Rvb2x0aXBUcmlnZ2VyPgogICAgICA8VG9vbHRpcENvbnRlbnQgY2xhc3NOYW1lPSJtYXgtdy14cyB0ZXh0LXhzIGxlYWRpbmctcmVsYXhlZCI+e3RleHR9PC9Ub29sdGlwQ29udGVudD4KICAgIDwvVG9vbHRpcD4KICApOwp9
+import React from "react";
+import { Info } from "lucide-react";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+
+export const GLOSSARY = {
+  DoFollow: "A link with no nofollow/sponsored/ugc attribute. Search engines may follow it and pass link equity.",
+  NoFollow: "A rel=\"nofollow\" link. Search engines are told not to pass equity, but it can still bring referral traffic.",
+  Sponsored: "rel=\"sponsored\" marks a paid or affiliate link and is not counted as an editorial vote.",
+  UGC: "rel=\"ugc\" marks user-generated content links (e.g. comments, forums).",
+  "Anchor Text": "The clickable text of a link. It tells users and search engines what the linked page is about.",
+  "Referring Domain": "The domain that links to your site. One quality link per referring domain is ideal.",
+  Indexability: "Whether a page can be crawled and added to a search engine's index (no robots/noindex blocks).",
+  "Link Placement": "Where the link sits on the page. In-content links are most valuable; footer links least.",
+  "Topical Relevance": "How closely the source page's topic matches the target page's topic.",
+  "Spam Signals": "Patterns that suggest low-quality or manipulative linking (hidden links, thin content, etc.)."
+};
+
+export default function InfoTip({ term }) {
+  const text = GLOSSARY[term] || term;
+  return (
+    <Tooltip>
+      <TooltipTrigger asChild>
+        <button type="button" aria-label={`What is ${term}`} className="ml-1 inline-flex align-middle text-slate-400 hover:text-slate-700 focus:outline-none focus-visible:ring-1 focus-visible:ring-slate-400 rounded">
+          <Info className="h-3.5 w-3.5" />
+        </button>
+      </TooltipTrigger>
+      <TooltipContent className="max-w-xs text-xs leading-relaxed">{text}</TooltipContent>
+    </Tooltip>
+  );
+}

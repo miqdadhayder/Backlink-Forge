@@ -1,1 +1,49 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQ2hldnJvbkRvd24sIENoZXZyb25VcCwgSW5mbyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTY29yZUV4cGxhbmF0aW9uKHsgcmVwb3J0IH0pIHsKICBjb25zdCBbb3Blbiwgc2V0T3Blbl0gPSBSZWFjdC51c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgY29uZmlkZW5jZSA9IHJlcG9ydC5kYXRhX2NvbmZpZGVuY2U7CiAgY29uc3QgY29uZkNvbG9yID0gY29uZmlkZW5jZSA9PT0gIkhpZ2giID8gInRleHQtZW1lcmFsZC02MDAgYmctZW1lcmFsZC01MCIgOiBjb25maWRlbmNlID09PSAiTWVkaXVtIiA/ICJ0ZXh0LWFtYmVyLTYwMCBiZy1hbWJlci01MCIgOiAidGV4dC1yb3NlLTYwMCBiZy1yb3NlLTUwIjsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBiZy13aGl0ZSBwLTYgc2hhZG93LXNtIj4KICAgICAgPGJ1dHRvbiB0eXBlPSJidXR0b24iIG9uQ2xpY2s9eygpID0+IHNldE9wZW4oKG8pID0+ICFvKX0gY2xhc3NOYW1lPSJmbGV4IHctZnVsbCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHRleHQtbGVmdCIgYXJpYS1leHBhbmRlZD17b3Blbn0+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTkwMCI+CiAgICAgICAgICA8SW5mbyBjbGFzc05hbWU9ImgtNCB3LTQgdGV4dC1zbGF0ZS00MDAiIC8+IEhvdyBXZSBDYWxjdWxhdGUgdGhlIFNjb3JlCiAgICAgICAgPC9zcGFuPgogICAgICAgIHtvcGVuID8gPENoZXZyb25VcCBjbGFzc05hbWU9ImgtNCB3LTQgdGV4dC1zbGF0ZS00MDAiIC8+IDogPENoZXZyb25Eb3duIGNsYXNzTmFtZT0iaC00IHctNCB0ZXh0LXNsYXRlLTQwMCIgLz59CiAgICAgIDwvYnV0dG9uPgoKICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2BpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgcm91bmRlZC1mdWxsIHB4LTMgcHktMSB0ZXh0LXhzIGZvbnQtbWVkaXVtICR7Y29uZkNvbG9yfWB9PgogICAgICAgICAgRGF0YSBjb25maWRlbmNlOiB7Y29uZmlkZW5jZX0KICAgICAgICA8L3NwYW4+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2xhdGUtNTAwIj5Db21wdXRlZCBvbmx5IGZyb20gdmVyaWZpZWQgLyBlc3RpbWF0ZWQgc2lnbmFscyDigJQgbm8gZmFicmljYXRlZCBtZXRyaWNzLjwvc3Bhbj4KICAgICAgPC9kaXY+CgogICAgICB7b3BlbiAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgc3BhY2UteS0zIHRleHQtc20gdGV4dC1zbGF0ZS02MDAiPgogICAgICAgICAgPHA+VGhlIG92ZXJhbGwgc2NvcmUgaXMgYSB3ZWlnaHRlZCBhdmVyYWdlIG9mIHRoZSBmYWN0b3JzIHRoYXQgYWN0dWFsbHkgaGF2ZSBkYXRhLiBXaGVuIGEgbWV0cmljIChzdWNoIGFzIGRvbWFpbiBhdXRob3JpdHkgb3IgdHJhZmZpYykgY2Fubm90IGJlIHZlcmlmaWVkLCBpdHMgd2VpZ2h0IGlzIGV4Y2x1ZGVkIGFuZCB0aGUgcmVtYWluaW5nIHdlaWdodHMgYXJlIHJlbm9ybWFsaXplZCBzbyB0aGUgc2NvcmUgc3RpbGwgcmVmbGVjdHMgcmVhbCBldmlkZW5jZS48L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ib3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1zbGF0ZS0xMDAiPgogICAgICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJ3LWZ1bGwgdGV4dC1sZWZ0IHRleHQteHMiPgogICAgICAgICAgICAgIDx0aGVhZCBjbGFzc05hbWU9ImJnLXNsYXRlLTUwIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICAgICAgICAgIDx0cj48dGggY2xhc3NOYW1lPSJweC0zIHB5LTIgZm9udC1tZWRpdW0iPkZhY3RvcjwvdGg+PHRoIGNsYXNzTmFtZT0icHgtMyBweS0yIGZvbnQtbWVkaXVtIj5CYXNlIHdlaWdodDwvdGg+PHRoIGNsYXNzTmFtZT0icHgtMyBweS0yIGZvbnQtbWVkaXVtIj5TdGF0dXM8L3RoPjwvdHI+CiAgICAgICAgICAgICAgPC90aGVhZD4KICAgICAgICAgICAgICA8dGJvZHkgY2xhc3NOYW1lPSJkaXZpZGUteSBkaXZpZGUtc2xhdGUtMTAwIj4KICAgICAgICAgICAgICAgIHsocmVwb3J0Lm1ldGhvZG9sb2d5IHx8IFtdKS5tYXAoKG0pID0+ICgKICAgICAgICAgICAgICAgICAgPHRyIGtleT17bS5mYWN0b3J9PgogICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTMgcHktMiB0ZXh0LXNsYXRlLTcwMCI+e20uZmFjdG9yfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtMyBweS0yIHRleHQtc2xhdGUtNTAwIj57bS5pbmNsdWRlZCA/IGAke20ud2VpZ2h0fSVgIDogIuKAlCJ9PC90ZD4KICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC0zIHB5LTIiPnttLmluY2x1ZGVkID8gPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWVtZXJhbGQtNjAwIj5JbmNsdWRlZDwvc3Bhbj4gOiA8c3BhbiBjbGFzc05hbWU9InRleHQtc2xhdGUtNDAwIj5Ob3QgYXZhaWxhYmxlIOKAlCBleGNsdWRlZDwvc3Bhbj59PC90ZD4KICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvdGJvZHk+CiAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXNsYXRlLTUwMCI+QmFzZSB3ZWlnaHRzOiBSZWxldmFuY2UgMjAlLCBMaW5rIFBsYWNlbWVudCAxNSUsIExpbmsgQXR0cmlidXRlIDEwJSwgUGFnZSBRdWFsaXR5IDEwJSwgSW5kZXhhYmlsaXR5IDEwJSwgQW5jaG9yIFRleHQgNSUsIFJpc2sgU2lnbmFscyAxMCUuIERvbWFpbiBhdXRob3JpdHkgKDIwJSkgYW5kIHRyYWZmaWMgc2lnbmFscyByZXF1aXJlIGEgY29ubmVjdGVkIFNFTyBkYXRhIHByb3ZpZGVyIGFuZCBhcmUgZXhjbHVkZWQgd2hlbiB1bmF2YWlsYWJsZS48L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICA8L2Rpdj4KICApOwp9
+import React from "react";
+import { ChevronDown, ChevronUp, Info } from "lucide-react";
+
+export default function ScoreExplanation({ report }) {
+  const [open, setOpen] = React.useState(false);
+  const confidence = report.data_confidence;
+  const confColor = confidence === "High" ? "text-emerald-600 bg-emerald-50" : confidence === "Medium" ? "text-amber-600 bg-amber-50" : "text-rose-600 bg-rose-50";
+
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <button type="button" onClick={() => setOpen((o) => !o)} className="flex w-full items-center justify-between text-left" aria-expanded={open}>
+        <span className="flex items-center gap-2 text-base font-semibold text-slate-900">
+          <Info className="h-4 w-4 text-slate-400" /> How We Calculate the Score
+        </span>
+        {open ? <ChevronUp className="h-4 w-4 text-slate-400" /> : <ChevronDown className="h-4 w-4 text-slate-400" />}
+      </button>
+
+      <div className="mt-3 flex flex-wrap items-center gap-3">
+        <span className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-medium ${confColor}`}>
+          Data confidence: {confidence}
+        </span>
+        <span className="text-xs text-slate-500">Computed only from verified / estimated signals — no fabricated metrics.</span>
+      </div>
+
+      {open && (
+        <div className="mt-4 space-y-3 text-sm text-slate-600">
+          <p>The overall score is a weighted average of the factors that actually have data. When a metric (such as domain authority or traffic) cannot be verified, its weight is excluded and the remaining weights are renormalized so the score still reflects real evidence.</p>
+          <div className="overflow-hidden rounded-lg border border-slate-100">
+            <table className="w-full text-left text-xs">
+              <thead className="bg-slate-50 text-slate-500">
+                <tr><th className="px-3 py-2 font-medium">Factor</th><th className="px-3 py-2 font-medium">Base weight</th><th className="px-3 py-2 font-medium">Status</th></tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {(report.methodology || []).map((m) => (
+                  <tr key={m.factor}>
+                    <td className="px-3 py-2 text-slate-700">{m.factor}</td>
+                    <td className="px-3 py-2 text-slate-500">{m.included ? `${m.weight}%` : "—"}</td>
+                    <td className="px-3 py-2">{m.included ? <span className="text-emerald-600">Included</span> : <span className="text-slate-400">Not available — excluded</span>}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-500">Base weights: Relevance 20%, Link Placement 15%, Link Attribute 10%, Page Quality 10%, Indexability 10%, Anchor Text 5%, Risk Signals 10%. Domain authority (20%) and traffic signals require a connected SEO data provider and are excluded when unavailable.</p>
+        </div>
+      )}
+    </div>
+  );
+}

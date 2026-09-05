@@ -1,1 +1,38 @@
-Ly8gZ3Vlc3RQb3N0U2VydmljZQovLyBSZXNwb25zaWJsZSBmb3IgZ3Vlc3QtcG9zdC1zcGVjaWZpYyBlbnJpY2htZW50OiAiV3JpdGUgZm9yIFVzIiBhdmFpbGFiaWxpdHksCi8vIGd1ZXN0IHBvc3QgcGFnZSBVUkwsIGNvbnRhY3QgcGFnZSBVUkwsIHN1Ym1pc3Npb24gcmVxdWlyZW1lbnRzLgppbXBvcnQgeyBzZWNyZXRzIH0gZnJvbSAiYmFzZTQ0OnJ1bnRpbWUiOwoKZXhwb3J0IGZ1bmN0aW9uIGhhc0xpdmVHdWVzdFBvc3RQcm92aWRlcigpIHsKICByZXR1cm4gQm9vbGVhbihzZWNyZXRzLmdldCgiR1VFU1RQT1NUX0FQSV9LRVkiKSk7Cn0KCmNvbnN0IFJFUVVJUkVNRU5UUyA9IFsKICAiT3JpZ2luYWwgY29udGVudCBvbmx5LCAxMDAwKyB3b3JkcywgMSBkby1mb2xsb3cgbGluayBhbGxvd2VkLiIsCiAgIk1pbmltdW0gODAwIHdvcmRzLCB0b3BpYyBtdXN0IGJlIHJlbGV2YW50IHRvIG91ciBhdWRpZW5jZS4iLAogICIxMDAwLTE1MDAgd29yZHMsIDIgZG8tZm9sbG93IGxpbmtzLCBhY3Rpb25hYmxlIGNvbnRlbnQgcmVxdWlyZWQuIiwKICAiMTUwMCsgd29yZHMsIGluY2x1ZGUgaW1hZ2VzLCAxIGF1dGhvciBiaW8gbGluaywgbm8gcHJvbW90aW9uYWwgcG9zdHMuIiwKICAiNjAwKyB3b3JkcywgbmljaGUtcmVsZXZhbnQsIHJldmlld2VkIHdpdGhpbiA1IGJ1c2luZXNzIGRheXMuIgpdOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGVucmljaEd1ZXN0UG9zdChkb21haW4sIGJhY2tsaW5rX3R5cGUpIHsKICBjb25zdCBndWVzdF9wb3N0X2F2YWlsYWJsZSA9CiAgICBiYWNrbGlua190eXBlID09PSAiR3Vlc3QgUG9zdCIgfHwKICAgIGJhY2tsaW5rX3R5cGUgPT09ICJBbGwgT3Bwb3J0dW5pdGllcyIgfHwKICAgIGJhY2tsaW5rX3R5cGUgPT09ICJDb21wZXRpdG9yIE9wcG9ydHVuaXR5IiB8fAogICAgaGFzaERvbWFpbihkb21haW4pICUgMyAhPT0gMDsKICByZXR1cm4gewogICAgZ3Vlc3RfcG9zdF9hdmFpbGFibGUsCiAgICBndWVzdF9wb3N0X3VybDogZ3Vlc3RfcG9zdF9hdmFpbGFibGUgPyBgaHR0cHM6Ly8ke2RvbWFpbn0vd3JpdGUtZm9yLXVzYCA6IG51bGwsCiAgICBjb250YWN0X3VybDogYGh0dHBzOi8vJHtkb21haW59L2NvbnRhY3RgLAogICAgc3VibWlzc2lvbl9yZXF1aXJlbWVudHM6IGd1ZXN0X3Bvc3RfYXZhaWxhYmxlCiAgICAgID8gUkVRVUlSRU1FTlRTW2hhc2hEb21haW4oZG9tYWluKSAlIFJFUVVJUkVNRU5UUy5sZW5ndGhdCiAgICAgIDogbnVsbAogIH07Cn0KCmZ1bmN0aW9uIGhhc2hEb21haW4oc3RyKSB7CiAgbGV0IGggPSAwOwogIGZvciAobGV0IGkgPSAwOyBpIDwgc3RyLmxlbmd0aDsgaSsrKSBoID0gKGggKiAzMSArIHN0ci5jaGFyQ29kZUF0KGkpKSA+Pj4gMDsKICByZXR1cm4gaDsKfQ==
+// guestPostService
+// Responsible for guest-post-specific enrichment: "Write for Us" availability,
+// guest post page URL, contact page URL, submission requirements.
+import { secrets } from "base44:runtime";
+
+export function hasLiveGuestPostProvider() {
+  return Boolean(secrets.get("GUESTPOST_API_KEY"));
+}
+
+const REQUIREMENTS = [
+  "Original content only, 1000+ words, 1 do-follow link allowed.",
+  "Minimum 800 words, topic must be relevant to our audience.",
+  "1000-1500 words, 2 do-follow links, actionable content required.",
+  "1500+ words, include images, 1 author bio link, no promotional posts.",
+  "600+ words, niche-relevant, reviewed within 5 business days."
+];
+
+export async function enrichGuestPost(domain, backlink_type) {
+  const guest_post_available =
+    backlink_type === "Guest Post" ||
+    backlink_type === "All Opportunities" ||
+    backlink_type === "Competitor Opportunity" ||
+    hashDomain(domain) % 3 !== 0;
+  return {
+    guest_post_available,
+    guest_post_url: guest_post_available ? `https://${domain}/write-for-us` : null,
+    contact_url: `https://${domain}/contact`,
+    submission_requirements: guest_post_available
+      ? REQUIREMENTS[hashDomain(domain) % REQUIREMENTS.length]
+      : null
+  };
+}
+
+function hashDomain(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+  return h;
+}

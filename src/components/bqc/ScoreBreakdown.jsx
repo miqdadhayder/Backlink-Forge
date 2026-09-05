@@ -1,1 +1,17 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IEZhY3RvckNhcmQgZnJvbSAiLi9GYWN0b3JDYXJkIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFNjb3JlQnJlYWtkb3duKHsgZmFjdG9ycyB9KSB7CiAgaWYgKCFmYWN0b3JzIHx8ICFmYWN0b3JzLmxlbmd0aCkgewogICAgcmV0dXJuIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCI+Tm8gYnJlYWtkb3duIGF2YWlsYWJsZS48L3A+OwogIH0KICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXdoaXRlIHAtNiBzaGFkb3ctc20iPgogICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTkwMCI+UXVhbGl0eSBCcmVha2Rvd248L2gzPgogICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCI+RWFjaCBmYWN0b3IgaXMgc2NvcmVkIGZyb20gc2lnbmFscyB0aGF0IGNvdWxkIGJlIHZlcmlmaWVkIG9yIGV4cGxpY2l0bHkgZXN0aW1hdGVkLjwvcD4KICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTUgZ3JpZCBnYXAtNCBzbTpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtMyI+CiAgICAgICAge2ZhY3RvcnMubWFwKChmKSA9PiA8RmFjdG9yQ2FyZCBrZXk9e2Yua2V5fSBmYWN0b3I9e2Z9IC8+KX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9
+import React from "react";
+import FactorCard from "./FactorCard";
+
+export default function ScoreBreakdown({ factors }) {
+  if (!factors || !factors.length) {
+    return <p className="text-sm text-slate-500">No breakdown available.</p>;
+  }
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <h3 className="text-base font-semibold text-slate-900">Quality Breakdown</h3>
+      <p className="mt-1 text-sm text-slate-500">Each factor is scored from signals that could be verified or explicitly estimated.</p>
+      <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {factors.map((f) => <FactorCard key={f.key} factor={f} />)}
+      </div>
+    </div>
+  );
+}

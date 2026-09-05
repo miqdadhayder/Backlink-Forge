@@ -1,1 +1,76 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsKICBEaWFsb2csIERpYWxvZ0NvbnRlbnQsIERpYWxvZ0hlYWRlciwgRGlhbG9nVGl0bGUsIERpYWxvZ0Rlc2NyaXB0aW9uCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IHsgQ29weSB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBHYXBPdXRyZWFjaERyYWZ0KHsgb3Bwb3J0dW5pdHksIG9uQ2xvc2UgfSkgewogIGNvbnN0IFtkcmFmdCwgc2V0RHJhZnRdID0gUmVhY3QudXNlU3RhdGUoIiIpOwogIGNvbnN0IFtjb3BpZWQsIHNldENvcGllZF0gPSBSZWFjdC51c2VTdGF0ZShmYWxzZSk7CgogIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAob3Bwb3J0dW5pdHkpIHsKICAgICAgc2V0RHJhZnQoYnVpbGREcmFmdChvcHBvcnR1bml0eSkpOwogICAgICBzZXRDb3BpZWQoZmFsc2UpOwogICAgfQogIH0sIFtvcHBvcnR1bml0eV0pOwoKICBjb25zdCBoYW5kbGVDb3B5ID0gYXN5bmMgKCkgPT4gewogICAgdHJ5IHsKICAgICAgYXdhaXQgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQoZHJhZnQpOwogICAgICBzZXRDb3BpZWQodHJ1ZSk7CiAgICAgIHNldFRpbWVvdXQoKCkgPT4gc2V0Q29waWVkKGZhbHNlKSwgMjAwMCk7CiAgICB9IGNhdGNoIChlKSB7IC8qIGlnbm9yZSAqLyB9CiAgfTsKCiAgcmV0dXJuICgKICAgIDxEaWFsb2cgb3Blbj17Qm9vbGVhbihvcHBvcnR1bml0eSl9IG9uT3BlbkNoYW5nZT17KG9wZW4pID0+ICFvcGVuICYmIG9uQ2xvc2UoKX0+CiAgICAgIDxEaWFsb2dDb250ZW50IGNsYXNzTmFtZT0ic206bWF4LXcteGwiPgogICAgICAgIHtvcHBvcnR1bml0eSAmJiAoCiAgICAgICAgICA8PgogICAgICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgICAgIDxEaWFsb2dUaXRsZT5PdXRyZWFjaCBkcmFmdCDigJQge29wcG9ydHVuaXR5LmRvbWFpbn08L0RpYWxvZ1RpdGxlPgogICAgICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgICAgICAgIEEgc3RhcnRpbmcgcG9pbnQgeW91IGNhbiBlZGl0IGJlZm9yZSBzZW5kaW5nLiBUaGlzIGRvZXMgbm90IHNlbmQgYW55IGVtYWlsIGF1dG9tYXRpY2FsbHkuCiAgICAgICAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgICAgICAgICAgIDxMYWJlbCBjbGFzc05hbWU9InRleHQteHMiPkRyYWZ0PC9MYWJlbD4KICAgICAgICAgICAgICA8VGV4dGFyZWEgdmFsdWU9e2RyYWZ0fSBvbkNoYW5nZT17KGUpID0+IHNldERyYWZ0KGUudGFyZ2V0LnZhbHVlKX0gcm93cz17MTF9IC8+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICAgICAgICAgIFBvdGVudGlhbCBvdXRyZWFjaCBvcHBvcnR1bml0eSDigJQgdGhlcmUgaXMgbm8gZ3VhcmFudGVlIGEgYmFja2xpbmsgd2lsbCBiZSBncmFudGVkLgogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWVuZCI+CiAgICAgICAgICAgICAgICA8QnV0dG9uIG9uQ2xpY2s9e2hhbmRsZUNvcHl9IGRpc2FibGVkPXshZHJhZnR9PgogICAgICAgICAgICAgICAgICA8Q29weSBjbGFzc05hbWU9Im1yLTIgaC00IHctNCIgLz4ge2NvcGllZCA/ICJDb3BpZWQhIiA6ICJDb3B5IGRyYWZ0In0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvPgogICAgICAgICl9CiAgICAgIDwvRGlhbG9nQ29udGVudD4KICAgIDwvRGlhbG9nPgogICk7Cn0KCmZ1bmN0aW9uIGJ1aWxkRHJhZnQobykgewogIGNvbnN0IHNpdGUgPSBvLnVzZXJfc2l0ZSB8fCAieW91ciB3ZWJzaXRlIjsKICBjb25zdCBuaWNoZSA9IG8ubmljaGUgfHwgInlvdXIgbmljaGUiOwogIGNvbnN0IGNvbXBldGl0b3JzID0gby5jb21wZXRpdG9yX25hbWVzIHx8ICJ5b3VyIGNvbXBldGl0b3JzIjsKICByZXR1cm4gYFN1YmplY3Q6IEd1ZXN0IHBvc3QgLyByZXNvdXJjZSBzdWdnZXN0aW9uIGZvciAke28uZG9tYWlufQoKSGkgJHtvLmRvbWFpbn0gdGVhbSwKCkkgbm90aWNlZCB0aGF0ICR7Y29tcGV0aXRvcnN9IGFscmVhZHkgcmVmZXJlbmNlICR7by5kb21haW59LCBhbmQgSSB0aG91Z2h0IHlvdXIgYXVkaWVuY2UgbWlnaHQgYWxzbyBmaW5kIHZhbHVlIGluIGEgcmVzb3VyY2UgZnJvbSAke3NpdGV9LgoKV2UgZm9jdXMgb24gJHtuaWNoZX0sIGFuZCBJJ2QgbG92ZSB0byBjb250cmlidXRlIGFuIG9yaWdpbmFsLCB3ZWxsLXJlc2VhcmNoZWQgcGllY2UgcmVsZXZhbnQgdG8geW91ciByZWFkZXJzLiBJJ20gaGFwcHkgdG8gZm9sbG93IHlvdXIgZWRpdG9yaWFsIGd1aWRlbGluZXMgYW5kIGFueSB3b3JkLWNvdW50IHJlcXVpcmVtZW50cy4KCldvdWxkIHlvdSBiZSBvcGVuIHRvIGEgc2hvcnQgcGl0Y2g/IEhhcHB5IHRvIHNoYXJlIGEgZmV3IHRvcGljIGlkZWFzIGZpcnN0LgoKQmVzdCByZWdhcmRzLApbWW91ciBuYW1lXQoke3NpdGV9YDsKfQ==
+import React from "react";
+import {
+  Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { Copy } from "lucide-react";
+
+export default function GapOutreachDraft({ opportunity, onClose }) {
+  const [draft, setDraft] = React.useState("");
+  const [copied, setCopied] = React.useState(false);
+
+  React.useEffect(() => {
+    if (opportunity) {
+      setDraft(buildDraft(opportunity));
+      setCopied(false);
+    }
+  }, [opportunity]);
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(draft);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (e) { /* ignore */ }
+  };
+
+  return (
+    <Dialog open={Boolean(opportunity)} onOpenChange={(open) => !open && onClose()}>
+      <DialogContent className="sm:max-w-xl">
+        {opportunity && (
+          <>
+            <DialogHeader>
+              <DialogTitle>Outreach draft — {opportunity.domain}</DialogTitle>
+              <DialogDescription>
+                A starting point you can edit before sending. This does not send any email automatically.
+              </DialogDescription>
+            </DialogHeader>
+            <div className="space-y-3">
+              <Label className="text-xs">Draft</Label>
+              <Textarea value={draft} onChange={(e) => setDraft(e.target.value)} rows={11} />
+              <p className="text-xs text-slate-500">
+                Potential outreach opportunity — there is no guarantee a backlink will be granted.
+              </p>
+              <div className="flex justify-end">
+                <Button onClick={handleCopy} disabled={!draft}>
+                  <Copy className="mr-2 h-4 w-4" /> {copied ? "Copied!" : "Copy draft"}
+                </Button>
+              </div>
+            </div>
+          </>
+        )}
+      </DialogContent>
+    </Dialog>
+  );
+}
+
+function buildDraft(o) {
+  const site = o.user_site || "your website";
+  const niche = o.niche || "your niche";
+  const competitors = o.competitor_names || "your competitors";
+  return `Subject: Guest post / resource suggestion for ${o.domain}
+
+Hi ${o.domain} team,
+
+I noticed that ${competitors} already reference ${o.domain}, and I thought your audience might also find value in a resource from ${site}.
+
+We focus on ${niche}, and I'd love to contribute an original, well-researched piece relevant to your readers. I'm happy to follow your editorial guidelines and any word-count requirements.
+
+Would you be open to a short pitch? Happy to share a few topic ideas first.
+
+Best regards,
+[Your name]
+${site}`;
+}

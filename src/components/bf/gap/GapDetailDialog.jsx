@@ -1,1 +1,113 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsKICBEaWFsb2csIERpYWxvZ0NvbnRlbnQsIERpYWxvZ0hlYWRlciwgRGlhbG9nVGl0bGUsIERpYWxvZ0Rlc2NyaXB0aW9uCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBCb29rbWFyaywgQm9va21hcmtDaGVjaywgRXh0ZXJuYWxMaW5rLCBGaWxlVGV4dCwgTWFpbCwgSGVscENpcmNsZSB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IGZvcm1hdFRyYWZmaWMgfSBmcm9tICJAL3V0aWxzL29wcG9ydHVuaXR5SGVscGVycyI7CmltcG9ydCB7IHNjb3JlTGFiZWwgfSBmcm9tICJAL3V0aWxzL2dhcEhlbHBlcnMiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gR2FwRGV0YWlsRGlhbG9nKHsKICBvcHBvcnR1bml0eSwgc2F2ZWRJZHMsIG9uQ2xvc2UsIG9uU2F2ZSwgb25PdXRyZWFjaAp9KSB7CiAgcmV0dXJuICgKICAgIDxEaWFsb2cgb3Blbj17Qm9vbGVhbihvcHBvcnR1bml0eSl9IG9uT3BlbkNoYW5nZT17KG9wZW4pID0+ICFvcGVuICYmIG9uQ2xvc2UoKX0+CiAgICAgIDxEaWFsb2dDb250ZW50IGNsYXNzTmFtZT0ic206bWF4LXctbGciPgogICAgICAgIHtvcHBvcnR1bml0eSAmJiAoCiAgICAgICAgICA8PgogICAgICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgICAgIDxEaWFsb2dUaXRsZT57b3Bwb3J0dW5pdHkuZG9tYWlufTwvRGlhbG9nVGl0bGU+CiAgICAgICAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAgICAgICAge29wcG9ydHVuaXR5LmJhY2tsaW5rX3R5cGV9IMK3IHtvcHBvcnR1bml0eS5uaWNoZSB8fCAiTmljaGUgbm90IHNwZWNpZmllZCJ9CiAgICAgICAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC0zIj4KICAgICAgICAgICAgICAgIDxTdGF0IGxhYmVsPSJEb21haW4gQXV0aG9yaXR5IiB2YWx1ZT17b3Bwb3J0dW5pdHkuZG9tYWluX2F1dGhvcml0eX0gLz4KICAgICAgICAgICAgICAgIDxTdGF0IGxhYmVsPSJFc3RpbWF0ZWQgVHJhZmZpYyIgdmFsdWU9e2Ake2Zvcm1hdFRyYWZmaWMob3Bwb3J0dW5pdHkudHJhZmZpYyl9L21vYH0gLz4KICAgICAgICAgICAgICAgIDxTdGF0IGxhYmVsPSJOaWNoZSIgdmFsdWU9e29wcG9ydHVuaXR5Lm5pY2hlIHx8ICLigJQifSAvPgogICAgICAgICAgICAgICAgPFN0YXQgbGFiZWw9IkNvdW50cnkiIHZhbHVlPXtvcHBvcnR1bml0eS5jb3VudHJ5IHx8ICJHbG9iYWwifSAvPgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtc2xhdGUtNTAwIj5Db21wZXRpdG9ycyBMaW5raW5nIEZyb20gVGhpcyBEb21haW48L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LXNsYXRlLTcwMCI+e29wcG9ydHVuaXR5LmNvbXBldGl0b3JfbmFtZXMgfHwgIuKAlCJ9PC9wPgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtc2xhdGUtNTAwIj5MaW5rIFR5cGU8L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LXNsYXRlLTcwMCI+e29wcG9ydHVuaXR5LmJhY2tsaW5rX3R5cGV9PC9wPgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMiI+CiAgICAgICAgICAgICAgICA8SGVscENpcmNsZSBjbGFzc05hbWU9Im10LTAuNSBoLTQgdy00IGZsZXgtc2hyaW5rLTAgdGV4dC1zbGF0ZS00MDAiIC8+CiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1tZWRpdW0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGUgdGV4dC1zbGF0ZS01MDAiPk9wcG9ydHVuaXR5IFNjb3JlPC9wPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTkwMCI+CiAgICAgICAgICAgICAgICAgICAge29wcG9ydHVuaXR5Lm9wcG9ydHVuaXR5X3Njb3JlfS8xMDAg4oCUIHtzY29yZUxhYmVsKG9wcG9ydHVuaXR5Lm9wcG9ydHVuaXR5X3Njb3JlKX0KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJnLXNsYXRlLTUwIHAtMyI+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1tZWRpdW0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGUgdGV4dC1zbGF0ZS01MDAiPldoeSBUaGlzIElzIEFuIE9wcG9ydHVuaXR5PC9wPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQtc20gdGV4dC1zbGF0ZS03MDAiPgogICAgICAgICAgICAgICAgICBUaGlzIHdlYnNpdGUgbGlua3MgdG8ge29wcG9ydHVuaXR5LmNvbXBldGl0b3JfY291bnR9IG9mIHlvdXIgY29tcGV0aXRvcnMKICAgICAgICAgICAgICAgICAge29wcG9ydHVuaXR5LmNvbXBldGl0b3JfY291bnQgPiAxID8gInMiIDogIiJ9IGJ1dCBubyBiYWNrbGluayBmcm9tIHRoaXMgZG9tYWluIHdhcyBmb3VuZCBmb3IgeW91ciB3ZWJzaXRlLgogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICB7b3Bwb3J0dW5pdHkuZ3Vlc3RfcG9zdF91cmwgJiYgKAogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtc2xhdGUtNTAwIj5HdWVzdCBQb3N0IFBhZ2U8L3A+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0cnVuY2F0ZSB0ZXh0LXNtIHRleHQtc2xhdGUtNzAwIj57b3Bwb3J0dW5pdHkuZ3Vlc3RfcG9zdF91cmx9PC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtc2xhdGUtNTAwIj5Db250YWN0IFBhZ2U8L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdHJ1bmNhdGUgdGV4dC1zbSB0ZXh0LXNsYXRlLTcwMCI+e29wcG9ydHVuaXR5LmNvbnRhY3RfdXJsIHx8ICJOb3QgYXZhaWxhYmxlIn08L3A+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC0yIj4KICAgICAgICAgICAgICAgIDxhIGhyZWY9e2BodHRwczovLyR7b3Bwb3J0dW5pdHkuZG9tYWlufWB9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiPgogICAgICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIGNsYXNzTmFtZT0idy1mdWxsIj48RXh0ZXJuYWxMaW5rIGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPiBWaXNpdCBXZWJzaXRlPC9CdXR0b24+CiAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgICA8YSBocmVmPXtvcHBvcnR1bml0eS5zb3VyY2VfdXJsfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciBub3JlZmVycmVyIj4KICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBjbGFzc05hbWU9InctZnVsbCI+PEZpbGVUZXh0IGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPiBTb3VyY2UgUGFnZTwvQnV0dG9uPgogICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAge29wcG9ydHVuaXR5Lmd1ZXN0X3Bvc3RfdXJsICYmICgKICAgICAgICAgICAgICAgICAgPGEgaHJlZj17b3Bwb3J0dW5pdHkuZ3Vlc3RfcG9zdF91cmx9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiPgogICAgICAgICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgY2xhc3NOYW1lPSJ3LWZ1bGwiPjxGaWxlVGV4dCBjbGFzc05hbWU9Im1yLTIgaC00IHctNCIgLz4gR3Vlc3QgUG9zdCBHdWlkZWxpbmVzPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIGNsYXNzTmFtZT0idy1mdWxsIiBvbkNsaWNrPXsoKSA9PiBvbk91dHJlYWNoKG9wcG9ydHVuaXR5KX0+CiAgICAgICAgICAgICAgICAgIDxNYWlsIGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPiBPdXRyZWFjaCBEcmFmdAogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIgogICAgICAgICAgICAgICAgdmFyaWFudD17c2F2ZWRJZHMgJiYgc2F2ZWRJZHMuaGFzKG9wcG9ydHVuaXR5Ll9nYXBJZCkgPyAic2Vjb25kYXJ5IiA6ICJkZWZhdWx0In0KICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uU2F2ZShvcHBvcnR1bml0eSl9CiAgICAgICAgICAgICAgICBkaXNhYmxlZD17c2F2ZWRJZHMgJiYgc2F2ZWRJZHMuaGFzKG9wcG9ydHVuaXR5Ll9nYXBJZCl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3NhdmVkSWRzICYmIHNhdmVkSWRzLmhhcyhvcHBvcnR1bml0eS5fZ2FwSWQpCiAgICAgICAgICAgICAgICAgID8gPD48Qm9va21hcmtDaGVjayBjbGFzc05hbWU9Im1yLTIgaC00IHctNCIgLz4gU2F2ZWQg4pyTPC8+CiAgICAgICAgICAgICAgICAgIDogPD48Qm9va21hcmsgY2xhc3NOYW1lPSJtci0yIGgtNCB3LTQiIC8+IFNhdmUgT3Bwb3J0dW5pdHk8Lz59CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC8+CiAgICAgICAgKX0KICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgPC9EaWFsb2c+CiAgKTsKfQoKZnVuY3Rpb24gU3RhdCh7IGxhYmVsLCB2YWx1ZSB9KSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXdoaXRlIHAtMyI+CiAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXNsYXRlLTUwMCI+e2xhYmVsfTwvcD4KICAgICAgPHAgY2xhc3NOYW1lPSJtdC0wLjUgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtc2xhdGUtOTAwIj57dmFsdWV9PC9wPgogICAgPC9kaXY+CiAgKTsKfQ==
+import React from "react";
+import {
+  Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { Bookmark, BookmarkCheck, ExternalLink, FileText, Mail, HelpCircle } from "lucide-react";
+import { formatTraffic } from "@/utils/opportunityHelpers";
+import { scoreLabel } from "@/utils/gapHelpers";
+
+export default function GapDetailDialog({
+  opportunity, savedIds, onClose, onSave, onOutreach
+}) {
+  return (
+    <Dialog open={Boolean(opportunity)} onOpenChange={(open) => !open && onClose()}>
+      <DialogContent className="sm:max-w-lg">
+        {opportunity && (
+          <>
+            <DialogHeader>
+              <DialogTitle>{opportunity.domain}</DialogTitle>
+              <DialogDescription>
+                {opportunity.backlink_type} · {opportunity.niche || "Niche not specified"}
+              </DialogDescription>
+            </DialogHeader>
+            <div className="space-y-4">
+              <div className="grid grid-cols-2 gap-3">
+                <Stat label="Domain Authority" value={opportunity.domain_authority} />
+                <Stat label="Estimated Traffic" value={`${formatTraffic(opportunity.traffic)}/mo`} />
+                <Stat label="Niche" value={opportunity.niche || "—"} />
+                <Stat label="Country" value={opportunity.country || "Global"} />
+              </div>
+
+              <div>
+                <p className="text-xs font-medium uppercase tracking-wide text-slate-500">Competitors Linking From This Domain</p>
+                <p className="mt-1 text-sm text-slate-700">{opportunity.competitor_names || "—"}</p>
+              </div>
+
+              <div>
+                <p className="text-xs font-medium uppercase tracking-wide text-slate-500">Link Type</p>
+                <p className="mt-1 text-sm text-slate-700">{opportunity.backlink_type}</p>
+              </div>
+
+              <div className="flex items-start gap-2">
+                <HelpCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-slate-400" />
+                <div>
+                  <p className="text-xs font-medium uppercase tracking-wide text-slate-500">Opportunity Score</p>
+                  <p className="text-sm font-semibold text-slate-900">
+                    {opportunity.opportunity_score}/100 — {scoreLabel(opportunity.opportunity_score)}
+                  </p>
+                </div>
+              </div>
+
+              <div className="rounded-lg bg-slate-50 p-3">
+                <p className="text-xs font-medium uppercase tracking-wide text-slate-500">Why This Is An Opportunity</p>
+                <p className="mt-1 text-sm text-slate-700">
+                  This website links to {opportunity.competitor_count} of your competitors
+                  {opportunity.competitor_count > 1 ? "s" : ""} but no backlink from this domain was found for your website.
+                </p>
+              </div>
+
+              {opportunity.guest_post_url && (
+                <div>
+                  <p className="text-xs font-medium uppercase tracking-wide text-slate-500">Guest Post Page</p>
+                  <p className="mt-1 truncate text-sm text-slate-700">{opportunity.guest_post_url}</p>
+                </div>
+              )}
+              <div>
+                <p className="text-xs font-medium uppercase tracking-wide text-slate-500">Contact Page</p>
+                <p className="mt-1 truncate text-sm text-slate-700">{opportunity.contact_url || "Not available"}</p>
+              </div>
+
+              <div className="grid grid-cols-2 gap-2">
+                <a href={`https://${opportunity.domain}`} target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="w-full"><ExternalLink className="mr-2 h-4 w-4" /> Visit Website</Button>
+                </a>
+                <a href={opportunity.source_url} target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="w-full"><FileText className="mr-2 h-4 w-4" /> Source Page</Button>
+                </a>
+                {opportunity.guest_post_url && (
+                  <a href={opportunity.guest_post_url} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" className="w-full"><FileText className="mr-2 h-4 w-4" /> Guest Post Guidelines</Button>
+                  </a>
+                )}
+                <Button variant="outline" className="w-full" onClick={() => onOutreach(opportunity)}>
+                  <Mail className="mr-2 h-4 w-4" /> Outreach Draft
+                </Button>
+              </div>
+
+              <Button
+                className="w-full"
+                variant={savedIds && savedIds.has(opportunity._gapId) ? "secondary" : "default"}
+                onClick={() => onSave(opportunity)}
+                disabled={savedIds && savedIds.has(opportunity._gapId)}
+              >
+                {savedIds && savedIds.has(opportunity._gapId)
+                  ? <><BookmarkCheck className="mr-2 h-4 w-4" /> Saved ✓</>
+                  : <><Bookmark className="mr-2 h-4 w-4" /> Save Opportunity</>}
+              </Button>
+            </div>
+          </>
+        )}
+      </DialogContent>
+    </Dialog>
+  );
+}
+
+function Stat({ label, value }) {
+  return (
+    <div className="rounded-lg border border-slate-200 bg-white p-3">
+      <p className="text-xs text-slate-500">{label}</p>
+      <p className="mt-0.5 text-sm font-semibold text-slate-900">{value}</p>
+    </div>
+  );
+}

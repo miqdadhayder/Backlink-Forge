@@ -1,1 +1,83 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTGluayB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBMaW5rMiwgQXJyb3dMZWZ0LCBNYWlsIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyB1c2VUb2FzdCB9IGZyb20gIkAvY29tcG9uZW50cy91aS91c2UtdG9hc3QiOwppbXBvcnQgSGVhZGVyIGZyb20gIkAvY29tcG9uZW50cy9iZi9IZWFkZXIiOwppbXBvcnQgRm9vdGVyIGZyb20gIkAvY29tcG9uZW50cy9iZi9Gb290ZXIiOwoKY29uc3QgU1VQUE9SVF9FTUFJTCA9ICJzdXBwb3J0QGJhY2tsaW5rZm9yZ2UuY29tIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENvbnRhY3QoKSB7CiAgY29uc3QgeyB0b2FzdCB9ID0gdXNlVG9hc3QoKTsKICBjb25zdCBbZm9ybSwgc2V0Rm9ybV0gPSBSZWFjdC51c2VTdGF0ZSh7IG5hbWU6ICIiLCBlbWFpbDogIiIsIG1lc3NhZ2U6ICIiIH0pOwoKICBjb25zdCB1cGRhdGUgPSAoaykgPT4gKGUpID0+IHNldEZvcm0oKGYpID0+ICh7IC4uLmYsIFtrXTogZS50YXJnZXQudmFsdWUgfSkpOwoKICBjb25zdCBzdWJtaXQgPSAoZSkgPT4gewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgaWYgKCFmb3JtLm5hbWUudHJpbSgpIHx8ICFmb3JtLmVtYWlsLnRyaW0oKSB8fCAhZm9ybS5tZXNzYWdlLnRyaW0oKSkgewogICAgICB0b2FzdCh7IHRpdGxlOiAiUGxlYXNlIGZpbGwgaW4gYWxsIGZpZWxkcy4iLCB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBzdWJqZWN0ID0gZW5jb2RlVVJJQ29tcG9uZW50KGBCYWNrbGlua0ZvcmdlIGNvbnRhY3QgZnJvbSAke2Zvcm0ubmFtZX1gKTsKICAgIGNvbnN0IGJvZHkgPSBlbmNvZGVVUklDb21wb25lbnQoYCR7Zm9ybS5tZXNzYWdlfVxuXG7igJQgJHtmb3JtLm5hbWV9ICgke2Zvcm0uZW1haWx9KWApOwogICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSBgbWFpbHRvOiR7U1VQUE9SVF9FTUFJTH0/c3ViamVjdD0ke3N1YmplY3R9JmJvZHk9JHtib2R5fWA7CiAgICB0b2FzdCh7IHRpdGxlOiAiT3BlbmluZyB5b3VyIGVtYWlsIGNsaWVudOKApiIsIGRlc2NyaXB0aW9uOiAiV2UnbGwgZ2V0IGJhY2sgdG8geW91IHNob3J0bHkuIiB9KTsKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy13aGl0ZSI+CiAgICAgIDxIZWFkZXIgLz4KICAgICAgPG1haW4gY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTN4bCBweC00IHB5LTE2IHNtOnB4LTYiPgogICAgICAgIDxMaW5rIHRvPSIvIiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciB0ZXh0LXNtIHRleHQtc2xhdGUtNTAwIGhvdmVyOnRleHQtc2xhdGUtOTAwIj4KICAgICAgICAgIDxBcnJvd0xlZnQgY2xhc3NOYW1lPSJtci0xIGgtNCB3LTQiIC8+IEJhY2sgdG8gaG9tZQogICAgICAgIDwvTGluaz4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaC05IHctOSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1sZyBiZy1zbGF0ZS05MDAgdGV4dC13aGl0ZSI+CiAgICAgICAgICAgIDxMaW5rMiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtc2xhdGUtOTAwIj5Db250YWN0IFVzPC9oMT4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQtc2xhdGUtNjAwIj4KICAgICAgICAgIEhhdmUgYSBxdWVzdGlvbiBhYm91dCBCYWNrbGlua0ZvcmdlLCBhIGZlYXR1cmUgcmVxdWVzdCwgb3IgZmVlZGJhY2s/IFdlJ2QgbG92ZSB0byBoZWFyIGZyb20geW91LgogICAgICAgICAgUmVhY2ggb3V0IGJ5IGVtYWlsIG9yIHNlbmQgdXMgYSBtZXNzYWdlIHVzaW5nIHRoZSBmb3JtIGJlbG93LgogICAgICAgIDwvcD4KCiAgICAgICAgPGEgaHJlZj17YG1haWx0bzoke1NVUFBPUlRfRU1BSUx9YH0gY2xhc3NOYW1lPSJtdC02IGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXNsYXRlLTUwIHB4LTQgcHktMyB0ZXh0LXNtIHRleHQtc2xhdGUtNzAwIGhvdmVyOmJvcmRlci1zbGF0ZS0zMDAiPgogICAgICAgICAgPE1haWwgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtc2xhdGUtNTAwIiAvPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTkwMCI+e1NVUFBPUlRfRU1BSUx9PC9zcGFuPgogICAgICAgIDwvYT4KCiAgICAgICAgPGZvcm0gb25TdWJtaXQ9e3N1Ym1pdH0gY2xhc3NOYW1lPSJtdC04IHNwYWNlLXktNSByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBiZy13aGl0ZSBwLTYgc2hhZG93LXNtIHNtOnAtOCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtNCBzbTpncmlkLWNvbHMtMiI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9ImNfbmFtZSI+TmFtZTwvTGFiZWw+CiAgICAgICAgICAgICAgPElucHV0IGlkPSJjX25hbWUiIHZhbHVlPXtmb3JtLm5hbWV9IG9uQ2hhbmdlPXt1cGRhdGUoIm5hbWUiKX0gcGxhY2Vob2xkZXI9IllvdXIgbmFtZSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9ImNfZW1haWwiPkVtYWlsPC9MYWJlbD4KICAgICAgICAgICAgICA8SW5wdXQgaWQ9ImNfZW1haWwiIHR5cGU9ImVtYWlsIiB2YWx1ZT17Zm9ybS5lbWFpbH0gb25DaGFuZ2U9e3VwZGF0ZSgiZW1haWwiKX0gcGxhY2Vob2xkZXI9InlvdUBleGFtcGxlLmNvbSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJjX21lc3NhZ2UiPk1lc3NhZ2U8L0xhYmVsPgogICAgICAgICAgICA8dGV4dGFyZWEKICAgICAgICAgICAgICBpZD0iY19tZXNzYWdlIgogICAgICAgICAgICAgIHJvd3M9ezV9CiAgICAgICAgICAgICAgdmFsdWU9e2Zvcm0ubWVzc2FnZX0KICAgICAgICAgICAgICBvbkNoYW5nZT17dXBkYXRlKCJtZXNzYWdlIil9CiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IkhvdyBjYW4gd2UgaGVscD8iCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IHctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItaW5wdXQgYmctdHJhbnNwYXJlbnQgcHgtMyBweS0yIHRleHQtc20gc2hhZG93LXNtIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0xIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCIgc2l6ZT0ibGciIGNsYXNzTmFtZT0idy1mdWxsIj5TZW5kIE1lc3NhZ2U8L0J1dHRvbj4KICAgICAgICA8L2Zvcm0+CiAgICAgIDwvbWFpbj4KICAgICAgPEZvb3RlciAvPgogICAgPC9kaXY+CiAgKTsKfQ==
+import React from "react";
+import { Link } from "react-router-dom";
+import { Link2, ArrowLeft, Mail } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { useToast } from "@/components/ui/use-toast";
+import Header from "@/components/bf/Header";
+import Footer from "@/components/bf/Footer";
+
+const SUPPORT_EMAIL = "support@backlinkforge.com";
+
+export default function Contact() {
+  const { toast } = useToast();
+  const [form, setForm] = React.useState({ name: "", email: "", message: "" });
+
+  const update = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
+
+  const submit = (e) => {
+    e.preventDefault();
+    if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
+      toast({ title: "Please fill in all fields.", variant: "destructive" });
+      return;
+    }
+    const subject = encodeURIComponent(`BacklinkForge contact from ${form.name}`);
+    const body = encodeURIComponent(`${form.message}\n\n— ${form.name} (${form.email})`);
+    window.location.href = `mailto:${SUPPORT_EMAIL}?subject=${subject}&body=${body}`;
+    toast({ title: "Opening your email client…", description: "We'll get back to you shortly." });
+  };
+
+  return (
+    <div className="min-h-screen bg-white">
+      <Header />
+      <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+        <Link to="/" className="inline-flex items-center text-sm text-slate-500 hover:text-slate-900">
+          <ArrowLeft className="mr-1 h-4 w-4" /> Back to home
+        </Link>
+        <div className="mt-6 flex items-center gap-2">
+          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-900 text-white">
+            <Link2 className="h-4 w-4" />
+          </span>
+          <h1 className="text-3xl font-semibold tracking-tight text-slate-900">Contact Us</h1>
+        </div>
+
+        <p className="mt-4 text-slate-600">
+          Have a question about BacklinkForge, a feature request, or feedback? We'd love to hear from you.
+          Reach out by email or send us a message using the form below.
+        </p>
+
+        <a href={`mailto:${SUPPORT_EMAIL}`} className="mt-6 inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-700 hover:border-slate-300">
+          <Mail className="h-4 w-4 text-slate-500" />
+          <span className="font-medium text-slate-900">{SUPPORT_EMAIL}</span>
+        </a>
+
+        <form onSubmit={submit} className="mt-8 space-y-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+          <div className="grid gap-4 sm:grid-cols-2">
+            <div className="space-y-1.5">
+              <Label htmlFor="c_name">Name</Label>
+              <Input id="c_name" value={form.name} onChange={update("name")} placeholder="Your name" />
+            </div>
+            <div className="space-y-1.5">
+              <Label htmlFor="c_email">Email</Label>
+              <Input id="c_email" type="email" value={form.email} onChange={update("email")} placeholder="you@example.com" />
+            </div>
+          </div>
+          <div className="space-y-1.5">
+            <Label htmlFor="c_message">Message</Label>
+            <textarea
+              id="c_message"
+              rows={5}
+              value={form.message}
+              onChange={update("message")}
+              placeholder="How can we help?"
+              className="flex w-full rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+            />
+          </div>
+          <Button type="submit" size="lg" className="w-full">Send Message</Button>
+        </form>
+      </main>
+      <Footer />
+    </div>
+  );
+}

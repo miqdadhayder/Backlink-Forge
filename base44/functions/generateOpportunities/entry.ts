@@ -1,1 +1,86 @@
-aW1wb3J0IHsgY3JlYXRlQ2xpZW50RnJvbVJlcXVlc3QgfSBmcm9tICducG06QGJhc2U0NC9zZGtAMC44LjQwJzsKaW1wb3J0IHsgZ2VuZXJhdGVPcHBvcnR1bml0aWVzIH0gZnJvbSAiLi4vLi4vc2hhcmVkL2JhY2tsaW5rU2VydmljZS50cyI7CgpleHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbihyZXEpIHsKICB0cnkgewogICAgY29uc3QgYmFzZTQ0ID0gY3JlYXRlQ2xpZW50RnJvbVJlcXVlc3QocmVxKTsKICAgIGxldCB1c2VyID0gbnVsbDsKICAgIHRyeSB7IHVzZXIgPSBhd2FpdCBiYXNlNDQuYXV0aC5tZSgpOyB9IGNhdGNoIChlKSB7IC8qIGFub255bW91cyBhbGxvd2VkICovIH0KCiAgICBjb25zdCBib2R5ID0gYXdhaXQgcmVxLmpzb24oKTsKICAgIGNvbnN0IHsKICAgICAgd2Vic2l0ZV91cmwsIGtleXdvcmQsIGNvdW50cnksIGJhY2tsaW5rX3R5cGUsIG1pbmltdW1fZGEsCiAgICAgIHJlc3VsdHNfY291bnQsIGNvbXBldGl0b3JfdXJsLCBzZWFyY2hfdHlwZQogICAgfSA9IGJvZHkgfHwge307CgogICAgLy8gVmFsaWRhdGlvbgogICAgaWYgKCF3ZWJzaXRlX3VybCB8fCAhaXNWYWxpZFVybCh3ZWJzaXRlX3VybCkpIHsKICAgICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIlBsZWFzZSBlbnRlciBhIHZhbGlkIHdlYnNpdGUgVVJMLiIgfSwgeyBzdGF0dXM6IDQwMCB9KTsKICAgIH0KICAgIGlmICgha2V5d29yZCB8fCBrZXl3b3JkLnRyaW0oKS5sZW5ndGggPCAyKSB7CiAgICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJQbGVhc2UgZW50ZXIgeW91ciB0YXJnZXQgbmljaGUgb3Iga2V5d29yZC4iIH0sIHsgc3RhdHVzOiA0MDAgfSk7CiAgICB9CiAgICBpZiAoc2VhcmNoX3R5cGUgPT09ICJjb21wZXRpdG9yIiAmJiAoIWNvbXBldGl0b3JfdXJsIHx8ICFpc1ZhbGlkVXJsKGNvbXBldGl0b3JfdXJsKSkpIHsKICAgICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIlBsZWFzZSBlbnRlciBhIHZhbGlkIGNvbXBldGl0b3IgVVJMLiIgfSwgeyBzdGF0dXM6IDQwMCB9KTsKICAgIH0KCiAgICBjb25zdCBjb3VudCA9IFsxMCwgMjUsIDUwLCAxMDBdLmluY2x1ZGVzKE51bWJlcihyZXN1bHRzX2NvdW50KSkgPyBOdW1iZXIocmVzdWx0c19jb3VudCkgOiAyNTsKICAgIGNvbnN0IG1pbkRhID0gTWF0aC5taW4oOTAsIE1hdGgubWF4KDAsIE51bWJlcihtaW5pbXVtX2RhKSB8fCAyMCkpOwoKICAgIGNvbnN0IHsgb3Bwb3J0dW5pdGllcywgaXNfZGVtbyB9ID0gYXdhaXQgZ2VuZXJhdGVPcHBvcnR1bml0aWVzKHsKICAgICAga2V5d29yZDoga2V5d29yZC50cmltKCksCiAgICAgIGNvdW50cnksCiAgICAgIGJhY2tsaW5rX3R5cGUsCiAgICAgIG1pbmltdW1fZGE6IG1pbkRhLAogICAgICByZXN1bHRzX2NvdW50OiBjb3VudCwKICAgICAgY29tcGV0aXRvcl91cmwKICAgIH0pOwoKICAgIC8vIFBlcnNpc3QgdGhlIHNlYXJjaCArIG9wcG9ydHVuaXRpZXMgaWYgdGhlIHVzZXIgaXMgbG9nZ2VkIGluLgogICAgbGV0IHNlYXJjaF9pZCA9IG51bGw7CiAgICBpZiAodXNlcikgewogICAgICB0cnkgewogICAgICAgIGNvbnN0IHNlYXJjaCA9IGF3YWl0IGJhc2U0NC5lbnRpdGllcy5TZWFyY2guY3JlYXRlKHsKICAgICAgICAgIHdlYnNpdGVfdXJsLAogICAgICAgICAga2V5d29yZDoga2V5d29yZC50cmltKCksCiAgICAgICAgICBjb3VudHJ5OiBjb3VudHJ5IHx8ICJHbG9iYWwiLAogICAgICAgICAgYmFja2xpbmtfdHlwZTogYmFja2xpbmtfdHlwZSB8fCAiQWxsIE9wcG9ydHVuaXRpZXMiLAogICAgICAgICAgbWluaW11bV9kYTogbWluRGEsCiAgICAgICAgICByZXN1bHRzX2NvdW50OiBjb3VudCwKICAgICAgICAgIGNvbXBldGl0b3JfdXJsOiBjb21wZXRpdG9yX3VybCB8fCBudWxsLAogICAgICAgICAgc2VhcmNoX3R5cGU6IHNlYXJjaF90eXBlIHx8ICJiYWNrbGlua3MiLAogICAgICAgICAgaXNfZGVtbzogaXNfZGVtbywKICAgICAgICAgIG9wcG9ydHVuaXRpZXNfZm91bmQ6IG9wcG9ydHVuaXRpZXMubGVuZ3RoCiAgICAgICAgfSk7CiAgICAgICAgc2VhcmNoX2lkID0gc2VhcmNoLmlkOwogICAgICAgIGlmIChvcHBvcnR1bml0aWVzLmxlbmd0aCA+IDApIHsKICAgICAgICAgIGF3YWl0IGJhc2U0NC5lbnRpdGllcy5PcHBvcnR1bml0eS5idWxrQ3JlYXRlKAogICAgICAgICAgICBvcHBvcnR1bml0aWVzLnNsaWNlKDAsIGNvdW50KS5tYXAobyA9PiAoeyAuLi5vLCBzZWFyY2hfaWQgfSkpCiAgICAgICAgICApOwogICAgICAgIH0KICAgICAgfSBjYXRjaCAoZSkgewogICAgICAgIC8vIFBlcnNpc3RpbmcgaXMgYmVzdC1lZmZvcnQ7IG5ldmVyIGJsb2NrIHRoZSByZXN1bHQgb24gc3RvcmFnZSBmYWlsdXJlcy4KICAgICAgfQogICAgfQoKICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsKICAgICAgb3Bwb3J0dW5pdGllcywKICAgICAgaXNfZGVtbywKICAgICAgc2VhcmNoX2lkLAogICAgICBxdWVyeTogeyB3ZWJzaXRlX3VybCwga2V5d29yZDoga2V5d29yZC50cmltKCksIGNvdW50cnksIGJhY2tsaW5rX3R5cGUsCiAgICAgICAgICAgICAgIG1pbmltdW1fZGE6IG1pbkRhLCByZXN1bHRzX2NvdW50OiBjb3VudCB9CiAgICB9KTsKICB9IGNhdGNoIChlcnJvcikgewogICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oCiAgICAgIHsgZXJyb3I6ICJXZSBjb3VsZG4ndCByZXRyaWV2ZSBsaXZlIGJhY2tsaW5rIGRhdGEgcmlnaHQgbm93LiBQbGVhc2UgdHJ5IGFnYWluIGxhdGVyLiIgfSwKICAgICAgeyBzdGF0dXM6IDUwMCB9CiAgICApOwogIH0KfQoKZnVuY3Rpb24gaXNWYWxpZFVybChzdHIpIHsKICB0cnkgewogICAgY29uc3QgdSA9IG5ldyBVUkwoc3RyLnN0YXJ0c1dpdGgoImh0dHAiKSA/IHN0ciA6IGBodHRwczovLyR7c3RyfWApOwogICAgcmV0dXJuIEJvb2xlYW4odS5ob3N0bmFtZSAmJiB1Lmhvc3RuYW1lLmluY2x1ZGVzKCIuIikpOwogIH0gY2F0Y2ggKGUpIHsgcmV0dXJuIGZhbHNlOyB9Cn0=
+import { createClientFromRequest } from 'npm:@base44/sdk@0.8.40';
+import { generateOpportunities } from "../../shared/backlinkService.ts";
+
+export default async function(req) {
+  try {
+    const base44 = createClientFromRequest(req);
+    let user = null;
+    try { user = await base44.auth.me(); } catch (e) { /* anonymous allowed */ }
+
+    const body = await req.json();
+    const {
+      website_url, keyword, country, backlink_type, minimum_da,
+      results_count, competitor_url, search_type
+    } = body || {};
+
+    // Validation
+    if (!website_url || !isValidUrl(website_url)) {
+      return Response.json({ error: "Please enter a valid website URL." }, { status: 400 });
+    }
+    if (!keyword || keyword.trim().length < 2) {
+      return Response.json({ error: "Please enter your target niche or keyword." }, { status: 400 });
+    }
+    if (search_type === "competitor" && (!competitor_url || !isValidUrl(competitor_url))) {
+      return Response.json({ error: "Please enter a valid competitor URL." }, { status: 400 });
+    }
+
+    const count = [10, 25, 50, 100].includes(Number(results_count)) ? Number(results_count) : 25;
+    const minDa = Math.min(90, Math.max(0, Number(minimum_da) || 20));
+
+    const { opportunities, is_demo } = await generateOpportunities({
+      keyword: keyword.trim(),
+      country,
+      backlink_type,
+      minimum_da: minDa,
+      results_count: count,
+      competitor_url
+    });
+
+    // Persist the search + opportunities if the user is logged in.
+    let search_id = null;
+    if (user) {
+      try {
+        const search = await base44.entities.Search.create({
+          website_url,
+          keyword: keyword.trim(),
+          country: country || "Global",
+          backlink_type: backlink_type || "All Opportunities",
+          minimum_da: minDa,
+          results_count: count,
+          competitor_url: competitor_url || null,
+          search_type: search_type || "backlinks",
+          is_demo: is_demo,
+          opportunities_found: opportunities.length
+        });
+        search_id = search.id;
+        if (opportunities.length > 0) {
+          await base44.entities.Opportunity.bulkCreate(
+            opportunities.slice(0, count).map(o => ({ ...o, search_id }))
+          );
+        }
+      } catch (e) {
+        // Persisting is best-effort; never block the result on storage failures.
+      }
+    }
+
+    return Response.json({
+      opportunities,
+      is_demo,
+      search_id,
+      query: { website_url, keyword: keyword.trim(), country, backlink_type,
+               minimum_da: minDa, results_count: count }
+    });
+  } catch (error) {
+    return Response.json(
+      { error: "We couldn't retrieve live backlink data right now. Please try again later." },
+      { status: 500 }
+    );
+  }
+}
+
+function isValidUrl(str) {
+  try {
+    const u = new URL(str.startsWith("http") ? str : `https://${str}`);
+    return Boolean(u.hostname && u.hostname.includes("."));
+  } catch (e) { return false; }
+}

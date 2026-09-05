@@ -1,1 +1,46 @@
-Ly8gb3Bwb3J0dW5pdHlTY29yaW5nU2VydmljZQovLyBDYWxjdWxhdGVzIGEgMC0xMDAgb3Bwb3J0dW5pdHkgc2NvcmUgYW5kIGEgSGlnaC9NZWRpdW0vTG93IHByaW9yaXR5IGZvcgovLyBiYWNrbGluayBnYXAgb3Bwb3J0dW5pdGllcy4gVXNlZCBieSBjb21wZXRpdG9yQW5hbHlzaXNTZXJ2aWNlLgpleHBvcnQgZnVuY3Rpb24gc2NvcmVPcHBvcnR1bml0eShvKSB7CiAgY29uc3QgZGEgPSBvLmRvbWFpbl9hdXRob3JpdHkgfHwgMDsKICBjb25zdCB0cmFmZmljID0gby50cmFmZmljIHx8IDA7CiAgY29uc3QgcmVsZXZhbmNlID0gby5yZWxldmFuY2Vfc2NvcmUgfHwgMDsKICBjb25zdCBudW1Db21wZXRpdG9ycyA9IG8ubnVtQ29tcGV0aXRvcnMgfHwgMTsKICBjb25zdCBjb21wUmF0aW8gPSBudW1Db21wZXRpdG9ycyA+IDAgPyBNYXRoLm1pbigxLCAoby5jb21wZXRpdG9yX2NvdW50IHx8IDEpIC8gbnVtQ29tcGV0aXRvcnMpIDogMDsKICBjb25zdCBndWVzdCA9IG8uZ3Vlc3RfcG9zdF9hdmFpbGFibGUgPyAxIDogMDsKCiAgLy8gRG9tYWluIGF1dGhvcml0eTogMC0zNQogIGNvbnN0IGRhU2NvcmUgPSBNYXRoLm1pbigzNSwgKGRhIC8gOTApICogMzUpOwogIC8vIEVzdGltYXRlZCB0cmFmZmljIChsb2cgc2NhbGUpOiAwLTE1CiAgY29uc3QgdHJhZmZpY1Njb3JlID0gTWF0aC5taW4oMTUsIChNYXRoLmxvZzEwKE1hdGgubWF4KDEwLCB0cmFmZmljKSkgLyA2KSAqIDE1KTsKICAvLyBUb3BpY2FsIHJlbGV2YW5jZTogMC0yMAogIGNvbnN0IHJlbFNjb3JlID0gKHJlbGV2YW5jZSAvIDEwMCkgKiAyMDsKICAvLyBOdW1iZXIgb2YgY29tcGV0aXRvcnMgbGlua2luZyBmcm9tIHRoaXMgZG9tYWluOiAwLTIwCiAgY29uc3QgY29tcFNjb3JlID0gY29tcFJhdGlvICogMjA7CiAgLy8gTGluayBxdWFsaXR5IC8gdHlwZSArIGd1ZXN0IHBvc3QgYXZhaWxhYmlsaXR5OiAwLTEwCiAgY29uc3QgdHlwZUJvbnVzZXMgPSB7CiAgICAiR3Vlc3QgUG9zdCI6IDQsCiAgICAiRWRpdG9yaWFsIjogMywKICAgICJFZGl0b3JpYWwgTGlua3MiOiAzLAogICAgIlJlc291cmNlIFBhZ2UiOiAyLAogICAgIkJsb2cgTGluayI6IDEKICB9OwogIGxldCB0eXBlU2NvcmUgPSBndWVzdCAqIDUgKyAodHlwZUJvbnVzZXNbby5iYWNrbGlua190eXBlXSB8fCAwKTsKICB0eXBlU2NvcmUgPSBNYXRoLm1pbigxMCwgdHlwZVNjb3JlKTsKCiAgY29uc3QgdG90YWwgPSBNYXRoLnJvdW5kKGRhU2NvcmUgKyB0cmFmZmljU2NvcmUgKyByZWxTY29yZSArIGNvbXBTY29yZSArIHR5cGVTY29yZSk7CiAgcmV0dXJuIE1hdGgubWF4KDAsIE1hdGgubWluKDEwMCwgdG90YWwpKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHByaW9yaXR5RnJvbVNjb3JlKHNjb3JlKSB7CiAgaWYgKHNjb3JlID49IDc1KSByZXR1cm4gIkhpZ2giOwogIGlmIChzY29yZSA+PSA1MCkgcmV0dXJuICJNZWRpdW0iOwogIHJldHVybiAiTG93IjsKfQoKZXhwb3J0IGZ1bmN0aW9uIHNjb3JlTGFiZWwoc2NvcmUpIHsKICBpZiAoc2NvcmUgPj0gODUpIHJldHVybiAiRXhjZWxsZW50IE9wcG9ydHVuaXR5IjsKICBpZiAoc2NvcmUgPj0gNzApIHJldHVybiAiU3Ryb25nIE9wcG9ydHVuaXR5IjsKICBpZiAoc2NvcmUgPj0gNTApIHJldHVybiAiR29vZCBPcHBvcnR1bml0eSI7CiAgcmV0dXJuICJMb3cgUHJpb3JpdHkiOwp9
+// opportunityScoringService
+// Calculates a 0-100 opportunity score and a High/Medium/Low priority for
+// backlink gap opportunities. Used by competitorAnalysisService.
+export function scoreOpportunity(o) {
+  const da = o.domain_authority || 0;
+  const traffic = o.traffic || 0;
+  const relevance = o.relevance_score || 0;
+  const numCompetitors = o.numCompetitors || 1;
+  const compRatio = numCompetitors > 0 ? Math.min(1, (o.competitor_count || 1) / numCompetitors) : 0;
+  const guest = o.guest_post_available ? 1 : 0;
+
+  // Domain authority: 0-35
+  const daScore = Math.min(35, (da / 90) * 35);
+  // Estimated traffic (log scale): 0-15
+  const trafficScore = Math.min(15, (Math.log10(Math.max(10, traffic)) / 6) * 15);
+  // Topical relevance: 0-20
+  const relScore = (relevance / 100) * 20;
+  // Number of competitors linking from this domain: 0-20
+  const compScore = compRatio * 20;
+  // Link quality / type + guest post availability: 0-10
+  const typeBonuses = {
+    "Guest Post": 4,
+    "Editorial": 3,
+    "Editorial Links": 3,
+    "Resource Page": 2,
+    "Blog Link": 1
+  };
+  let typeScore = guest * 5 + (typeBonuses[o.backlink_type] || 0);
+  typeScore = Math.min(10, typeScore);
+
+  const total = Math.round(daScore + trafficScore + relScore + compScore + typeScore);
+  return Math.max(0, Math.min(100, total));
+}
+
+export function priorityFromScore(score) {
+  if (score >= 75) return "High";
+  if (score >= 50) return "Medium";
+  return "Low";
+}
+
+export function scoreLabel(score) {
+  if (score >= 85) return "Excellent Opportunity";
+  if (score >= 70) return "Strong Opportunity";
+  if (score >= 50) return "Good Opportunity";
+  return "Low Priority";
+}

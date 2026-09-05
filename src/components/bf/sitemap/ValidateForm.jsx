@@ -1,1 +1,110 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBDaGVja2JveCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jaGVja2JveCI7CmltcG9ydCB7IEZpbGVDb2RlMiwgVXBsb2FkLCBTZWFyY2ggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKZnVuY3Rpb24gaXNWYWxpZFVybChzdHIpIHsKICB0cnkgewogICAgY29uc3QgdSA9IG5ldyBVUkwoc3RyLnN0YXJ0c1dpdGgoImh0dHAiKSA/IHN0ciA6IGBodHRwczovLyR7c3RyfWApOwogICAgcmV0dXJuIEJvb2xlYW4odS5ob3N0bmFtZSAmJiB1Lmhvc3RuYW1lLmluY2x1ZGVzKCIuIikgJiYgKHUucHJvdG9jb2wgPT09ICJodHRwOiIgfHwgdS5wcm90b2NvbCA9PT0gImh0dHBzOiIpKTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBWYWxpZGF0ZUZvcm0oeyBvblZhbGlkYXRlLCBsb2FkaW5nLCBwcmVmaWxsVXJsIH0pIHsKICBjb25zdCBbc2l0ZW1hcF91cmwsIHNldFVybF0gPSBSZWFjdC51c2VTdGF0ZShwcmVmaWxsVXJsIHx8ICIiKTsKICBjb25zdCBbeG1sX2NvbnRlbnQsIHNldFhtbF0gPSBSZWFjdC51c2VTdGF0ZSgiIik7CiAgY29uc3QgW2ZpbGVOYW1lLCBzZXRGaWxlTmFtZV0gPSBSZWFjdC51c2VTdGF0ZSgiIik7CiAgY29uc3QgW2NoZWNrX2h0dHAsIHNldENoZWNrSHR0cF0gPSBSZWFjdC51c2VTdGF0ZSh0cnVlKTsKICBjb25zdCBbZXJyb3IsIHNldEVycm9yXSA9IFJlYWN0LnVzZVN0YXRlKCIiKTsKICBjb25zdCBbbW9kZSwgc2V0TW9kZV0gPSBSZWFjdC51c2VTdGF0ZSgidXJsIik7CgogIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAocHJlZmlsbFVybCkgewogICAgICBzZXRVcmwocHJlZmlsbFVybCk7CiAgICAgIHNldE1vZGUoInVybCIpOwogICAgfQogIH0sIFtwcmVmaWxsVXJsXSk7CgogIGNvbnN0IG9uRmlsZSA9IChlKSA9PiB7CiAgICBjb25zdCBmID0gZS50YXJnZXQuZmlsZXM/LlswXTsKICAgIGlmICghZikgcmV0dXJuOwogICAgaWYgKGYuc2l6ZSA+IDEwICogMTAyNCAqIDEwMjQpIHsKICAgICAgc2V0RXJyb3IoIlRoaXMgc2l0ZW1hcCBleGNlZWRzIHRoZSBzdXBwb3J0ZWQgZmlsZSBzaXplICgxME1CKS4iKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgc2V0RmlsZU5hbWUoZi5uYW1lKTsKICAgIGNvbnN0IHJlYWRlciA9IG5ldyBGaWxlUmVhZGVyKCk7CiAgICByZWFkZXIub25sb2FkID0gKCkgPT4gc2V0WG1sKFN0cmluZyhyZWFkZXIucmVzdWx0IHx8ICIiKSk7CiAgICByZWFkZXIub25lcnJvciA9ICgpID0+IHNldEVycm9yKCJDb3VsZCBub3QgcmVhZCB0aGUgdXBsb2FkZWQgZmlsZS4iKTsKICAgIHJlYWRlci5yZWFkQXNUZXh0KGYpOwogIH07CgogIGNvbnN0IHN1Ym1pdCA9IChlKSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBzZXRFcnJvcigiIik7CiAgICBpZiAobW9kZSA9PT0gInVybCIpIHsKICAgICAgaWYgKCFzaXRlbWFwX3VybC50cmltKCkgfHwgIWlzVmFsaWRVcmwoc2l0ZW1hcF91cmwpKSB7CiAgICAgICAgc2V0RXJyb3IoIlBsZWFzZSBlbnRlciBhIHZhbGlkIHNpdGVtYXAgVVJMLiIpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBvblZhbGlkYXRlKHsKICAgICAgICBzaXRlbWFwX3VybDogc2l0ZW1hcF91cmwudHJpbSgpLnN0YXJ0c1dpdGgoImh0dHAiKSA/IHNpdGVtYXBfdXJsLnRyaW0oKSA6IGBodHRwczovLyR7c2l0ZW1hcF91cmwudHJpbSgpfWAsCiAgICAgICAgY2hlY2tfaHR0cAogICAgICB9KTsKICAgIH0gZWxzZSB7CiAgICAgIGlmICgheG1sX2NvbnRlbnQudHJpbSgpKSB7CiAgICAgICAgc2V0RXJyb3IoIlBsZWFzZSB1cGxvYWQgYW4gWE1MIHNpdGVtYXAgZmlsZS4iKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgb25WYWxpZGF0ZSh7IHhtbF9jb250ZW50LCBjaGVja19odHRwIH0pOwogICAgfQogIH07CgogIHJldHVybiAoCiAgICA8Zm9ybSBvblN1Ym1pdD17c3VibWl0fSBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXdoaXRlIHAtNiBzaGFkb3ctc20gc206cC04Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaC04IHctOCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1sZyBiZy1zbGF0ZS05MDAgdGV4dC13aGl0ZSI+CiAgICAgICAgICA8RmlsZUNvZGUyIGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAgICA8L3NwYW4+CiAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtc2xhdGUtOTAwIj5WYWxpZGF0ZSBTaXRlbWFwPC9oMz4KICAgICAgPC9kaXY+CiAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXNtIHRleHQtc2xhdGUtNTAwIj5DaGVjayBhIHNpdGVtYXAgZm9yIFhNTCBlcnJvcnMsIGJyb2tlbiBVUkxzLCByZWRpcmVjdHMsIGFuZCBpbmRleGluZyBpc3N1ZXMuPC9wPgoKICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZmxleCBnYXAtMiByb3VuZGVkLWxnIGJnLXNsYXRlLTEwMCBwLTEiPgogICAgICAgIDxidXR0b24gdHlwZT0iYnV0dG9uIiBvbkNsaWNrPXsoKSA9PiBzZXRNb2RlKCJ1cmwiKX0gY2xhc3NOYW1lPXtgZmxleC0xIHJvdW5kZWQtbWQgcHgtMyBweS0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSAke21vZGUgPT09ICJ1cmwiID8gImJnLXdoaXRlIHRleHQtc2xhdGUtOTAwIHNoYWRvdy1zbSIgOiAidGV4dC1zbGF0ZS02MDAifWB9PkVudGVyIFNpdGVtYXAgVVJMPC9idXR0b24+CiAgICAgICAgPGJ1dHRvbiB0eXBlPSJidXR0b24iIG9uQ2xpY2s9eygpID0+IHNldE1vZGUoInVwbG9hZCIpfSBjbGFzc05hbWU9e2BmbGV4LTEgcm91bmRlZC1tZCBweC0zIHB5LTEuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtICR7bW9kZSA9PT0gInVwbG9hZCIgPyAiYmctd2hpdGUgdGV4dC1zbGF0ZS05MDAgc2hhZG93LXNtIiA6ICJ0ZXh0LXNsYXRlLTYwMCJ9YH0+VXBsb2FkIFhNTCBGaWxlPC9idXR0b24+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTUgc3BhY2UteS00Ij4KICAgICAgICB7bW9kZSA9PT0gInVybCIgPyAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0ic21fc2l0ZW1hcF91cmwiPlNpdGVtYXAgVVJMPC9MYWJlbD4KICAgICAgICAgICAgPElucHV0IGlkPSJzbV9zaXRlbWFwX3VybCIgcGxhY2Vob2xkZXI9Imh0dHBzOi8vZXhhbXBsZS5jb20vc2l0ZW1hcC54bWwiIHZhbHVlPXtzaXRlbWFwX3VybH0gb25DaGFuZ2U9eyhlKSA9PiBzZXRVcmwoZS50YXJnZXQudmFsdWUpfSAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICAgIDxMYWJlbD5VcGxvYWQgU2l0ZW1hcCAoLnhtbCk8L0xhYmVsPgogICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmbGV4IGN1cnNvci1wb2ludGVyIGl0ZW1zLWNlbnRlciBnYXAtMyByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1zbGF0ZS0zMDAgYmctc2xhdGUtNTAgcHgtNCBweS00IHRleHQtc20gdGV4dC1zbGF0ZS02MDAgaG92ZXI6Ym9yZGVyLXNsYXRlLTQwMCI+CiAgICAgICAgICAgICAgPFVwbG9hZCBjbGFzc05hbWU9ImgtNSB3LTUgdGV4dC1zbGF0ZS00MDAiIC8+CiAgICAgICAgICAgICAgPHNwYW4+e2ZpbGVOYW1lIHx8ICJDaG9vc2UgYW4gWE1MIGZpbGXigKYifTwvc3Bhbj4KICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0iZmlsZSIgYWNjZXB0PSIueG1sLHRleHQveG1sLGFwcGxpY2F0aW9uL3htbCIgY2xhc3NOYW1lPSJoaWRkZW4iIG9uQ2hhbmdlPXtvbkZpbGV9IC8+CiAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gdGV4dC1zbGF0ZS03MDAiPgogICAgICAgICAgPENoZWNrYm94IGNoZWNrZWQ9e2NoZWNrX2h0dHB9IG9uQ2hlY2tlZENoYW5nZT17c2V0Q2hlY2tIdHRwfSAvPiBDaGVjayBIVFRQIHN0YXR1cyBvZiBVUkxzIChzbG93ZXIsIG1vcmUgdGhvcm91Z2gpCiAgICAgICAgPC9sYWJlbD4KICAgICAgPC9kaXY+CgogICAgICB7ZXJyb3IgJiYgPGRpdiBjbGFzc05hbWU9Im10LTQgcm91bmRlZC1sZyBiZy1yb3NlLTUwIHB4LTQgcHktMyB0ZXh0LXNtIHRleHQtcm9zZS03MDAiPntlcnJvcn08L2Rpdj59CgogICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCIgc2l6ZT0ibGciIGRpc2FibGVkPXtsb2FkaW5nfSBjbGFzc05hbWU9Im10LTYgdy1mdWxsIj4KICAgICAgICA8U2VhcmNoIGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPiB7bG9hZGluZyA/ICJWYWxpZGF0aW5n4oCmIiA6ICJWYWxpZGF0ZSBTaXRlbWFwIn0KICAgICAgPC9CdXR0b24+CiAgICA8L2Zvcm0+CiAgKTsKfQ==
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
+import { FileCode2, Upload, Search } from "lucide-react";
+
+function isValidUrl(str) {
+  try {
+    const u = new URL(str.startsWith("http") ? str : `https://${str}`);
+    return Boolean(u.hostname && u.hostname.includes(".") && (u.protocol === "http:" || u.protocol === "https:"));
+  } catch (e) {
+    return false;
+  }
+}
+
+export default function ValidateForm({ onValidate, loading, prefillUrl }) {
+  const [sitemap_url, setUrl] = React.useState(prefillUrl || "");
+  const [xml_content, setXml] = React.useState("");
+  const [fileName, setFileName] = React.useState("");
+  const [check_http, setCheckHttp] = React.useState(true);
+  const [error, setError] = React.useState("");
+  const [mode, setMode] = React.useState("url");
+
+  React.useEffect(() => {
+    if (prefillUrl) {
+      setUrl(prefillUrl);
+      setMode("url");
+    }
+  }, [prefillUrl]);
+
+  const onFile = (e) => {
+    const f = e.target.files?.[0];
+    if (!f) return;
+    if (f.size > 10 * 1024 * 1024) {
+      setError("This sitemap exceeds the supported file size (10MB).");
+      return;
+    }
+    setFileName(f.name);
+    const reader = new FileReader();
+    reader.onload = () => setXml(String(reader.result || ""));
+    reader.onerror = () => setError("Could not read the uploaded file.");
+    reader.readAsText(f);
+  };
+
+  const submit = (e) => {
+    e.preventDefault();
+    setError("");
+    if (mode === "url") {
+      if (!sitemap_url.trim() || !isValidUrl(sitemap_url)) {
+        setError("Please enter a valid sitemap URL.");
+        return;
+      }
+      onValidate({
+        sitemap_url: sitemap_url.trim().startsWith("http") ? sitemap_url.trim() : `https://${sitemap_url.trim()}`,
+        check_http
+      });
+    } else {
+      if (!xml_content.trim()) {
+        setError("Please upload an XML sitemap file.");
+        return;
+      }
+      onValidate({ xml_content, check_http });
+    }
+  };
+
+  return (
+    <form onSubmit={submit} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+      <div className="flex items-center gap-2">
+        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-white">
+          <FileCode2 className="h-4 w-4" />
+        </span>
+        <h3 className="text-lg font-semibold tracking-tight text-slate-900">Validate Sitemap</h3>
+      </div>
+      <p className="mt-1 text-sm text-slate-500">Check a sitemap for XML errors, broken URLs, redirects, and indexing issues.</p>
+
+      <div className="mt-6 flex gap-2 rounded-lg bg-slate-100 p-1">
+        <button type="button" onClick={() => setMode("url")} className={`flex-1 rounded-md px-3 py-1.5 text-sm font-medium ${mode === "url" ? "bg-white text-slate-900 shadow-sm" : "text-slate-600"}`}>Enter Sitemap URL</button>
+        <button type="button" onClick={() => setMode("upload")} className={`flex-1 rounded-md px-3 py-1.5 text-sm font-medium ${mode === "upload" ? "bg-white text-slate-900 shadow-sm" : "text-slate-600"}`}>Upload XML File</button>
+      </div>
+
+      <div className="mt-5 space-y-4">
+        {mode === "url" ? (
+          <div className="space-y-1.5">
+            <Label htmlFor="sm_sitemap_url">Sitemap URL</Label>
+            <Input id="sm_sitemap_url" placeholder="https://example.com/sitemap.xml" value={sitemap_url} onChange={(e) => setUrl(e.target.value)} />
+          </div>
+        ) : (
+          <div className="space-y-1.5">
+            <Label>Upload Sitemap (.xml)</Label>
+            <label className="flex cursor-pointer items-center gap-3 rounded-lg border border-dashed border-slate-300 bg-slate-50 px-4 py-4 text-sm text-slate-600 hover:border-slate-400">
+              <Upload className="h-5 w-5 text-slate-400" />
+              <span>{fileName || "Choose an XML file…"}</span>
+              <input type="file" accept=".xml,text/xml,application/xml" className="hidden" onChange={onFile} />
+            </label>
+          </div>
+        )}
+        <label className="flex items-center gap-2 text-sm text-slate-700">
+          <Checkbox checked={check_http} onCheckedChange={setCheckHttp} /> Check HTTP status of URLs (slower, more thorough)
+        </label>
+      </div>
+
+      {error && <div className="mt-4 rounded-lg bg-rose-50 px-4 py-3 text-sm text-rose-700">{error}</div>}
+
+      <Button type="submit" size="lg" disabled={loading} className="mt-6 w-full">
+        <Search className="mr-2 h-4 w-4" /> {loading ? "Validating…" : "Validate Sitemap"}
+      </Button>
+    </form>
+  );
+}

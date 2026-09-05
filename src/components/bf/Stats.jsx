@@ -1,1 +1,27 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKCmNvbnN0IFNUQVRTID0gWwogIHsgdmFsdWU6ICIxMEsrIiwgbGFiZWw6ICJPcHBvcnR1bml0aWVzIERpc2NvdmVyZWQiIH0sCiAgeyB2YWx1ZTogIjJLKyIsIGxhYmVsOiAiR3Vlc3QgUG9zdGluZyBTaXRlcyIgfSwKICB7IHZhbHVlOiAiNTArIiwgbGFiZWw6ICJOaWNoZXMgQ292ZXJlZCIgfQpdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU3RhdHMoKSB7CiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iYmctc2xhdGUtOTAwIHB5LTE2Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctNnhsIHB4LTQgc206cHgtNiI+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciB0ZXh0LXhzIGZvbnQtbWVkaXVtIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciB0ZXh0LXNsYXRlLTQwMCI+CiAgICAgICAgICBJbGx1c3RyYXRpdmUgZmlndXJlcyDigJQgbm90IGxpdmUgY29tcGFueSBzdGF0aXN0aWNzCiAgICAgICAgPC9wPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC04IGdyaWQgZ3JpZC1jb2xzLTEgZ2FwLTggc206Z3JpZC1jb2xzLTMiPgogICAgICAgICAge1NUQVRTLm1hcCgocykgPT4gKAogICAgICAgICAgICA8ZGl2IGtleT17cy5sYWJlbH0gY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtNHhsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQgdGV4dC13aGl0ZSBzbTp0ZXh0LTV4bCI+e3MudmFsdWV9PC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgdGV4dC1zbSB0ZXh0LXNsYXRlLTQwMCI+e3MubGFiZWx9PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn0=
+import React from "react";
+
+const STATS = [
+  { value: "10K+", label: "Opportunities Discovered" },
+  { value: "2K+", label: "Guest Posting Sites" },
+  { value: "50+", label: "Niches Covered" }
+];
+
+export default function Stats() {
+  return (
+    <section className="bg-slate-900 py-16">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <p className="text-center text-xs font-medium uppercase tracking-wider text-slate-400">
+          Illustrative figures — not live company statistics
+        </p>
+        <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
+          {STATS.map((s) => (
+            <div key={s.label} className="text-center">
+              <div className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">{s.value}</div>
+              <div className="mt-2 text-sm text-slate-400">{s.label}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

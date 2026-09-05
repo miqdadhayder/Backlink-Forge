@@ -1,1 +1,45 @@
-ewogICJuYW1lIjogIlNhdmVkT3Bwb3J0dW5pdHkiLAogICJ0eXBlIjogIm9iamVjdCIsCiAgInByb3BlcnRpZXMiOiB7CiAgICAib3Bwb3J0dW5pdHlfaWQiOiB7CiAgICAgICJ0eXBlIjogInN0cmluZyIKICAgIH0sCiAgICAid2Vic2l0ZSI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIgogICAgfSwKICAgICJ1cmwiOiB7CiAgICAgICJ0eXBlIjogInN0cmluZyIKICAgIH0sCiAgICAiZG9tYWluX2F1dGhvcml0eSI6IHsKICAgICAgInR5cGUiOiAibnVtYmVyIgogICAgfSwKICAgICJ0cmFmZmljIjogewogICAgICAidHlwZSI6ICJudW1iZXIiCiAgICB9LAogICAgIm5pY2hlIjogewogICAgICAidHlwZSI6ICJzdHJpbmciCiAgICB9LAogICAgImJhY2tsaW5rX3R5cGUiOiB7CiAgICAgICJ0eXBlIjogInN0cmluZyIKICAgIH0sCiAgICAiZ3Vlc3RfcG9zdF9hdmFpbGFibGUiOiB7CiAgICAgICJ0eXBlIjogImJvb2xlYW4iLAogICAgICAiZGVmYXVsdCI6IGZhbHNlCiAgICB9LAogICAgInJlbGV2YW5jZV9zY29yZSI6IHsKICAgICAgInR5cGUiOiAibnVtYmVyIgogICAgfSwKICAgICJkaWZmaWN1bHR5IjogewogICAgICAidHlwZSI6ICJzdHJpbmciCiAgICB9LAogICAgIm5vdGVzIjogewogICAgICAidHlwZSI6ICJzdHJpbmciCiAgICB9CiAgfSwKICAicmVxdWlyZWQiOiBbCiAgICAib3Bwb3J0dW5pdHlfaWQiLAogICAgIndlYnNpdGUiLAogICAgInVybCIKICBdCn0=
+{
+  "name": "SavedOpportunity",
+  "type": "object",
+  "properties": {
+    "opportunity_id": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "domain_authority": {
+      "type": "number"
+    },
+    "traffic": {
+      "type": "number"
+    },
+    "niche": {
+      "type": "string"
+    },
+    "backlink_type": {
+      "type": "string"
+    },
+    "guest_post_available": {
+      "type": "boolean",
+      "default": false
+    },
+    "relevance_score": {
+      "type": "number"
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "opportunity_id",
+    "website",
+    "url"
+  ]
+}

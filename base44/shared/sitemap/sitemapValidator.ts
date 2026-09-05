@@ -1,1 +1,213 @@
-aW1wb3J0IHsgc2FmZVVybCwgbm9ybWFsaXplVXJsIH0gZnJvbSAiLi91cmxOb3JtYWxpemVyLnRzIjsKaW1wb3J0IHsgZmV0Y2hSb2JvdHMsIGlzQWxsb3dlZCwgUm9ib3RzSW5mbyB9IGZyb20gIi4vcm9ib3RzU2VydmljZS50cyI7CmltcG9ydCB7IGlzV2VsbEZvcm1lZCB9IGZyb20gIi4vc2l0ZW1hcEdlbmVyYXRvci50cyI7Cgpjb25zdCBNQVhfVVJMX0NIRUNLUyA9IDEwMDsKY29uc3QgTUFYX0NISUxEX1NJVEVNQVBTID0gNTsKY29uc3QgTUFYX0JZVEVTID0gMTAgKiAxMDI0ICogMTAyNDsKCmV4cG9ydCBpbnRlcmZhY2UgU2l0ZW1hcElzc3VlIHsKICB1cmw6IHN0cmluZzsKICB0eXBlOiBzdHJpbmc7CiAgc2V2ZXJpdHk6ICJlcnJvciIgfCAid2FybmluZyI7CiAgc3RhdHVzOiBudW1iZXIgfCBudWxsOwogIHJlY29tbWVuZGF0aW9uOiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgU2l0ZW1hcENoZWNrIHsKICBsYWJlbDogc3RyaW5nOwogIHN0YXR1czogInBhc3NlZCIgfCAid2FybmluZyIgfCAiZXJyb3IiOwogIGRldGFpbDogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIFZhbGlkYXRpb25SZXN1bHQgewogIGhlYWx0aDogbnVtYmVyOwogIGlzX2luZGV4OiBib29sZWFuOwogIGNoaWxkX3NpdGVtYXBzOiB7IHVybDogc3RyaW5nOyB1cmxfY291bnQ6IG51bWJlcjsgc3RhdHVzOiBzdHJpbmcgfVtdOwogIHN0YXRzOiB7IHVybF9jb3VudDogbnVtYmVyOyBkdXBsaWNhdGVfY291bnQ6IG51bWJlcjsgaW52YWxpZF9jb3VudDogbnVtYmVyOyBub25faHR0cHNfY291bnQ6IG51bWJlciB9OwogIGNoZWNrczogU2l0ZW1hcENoZWNrW107CiAgaXNzdWVzOiBTaXRlbWFwSXNzdWVbXTsKICBzb3VyY2VfdXJsOiBzdHJpbmcgfCBudWxsOwp9CgpleHBvcnQgaW50ZXJmYWNlIFBhcnNlZFNpdGVtYXAgewogIGlzSW5kZXg6IGJvb2xlYW47CiAgaGFzTnM6IGJvb2xlYW47CiAgbG9jYXRpb25zOiBzdHJpbmdbXTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHBhcnNlU2l0ZW1hcFhtbCh4bWw6IHN0cmluZyk6IFBhcnNlZFNpdGVtYXAgewogIGlmICgheG1sIHx8ICF4bWwudHJpbSgpKSByZXR1cm4geyBpc0luZGV4OiBmYWxzZSwgaGFzTnM6IGZhbHNlLCBsb2NhdGlvbnM6IFtdIH07CiAgY29uc3QgaGFzTnMgPSAveG1sbnM9WyInXWh0dHA6XC9cL3d3d1wuc2l0ZW1hcHNcLm9yZ1wvc2NoZW1hc1wvc2l0ZW1hcFwvMFwuOVsiJ10vLnRlc3QoeG1sKTsKICBjb25zdCBpc0luZGV4ID0gLzxzaXRlbWFwaW5kZXhbXHM+XS8udGVzdCh4bWwpOwogIGNvbnN0IGxvY1JlID0gLzxsb2M+KFtcc1xTXSo/KTxcL2xvYz4vZ2k7CiAgY29uc3QgbG9jYXRpb25zOiBzdHJpbmdbXSA9IFtdOwogIGxldCBtOiBSZWdFeHBFeGVjQXJyYXkgfCBudWxsOwogIHdoaWxlICgobSA9IGxvY1JlLmV4ZWMoeG1sKSkgIT09IG51bGwpIGxvY2F0aW9ucy5wdXNoKG1bMV0udHJpbSgpKTsKICByZXR1cm4geyBpc0luZGV4LCBoYXNOcywgbG9jYXRpb25zIH07Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBmZXRjaFhtbCgKICB1cmw6IHN0cmluZywKICBtYXhCeXRlczogbnVtYmVyCik6IFByb21pc2U8eyBvazogYm9vbGVhbjsgc3RhdHVzOiBudW1iZXI7IHRleHQ6IHN0cmluZyB9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IGN0cmwgPSBuZXcgQWJvcnRDb250cm9sbGVyKCk7CiAgICBjb25zdCB0ID0gc2V0VGltZW91dCgoKSA9PiBjdHJsLmFib3J0KCksIDkwMDApOwogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2godXJsLCB7CiAgICAgIG1ldGhvZDogIkdFVCIsCiAgICAgIHJlZGlyZWN0OiAiZm9sbG93IiwKICAgICAgc2lnbmFsOiBjdHJsLnNpZ25hbCwKICAgICAgaGVhZGVyczogeyAiVXNlci1BZ2VudCI6ICJCYWNrbGlua0ZvcmdlU2l0ZW1hcEJvdC8xLjAiLCAiQWNjZXB0IjogImFwcGxpY2F0aW9uL3htbCx0ZXh0L3htbCwqLyo7cT0wLjgiIH0KICAgIH0pOwogICAgY2xlYXJUaW1lb3V0KHQpOwogICAgaWYgKCFyZXMub2spIHJldHVybiB7IG9rOiBmYWxzZSwgc3RhdHVzOiByZXMuc3RhdHVzLCB0ZXh0OiAiIiB9OwogICAgY29uc3QgcmVhZGVyID0gcmVzLmJvZHk/LmdldFJlYWRlcigpOwogICAgaWYgKCFyZWFkZXIpIHsKICAgICAgY29uc3QgdHh0ID0gYXdhaXQgcmVzLnRleHQoKTsKICAgICAgcmV0dXJuIHsgb2s6IHRydWUsIHN0YXR1czogcmVzLnN0YXR1cywgdGV4dDogdHh0LnNsaWNlKDAsIG1heEJ5dGVzKSB9OwogICAgfQogICAgY29uc3QgZGVjID0gbmV3IFRleHREZWNvZGVyKCk7CiAgICBsZXQgYnVmID0gIiI7CiAgICBsZXQgcmVjZWl2ZWQgPSAwOwogICAgd2hpbGUgKHJlY2VpdmVkIDwgbWF4Qnl0ZXMpIHsKICAgICAgY29uc3QgeyBkb25lLCB2YWx1ZSB9ID0gYXdhaXQgcmVhZGVyLnJlYWQoKTsKICAgICAgaWYgKGRvbmUpIGJyZWFrOwogICAgICByZWNlaXZlZCArPSB2YWx1ZS5sZW5ndGg7CiAgICAgIGJ1ZiArPSBkZWMuZGVjb2RlKHZhbHVlLCB7IHN0cmVhbTogdHJ1ZSB9KTsKICAgIH0KICAgIHRyeSB7IGF3YWl0IHJlYWRlci5jYW5jZWwoKTsgfSBjYXRjaCAoZSkgeyAvKiBpZ25vcmUgKi8gfQogICAgcmV0dXJuIHsgb2s6IHRydWUsIHN0YXR1czogcmVzLnN0YXR1cywgdGV4dDogYnVmIH07CiAgfSBjYXRjaCAoZSkgewogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBzdGF0dXM6IDAsIHRleHQ6ICIiIH07CiAgfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gdmFsaWRhdGVTaXRlbWFwKG9wdHM6IHsKICB4bWw6IHN0cmluZzsKICBzb3VyY2VVcmw6IHN0cmluZyB8IG51bGw7CiAgY2hlY2tIdHRwOiBib29sZWFuOwp9KTogUHJvbWlzZTxWYWxpZGF0aW9uUmVzdWx0PiB7CiAgY29uc3QgeyB4bWwsIHNvdXJjZVVybCwgY2hlY2tIdHRwIH0gPSBvcHRzOwogIGNvbnN0IHBhcnNlZCA9IHBhcnNlU2l0ZW1hcFhtbCh4bWwpOwogIGxldCBjaGlsZF9zaXRlbWFwczogeyB1cmw6IHN0cmluZzsgdXJsX2NvdW50OiBudW1iZXI7IHN0YXR1czogc3RyaW5nIH1bXSA9IFtdOwogIGxldCBhbGxMb2NzOiBzdHJpbmdbXSA9IFtdOwoKICBpZiAocGFyc2VkLmlzSW5kZXgpIHsKICAgIGNvbnN0IGNoaWxkcmVuID0gcGFyc2VkLmxvY2F0aW9ucy5zbGljZSgwLCBNQVhfQ0hJTERfU0lURU1BUFMpOwogICAgZm9yIChjb25zdCBjIG9mIGNoaWxkcmVuKSB7CiAgICAgIGNvbnN0IGN1ID0gc2FmZVVybChjKTsKICAgICAgaWYgKCFjdSkgeyBjaGlsZF9zaXRlbWFwcy5wdXNoKHsgdXJsOiBjLCB1cmxfY291bnQ6IDAsIHN0YXR1czogIkludmFsaWQgVVJMIiB9KTsgY29udGludWU7IH0KICAgICAgY29uc3Qgc3ViID0gYXdhaXQgZmV0Y2hYbWwoY3UudG9TdHJpbmcoKSwgTUFYX0JZVEVTKTsKICAgICAgaWYgKCFzdWIub2spIHsgY2hpbGRfc2l0ZW1hcHMucHVzaCh7IHVybDogYywgdXJsX2NvdW50OiAwLCBzdGF0dXM6IHN1Yi5zdGF0dXMgPT09IDAgPyAiVW5yZWFjaGFibGUiIDogYEhUVFAgJHtzdWIuc3RhdHVzfWAgfSk7IGNvbnRpbnVlOyB9CiAgICAgIGNvbnN0IHNwID0gcGFyc2VTaXRlbWFwWG1sKHN1Yi50ZXh0KTsKICAgICAgaWYgKHNwLmlzSW5kZXgpIHsgY2hpbGRfc2l0ZW1hcHMucHVzaCh7IHVybDogYywgdXJsX2NvdW50OiAwLCBzdGF0dXM6ICJOZXN0ZWQgaW5kZXgiIH0pOyBjb250aW51ZTsgfQogICAgICBjaGlsZF9zaXRlbWFwcy5wdXNoKHsgdXJsOiBjLCB1cmxfY291bnQ6IHNwLmxvY2F0aW9ucy5sZW5ndGgsIHN0YXR1czogIk9LIiB9KTsKICAgICAgYWxsTG9jcyA9IGFsbExvY3MuY29uY2F0KHNwLmxvY2F0aW9ucyk7CiAgICB9CiAgfSBlbHNlIHsKICAgIGFsbExvY3MgPSBwYXJzZWQubG9jYXRpb25zOwogIH0KCiAgY29uc3Qgc2VlbiA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIGNvbnN0IGlzc3VlczogU2l0ZW1hcElzc3VlW10gPSBbXTsKICBsZXQgZHVwbGljYXRlQ291bnQgPSAwLCBpbnZhbGlkQ291bnQgPSAwLCBub25IdHRwc0NvdW50ID0gMDsKICBjb25zdCB2YWxpZExvY3M6IHN0cmluZ1tdID0gW107CiAgZm9yIChjb25zdCBsb2Mgb2YgYWxsTG9jcykgewogICAgY29uc3QgdSA9IHNhZmVVcmwobG9jKTsKICAgIGlmICghdSkgewogICAgICBpbnZhbGlkQ291bnQrKzsKICAgICAgaXNzdWVzLnB1c2goeyB1cmw6IGxvYywgdHlwZTogIkludmFsaWQgVVJMIiwgc2V2ZXJpdHk6ICJlcnJvciIsIHN0YXR1czogbnVsbCwgcmVjb21tZW5kYXRpb246ICJSZW1vdmUgb3IgZml4IHRoaXMgbWFsZm9ybWVkIFVSTCBpbiB0aGUgc2l0ZW1hcC4iIH0pOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGNvbnN0IG5vcm0gPSBub3JtYWxpemVVcmwobG9jLCBzb3VyY2VVcmwgfHwgdW5kZWZpbmVkKSB8fCBsb2M7CiAgICBpZiAoc2Vlbi5oYXMobm9ybSkpIHsKICAgICAgZHVwbGljYXRlQ291bnQrKzsKICAgICAgaXNzdWVzLnB1c2goeyB1cmw6IGxvYywgdHlwZTogIkR1cGxpY2F0ZSIsIHNldmVyaXR5OiAid2FybmluZyIsIHN0YXR1czogbnVsbCwgcmVjb21tZW5kYXRpb246ICJSZW1vdmUgZHVwbGljYXRlIGVudHJpZXMg4oCUIGtlZXAgYSBzaW5nbGUgY2Fub25pY2FsIFVSTC4iIH0pOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIHNlZW4uYWRkKG5vcm0pOwogICAgaWYgKHUucHJvdG9jb2wgPT09ICJodHRwOiIpIHsKICAgICAgbm9uSHR0cHNDb3VudCsrOwogICAgICBpc3N1ZXMucHVzaCh7IHVybDogbG9jLCB0eXBlOiAiTm9uLUhUVFBTIiwgc2V2ZXJpdHk6ICJ3YXJuaW5nIiwgc3RhdHVzOiBudWxsLCByZWNvbW1lbmRhdGlvbjogIlVzZSB0aGUgSFRUUFMgdmVyc2lvbiBvZiB0aGlzIFVSTCBpZiBvbmUgZXhpc3RzLiIgfSk7CiAgICB9CiAgICB2YWxpZExvY3MucHVzaChsb2MpOwogIH0KCiAgY29uc3Qgcm9ib3RzQ2FjaGUgPSBuZXcgTWFwPHN0cmluZywgUm9ib3RzSW5mbz4oKTsKICBjb25zdCBnZXRSb2JvdHMgPSBhc3luYyAodXJsOiBzdHJpbmcpOiBQcm9taXNlPFJvYm90c0luZm8gfCBudWxsPiA9PiB7CiAgICBsZXQgbzogc3RyaW5nIHwgbnVsbCA9IG51bGw7CiAgICB0cnkgeyBvID0gbmV3IFVSTCh1cmwpLm9yaWdpbjsgfSBjYXRjaCAoZSkgeyByZXR1cm4gbnVsbDsgfQogICAgaWYgKCFvKSByZXR1cm4gbnVsbDsKICAgIGlmIChyb2JvdHNDYWNoZS5oYXMobykpIHJldHVybiByb2JvdHNDYWNoZS5nZXQobykgYXMgUm9ib3RzSW5mbzsKICAgIGNvbnN0IHIgPSBhd2FpdCBmZXRjaFJvYm90cyhvKTsKICAgIHJvYm90c0NhY2hlLnNldChvLCByKTsKICAgIHJldHVybiByOwogIH07CgogIGxldCByZWRpcmVjdENvdW50ID0gMCwgZXJyNDA0ID0gMCwgZXJyNDAzID0gMCwgZXJyNXh4ID0gMCwgbm9pbmRleENvdW50ID0gMCwgcm9ib3RzQmxvY2tlZENvdW50ID0gMDsKICBpZiAoY2hlY2tIdHRwICYmIHZhbGlkTG9jcy5sZW5ndGgpIHsKICAgIGNvbnN0IHNhbXBsZSA9IHZhbGlkTG9jcy5zbGljZSgwLCBNQVhfVVJMX0NIRUNLUyk7CiAgICBjb25zdCByZXN1bHRzID0gYXdhaXQgUHJvbWlzZS5hbGxTZXR0bGVkKAogICAgICBzYW1wbGUubWFwKGFzeW5jIChsb2MpID0+IHsKICAgICAgICBjb25zdCByID0geyBsb2MsIHN0YXR1czogMCwgcmVkaXJlY3RlZDogZmFsc2UsIGNvbnRlbnRUeXBlOiAiIiwgbm9pbmRleDogZmFsc2UsIHJvYm90c0Jsb2NrZWQ6IGZhbHNlIH07CiAgICAgICAgY29uc3Qgcm9ib3RzID0gYXdhaXQgZ2V0Um9ib3RzKGxvYyk7CiAgICAgICAgaWYgKHJvYm90cyAmJiAhaXNBbGxvd2VkKGxvYywgcm9ib3RzKSkgeyByLnJvYm90c0Jsb2NrZWQgPSB0cnVlOyByZXR1cm4gcjsgfQogICAgICAgIHRyeSB7CiAgICAgICAgICBjb25zdCBjdHJsID0gbmV3IEFib3J0Q29udHJvbGxlcigpOwogICAgICAgICAgY29uc3QgdCA9IHNldFRpbWVvdXQoKCkgPT4gY3RybC5hYm9ydCgpLCA3MDAwKTsKICAgICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKGxvYywgeyBtZXRob2Q6ICJHRVQiLCByZWRpcmVjdDogImZvbGxvdyIsIHNpZ25hbDogY3RybC5zaWduYWwsIGhlYWRlcnM6IHsgIlVzZXItQWdlbnQiOiAiQmFja2xpbmtGb3JnZVNpdGVtYXBCb3QvMS4wIiB9IH0pOwogICAgICAgICAgY2xlYXJUaW1lb3V0KHQpOwogICAgICAgICAgci5zdGF0dXMgPSByZXMuc3RhdHVzOwogICAgICAgICAgci5yZWRpcmVjdGVkID0gcmVzLnJlZGlyZWN0ZWQgfHwgKHJlcy5zdGF0dXMgPj0gMzAwICYmIHJlcy5zdGF0dXMgPCA0MDApOwogICAgICAgICAgci5jb250ZW50VHlwZSA9IHJlcy5oZWFkZXJzLmdldCgiY29udGVudC10eXBlIikgfHwgIiI7CiAgICAgICAgICBpZiAoL3RleHRcL2h0bWwvaS50ZXN0KHIuY29udGVudFR5cGUpKSB7CiAgICAgICAgICAgIGNvbnN0IGJvZHkgPSBhd2FpdCByZXMudGV4dCgpOwogICAgICAgICAgICByLm5vaW5kZXggPSAvPG1ldGFbXj5dK25hbWU9WyInXXJvYm90c1siJ11bXj5dKmNvbnRlbnQ9WyInXVteIiddKm5vaW5kZXgvaS50ZXN0KGJvZHkpOwogICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGUpIHsgci5zdGF0dXMgPSAwOyB9CiAgICAgICAgcmV0dXJuIHI7CiAgICAgIH0pCiAgICApOwogICAgZm9yIChjb25zdCBzIG9mIHJlc3VsdHMpIHsKICAgICAgaWYgKHMuc3RhdHVzICE9PSAiZnVsZmlsbGVkIikgY29udGludWU7CiAgICAgIGNvbnN0IHIgPSBzLnZhbHVlOwogICAgICBpZiAoci5yb2JvdHNCbG9ja2VkKSB7IHJvYm90c0Jsb2NrZWRDb3VudCsrOyBpc3N1ZXMucHVzaCh7IHVybDogci5sb2MsIHR5cGU6ICJSb2JvdHMgYmxvY2tlZCIsIHNldmVyaXR5OiAid2FybmluZyIsIHN0YXR1czogbnVsbCwgcmVjb21tZW5kYXRpb246ICJUaGlzIFVSTCBpcyBibG9ja2VkIGJ5IHJvYm90cy50eHQg4oCUIGNvbnNpZGVyIHJlbW92aW5nIGl0IGZyb20gdGhlIHNpdGVtYXAuIiB9KTsgY29udGludWU7IH0KICAgICAgaWYgKHIuc3RhdHVzID09PSAwKSB7IGlzc3Vlcy5wdXNoKHsgdXJsOiByLmxvYywgdHlwZTogIlVucmVhY2hhYmxlIiwgc2V2ZXJpdHk6ICJlcnJvciIsIHN0YXR1czogbnVsbCwgcmVjb21tZW5kYXRpb246ICJUaGUgVVJMIGNvdWxkIG5vdCBiZSByZWFjaGVkLiBWZXJpZnkgdGhlIHBhZ2UgZXhpc3RzIGFuZCBpcyBwdWJsaWNseSBhY2Nlc3NpYmxlLiIgfSk7IGNvbnRpbnVlOyB9CiAgICAgIGlmIChyLnN0YXR1cyA9PT0gNDA0KSB7IGVycjQwNCsrOyBpc3N1ZXMucHVzaCh7IHVybDogci5sb2MsIHR5cGU6ICI0MDQiLCBzZXZlcml0eTogImVycm9yIiwgc3RhdHVzOiA0MDQsIHJlY29tbWVuZGF0aW9uOiAiUmVtb3ZlIHRoaXMgVVJMIGZyb20gdGhlIHNpdGVtYXAgb3IgcmVzdG9yZSB0aGUgcGFnZSBpZiBpdCBzaG91bGQgcmVtYWluIGFjY2Vzc2libGUuIiB9KTsgY29udGludWU7IH0KICAgICAgaWYgKHIuc3RhdHVzID09PSA0MDMpIHsgZXJyNDAzKys7IGlzc3Vlcy5wdXNoKHsgdXJsOiByLmxvYywgdHlwZTogIjQwMyIsIHNldmVyaXR5OiAid2FybmluZyIsIHN0YXR1czogNDAzLCByZWNvbW1lbmRhdGlvbjogIlRoaXMgVVJMIHJldHVybnMgNDAzIEZvcmJpZGRlbi4gQ29uZmlybSBpdCBzaG91bGQgYmUgcHVibGljIGJlZm9yZSBrZWVwaW5nIGl0IGluIHRoZSBzaXRlbWFwLiIgfSk7IGNvbnRpbnVlOyB9CiAgICAgIGlmIChyLnN0YXR1cyA+PSA1MDApIHsgZXJyNXh4Kys7IGlzc3Vlcy5wdXNoKHsgdXJsOiByLmxvYywgdHlwZTogIjV4eCIsIHNldmVyaXR5OiAiZXJyb3IiLCBzdGF0dXM6IHIuc3RhdHVzLCByZWNvbW1lbmRhdGlvbjogIlRoZSBzZXJ2ZXIgcmV0dXJuZWQgYW4gZXJyb3IuIFJlc29sdmUgdGhlIHNlcnZlciBpc3N1ZSBvciByZW1vdmUgdGhpcyBVUkwuIiB9KTsgY29udGludWU7IH0KICAgICAgaWYgKHIucmVkaXJlY3RlZCkgeyByZWRpcmVjdENvdW50Kys7IGlzc3Vlcy5wdXNoKHsgdXJsOiByLmxvYywgdHlwZTogIjMwMS8zMDIiLCBzZXZlcml0eTogIndhcm5pbmciLCBzdGF0dXM6IHIuc3RhdHVzLCByZWNvbW1lbmRhdGlvbjogIlRoaXMgVVJMIHJlZGlyZWN0cy4gVXBkYXRlIHRoZSBzaXRlbWFwIHRvIHBvaW50IHRvIHRoZSBmaW5hbCBkZXN0aW5hdGlvbiBVUkwuIiB9KTsgY29udGludWU7IH0KICAgICAgaWYgKHIubm9pbmRleCkgeyBub2luZGV4Q291bnQrKzsgaXNzdWVzLnB1c2goeyB1cmw6IHIubG9jLCB0eXBlOiAiTm9pbmRleCIsIHNldmVyaXR5OiAid2FybmluZyIsIHN0YXR1czogci5zdGF0dXMsIHJlY29tbWVuZGF0aW9uOiAiVGhpcyBwYWdlIGhhcyBhIG5vaW5kZXggZGlyZWN0aXZlLiBSZW1vdmUgaXQgZnJvbSB0aGUgc2l0ZW1hcCBvciByZW1vdmUgdGhlIG5vaW5kZXggdGFnLiIgfSk7IGNvbnRpbnVlOyB9CiAgICB9CiAgfQoKICBjb25zdCBjaGVja3M6IFNpdGVtYXBDaGVja1tdID0gW107CiAgY29uc3Qgd2YgPSBpc1dlbGxGb3JtZWQoeG1sKTsKICBjaGVja3MucHVzaCh7IGxhYmVsOiAiWE1MIHN5bnRheCB2YWxpZCIsIHN0YXR1czogd2Yub2sgPyAicGFzc2VkIiA6ICJlcnJvciIsIGRldGFpbDogd2Yub2sgPyAiWE1MIGlzIHdlbGwgZm9ybWVkLiIgOiB3Zi5lcnJvciB8fCAiSW52YWxpZCBYTUwuIiB9KTsKICBjaGVja3MucHVzaCh7IGxhYmVsOiAiU2l0ZW1hcCBuYW1lc3BhY2UgdmFsaWQiLCBzdGF0dXM6IHBhcnNlZC5oYXNOcyA/ICJwYXNzZWQiIDogIndhcm5pbmciLCBkZXRhaWw6IHBhcnNlZC5oYXNOcyA/ICJDb3JyZWN0IHNpdGVtYXAgbmFtZXNwYWNlIGRldGVjdGVkLiIgOiAiRXhwZWN0ZWQgbmFtZXNwYWNlIGh0dHA6Ly93d3cuc2l0ZW1hcHMub3JnL3NjaGVtYXMvc2l0ZW1hcC8wLjkuIiB9KTsKICBjaGVja3MucHVzaCh7IGxhYmVsOiBgJHthbGxMb2NzLmxlbmd0aH0gVVJMcyBmb3VuZGAsIHN0YXR1czogYWxsTG9jcy5sZW5ndGggPiAwID8gInBhc3NlZCIgOiAiZXJyb3IiLCBkZXRhaWw6IGFsbExvY3MubGVuZ3RoID8gYCR7YWxsTG9jcy5sZW5ndGh9IDxsb2M+IGVudHJpZXMgcGFyc2VkLmAgOiAiTm8gPGxvYz4gZW50cmllcyBmb3VuZC4iIH0pOwogIGNoZWNrcy5wdXNoKHsgbGFiZWw6ICJObyBkdXBsaWNhdGUgVVJMcyIsIHN0YXR1czogZHVwbGljYXRlQ291bnQgPT09IDAgPyAicGFzc2VkIiA6ICJ3YXJuaW5nIiwgZGV0YWlsOiBkdXBsaWNhdGVDb3VudCA/IGAke2R1cGxpY2F0ZUNvdW50fSBkdXBsaWNhdGUgVVJMKHMpLmAgOiAiTm8gZHVwbGljYXRlcy4iIH0pOwogIGNoZWNrcy5wdXNoKHsgbGFiZWw6ICJBbGwgVVJMcyB2YWxpZCIsIHN0YXR1czogaW52YWxpZENvdW50ID09PSAwID8gInBhc3NlZCIgOiAiZXJyb3IiLCBkZXRhaWw6IGludmFsaWRDb3VudCA/IGAke2ludmFsaWRDb3VudH0gaW52YWxpZCBVUkwocykuYCA6ICJBbGwgVVJMcyB2YWxpZC4iIH0pOwogIGNoZWNrcy5wdXNoKHsgbGFiZWw6ICJIVFRQUyBVUkxzIiwgc3RhdHVzOiBub25IdHRwc0NvdW50ID09PSAwID8gInBhc3NlZCIgOiAid2FybmluZyIsIGRldGFpbDogbm9uSHR0cHNDb3VudCA/IGAke25vbkh0dHBzQ291bnR9IG5vbi1IVFRQUyBVUkwocykuYCA6ICJBbGwgVVJMcyB1c2UgSFRUUFMuIiB9KTsKICBpZiAoY2hlY2tIdHRwKSB7CiAgICBjaGVja3MucHVzaCh7IGxhYmVsOiAiTm8gNDA0IFVSTHMiLCBzdGF0dXM6IGVycjQwNCA9PT0gMCA/ICJwYXNzZWQiIDogImVycm9yIiwgZGV0YWlsOiBlcnI0MDQgPyBgJHtlcnI0MDR9IGJyb2tlbiBVUkwocykuYCA6ICJObyA0MDRzIGRldGVjdGVkLiIgfSk7CiAgICBjaGVja3MucHVzaCh7IGxhYmVsOiAiTm8gcmVkaXJlY3RzIiwgc3RhdHVzOiByZWRpcmVjdENvdW50ID09PSAwID8gInBhc3NlZCIgOiAid2FybmluZyIsIGRldGFpbDogcmVkaXJlY3RDb3VudCA/IGAke3JlZGlyZWN0Q291bnR9IHJlZGlyZWN0KHMpLmAgOiAiTm8gcmVkaXJlY3RzLiIgfSk7CiAgICBjaGVja3MucHVzaCh7IGxhYmVsOiAiTm8gc2VydmVyIGVycm9ycyIsIHN0YXR1czogZXJyNXh4ID09PSAwID8gInBhc3NlZCIgOiAiZXJyb3IiLCBkZXRhaWw6IGVycjV4eCA/IGAke2VycjV4eH0gc2VydmVyIGVycm9yKHMpLmAgOiAiTm8gNXh4IGVycm9ycy4iIH0pOwogICAgY2hlY2tzLnB1c2goeyBsYWJlbDogIk5vIG5vaW5kZXggcGFnZXMiLCBzdGF0dXM6IG5vaW5kZXhDb3VudCA9PT0gMCA/ICJwYXNzZWQiIDogIndhcm5pbmciLCBkZXRhaWw6IG5vaW5kZXhDb3VudCA/IGAke25vaW5kZXhDb3VudH0gbm9pbmRleCBwYWdlKHMpLmAgOiAiTm8gbm9pbmRleCBwYWdlcy4iIH0pOwogICAgY2hlY2tzLnB1c2goeyBsYWJlbDogIk5vdCBibG9ja2VkIGJ5IHJvYm90cy50eHQiLCBzdGF0dXM6IHJvYm90c0Jsb2NrZWRDb3VudCA9PT0gMCA/ICJwYXNzZWQiIDogIndhcm5pbmciLCBkZXRhaWw6IHJvYm90c0Jsb2NrZWRDb3VudCA/IGAke3JvYm90c0Jsb2NrZWRDb3VudH0gYmxvY2tlZCBVUkwocykuYCA6ICJObyByb2JvdHMgYmxvY2tzLiIgfSk7CiAgfQogIGlmIChwYXJzZWQuaXNJbmRleCkgewogICAgY2hlY2tzLnB1c2goeyBsYWJlbDogYFNpdGVtYXAgaW5kZXggKCR7Y2hpbGRfc2l0ZW1hcHMubGVuZ3RofSBjaGlsZCBzaXRlbWFwcylgLCBzdGF0dXM6IGNoaWxkX3NpdGVtYXBzLmxlbmd0aCA+IDAgPyAicGFzc2VkIiA6ICJ3YXJuaW5nIiwgZGV0YWlsOiBjaGlsZF9zaXRlbWFwcy5tYXAoKGMpID0+IGAke2MudXJsfTogJHtjLnN0YXR1c31gKS5qb2luKCI7ICIpIHx8ICJObyBjaGlsZCBzaXRlbWFwcy4iIH0pOwogIH0KCiAgY29uc3QgZXJyb3JzID0gY2hlY2tzLmZpbHRlcigoYykgPT4gYy5zdGF0dXMgPT09ICJlcnJvciIpLmxlbmd0aDsKICBjb25zdCB3YXJuaW5ncyA9IGNoZWNrcy5maWx0ZXIoKGMpID0+IGMuc3RhdHVzID09PSAid2FybmluZyIpLmxlbmd0aDsKICBjb25zdCBoZWFsdGggPSBjaGVja3MubGVuZ3RoID8gTWF0aC5tYXgoMCwgTWF0aC5yb3VuZCgxMDAgLSBlcnJvcnMgKiAxOCAtIHdhcm5pbmdzICogNikpIDogMDsKCiAgcmV0dXJuIHsKICAgIGhlYWx0aCwgaXNfaW5kZXg6IHBhcnNlZC5pc0luZGV4LCBjaGlsZF9zaXRlbWFwcywKICAgIHN0YXRzOiB7IHVybF9jb3VudDogYWxsTG9jcy5sZW5ndGgsIGR1cGxpY2F0ZV9jb3VudDogZHVwbGljYXRlQ291bnQsIGludmFsaWRfY291bnQ6IGludmFsaWRDb3VudCwgbm9uX2h0dHBzX2NvdW50OiBub25IdHRwc0NvdW50IH0sCiAgICBjaGVja3MsIGlzc3Vlcywgc291cmNlX3VybDogc291cmNlVXJsCiAgfTsKfQ==
+import { safeUrl, normalizeUrl } from "./urlNormalizer.ts";
+import { fetchRobots, isAllowed, RobotsInfo } from "./robotsService.ts";
+import { isWellFormed } from "./sitemapGenerator.ts";
+
+const MAX_URL_CHECKS = 100;
+const MAX_CHILD_SITEMAPS = 5;
+const MAX_BYTES = 10 * 1024 * 1024;
+
+export interface SitemapIssue {
+  url: string;
+  type: string;
+  severity: "error" | "warning";
+  status: number | null;
+  recommendation: string;
+}
+
+export interface SitemapCheck {
+  label: string;
+  status: "passed" | "warning" | "error";
+  detail: string;
+}
+
+export interface ValidationResult {
+  health: number;
+  is_index: boolean;
+  child_sitemaps: { url: string; url_count: number; status: string }[];
+  stats: { url_count: number; duplicate_count: number; invalid_count: number; non_https_count: number };
+  checks: SitemapCheck[];
+  issues: SitemapIssue[];
+  source_url: string | null;
+}
+
+export interface ParsedSitemap {
+  isIndex: boolean;
+  hasNs: boolean;
+  locations: string[];
+}
+
+export function parseSitemapXml(xml: string): ParsedSitemap {
+  if (!xml || !xml.trim()) return { isIndex: false, hasNs: false, locations: [] };
+  const hasNs = /xmlns=["']http:\/\/www\.sitemaps\.org\/schemas\/sitemap\/0\.9["']/.test(xml);
+  const isIndex = /<sitemapindex[\s>]/.test(xml);
+  const locRe = /<loc>([\s\S]*?)<\/loc>/gi;
+  const locations: string[] = [];
+  let m: RegExpExecArray | null;
+  while ((m = locRe.exec(xml)) !== null) locations.push(m[1].trim());
+  return { isIndex, hasNs, locations };
+}
+
+export async function fetchXml(
+  url: string,
+  maxBytes: number
+): Promise<{ ok: boolean; status: number; text: string }> {
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 9000);
+    const res = await fetch(url, {
+      method: "GET",
+      redirect: "follow",
+      signal: ctrl.signal,
+      headers: { "User-Agent": "BacklinkForgeSitemapBot/1.0", "Accept": "application/xml,text/xml,*/*;q=0.8" }
+    });
+    clearTimeout(t);
+    if (!res.ok) return { ok: false, status: res.status, text: "" };
+    const reader = res.body?.getReader();
+    if (!reader) {
+      const txt = await res.text();
+      return { ok: true, status: res.status, text: txt.slice(0, maxBytes) };
+    }
+    const dec = new TextDecoder();
+    let buf = "";
+    let received = 0;
+    while (received < maxBytes) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      received += value.length;
+      buf += dec.decode(value, { stream: true });
+    }
+    try { await reader.cancel(); } catch (e) { /* ignore */ }
+    return { ok: true, status: res.status, text: buf };
+  } catch (e) {
+    return { ok: false, status: 0, text: "" };
+  }
+}
+
+export async function validateSitemap(opts: {
+  xml: string;
+  sourceUrl: string | null;
+  checkHttp: boolean;
+}): Promise<ValidationResult> {
+  const { xml, sourceUrl, checkHttp } = opts;
+  const parsed = parseSitemapXml(xml);
+  let child_sitemaps: { url: string; url_count: number; status: string }[] = [];
+  let allLocs: string[] = [];
+
+  if (parsed.isIndex) {
+    const children = parsed.locations.slice(0, MAX_CHILD_SITEMAPS);
+    for (const c of children) {
+      const cu = safeUrl(c);
+      if (!cu) { child_sitemaps.push({ url: c, url_count: 0, status: "Invalid URL" }); continue; }
+      const sub = await fetchXml(cu.toString(), MAX_BYTES);
+      if (!sub.ok) { child_sitemaps.push({ url: c, url_count: 0, status: sub.status === 0 ? "Unreachable" : `HTTP ${sub.status}` }); continue; }
+      const sp = parseSitemapXml(sub.text);
+      if (sp.isIndex) { child_sitemaps.push({ url: c, url_count: 0, status: "Nested index" }); continue; }
+      child_sitemaps.push({ url: c, url_count: sp.locations.length, status: "OK" });
+      allLocs = allLocs.concat(sp.locations);
+    }
+  } else {
+    allLocs = parsed.locations;
+  }
+
+  const seen = new Set<string>();
+  const issues: SitemapIssue[] = [];
+  let duplicateCount = 0, invalidCount = 0, nonHttpsCount = 0;
+  const validLocs: string[] = [];
+  for (const loc of allLocs) {
+    const u = safeUrl(loc);
+    if (!u) {
+      invalidCount++;
+      issues.push({ url: loc, type: "Invalid URL", severity: "error", status: null, recommendation: "Remove or fix this malformed URL in the sitemap." });
+      continue;
+    }
+    const norm = normalizeUrl(loc, sourceUrl || undefined) || loc;
+    if (seen.has(norm)) {
+      duplicateCount++;
+      issues.push({ url: loc, type: "Duplicate", severity: "warning", status: null, recommendation: "Remove duplicate entries — keep a single canonical URL." });
+      continue;
+    }
+    seen.add(norm);
+    if (u.protocol === "http:") {
+      nonHttpsCount++;
+      issues.push({ url: loc, type: "Non-HTTPS", severity: "warning", status: null, recommendation: "Use the HTTPS version of this URL if one exists." });
+    }
+    validLocs.push(loc);
+  }
+
+  const robotsCache = new Map<string, RobotsInfo>();
+  const getRobots = async (url: string): Promise<RobotsInfo | null> => {
+    let o: string | null = null;
+    try { o = new URL(url).origin; } catch (e) { return null; }
+    if (!o) return null;
+    if (robotsCache.has(o)) return robotsCache.get(o) as RobotsInfo;
+    const r = await fetchRobots(o);
+    robotsCache.set(o, r);
+    return r;
+  };
+
+  let redirectCount = 0, err404 = 0, err403 = 0, err5xx = 0, noindexCount = 0, robotsBlockedCount = 0;
+  if (checkHttp && validLocs.length) {
+    const sample = validLocs.slice(0, MAX_URL_CHECKS);
+    const results = await Promise.allSettled(
+      sample.map(async (loc) => {
+        const r = { loc, status: 0, redirected: false, contentType: "", noindex: false, robotsBlocked: false };
+        const robots = await getRobots(loc);
+        if (robots && !isAllowed(loc, robots)) { r.robotsBlocked = true; return r; }
+        try {
+          const ctrl = new AbortController();
+          const t = setTimeout(() => ctrl.abort(), 7000);
+          const res = await fetch(loc, { method: "GET", redirect: "follow", signal: ctrl.signal, headers: { "User-Agent": "BacklinkForgeSitemapBot/1.0" } });
+          clearTimeout(t);
+          r.status = res.status;
+          r.redirected = res.redirected || (res.status >= 300 && res.status < 400);
+          r.contentType = res.headers.get("content-type") || "";
+          if (/text\/html/i.test(r.contentType)) {
+            const body = await res.text();
+            r.noindex = /<meta[^>]+name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(body);
+          }
+        } catch (e) { r.status = 0; }
+        return r;
+      })
+    );
+    for (const s of results) {
+      if (s.status !== "fulfilled") continue;
+      const r = s.value;
+      if (r.robotsBlocked) { robotsBlockedCount++; issues.push({ url: r.loc, type: "Robots blocked", severity: "warning", status: null, recommendation: "This URL is blocked by robots.txt — consider removing it from the sitemap." }); continue; }
+      if (r.status === 0) { issues.push({ url: r.loc, type: "Unreachable", severity: "error", status: null, recommendation: "The URL could not be reached. Verify the page exists and is publicly accessible." }); continue; }
+      if (r.status === 404) { err404++; issues.push({ url: r.loc, type: "404", severity: "error", status: 404, recommendation: "Remove this URL from the sitemap or restore the page if it should remain accessible." }); continue; }
+      if (r.status === 403) { err403++; issues.push({ url: r.loc, type: "403", severity: "warning", status: 403, recommendation: "This URL returns 403 Forbidden. Confirm it should be public before keeping it in the sitemap." }); continue; }
+      if (r.status >= 500) { err5xx++; issues.push({ url: r.loc, type: "5xx", severity: "error", status: r.status, recommendation: "The server returned an error. Resolve the server issue or remove this URL." }); continue; }
+      if (r.redirected) { redirectCount++; issues.push({ url: r.loc, type: "301/302", severity: "warning", status: r.status, recommendation: "This URL redirects. Update the sitemap to point to the final destination URL." }); continue; }
+      if (r.noindex) { noindexCount++; issues.push({ url: r.loc, type: "Noindex", severity: "warning", status: r.status, recommendation: "This page has a noindex directive. Remove it from the sitemap or remove the noindex tag." }); continue; }
+    }
+  }
+
+  const checks: SitemapCheck[] = [];
+  const wf = isWellFormed(xml);
+  checks.push({ label: "XML syntax valid", status: wf.ok ? "passed" : "error", detail: wf.ok ? "XML is well formed." : wf.error || "Invalid XML." });
+  checks.push({ label: "Sitemap namespace valid", status: parsed.hasNs ? "passed" : "warning", detail: parsed.hasNs ? "Correct sitemap namespace detected." : "Expected namespace http://www.sitemaps.org/schemas/sitemap/0.9." });
+  checks.push({ label: `${allLocs.length} URLs found`, status: allLocs.length > 0 ? "passed" : "error", detail: allLocs.length ? `${allLocs.length} <loc> entries parsed.` : "No <loc> entries found." });
+  checks.push({ label: "No duplicate URLs", status: duplicateCount === 0 ? "passed" : "warning", detail: duplicateCount ? `${duplicateCount} duplicate URL(s).` : "No duplicates." });
+  checks.push({ label: "All URLs valid", status: invalidCount === 0 ? "passed" : "error", detail: invalidCount ? `${invalidCount} invalid URL(s).` : "All URLs valid." });
+  checks.push({ label: "HTTPS URLs", status: nonHttpsCount === 0 ? "passed" : "warning", detail: nonHttpsCount ? `${nonHttpsCount} non-HTTPS URL(s).` : "All URLs use HTTPS." });
+  if (checkHttp) {
+    checks.push({ label: "No 404 URLs", status: err404 === 0 ? "passed" : "error", detail: err404 ? `${err404} broken URL(s).` : "No 404s detected." });
+    checks.push({ label: "No redirects", status: redirectCount === 0 ? "passed" : "warning", detail: redirectCount ? `${redirectCount} redirect(s).` : "No redirects." });
+    checks.push({ label: "No server errors", status: err5xx === 0 ? "passed" : "error", detail: err5xx ? `${err5xx} server error(s).` : "No 5xx errors." });
+    checks.push({ label: "No noindex pages", status: noindexCount === 0 ? "passed" : "warning", detail: noindexCount ? `${noindexCount} noindex page(s).` : "No noindex pages." });
+    checks.push({ label: "Not blocked by robots.txt", status: robotsBlockedCount === 0 ? "passed" : "warning", detail: robotsBlockedCount ? `${robotsBlockedCount} blocked URL(s).` : "No robots blocks." });
+  }
+  if (parsed.isIndex) {
+    checks.push({ label: `Sitemap index (${child_sitemaps.length} child sitemaps)`, status: child_sitemaps.length > 0 ? "passed" : "warning", detail: child_sitemaps.map((c) => `${c.url}: ${c.status}`).join("; ") || "No child sitemaps." });
+  }
+
+  const errors = checks.filter((c) => c.status === "error").length;
+  const warnings = checks.filter((c) => c.status === "warning").length;
+  const health = checks.length ? Math.max(0, Math.round(100 - errors * 18 - warnings * 6)) : 0;
+
+  return {
+    health, is_index: parsed.isIndex, child_sitemaps,
+    stats: { url_count: allLocs.length, duplicate_count: duplicateCount, invalid_count: invalidCount, non_https_count: nonHttpsCount },
+    checks, issues, source_url: sourceUrl
+  };
+}

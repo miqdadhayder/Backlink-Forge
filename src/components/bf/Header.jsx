@@ -1,1 +1,62 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTGluayB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBMaW5rMiwgVGFyZ2V0IH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IGJhc2U0NCB9IGZyb20gIkAvYXBpL2Jhc2U0NENsaWVudCI7CmltcG9ydCB7IHVzZVRvYXN0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3VzZS10b2FzdCI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIZWFkZXIoKSB7CiAgY29uc3QgeyB0b2FzdCB9ID0gdXNlVG9hc3QoKTsKICBjb25zdCBbYXV0aGVkLCBzZXRBdXRoZWRdID0gUmVhY3QudXNlU3RhdGUoZmFsc2UpOwoKICBSZWFjdC51c2VFZmZlY3QoKCkgPT4gewogICAgYmFzZTQ0LmF1dGguaXNBdXRoZW50aWNhdGVkKCkudGhlbihzZXRBdXRoZWQpLmNhdGNoKCgpID0+IHNldEF1dGhlZChmYWxzZSkpOwogIH0sIFtdKTsKCiAgY29uc3QgaGFuZGxlU2lnbk91dCA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IGJhc2U0NC5hdXRoLmxvZ291dCgpOwogICAgc2V0QXV0aGVkKGZhbHNlKTsKICB9OwoKICBjb25zdCBzY3JvbGxUbyA9IChpZCkgPT4gKGUpID0+IHsKICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgIGNvbnN0IGVsID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaWQpOwogICAgaWYgKGVsKSBlbC5zY3JvbGxJbnRvVmlldyh7IGJlaGF2aW9yOiAic21vb3RoIiwgYmxvY2s6ICJzdGFydCIgfSk7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJzdGlja3kgdG9wLTAgei00MCB3LWZ1bGwgYm9yZGVyLWIgYm9yZGVyLXNsYXRlLTIwMC83MCBiZy13aGl0ZS84MCBiYWNrZHJvcC1ibHVyLW1kIj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gZmxleCBoLTE2IG1heC13LTZ4bCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHB4LTQgc206cHgtNiI+CiAgICAgICAgPExpbmsgdG89Ii8iIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGgtOCB3LTggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbGcgYmctc2xhdGUtOTAwIHRleHQtd2hpdGUiPgogICAgICAgICAgICA8TGluazIgY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQgdGV4dC1zbGF0ZS05MDAiPkJhY2tsaW5rRm9yZ2U8L3NwYW4+CiAgICAgICAgPC9MaW5rPgoKICAgICAgICA8bmF2IGNsYXNzTmFtZT0iaGlkZGVuIGl0ZW1zLWNlbnRlciBnYXAtOCBtZDpmbGV4Ij4KICAgICAgICAgIDxhIGhyZWY9IiN0b29sIiBvbkNsaWNrPXtzY3JvbGxUbygidG9vbCIpfSBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1zbGF0ZS02MDAgaG92ZXI6dGV4dC1zbGF0ZS05MDAiPlRvb2w8L2E+CiAgICAgICAgICA8YSBocmVmPSIjaG93LWl0LXdvcmtzIiBvbkNsaWNrPXtzY3JvbGxUbygiaG93LWl0LXdvcmtzIil9IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTYwMCBob3Zlcjp0ZXh0LXNsYXRlLTkwMCI+SG93IEl0IFdvcmtzPC9hPgogICAgICAgICAgPGEgaHJlZj0iI2dhcC1maW5kZXIiIG9uQ2xpY2s9e3Njcm9sbFRvKCJnYXAtZmluZGVyIil9IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTYwMCBob3Zlcjp0ZXh0LXNsYXRlLTkwMCI+QmFja2xpbmsgR2FwIEZpbmRlcjwvYT4KICAgICAgICAgIDxMaW5rIHRvPSIvc2l0ZW1hcC1nZW5lcmF0b3IiIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTYwMCBob3Zlcjp0ZXh0LXNsYXRlLTkwMCI+U2l0ZW1hcCBHZW5lcmF0b3I8L0xpbms+CiAgICAgICAgICA8TGluayB0bz0iL2JhY2tsaW5rLXF1YWxpdHktY2hlY2tlciIgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtc2xhdGUtNjAwIGhvdmVyOnRleHQtc2xhdGUtOTAwIj5RdWFsaXR5IENoZWNrZXI8L0xpbms+CiAgICAgICAgICA8YSBocmVmPSIjcHJpY2luZyIgb25DbGljaz17c2Nyb2xsVG8oInByaWNpbmciKX0gY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtc2xhdGUtNjAwIGhvdmVyOnRleHQtc2xhdGUtOTAwIj5QcmljaW5nPC9hPgogICAgICAgIDwvbmF2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAge2F1dGhlZCA/ICgKICAgICAgICAgICAgPD4KICAgICAgICAgICAgICA8TGluayB0bz0iL2Rhc2hib2FyZCI+PEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iPkRhc2hib2FyZDwvQnV0dG9uPjwvTGluaz4KICAgICAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJvdXRsaW5lIiBvbkNsaWNrPXtoYW5kbGVTaWduT3V0fT5TaWduIG91dDwvQnV0dG9uPgogICAgICAgICAgICA8Lz4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgPExpbmsgdG89Ii9sb2dpbiI+PEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iPlNpZ24gSW48L0J1dHRvbj48L0xpbms+CiAgICAgICAgICAgICAgPExpbmsgdG89Ii9yZWdpc3RlciI+PEJ1dHRvbiBzaXplPSJzbSI+R2V0IFN0YXJ0ZWQ8L0J1dHRvbj48L0xpbms+CiAgICAgICAgICAgIDwvPgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2hlYWRlcj4KICApOwp9
+import React from "react";
+import { Link } from "react-router-dom";
+import { Link2, Target } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { base44 } from "@/api/base44Client";
+import { useToast } from "@/components/ui/use-toast";
+
+export default function Header() {
+  const { toast } = useToast();
+  const [authed, setAuthed] = React.useState(false);
+
+  React.useEffect(() => {
+    base44.auth.isAuthenticated().then(setAuthed).catch(() => setAuthed(false));
+  }, []);
+
+  const handleSignOut = async () => {
+    await base44.auth.logout();
+    setAuthed(false);
+  };
+
+  const scrollTo = (id) => (e) => {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  return (
+    <header className="sticky top-0 z-40 w-full border-b border-slate-200/70 bg-white/80 backdrop-blur-md">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
+        <Link to="/" className="flex items-center gap-2">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-white">
+            <Link2 className="h-4 w-4" />
+          </span>
+          <span className="text-lg font-semibold tracking-tight text-slate-900">BacklinkForge</span>
+        </Link>
+
+        <nav className="hidden items-center gap-8 md:flex">
+          <a href="#tool" onClick={scrollTo("tool")} className="text-sm font-medium text-slate-600 hover:text-slate-900">Tool</a>
+          <a href="#how-it-works" onClick={scrollTo("how-it-works")} className="text-sm font-medium text-slate-600 hover:text-slate-900">How It Works</a>
+          <a href="#gap-finder" onClick={scrollTo("gap-finder")} className="text-sm font-medium text-slate-600 hover:text-slate-900">Backlink Gap Finder</a>
+          <Link to="/sitemap-generator" className="text-sm font-medium text-slate-600 hover:text-slate-900">Sitemap Generator</Link>
+          <Link to="/backlink-quality-checker" className="text-sm font-medium text-slate-600 hover:text-slate-900">Quality Checker</Link>
+          <a href="#pricing" onClick={scrollTo("pricing")} className="text-sm font-medium text-slate-600 hover:text-slate-900">Pricing</a>
+        </nav>
+
+        <div className="flex items-center gap-2">
+          {authed ? (
+            <>
+              <Link to="/dashboard"><Button variant="ghost" size="sm">Dashboard</Button></Link>
+              <Button size="sm" variant="outline" onClick={handleSignOut}>Sign out</Button>
+            </>
+          ) : (
+            <>
+              <Link to="/login"><Button variant="ghost" size="sm">Sign In</Button></Link>
+              <Link to="/register"><Button size="sm">Get Started</Button></Link>
+            </>
+          )}
+        </div>
+      </div>
+    </header>
+  );
+}

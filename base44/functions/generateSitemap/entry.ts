@@ -1,1 +1,89 @@
-aW1wb3J0IHsgY3JlYXRlQ2xpZW50RnJvbVJlcXVlc3QgfSBmcm9tICducG06QGJhc2U0NC9zZGtAMC44LjQwJzsKaW1wb3J0IHsgY3Jhd2wgfSBmcm9tICIuLi8uLi9zaGFyZWQvc2l0ZW1hcC9zaXRlbWFwQ3Jhd2xlci50cyI7CmltcG9ydCB7IGdlbmVyYXRlU2l0ZW1hcCwgaXNXZWxsRm9ybWVkIH0gZnJvbSAiLi4vLi4vc2hhcmVkL3NpdGVtYXAvc2l0ZW1hcEdlbmVyYXRvci50cyI7CmltcG9ydCB7IHNhZmVVcmwgfSBmcm9tICIuLi8uLi9zaGFyZWQvc2l0ZW1hcC91cmxOb3JtYWxpemVyLnRzIjsKCmNvbnN0IEZSRUVfTU9OVEhMWV9MSU1JVCA9IDM7CgpmdW5jdGlvbiBpc1NhbWVNb250aChkYXRlU3RyOiBzdHJpbmcsIHJlZjogRGF0ZSk6IGJvb2xlYW4gewogIGNvbnN0IGQgPSBuZXcgRGF0ZShkYXRlU3RyKTsKICByZXR1cm4gZC5nZXRGdWxsWWVhcigpID09PSByZWYuZ2V0RnVsbFllYXIoKSAmJiBkLmdldE1vbnRoKCkgPT09IHJlZi5nZXRNb250aCgpOwp9CgpleHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbihyZXE6IFJlcXVlc3QpOiBQcm9taXNlPFJlc3BvbnNlPiB7CiAgdHJ5IHsKICAgIGNvbnN0IGJhc2U0NCA9IGNyZWF0ZUNsaWVudEZyb21SZXF1ZXN0KHJlcSk7CiAgICBjb25zdCB1c2VyID0gYXdhaXQgYmFzZTQ0LmF1dGgubWUoKTsKICAgIGlmICghdXNlcikgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIlBsZWFzZSBzaWduIGluIHRvIGdlbmVyYXRlIGEgc2l0ZW1hcC4iIH0sIHsgc3RhdHVzOiA0MDEgfSk7CgogICAgY29uc3QgYm9keSA9IGF3YWl0IHJlcS5qc29uKCk7CiAgICBjb25zdCB7IHdlYnNpdGVfdXJsLCBtYXhfdXJscywgY3Jhd2xfZGVwdGgsIGluY2x1ZGVfdHlwZXMsIGV4Y2x1ZGVfcGF0dGVybnMgfSA9IGJvZHkgfHwge307CgogICAgaWYgKCF3ZWJzaXRlX3VybCB8fCAhc2FmZVVybCh3ZWJzaXRlX3VybCkpIHsKICAgICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIlBsZWFzZSBlbnRlciBhIHZhbGlkIHdlYnNpdGUgVVJMLiIgfSwgeyBzdGF0dXM6IDQwMCB9KTsKICAgIH0KCiAgICBjb25zdCBub3cgPSBuZXcgRGF0ZSgpOwogICAgbGV0IG1vbnRoQ291bnQgPSAwOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVjZW50ID0gYXdhaXQgYmFzZTQ0LmVudGl0aWVzLlNpdGVtYXBBbmFseXNpcy5saXN0KCItY3JlYXRlZF9kYXRlIiwgMTAwKTsKICAgICAgbW9udGhDb3VudCA9IChyZWNlbnQgfHwgW10pLmZpbHRlcigKICAgICAgICAoYTogYW55KSA9PiBhLnR5cGUgPT09ICJnZW5lcmF0ZSIgJiYgaXNTYW1lTW9udGgoYS5jcmVhdGVkX2RhdGUsIG5vdykKICAgICAgKS5sZW5ndGg7CiAgICB9IGNhdGNoIChlKSB7IC8qIGlnbm9yZSAqLyB9CiAgICBjb25zdCBpc0FkbWluID0gdXNlci5yb2xlID09PSAiYWRtaW4iOwogICAgaWYgKCFpc0FkbWluICYmIG1vbnRoQ291bnQgPj0gRlJFRV9NT05USExZX0xJTUlUKSB7CiAgICAgIHJldHVybiBSZXNwb25zZS5qc29uKAogICAgICAgIHsgZXJyb3I6ICJZb3UndmUgcmVhY2hlZCB5b3VyIG1vbnRobHkgc2l0ZW1hcCBnZW5lcmF0aW9uIGxpbWl0LiBVcGdyYWRlIHlvdXIgcGxhbiB0byBjb250aW51ZS4iIH0sCiAgICAgICAgeyBzdGF0dXM6IDQyOSB9CiAgICAgICk7CiAgICB9CgogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgY3Jhd2woewogICAgICBzdGFydFVybDogd2Vic2l0ZV91cmwsCiAgICAgIG1heFVybHM6IE1hdGgubWluKE51bWJlcihtYXhfdXJscykgfHwgMTAwLCBpc0FkbWluID8gNTAwMCA6IDUwMCksCiAgICAgIG1heERlcHRoOiBOdW1iZXIoY3Jhd2xfZGVwdGgpIHx8IDAsCiAgICAgIGluY2x1ZGVUeXBlczogQXJyYXkuaXNBcnJheShpbmNsdWRlX3R5cGVzKSAmJiBpbmNsdWRlX3R5cGVzLmxlbmd0aCA/IGluY2x1ZGVfdHlwZXMgOiBbIkhUTUwgcGFnZXMiXSwKICAgICAgZXhjbHVkZVBhdHRlcm5zOiBBcnJheS5pc0FycmF5KGV4Y2x1ZGVfcGF0dGVybnMpID8gZXhjbHVkZV9wYXR0ZXJucyA6IFtdCiAgICB9KTsKCiAgICBjb25zdCB4bWwgPSBnZW5lcmF0ZVNpdGVtYXAocmVzdWx0LnVybHMpOwogICAgY29uc3Qgd2YgPSBpc1dlbGxGb3JtZWQoeG1sKTsKCiAgICBsZXQgYW5hbHlzaXNfaWQ6IHN0cmluZyB8IG51bGwgPSBudWxsOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVjID0gYXdhaXQgYmFzZTQ0LmVudGl0aWVzLlNpdGVtYXBBbmFseXNpcy5jcmVhdGUoewogICAgICAgIHdlYnNpdGVfdXJsLAogICAgICAgIHR5cGU6ICJnZW5lcmF0ZSIsCiAgICAgICAgc2l0ZW1hcF90eXBlOiByZXN1bHQuc3RhdHMuaW5jbHVkZWQgPiAwID8gInVybHNldCIgOiAiZW1wdHkiLAogICAgICAgIHVybHNfZm91bmQ6IHJlc3VsdC5zdGF0cy5kaXNjb3ZlcmVkLAogICAgICAgIHVybHNfaW5jbHVkZWQ6IHJlc3VsdC5zdGF0cy5pbmNsdWRlZCwKICAgICAgICBlcnJvcnM6IHJlc3VsdC5zdGF0cy5lcnJvcnMsCiAgICAgICAgd2FybmluZ3M6IHJlc3VsdC5zdGF0cy5leGNsdWRlZCwKICAgICAgICBzdGF0dXM6IHdmLm9rID8gImNvbXBsZXRlZCIgOiAiY29tcGxldGVkX3dpdGhfaXNzdWVzIiwKICAgICAgICByb2JvdHNfZm91bmQ6IHJlc3VsdC5yb2JvdHMuZm91bmQsCiAgICAgICAgZXhpc3Rpbmdfc2l0ZW1hcHM6IChyZXN1bHQuZXhpc3Rpbmdfc2l0ZW1hcHMgfHwgW10pLmpvaW4oIiwgIiksCiAgICAgICAgaXNfZGVtbzogZmFsc2UsCiAgICAgICAgeG1sX3ByZXZpZXc6IHhtbC5zbGljZSgwLCAyMDAwKQogICAgICB9KTsKICAgICAgYW5hbHlzaXNfaWQgPSByZWMuaWQ7CiAgICB9IGNhdGNoIChlKSB7IC8qIHBlcnNpc3RlbmNlIGlzIGJlc3QtZWZmb3J0ICovIH0KCiAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7CiAgICAgIGFuYWx5c2lzX2lkLAogICAgICB4bWwsCiAgICAgIHVybHM6IHJlc3VsdC51cmxzLAogICAgICBzdGF0czogcmVzdWx0LnN0YXRzLAogICAgICByb2JvdHM6IHsgZm91bmQ6IHJlc3VsdC5yb2JvdHMuZm91bmQsIHN0YXR1czogcmVzdWx0LnJvYm90cy5zdGF0dXMsIHNpdGVtYXBzOiByZXN1bHQuZXhpc3Rpbmdfc2l0ZW1hcHMgfSwKICAgICAgZXhpc3Rpbmdfc2l0ZW1hcHM6IHJlc3VsdC5leGlzdGluZ19zaXRlbWFwcywKICAgICAgY2FwcGVkOiByZXN1bHQuY2FwcGVkLAogICAgICB3ZWxsX2Zvcm1lZDogd2Yub2ssCiAgICAgIHVzYWdlOiB7IHVzZWQ6IG1vbnRoQ291bnQgKyAxLCBsaW1pdDogaXNBZG1pbiA/IG51bGwgOiBGUkVFX01PTlRITFlfTElNSVQgfQogICAgfSk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIHJldHVybiBSZXNwb25zZS5qc29uKAogICAgICB7IGVycm9yOiAiV2UgY291bGRuJ3QgZ2VuZXJhdGUgYSBzaXRlbWFwIGZvciB0aGlzIHdlYnNpdGUuIFBsZWFzZSBjaGVjayB0aGUgVVJMIGFuZCB0cnkgYWdhaW4uIiB9LAogICAgICB7IHN0YXR1czogNTAwIH0KICAgICk7CiAgfQp9
+import { createClientFromRequest } from 'npm:@base44/sdk@0.8.40';
+import { crawl } from "../../shared/sitemap/sitemapCrawler.ts";
+import { generateSitemap, isWellFormed } from "../../shared/sitemap/sitemapGenerator.ts";
+import { safeUrl } from "../../shared/sitemap/urlNormalizer.ts";
+
+const FREE_MONTHLY_LIMIT = 3;
+
+function isSameMonth(dateStr: string, ref: Date): boolean {
+  const d = new Date(dateStr);
+  return d.getFullYear() === ref.getFullYear() && d.getMonth() === ref.getMonth();
+}
+
+export default async function(req: Request): Promise<Response> {
+  try {
+    const base44 = createClientFromRequest(req);
+    const user = await base44.auth.me();
+    if (!user) return Response.json({ error: "Please sign in to generate a sitemap." }, { status: 401 });
+
+    const body = await req.json();
+    const { website_url, max_urls, crawl_depth, include_types, exclude_patterns } = body || {};
+
+    if (!website_url || !safeUrl(website_url)) {
+      return Response.json({ error: "Please enter a valid website URL." }, { status: 400 });
+    }
+
+    const now = new Date();
+    let monthCount = 0;
+    try {
+      const recent = await base44.entities.SitemapAnalysis.list("-created_date", 100);
+      monthCount = (recent || []).filter(
+        (a: any) => a.type === "generate" && isSameMonth(a.created_date, now)
+      ).length;
+    } catch (e) { /* ignore */ }
+    const isAdmin = user.role === "admin";
+    if (!isAdmin && monthCount >= FREE_MONTHLY_LIMIT) {
+      return Response.json(
+        { error: "You've reached your monthly sitemap generation limit. Upgrade your plan to continue." },
+        { status: 429 }
+      );
+    }
+
+    const result = await crawl({
+      startUrl: website_url,
+      maxUrls: Math.min(Number(max_urls) || 100, isAdmin ? 5000 : 500),
+      maxDepth: Number(crawl_depth) || 0,
+      includeTypes: Array.isArray(include_types) && include_types.length ? include_types : ["HTML pages"],
+      excludePatterns: Array.isArray(exclude_patterns) ? exclude_patterns : []
+    });
+
+    const xml = generateSitemap(result.urls);
+    const wf = isWellFormed(xml);
+
+    let analysis_id: string | null = null;
+    try {
+      const rec = await base44.entities.SitemapAnalysis.create({
+        website_url,
+        type: "generate",
+        sitemap_type: result.stats.included > 0 ? "urlset" : "empty",
+        urls_found: result.stats.discovered,
+        urls_included: result.stats.included,
+        errors: result.stats.errors,
+        warnings: result.stats.excluded,
+        status: wf.ok ? "completed" : "completed_with_issues",
+        robots_found: result.robots.found,
+        existing_sitemaps: (result.existing_sitemaps || []).join(", "),
+        is_demo: false,
+        xml_preview: xml.slice(0, 2000)
+      });
+      analysis_id = rec.id;
+    } catch (e) { /* persistence is best-effort */ }
+
+    return Response.json({
+      analysis_id,
+      xml,
+      urls: result.urls,
+      stats: result.stats,
+      robots: { found: result.robots.found, status: result.robots.status, sitemaps: result.existing_sitemaps },
+      existing_sitemaps: result.existing_sitemaps,
+      capped: result.capped,
+      well_formed: wf.ok,
+      usage: { used: monthCount + 1, limit: isAdmin ? null : FREE_MONTHLY_LIMIT }
+    });
+  } catch (error) {
+    return Response.json(
+      { error: "We couldn't generate a sitemap for this website. Please check the URL and try again." },
+      { status: 500 }
+    );
+  }
+}

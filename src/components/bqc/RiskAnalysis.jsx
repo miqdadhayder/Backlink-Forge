@@ -1,1 +1,51 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQWxlcnRUcmlhbmdsZSwgU2hpZWxkQ2hlY2ssIFNoaWVsZEFsZXJ0IH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKCmNvbnN0IExFVkVMUyA9IHsKICBMb3c6IHsgY29sb3I6ICJ0ZXh0LWVtZXJhbGQtNjAwIiwgYmc6ICJiZy1lbWVyYWxkLTUwIiwgcmluZzogInJpbmctZW1lcmFsZC0yMDAiLCBpY29uOiBTaGllbGRDaGVjaywgZW1vamk6ICLwn5+iIiB9LAogIE1lZGl1bTogeyBjb2xvcjogInRleHQtYW1iZXItNjAwIiwgYmc6ICJiZy1hbWJlci01MCIsIHJpbmc6ICJyaW5nLWFtYmVyLTIwMCIsIGljb246IFNoaWVsZEFsZXJ0LCBlbW9qaTogIvCfn6EiIH0sCiAgSGlnaDogeyBjb2xvcjogInRleHQtcm9zZS02MDAiLCBiZzogImJnLXJvc2UtNTAiLCByaW5nOiAicmluZy1yb3NlLTIwMCIsIGljb246IEFsZXJ0VHJpYW5nbGUsIGVtb2ppOiAi8J+UtCIgfQp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUmlza0FuYWx5c2lzKHsgcmVwb3J0IH0pIHsKICBjb25zdCBsdmwgPSBMRVZFTFNbcmVwb3J0LnJpc2tfbGV2ZWxdIHx8IExFVkVMUy5Mb3c7CiAgY29uc3QgSWNvbiA9IGx2bC5pY29uOwogIGNvbnN0IHNpZ25hbHMgPSByZXBvcnQucmlza19zaWduYWxzIHx8IFtdOwogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgcC02IHNoYWRvdy1zbSI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtYmFzZSBmb250LXNlbWlib2xkIHRleHQtc2xhdGUtOTAwIj5CYWNrbGluayBSaXNrIEFuYWx5c2lzPC9oMz4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2BpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLWZ1bGwgJHtsdmwuYmd9IHB4LTMgcHktMSB0ZXh0LXNtIGZvbnQtbWVkaXVtICR7bHZsLmNvbG9yfSByaW5nLTEgJHtsdmwucmluZ31gfT4KICAgICAgICAgIDxzcGFuPntsdmwuZW1vaml9PC9zcGFuPiB7cmVwb3J0LnJpc2tfbGV2ZWx9IFJpc2sKICAgICAgICA8L3NwYW4+CiAgICAgIDwvZGl2PgoKICAgICAgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQtc20gdGV4dC1zbGF0ZS02MDAiPgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTkwMCI+UmlzayBBc3Nlc3NtZW50Ojwvc3Bhbj57IiAifQogICAgICAgIHtzaWduYWxzLmxlbmd0aCA9PT0gMAogICAgICAgICAgPyAiTm8gc3VzcGljaW91cyBvciBsb3ctcXVhbGl0eSBzaWduYWxzIHdlcmUgZGV0ZWN0ZWQgb24gdGhlIGZldGNoZWQgc291cmNlIHBhZ2UuIEEgc2luZ2xlIHdlYWsgc2lnbmFsIGFsb25lIGRvZXMgbm90IG1ha2UgYSBiYWNrbGluayB0b3hpYy4iCiAgICAgICAgICA6IGAke3NpZ25hbHMubGVuZ3RofSBzaWduYWwocykgd2VyZSBkZXRlY3RlZC4gQSB3ZWFrIHNpZ25hbCBkb2VzIG5vdCBhdXRvbWF0aWNhbGx5IG1ha2UgdGhlIGJhY2tsaW5rIHRveGljIOKAlCByZXZpZXcgdGhlIGV2aWRlbmNlIGJlbG93LmB9CiAgICAgIDwvcD4KCiAgICAgIHtzaWduYWxzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgIDx1bCBjbGFzc05hbWU9Im10LTQgc3BhY2UteS0zIj4KICAgICAgICAgIHtzaWduYWxzLm1hcCgocykgPT4gKAogICAgICAgICAgICA8bGkga2V5PXtzLmtleX0gY2xhc3NOYW1lPSJmbGV4IGdhcC0zIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1zbGF0ZS0xMDAgYmctc2xhdGUtNTAgcC0zIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2BtdC0wLjUgaW5saW5lLWJsb2NrIGgtMi41IHctMi41IGZsZXgtc2hyaW5rLTAgcm91bmRlZC1mdWxsICR7CiAgICAgICAgICAgICAgICBzLnNldmVyaXR5ID09PSAiY3JpdGljYWwiID8gImJnLXJvc2UtNTAwIiA6IHMuc2V2ZXJpdHkgPT09ICJtYWpvciIgPyAiYmctYW1iZXItNTAwIiA6ICJiZy1zbGF0ZS00MDAifWB9IC8+CiAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTkwMCI+e3MubGFiZWx9IDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyBmb250LW5vcm1hbCB0ZXh0LXNsYXRlLTQwMCI+KHtzLnNldmVyaXR5fSk8L3NwYW4+PC9wPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0wLjUgdGV4dC14cyB0ZXh0LXNsYXRlLTYwMCI+e3MuZXhwbGFuYXRpb259PC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgKSl9CiAgICAgICAgPC91bD4KICAgICAgKX0KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC00IGZsZXggaXRlbXMtc3RhcnQgZ2FwLTIgcm91bmRlZC1sZyBiZy1zbGF0ZS01MCBwLTMgdGV4dC14cyB0ZXh0LXNsYXRlLTUwMCI+CiAgICAgICAgPEljb24gY2xhc3NOYW1lPSJtdC0wLjUgaC00IHctNCBmbGV4LXNocmluay0wIHRleHQtc2xhdGUtNDAwIiAvPgogICAgICAgIDxwPlRoaXMgdG9vbCBkb2VzIG5vdCBhdXRvbWF0aWNhbGx5IHJlY29tbWVuZCBHb29nbGUncyBkaXNhdm93IHByb2Nlc3MgYmFzZWQgc29sZWx5IG9uIGl0cyBzY29yZS4gTWFudWFsIHJldmlldyBpcyBhbHdheXMgYWR2aXNlZCBiZWZvcmUgdGFraW5nIGFjdGlvbi48L3A+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQ==
+import React from "react";
+import { AlertTriangle, ShieldCheck, ShieldAlert } from "lucide-react";
+
+const LEVELS = {
+  Low: { color: "text-emerald-600", bg: "bg-emerald-50", ring: "ring-emerald-200", icon: ShieldCheck, emoji: "🟢" },
+  Medium: { color: "text-amber-600", bg: "bg-amber-50", ring: "ring-amber-200", icon: ShieldAlert, emoji: "🟡" },
+  High: { color: "text-rose-600", bg: "bg-rose-50", ring: "ring-rose-200", icon: AlertTriangle, emoji: "🔴" }
+};
+
+export default function RiskAnalysis({ report }) {
+  const lvl = LEVELS[report.risk_level] || LEVELS.Low;
+  const Icon = lvl.icon;
+  const signals = report.risk_signals || [];
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <div className="flex items-center justify-between">
+        <h3 className="text-base font-semibold text-slate-900">Backlink Risk Analysis</h3>
+        <span className={`inline-flex items-center gap-1.5 rounded-full ${lvl.bg} px-3 py-1 text-sm font-medium ${lvl.color} ring-1 ${lvl.ring}`}>
+          <span>{lvl.emoji}</span> {report.risk_level} Risk
+        </span>
+      </div>
+
+      <p className="mt-4 text-sm text-slate-600">
+        <span className="font-semibold text-slate-900">Risk Assessment:</span>{" "}
+        {signals.length === 0
+          ? "No suspicious or low-quality signals were detected on the fetched source page. A single weak signal alone does not make a backlink toxic."
+          : `${signals.length} signal(s) were detected. A weak signal does not automatically make the backlink toxic — review the evidence below.`}
+      </p>
+
+      {signals.length > 0 && (
+        <ul className="mt-4 space-y-3">
+          {signals.map((s) => (
+            <li key={s.key} className="flex gap-3 rounded-lg border border-slate-100 bg-slate-50 p-3">
+              <span className={`mt-0.5 inline-block h-2.5 w-2.5 flex-shrink-0 rounded-full ${
+                s.severity === "critical" ? "bg-rose-500" : s.severity === "major" ? "bg-amber-500" : "bg-slate-400"}`} />
+              <div>
+                <p className="text-sm font-medium text-slate-900">{s.label} <span className="text-xs font-normal text-slate-400">({s.severity})</span></p>
+                <p className="mt-0.5 text-xs text-slate-600">{s.explanation}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      <div className="mt-4 flex items-start gap-2 rounded-lg bg-slate-50 p-3 text-xs text-slate-500">
+        <Icon className="mt-0.5 h-4 w-4 flex-shrink-0 text-slate-400" />
+        <p>This tool does not automatically recommend Google's disavow process based solely on its score. Manual review is always advised before taking action.</p>
+      </div>
+    </div>
+  );
+}

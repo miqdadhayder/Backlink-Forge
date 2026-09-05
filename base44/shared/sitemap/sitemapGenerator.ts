@@ -1,1 +1,45 @@
-aW1wb3J0IHsgZXNjYXBlWG1sIH0gZnJvbSAiLi91cmxOb3JtYWxpemVyLnRzIjsKaW1wb3J0IHsgQ3Jhd2xlZFVybCB9IGZyb20gIi4vc2l0ZW1hcENyYXdsZXIudHMiOwoKZXhwb3J0IGZ1bmN0aW9uIGdlbmVyYXRlU2l0ZW1hcCh1cmxzOiBDcmF3bGVkVXJsW10pOiBzdHJpbmcgewogIGNvbnN0IHNlZW4gPSBuZXcgU2V0PHN0cmluZz4oKTsKICBjb25zdCBsaW5lczogc3RyaW5nW10gPSBbXTsKICBmb3IgKGNvbnN0IHUgb2YgdXJscykgewogICAgaWYgKCF1LmluY2x1ZGVkIHx8ICF1LmZpbmFsX3VybCkgY29udGludWU7CiAgICBjb25zdCBsb2MgPSB1LmZpbmFsX3VybDsKICAgIGlmIChzZWVuLmhhcyhsb2MpKSBjb250aW51ZTsKICAgIHNlZW4uYWRkKGxvYyk7CiAgICBsaW5lcy5wdXNoKCIgIDx1cmw+XG4gICAgPGxvYz4iICsgZXNjYXBlWG1sKGxvYykgKyAiPC9sb2M+XG4gIDwvdXJsPiIpOwogIH0KICByZXR1cm4gKAogICAgJzw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8+XG4nICsKICAgICc8dXJsc2V0IHhtbG5zPSJodHRwOi8vd3d3LnNpdGVtYXBzLm9yZy9zY2hlbWFzL3NpdGVtYXAvMC45Ij5cbicgKwogICAgbGluZXMuam9pbigiXG4iKSArCiAgICAiXG48L3VybHNldD5cbiIKICApOwp9CgovLyBQcmFnbWF0aWMgd2VsbC1mb3JtZWRuZXNzIGNoZWNrIChpbnNwZWN0cyByZWFsIHN0cnVjdHVyZSwgbm90IGEgZmFrZSB2YWxpZGF0b3IpLgpleHBvcnQgZnVuY3Rpb24gaXNXZWxsRm9ybWVkKHhtbDogc3RyaW5nKTogeyBvazogYm9vbGVhbjsgZXJyb3I6IHN0cmluZyB8IG51bGwgfSB7CiAgaWYgKCF4bWwgfHwgIXhtbC50cmltKCkpIHJldHVybiB7IG9rOiBmYWxzZSwgZXJyb3I6ICJFbXB0eSBkb2N1bWVudCIgfTsKICBpZiAoIS88XD94bWwvLnRlc3QoeG1sKSkgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogIk1pc3NpbmcgWE1MIGRlY2xhcmF0aW9uIiB9OwogIGNvbnN0IG9wZW5Sb290ID0gKHhtbC5tYXRjaCgvPCh1cmxzZXR8c2l0ZW1hcGluZGV4KVtccz5dL2cpIHx8IFtdKS5sZW5ndGg7CiAgY29uc3QgY2xvc2VSb290ID0gKHhtbC5tYXRjaCgvPFwvKHVybHNldHxzaXRlbWFwaW5kZXgpPi9nKSB8fCBbXSkubGVuZ3RoOwogIGlmIChvcGVuUm9vdCAhPT0gY2xvc2VSb290KSByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAiUm9vdCBlbGVtZW50IG5vdCBiYWxhbmNlZCIgfTsKICBjb25zdCB0YWdzID0geG1sLm1hdGNoKC88XC8/KFthLXpBLVpfXVtcdy4tXSopW14+XSo/XC8/Pi9nKSB8fCBbXTsKICBjb25zdCBzdGFjazogc3RyaW5nW10gPSBbXTsKICBmb3IgKGNvbnN0IHRhZyBvZiB0YWdzKSB7CiAgICBpZiAodGFnLmVuZHNXaXRoKCIvPiIpKSBjb250aW51ZTsKICAgIGNvbnN0IG0gPSB0YWcubWF0Y2goL148XC8/KFthLXpBLVpfXVtcdy4tXSopLyk7CiAgICBpZiAoIW0pIGNvbnRpbnVlOwogICAgY29uc3QgbmFtZSA9IG1bMV07CiAgICBpZiAodGFnLnN0YXJ0c1dpdGgoIjwvIikpIHsKICAgICAgaWYgKHN0YWNrLmxlbmd0aCAmJiBzdGFja1tzdGFjay5sZW5ndGggLSAxXSA9PT0gbmFtZSkgc3RhY2sucG9wKCk7CiAgICAgIGVsc2UgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogYE1pc21hdGNoZWQgY2xvc2luZyB0YWcgPC8ke25hbWV9PmAgfTsKICAgIH0gZWxzZSB7CiAgICAgIHN0YWNrLnB1c2gobmFtZSk7CiAgICB9CiAgfQogIGlmIChzdGFjay5sZW5ndGgpIHJldHVybiB7IG9rOiBmYWxzZSwgZXJyb3I6IGBVbmNsb3NlZCB0YWcgPCR7c3RhY2tbc3RhY2subGVuZ3RoIC0gMV19PmAgfTsKICByZXR1cm4geyBvazogdHJ1ZSwgZXJyb3I6IG51bGwgfTsKfQ==
+import { escapeXml } from "./urlNormalizer.ts";
+import { CrawledUrl } from "./sitemapCrawler.ts";
+
+export function generateSitemap(urls: CrawledUrl[]): string {
+  const seen = new Set<string>();
+  const lines: string[] = [];
+  for (const u of urls) {
+    if (!u.included || !u.final_url) continue;
+    const loc = u.final_url;
+    if (seen.has(loc)) continue;
+    seen.add(loc);
+    lines.push("  <url>\n    <loc>" + escapeXml(loc) + "</loc>\n  </url>");
+  }
+  return (
+    '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    lines.join("\n") +
+    "\n</urlset>\n"
+  );
+}
+
+// Pragmatic well-formedness check (inspects real structure, not a fake validator).
+export function isWellFormed(xml: string): { ok: boolean; error: string | null } {
+  if (!xml || !xml.trim()) return { ok: false, error: "Empty document" };
+  if (!/<\?xml/.test(xml)) return { ok: false, error: "Missing XML declaration" };
+  const openRoot = (xml.match(/<(urlset|sitemapindex)[\s>]/g) || []).length;
+  const closeRoot = (xml.match(/<\/(urlset|sitemapindex)>/g) || []).length;
+  if (openRoot !== closeRoot) return { ok: false, error: "Root element not balanced" };
+  const tags = xml.match(/<\/?([a-zA-Z_][\w.-]*)[^>]*?\/?>/g) || [];
+  const stack: string[] = [];
+  for (const tag of tags) {
+    if (tag.endsWith("/>")) continue;
+    const m = tag.match(/^<\/?([a-zA-Z_][\w.-]*)/);
+    if (!m) continue;
+    const name = m[1];
+    if (tag.startsWith("</")) {
+      if (stack.length && stack[stack.length - 1] === name) stack.pop();
+      else return { ok: false, error: `Mismatched closing tag </${name}>` };
+    } else {
+      stack.push(name);
+    }
+  }
+  if (stack.length) return { ok: false, error: `Unclosed tag <${stack[stack.length - 1]}>` };
+  return { ok: true, error: null };
+}

@@ -1,1 +1,131 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgYmFzZTQ0IH0gZnJvbSAiQC9hcGkvYmFzZTQ0Q2xpZW50IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBUZXh0YXJlYSB9IGZyb20gIkAvY29tcG9uZW50cy91aS90ZXh0YXJlYSI7CmltcG9ydCB7IHVzZVRvYXN0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3VzZS10b2FzdCI7CmltcG9ydCB7IFBsdXMsIFBlbmNpbCwgVHJhc2gyLCBNYWlsIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFRlbXBsYXRlTWFuYWdlcih7IHRlbXBsYXRlcywgb25SZWxvYWQgfSkgewogIGNvbnN0IHsgdG9hc3QgfSA9IHVzZVRvYXN0KCk7CiAgY29uc3QgW2VkaXRpbmcsIHNldEVkaXRpbmddID0gUmVhY3QudXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW25hbWUsIHNldE5hbWVdID0gUmVhY3QudXNlU3RhdGUoIiIpOwogIGNvbnN0IFtzdWJqZWN0LCBzZXRTdWJqZWN0XSA9IFJlYWN0LnVzZVN0YXRlKCIiKTsKICBjb25zdCBbYm9keSwgc2V0Qm9keV0gPSBSZWFjdC51c2VTdGF0ZSgiIik7CiAgY29uc3QgW3NhdmluZywgc2V0U2F2aW5nXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTsKCiAgY29uc3Qgc3RhcnROZXcgPSAoKSA9PiB7CiAgICBzZXRFZGl0aW5nKCJuZXciKTsKICAgIHNldE5hbWUoIiIpOyBzZXRTdWJqZWN0KCIiKTsgc2V0Qm9keSgiIik7CiAgfTsKCiAgY29uc3Qgc3RhcnRFZGl0ID0gKHQpID0+IHsKICAgIHNldEVkaXRpbmcodCk7CiAgICBzZXROYW1lKHQubmFtZSk7IHNldFN1YmplY3QodC5zdWJqZWN0KTsgc2V0Qm9keSh0LmJvZHkpOwogIH07CgogIGNvbnN0IGNhbmNlbCA9ICgpID0+IHsKICAgIHNldEVkaXRpbmcobnVsbCk7CiAgICBzZXROYW1lKCIiKTsgc2V0U3ViamVjdCgiIik7IHNldEJvZHkoIiIpOwogIH07CgogIGNvbnN0IHNhdmUgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIW5hbWUudHJpbSgpIHx8ICFzdWJqZWN0LnRyaW0oKSB8fCAhYm9keS50cmltKCkpIHsKICAgICAgdG9hc3QoeyB0aXRsZTogIkFsbCBmaWVsZHMgcmVxdWlyZWQiLCBkZXNjcmlwdGlvbjogIk5hbWUsIHN1YmplY3QsIGFuZCBib2R5IGFyZSByZXF1aXJlZC4iLCB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICBzZXRTYXZpbmcodHJ1ZSk7CiAgICB0cnkgewogICAgICBpZiAoZWRpdGluZyA9PT0gIm5ldyIpIHsKICAgICAgICBhd2FpdCBiYXNlNDQuZW50aXRpZXMuRW1haWxUZW1wbGF0ZS5jcmVhdGUoeyBuYW1lLCBzdWJqZWN0LCBib2R5IH0pOwogICAgICAgIHRvYXN0KHsgdGl0bGU6ICJUZW1wbGF0ZSBjcmVhdGVkIiB9KTsKICAgICAgfSBlbHNlIHsKICAgICAgICBhd2FpdCBiYXNlNDQuZW50aXRpZXMuRW1haWxUZW1wbGF0ZS51cGRhdGUoZWRpdGluZy5pZCwgeyBuYW1lLCBzdWJqZWN0LCBib2R5IH0pOwogICAgICAgIHRvYXN0KHsgdGl0bGU6ICJUZW1wbGF0ZSB1cGRhdGVkIiB9KTsKICAgICAgfQogICAgICBjYW5jZWwoKTsKICAgICAgb25SZWxvYWQoKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgdG9hc3QoeyB0aXRsZTogIkNvdWxkIG5vdCBzYXZlIiwgZGVzY3JpcHRpb246ICJQbGVhc2UgdHJ5IGFnYWluLiIsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRTYXZpbmcoZmFsc2UpOwogICAgfQogIH07CgogIGNvbnN0IHJlbW92ZSA9IGFzeW5jICh0KSA9PiB7CiAgICBpZiAoIXdpbmRvdy5jb25maXJtKGBEZWxldGUgIiR7dC5uYW1lfSI/YCkpIHJldHVybjsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGJhc2U0NC5lbnRpdGllcy5FbWFpbFRlbXBsYXRlLmRlbGV0ZSh0LmlkKTsKICAgICAgdG9hc3QoeyB0aXRsZTogIlRlbXBsYXRlIGRlbGV0ZWQiIH0pOwogICAgICBvblJlbG9hZCgpOwogICAgfSBjYXRjaCAoZSkgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQ291bGQgbm90IGRlbGV0ZSIsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICB9CiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTkwMCI+T3V0cmVhY2ggVGVtcGxhdGVzPC9oMz4KICAgICAgICB7ZWRpdGluZyA9PT0gbnVsbCAmJiAoCiAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiBvbkNsaWNrPXtzdGFydE5ld30+PFBsdXMgY2xhc3NOYW1lPSJtci0yIGgtNCB3LTQiIC8+IE5ldyBUZW1wbGF0ZTwvQnV0dG9uPgogICAgICAgICl9CiAgICAgIDwvZGl2PgoKICAgICAge2VkaXRpbmcgIT09IG51bGwgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgcC01IHNoYWRvdy1zbSI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICA8TGFiZWwgY2xhc3NOYW1lPSJ0ZXh0LXhzIj5UZW1wbGF0ZSBuYW1lPC9MYWJlbD4KICAgICAgICAgICAgPElucHV0IHZhbHVlPXtuYW1lfSBvbkNoYW5nZT17KGUpID0+IHNldE5hbWUoZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iZS5nLiBHdWVzdCBwb3N0IHBpdGNoIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICA8TGFiZWwgY2xhc3NOYW1lPSJ0ZXh0LXhzIj5TdWJqZWN0PC9MYWJlbD4KICAgICAgICAgICAgPElucHV0IHZhbHVlPXtzdWJqZWN0fSBvbkNoYW5nZT17KGUpID0+IHNldFN1YmplY3QoZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iRW1haWwgc3ViamVjdCIgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMS41Ij4KICAgICAgICAgICAgPExhYmVsIGNsYXNzTmFtZT0idGV4dC14cyI+Qm9keTwvTGFiZWw+CiAgICAgICAgICAgIDxUZXh0YXJlYQogICAgICAgICAgICAgIHZhbHVlPXtib2R5fQogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0Qm9keShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgcm93cz17N30KICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iV3JpdGUgeW91ciBvdXRyZWFjaCBlbWFpbC4gVXNlIHt3ZWJzaXRlfSwge3VybH0sIHtuaWNoZX0sIHtkYX0sIHt0cmFmZmljfSwge3R5cGV9IGFzIHBsYWNlaG9sZGVycyBmaWxsZWQgZnJvbSBlYWNoIG9wcG9ydHVuaXR5LiIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICAgICAgUGxhY2Vob2xkZXJzOiB7Int3ZWJzaXRlfSJ9LCB7Int1cmx9In0sIHsie25pY2hlfSJ9LCB7IntkYX0ifSwgeyJ7dHJhZmZpY30ifSwgeyJ7dHlwZX0ifSDigJQgZmlsbGVkIGF1dG9tYXRpY2FsbHkgcGVyIG9wcG9ydHVuaXR5LgogICAgICAgICAgPC9wPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1lbmQgZ2FwLTIiPgogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIHNpemU9InNtIiBvbkNsaWNrPXtjYW5jZWx9PkNhbmNlbDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiBvbkNsaWNrPXtzYXZlfSBkaXNhYmxlZD17c2F2aW5nfT57c2F2aW5nID8gIlNhdmluZ+KApiIgOiAiU2F2ZSB0ZW1wbGF0ZSJ9PC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIHtlZGl0aW5nID09PSBudWxsICYmICgKICAgICAgICB0ZW1wbGF0ZXMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1zbGF0ZS0zMDAgYmctd2hpdGUgcC0xMiB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgIDxNYWlsIGNsYXNzTmFtZT0ibXgtYXV0byBoLTYgdy02IHRleHQtc2xhdGUtMzAwIiAvPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCI+Tm8gdGVtcGxhdGVzIHlldC4gQ3JlYXRlIG9uZSB0byBzcGVlZCB1cCBvdXRyZWFjaC48L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApIDogKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTMgc206Z3JpZC1jb2xzLTIiPgogICAgICAgICAgICB7dGVtcGxhdGVzLm1hcCgodCkgPT4gKAogICAgICAgICAgICAgIDxkaXYga2V5PXt0LmlkfSBjbGFzc05hbWU9InJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgcC00IHNoYWRvdy1zbSI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIHRleHQtc2xhdGUtOTAwIj57dC5uYW1lfTwvcD4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTEiPgogICAgICAgICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9Imljb24iIG9uQ2xpY2s9eygpID0+IHN0YXJ0RWRpdCh0KX0+PFBlbmNpbCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+PC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0iaWNvbiIgb25DbGljaz17KCkgPT4gcmVtb3ZlKHQpfT48VHJhc2gyIGNsYXNzTmFtZT0iaC00IHctNCB0ZXh0LXJvc2UtNTAwIiAvPjwvQnV0dG9uPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1zbGF0ZS02MDAiPnt0LnN1YmplY3R9PC9wPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIGxpbmUtY2xhbXAtMyB3aGl0ZXNwYWNlLXByZS13cmFwIHRleHQteHMgdGV4dC1zbGF0ZS01MDAiPnt0LmJvZHl9PC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICkKICAgICAgKX0KICAgIDwvZGl2PgogICk7Cn0=
+import React from "react";
+import { base44 } from "@/api/base44Client";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { useToast } from "@/components/ui/use-toast";
+import { Plus, Pencil, Trash2, Mail } from "lucide-react";
+
+export default function TemplateManager({ templates, onReload }) {
+  const { toast } = useToast();
+  const [editing, setEditing] = React.useState(null);
+  const [name, setName] = React.useState("");
+  const [subject, setSubject] = React.useState("");
+  const [body, setBody] = React.useState("");
+  const [saving, setSaving] = React.useState(false);
+
+  const startNew = () => {
+    setEditing("new");
+    setName(""); setSubject(""); setBody("");
+  };
+
+  const startEdit = (t) => {
+    setEditing(t);
+    setName(t.name); setSubject(t.subject); setBody(t.body);
+  };
+
+  const cancel = () => {
+    setEditing(null);
+    setName(""); setSubject(""); setBody("");
+  };
+
+  const save = async () => {
+    if (!name.trim() || !subject.trim() || !body.trim()) {
+      toast({ title: "All fields required", description: "Name, subject, and body are required.", variant: "destructive" });
+      return;
+    }
+    setSaving(true);
+    try {
+      if (editing === "new") {
+        await base44.entities.EmailTemplate.create({ name, subject, body });
+        toast({ title: "Template created" });
+      } else {
+        await base44.entities.EmailTemplate.update(editing.id, { name, subject, body });
+        toast({ title: "Template updated" });
+      }
+      cancel();
+      onReload();
+    } catch (e) {
+      toast({ title: "Could not save", description: "Please try again.", variant: "destructive" });
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  const remove = async (t) => {
+    if (!window.confirm(`Delete "${t.name}"?`)) return;
+    try {
+      await base44.entities.EmailTemplate.delete(t.id);
+      toast({ title: "Template deleted" });
+      onReload();
+    } catch (e) {
+      toast({ title: "Could not delete", variant: "destructive" });
+    }
+  };
+
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <h3 className="text-base font-semibold text-slate-900">Outreach Templates</h3>
+        {editing === null && (
+          <Button size="sm" onClick={startNew}><Plus className="mr-2 h-4 w-4" /> New Template</Button>
+        )}
+      </div>
+
+      {editing !== null && (
+        <div className="space-y-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <div className="space-y-1.5">
+            <Label className="text-xs">Template name</Label>
+            <Input value={name} onChange={(e) => setName(e.target.value)} placeholder="e.g. Guest post pitch" />
+          </div>
+          <div className="space-y-1.5">
+            <Label className="text-xs">Subject</Label>
+            <Input value={subject} onChange={(e) => setSubject(e.target.value)} placeholder="Email subject" />
+          </div>
+          <div className="space-y-1.5">
+            <Label className="text-xs">Body</Label>
+            <Textarea
+              value={body}
+              onChange={(e) => setBody(e.target.value)}
+              rows={7}
+              placeholder="Write your outreach email. Use {website}, {url}, {niche}, {da}, {traffic}, {type} as placeholders filled from each opportunity."
+            />
+          </div>
+          <p className="text-xs text-slate-500">
+            Placeholders: {"{website}"}, {"{url}"}, {"{niche}"}, {"{da}"}, {"{traffic}"}, {"{type}"} — filled automatically per opportunity.
+          </p>
+          <div className="flex justify-end gap-2">
+            <Button variant="outline" size="sm" onClick={cancel}>Cancel</Button>
+            <Button size="sm" onClick={save} disabled={saving}>{saving ? "Saving…" : "Save template"}</Button>
+          </div>
+        </div>
+      )}
+
+      {editing === null && (
+        templates.length === 0 ? (
+          <div className="rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center">
+            <Mail className="mx-auto h-6 w-6 text-slate-300" />
+            <p className="mt-2 text-sm text-slate-500">No templates yet. Create one to speed up outreach.</p>
+          </div>
+        ) : (
+          <div className="grid gap-3 sm:grid-cols-2">
+            {templates.map((t) => (
+              <div key={t.id} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+                <div className="flex items-start justify-between">
+                  <p className="font-medium text-slate-900">{t.name}</p>
+                  <div className="flex gap-1">
+                    <Button variant="ghost" size="icon" onClick={() => startEdit(t)}><Pencil className="h-4 w-4" /></Button>
+                    <Button variant="ghost" size="icon" onClick={() => remove(t)}><Trash2 className="h-4 w-4 text-rose-500" /></Button>
+                  </div>
+                </div>
+                <p className="mt-1 text-xs font-medium text-slate-600">{t.subject}</p>
+                <p className="mt-2 line-clamp-3 whitespace-pre-wrap text-xs text-slate-500">{t.body}</p>
+              </div>
+            ))}
+          </div>
+        )
+      )}
+    </div>
+  );
+}

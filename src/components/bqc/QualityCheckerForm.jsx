@@ -1,1 +1,103 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBTcGFya2xlcywgV2FuZDIsIFNoaWVsZENoZWNrLCBBbGVydENpcmNsZSB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBRdWFsaXR5Q2hlY2tlckZvcm0oeyBvbkFuYWx5emUsIGxvYWRpbmcgfSkgewogIGNvbnN0IFtmb3JtLCBzZXRGb3JtXSA9IFJlYWN0LnVzZVN0YXRlKHsKICAgIHdlYnNpdGVfdXJsOiAiIiwKICAgIGJhY2tsaW5rX3VybDogIiIsCiAgICB0YXJnZXRfdXJsOiAiIiwKICAgIGFuY2hvcl90ZXh0OiAiIgogIH0pOwogIGNvbnN0IFtlcnJvciwgc2V0RXJyb3JdID0gUmVhY3QudXNlU3RhdGUoIiIpOwogIGNvbnN0IHVwZGF0ZSA9IChrLCB2KSA9PiBzZXRGb3JtKChmKSA9PiAoeyAuLi5mLCBba106IHYgfSkpOwoKICBjb25zdCB1c2VFeGFtcGxlID0gKCkgPT4gewogICAgc2V0RXJyb3IoIiIpOwogICAgc2V0Rm9ybSh7CiAgICAgIHdlYnNpdGVfdXJsOiAiaHR0cHM6Ly9iYWNrbGlua2ZvcmdlLmFwcCIsCiAgICAgIGJhY2tsaW5rX3VybDogImh0dHBzOi8vYWhyZWZzLmNvbS9ibG9nL2JhY2tsaW5rcy8iLAogICAgICB0YXJnZXRfdXJsOiAiaHR0cHM6Ly9iYWNrbGlua2ZvcmdlLmFwcCIsCiAgICAgIGFuY2hvcl90ZXh0OiAiYmFja2xpbmsgYW5hbHlzaXMgdG9vbCIKICAgIH0pOwogIH07CgogIGNvbnN0IHN1Ym1pdCA9IChlKSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBzZXRFcnJvcigiIik7CiAgICBpZiAoIWZvcm0uYmFja2xpbmtfdXJsLnRyaW0oKSkgewogICAgICBzZXRFcnJvcigiUGxlYXNlIGVudGVyIHRoZSBiYWNrbGluayAoc291cmNlIHBhZ2UpIFVSTC4iKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKCFpc1ZhbGlkVXJsKGZvcm0uYmFja2xpbmtfdXJsKSkgewogICAgICBzZXRFcnJvcigiUGxlYXNlIGVudGVyIGEgdmFsaWQgYmFja2xpbmsgVVJMIChpbmNsdWRpbmcgaHR0cHM6Ly8pLiIpOwogICAgICByZXR1cm47CiAgICB9CiAgICBpZiAoZm9ybS53ZWJzaXRlX3VybCAmJiAhaXNWYWxpZFVybChmb3JtLndlYnNpdGVfdXJsKSkgewogICAgICBzZXRFcnJvcigiUGxlYXNlIGVudGVyIGEgdmFsaWQgd2Vic2l0ZSBVUkwuIik7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmIChmb3JtLnRhcmdldF91cmwgJiYgIWlzVmFsaWRVcmwoZm9ybS50YXJnZXRfdXJsKSkgewogICAgICBzZXRFcnJvcigiUGxlYXNlIGVudGVyIGEgdmFsaWQgdGFyZ2V0IHBhZ2UgVVJMLiIpOwogICAgICByZXR1cm47CiAgICB9CiAgICBvbkFuYWx5emUoewogICAgICB3ZWJzaXRlX3VybDogZm9ybS53ZWJzaXRlX3VybC50cmltKCksCiAgICAgIGJhY2tsaW5rX3VybDogZm9ybS5iYWNrbGlua191cmwudHJpbSgpLAogICAgICB0YXJnZXRfdXJsOiBmb3JtLnRhcmdldF91cmwudHJpbSgpIHx8IG51bGwsCiAgICAgIGFuY2hvcl90ZXh0OiBmb3JtLmFuY2hvcl90ZXh0LnRyaW0oKSB8fCBudWxsCiAgICB9KTsKICB9OwoKICByZXR1cm4gKAogICAgPGZvcm0gb25TdWJtaXQ9e3N1Ym1pdH0gY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBiZy13aGl0ZSBwLTYgc2hhZG93LXNtIHNtOnAtOCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdhcC01IG1kOmdyaWQtY29scy0yIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJicV93ZWJzaXRlIj5Zb3VyIFdlYnNpdGUgVVJMPC9MYWJlbD4KICAgICAgICAgIDxJbnB1dCBpZD0iYnFfd2Vic2l0ZSIgcGxhY2Vob2xkZXI9Imh0dHBzOi8veW91cnNpdGUuY29tIiB2YWx1ZT17Zm9ybS53ZWJzaXRlX3VybH0gb25DaGFuZ2U9eyhlKSA9PiB1cGRhdGUoIndlYnNpdGVfdXJsIiwgZS50YXJnZXQudmFsdWUpfSAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgPExhYmVsIGh0bWxGb3I9ImJxX2JhY2tsaW5rIj5CYWNrbGluayBVUkwgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXJvc2UtNTAwIj4qPC9zcGFuPjwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQgaWQ9ImJxX2JhY2tsaW5rIiBwbGFjZWhvbGRlcj0iaHR0cHM6Ly9leGFtcGxlLmNvbS9hcnRpY2xlIiB2YWx1ZT17Zm9ybS5iYWNrbGlua191cmx9IG9uQ2hhbmdlPXsoZSkgPT4gdXBkYXRlKCJiYWNrbGlua191cmwiLCBlLnRhcmdldC52YWx1ZSl9IC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iYnFfdGFyZ2V0Ij5UYXJnZXQgUGFnZSBVUkwgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNsYXRlLTQwMCI+KG9wdGlvbmFsKTwvc3Bhbj48L0xhYmVsPgogICAgICAgICAgPElucHV0IGlkPSJicV90YXJnZXQiIHBsYWNlaG9sZGVyPSJodHRwczovL3lvdXJzaXRlLmNvbS9wYWdlIiB2YWx1ZT17Zm9ybS50YXJnZXRfdXJsfSBvbkNoYW5nZT17KGUpID0+IHVwZGF0ZSgidGFyZ2V0X3VybCIsIGUudGFyZ2V0LnZhbHVlKX0gLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJicV9hbmNob3IiPkFuY2hvciBUZXh0IDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbGF0ZS00MDAiPihvcHRpb25hbCk8L3NwYW4+PC9MYWJlbD4KICAgICAgICAgIDxJbnB1dCBpZD0iYnFfYW5jaG9yIiBwbGFjZWhvbGRlcj0iZS5nLiBiZXN0IFNFTyB0b29scyIgdmFsdWU9e2Zvcm0uYW5jaG9yX3RleHR9IG9uQ2hhbmdlPXsoZSkgPT4gdXBkYXRlKCJhbmNob3JfdGV4dCIsIGUudGFyZ2V0LnZhbHVlKX0gLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICB7ZXJyb3IgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC01IGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtbGcgYmctcm9zZS01MCBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LXJvc2UtNzAwIj4KICAgICAgICAgIDxBbGVydENpcmNsZSBjbGFzc05hbWU9ImgtNCB3LTQgZmxleC1zaHJpbmstMCIgLz4ge2Vycm9yfQogICAgICAgIDwvZGl2PgogICAgICApfQoKICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyI+CiAgICAgICAgPEJ1dHRvbiB0eXBlPSJzdWJtaXQiIHNpemU9ImxnIiBkaXNhYmxlZD17bG9hZGluZ30gY2xhc3NOYW1lPSJmbGV4LTEiPgogICAgICAgICAgPFNwYXJrbGVzIGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPiB7bG9hZGluZyA/ICJBbmFseXppbmfigKYiIDogIkFuYWx5emUgQmFja2xpbmsifQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiBzaXplPSJsZyIgdmFyaWFudD0ib3V0bGluZSIgb25DbGljaz17dXNlRXhhbXBsZX0gZGlzYWJsZWQ9e2xvYWRpbmd9PgogICAgICAgICAgPFdhbmQyIGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPiBVc2UgRXhhbXBsZQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIDxwIGNsYXNzTmFtZT0ibXQtNCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXhzIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICA8U2hpZWxkQ2hlY2sgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSB0ZXh0LXNsYXRlLTQwMCIgLz4KICAgICAgICBXZSBhbmFseXplIHB1YmxpY2x5IGF2YWlsYWJsZSBpbmZvcm1hdGlvbi4gTmV2ZXIgZW50ZXIgcGFzc3dvcmRzIG9yIHByaXZhdGUgYWNjb3VudCBpbmZvcm1hdGlvbi4KICAgICAgPC9wPgogICAgPC9mb3JtPgogICk7Cn0KCmZ1bmN0aW9uIGlzVmFsaWRVcmwoc3RyKSB7CiAgdHJ5IHsKICAgIGNvbnN0IHUgPSBuZXcgVVJMKHN0ci5zdGFydHNXaXRoKCJodHRwIikgPyBzdHIgOiBgaHR0cHM6Ly8ke3N0cn1gKTsKICAgIHJldHVybiBCb29sZWFuKHUuaG9zdG5hbWUgJiYgdS5ob3N0bmFtZS5pbmNsdWRlcygiLiIpKTsKICB9IGNhdGNoIChlKSB7IHJldHVybiBmYWxzZTsgfQp9
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Sparkles, Wand2, ShieldCheck, AlertCircle } from "lucide-react";
+
+export default function QualityCheckerForm({ onAnalyze, loading }) {
+  const [form, setForm] = React.useState({
+    website_url: "",
+    backlink_url: "",
+    target_url: "",
+    anchor_text: ""
+  });
+  const [error, setError] = React.useState("");
+  const update = (k, v) => setForm((f) => ({ ...f, [k]: v }));
+
+  const useExample = () => {
+    setError("");
+    setForm({
+      website_url: "https://backlinkforge.app",
+      backlink_url: "https://ahrefs.com/blog/backlinks/",
+      target_url: "https://backlinkforge.app",
+      anchor_text: "backlink analysis tool"
+    });
+  };
+
+  const submit = (e) => {
+    e.preventDefault();
+    setError("");
+    if (!form.backlink_url.trim()) {
+      setError("Please enter the backlink (source page) URL.");
+      return;
+    }
+    if (!isValidUrl(form.backlink_url)) {
+      setError("Please enter a valid backlink URL (including https://).");
+      return;
+    }
+    if (form.website_url && !isValidUrl(form.website_url)) {
+      setError("Please enter a valid website URL.");
+      return;
+    }
+    if (form.target_url && !isValidUrl(form.target_url)) {
+      setError("Please enter a valid target page URL.");
+      return;
+    }
+    onAnalyze({
+      website_url: form.website_url.trim(),
+      backlink_url: form.backlink_url.trim(),
+      target_url: form.target_url.trim() || null,
+      anchor_text: form.anchor_text.trim() || null
+    });
+  };
+
+  return (
+    <form onSubmit={submit} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+      <div className="grid gap-5 md:grid-cols-2">
+        <div className="space-y-2">
+          <Label htmlFor="bq_website">Your Website URL</Label>
+          <Input id="bq_website" placeholder="https://yoursite.com" value={form.website_url} onChange={(e) => update("website_url", e.target.value)} />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="bq_backlink">Backlink URL <span className="text-rose-500">*</span></Label>
+          <Input id="bq_backlink" placeholder="https://example.com/article" value={form.backlink_url} onChange={(e) => update("backlink_url", e.target.value)} />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="bq_target">Target Page URL <span className="text-slate-400">(optional)</span></Label>
+          <Input id="bq_target" placeholder="https://yoursite.com/page" value={form.target_url} onChange={(e) => update("target_url", e.target.value)} />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="bq_anchor">Anchor Text <span className="text-slate-400">(optional)</span></Label>
+          <Input id="bq_anchor" placeholder="e.g. best SEO tools" value={form.anchor_text} onChange={(e) => update("anchor_text", e.target.value)} />
+        </div>
+      </div>
+
+      {error && (
+        <div className="mt-5 flex items-center gap-2 rounded-lg bg-rose-50 px-4 py-3 text-sm text-rose-700">
+          <AlertCircle className="h-4 w-4 flex-shrink-0" /> {error}
+        </div>
+      )}
+
+      <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+        <Button type="submit" size="lg" disabled={loading} className="flex-1">
+          <Sparkles className="mr-2 h-4 w-4" /> {loading ? "Analyzing…" : "Analyze Backlink"}
+        </Button>
+        <Button type="button" size="lg" variant="outline" onClick={useExample} disabled={loading}>
+          <Wand2 className="mr-2 h-4 w-4" /> Use Example
+        </Button>
+      </div>
+
+      <p className="mt-4 flex items-center gap-2 text-xs text-slate-500">
+        <ShieldCheck className="h-3.5 w-3.5 text-slate-400" />
+        We analyze publicly available information. Never enter passwords or private account information.
+      </p>
+    </form>
+  );
+}
+
+function isValidUrl(str) {
+  try {
+    const u = new URL(str.startsWith("http") ? str : `https://${str}`);
+    return Boolean(u.hostname && u.hostname.includes("."));
+  } catch (e) { return false; }
+}

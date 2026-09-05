@@ -1,1 +1,67 @@
-aW1wb3J0IHsgY3JlYXRlQ2xpZW50RnJvbVJlcXVlc3QgfSBmcm9tICducG06QGJhc2U0NC9zZGtAMC44LjQwJzsKaW1wb3J0IHsgdmFsaWRhdGVTaXRlbWFwLCBmZXRjaFhtbCB9IGZyb20gIi4uLy4uL3NoYXJlZC9zaXRlbWFwL3NpdGVtYXBWYWxpZGF0b3IudHMiOwppbXBvcnQgeyBzYWZlVXJsIH0gZnJvbSAiLi4vLi4vc2hhcmVkL3NpdGVtYXAvdXJsTm9ybWFsaXplci50cyI7Cgpjb25zdCBNQVhfQllURVMgPSAxMCAqIDEwMjQgKiAxMDI0OwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24ocmVxOiBSZXF1ZXN0KTogUHJvbWlzZTxSZXNwb25zZT4gewogIHRyeSB7CiAgICBjb25zdCBiYXNlNDQgPSBjcmVhdGVDbGllbnRGcm9tUmVxdWVzdChyZXEpOwogICAgY29uc3QgdXNlciA9IGF3YWl0IGJhc2U0NC5hdXRoLm1lKCk7CiAgICBpZiAoIXVzZXIpIHJldHVybiBSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJQbGVhc2Ugc2lnbiBpbiB0byB2YWxpZGF0ZSBhIHNpdGVtYXAuIiB9LCB7IHN0YXR1czogNDAxIH0pOwoKICAgIGNvbnN0IGJvZHkgPSBhd2FpdCByZXEuanNvbigpOwogICAgY29uc3QgeyBzaXRlbWFwX3VybCwgeG1sX2NvbnRlbnQsIGNoZWNrX2h0dHAgfSA9IGJvZHkgfHwge307CgogICAgbGV0IHhtbCA9ICIiOwogICAgbGV0IHNvdXJjZVVybDogc3RyaW5nIHwgbnVsbCA9IG51bGw7CgogICAgaWYgKHNpdGVtYXBfdXJsKSB7CiAgICAgIGNvbnN0IHUgPSBzYWZlVXJsKHNpdGVtYXBfdXJsKTsKICAgICAgaWYgKCF1KSByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAiUGxlYXNlIGVudGVyIGEgdmFsaWQgc2l0ZW1hcCBVUkwuIiB9LCB7IHN0YXR1czogNDAwIH0pOwogICAgICBzb3VyY2VVcmwgPSB1LnRvU3RyaW5nKCk7CiAgICAgIGNvbnN0IGZldGNoZWQgPSBhd2FpdCBmZXRjaFhtbChzb3VyY2VVcmwsIE1BWF9CWVRFUyk7CiAgICAgIGlmICghZmV0Y2hlZC5vaykgewogICAgICAgIGlmIChmZXRjaGVkLnN0YXR1cyA9PT0gMCkgewogICAgICAgICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIldlIGNvdWxkbid0IGNvbm5lY3QgdG8gdGhpcyB3ZWJzaXRlLiBQbGVhc2UgY2hlY2sgdGhlIFVSTCBhbmQgdHJ5IGFnYWluLiIgfSwgeyBzdGF0dXM6IDUwMiB9KTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogYENvdWxkIG5vdCBmZXRjaCB0aGUgc2l0ZW1hcCAoSFRUUCAke2ZldGNoZWQuc3RhdHVzfSkuYCB9LCB7IHN0YXR1czogNTAyIH0pOwogICAgICB9CiAgICAgIHhtbCA9IGZldGNoZWQudGV4dDsKICAgIH0gZWxzZSBpZiAoeG1sX2NvbnRlbnQpIHsKICAgICAgeG1sID0gU3RyaW5nKHhtbF9jb250ZW50KTsKICAgICAgaWYgKHhtbC5sZW5ndGggPiBNQVhfQllURVMpIHsKICAgICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAiVGhpcyBzaXRlbWFwIGV4Y2VlZHMgdGhlIHN1cHBvcnRlZCBmaWxlIHNpemUuIiB9LCB7IHN0YXR1czogNDEzIH0pOwogICAgICB9CiAgICB9IGVsc2UgewogICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAiUHJvdmlkZSBhIHNpdGVtYXAgVVJMIG9yIHVwbG9hZCBhbiBYTUwgZmlsZS4iIH0sIHsgc3RhdHVzOiA0MDAgfSk7CiAgICB9CgogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgdmFsaWRhdGVTaXRlbWFwKHsgeG1sLCBzb3VyY2VVcmwsIGNoZWNrSHR0cDogY2hlY2tfaHR0cCAhPT0gZmFsc2UgfSk7CgogICAgdHJ5IHsKICAgICAgYXdhaXQgYmFzZTQ0LmVudGl0aWVzLlNpdGVtYXBBbmFseXNpcy5jcmVhdGUoewogICAgICAgIHdlYnNpdGVfdXJsOiBzb3VyY2VVcmwgfHwgIih1cGxvYWRlZCkiLAogICAgICAgIHR5cGU6ICJ2YWxpZGF0ZSIsCiAgICAgICAgc2l0ZW1hcF90eXBlOiByZXN1bHQuaXNfaW5kZXggPyAic2l0ZW1hcGluZGV4IiA6ICJ1cmxzZXQiLAogICAgICAgIHVybHNfZm91bmQ6IHJlc3VsdC5zdGF0cy51cmxfY291bnQsCiAgICAgICAgdXJsc19pbmNsdWRlZDogcmVzdWx0LnN0YXRzLnVybF9jb3VudCwKICAgICAgICBlcnJvcnM6IHJlc3VsdC5pc3N1ZXMuZmlsdGVyKChpKSA9PiBpLnNldmVyaXR5ID09PSAiZXJyb3IiKS5sZW5ndGgsCiAgICAgICAgd2FybmluZ3M6IHJlc3VsdC5pc3N1ZXMuZmlsdGVyKChpKSA9PiBpLnNldmVyaXR5ID09PSAid2FybmluZyIpLmxlbmd0aCwKICAgICAgICBzdGF0dXM6IHJlc3VsdC5oZWFsdGggPj0gODAgPyAiaGVhbHRoeSIgOiByZXN1bHQuaGVhbHRoID49IDUwID8gImlzc3VlcyIgOiAicG9vciIsCiAgICAgICAgaGVhbHRoOiByZXN1bHQuaGVhbHRoLAogICAgICAgIHJvYm90c19mb3VuZDogZmFsc2UsCiAgICAgICAgZXhpc3Rpbmdfc2l0ZW1hcHM6ICIiLAogICAgICAgIGlzX2RlbW86IGZhbHNlLAogICAgICAgIHhtbF9wcmV2aWV3OiB4bWwuc2xpY2UoMCwgMjAwMCkKICAgICAgfSk7CiAgICB9IGNhdGNoIChlKSB7IC8qIHBlcnNpc3RlbmNlIGlzIGJlc3QtZWZmb3J0ICovIH0KCiAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IC4uLnJlc3VsdCwgc291cmNlX3VybDogc291cmNlVXJsIH0pOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICByZXR1cm4gUmVzcG9uc2UuanNvbigKICAgICAgeyBlcnJvcjogIldlIGNvdWxkbid0IHZhbGlkYXRlIHRoaXMgc2l0ZW1hcC4gUGxlYXNlIGNoZWNrIHRoZSBpbnB1dCBhbmQgdHJ5IGFnYWluLiIgfSwKICAgICAgeyBzdGF0dXM6IDUwMCB9CiAgICApOwogIH0KfQ==
+import { createClientFromRequest } from 'npm:@base44/sdk@0.8.40';
+import { validateSitemap, fetchXml } from "../../shared/sitemap/sitemapValidator.ts";
+import { safeUrl } from "../../shared/sitemap/urlNormalizer.ts";
+
+const MAX_BYTES = 10 * 1024 * 1024;
+
+export default async function(req: Request): Promise<Response> {
+  try {
+    const base44 = createClientFromRequest(req);
+    const user = await base44.auth.me();
+    if (!user) return Response.json({ error: "Please sign in to validate a sitemap." }, { status: 401 });
+
+    const body = await req.json();
+    const { sitemap_url, xml_content, check_http } = body || {};
+
+    let xml = "";
+    let sourceUrl: string | null = null;
+
+    if (sitemap_url) {
+      const u = safeUrl(sitemap_url);
+      if (!u) return Response.json({ error: "Please enter a valid sitemap URL." }, { status: 400 });
+      sourceUrl = u.toString();
+      const fetched = await fetchXml(sourceUrl, MAX_BYTES);
+      if (!fetched.ok) {
+        if (fetched.status === 0) {
+          return Response.json({ error: "We couldn't connect to this website. Please check the URL and try again." }, { status: 502 });
+        }
+        return Response.json({ error: `Could not fetch the sitemap (HTTP ${fetched.status}).` }, { status: 502 });
+      }
+      xml = fetched.text;
+    } else if (xml_content) {
+      xml = String(xml_content);
+      if (xml.length > MAX_BYTES) {
+        return Response.json({ error: "This sitemap exceeds the supported file size." }, { status: 413 });
+      }
+    } else {
+      return Response.json({ error: "Provide a sitemap URL or upload an XML file." }, { status: 400 });
+    }
+
+    const result = await validateSitemap({ xml, sourceUrl, checkHttp: check_http !== false });
+
+    try {
+      await base44.entities.SitemapAnalysis.create({
+        website_url: sourceUrl || "(uploaded)",
+        type: "validate",
+        sitemap_type: result.is_index ? "sitemapindex" : "urlset",
+        urls_found: result.stats.url_count,
+        urls_included: result.stats.url_count,
+        errors: result.issues.filter((i) => i.severity === "error").length,
+        warnings: result.issues.filter((i) => i.severity === "warning").length,
+        status: result.health >= 80 ? "healthy" : result.health >= 50 ? "issues" : "poor",
+        health: result.health,
+        robots_found: false,
+        existing_sitemaps: "",
+        is_demo: false,
+        xml_preview: xml.slice(0, 2000)
+      });
+    } catch (e) { /* persistence is best-effort */ }
+
+    return Response.json({ ...result, source_url: sourceUrl });
+  } catch (error) {
+    return Response.json(
+      { error: "We couldn't validate this sitemap. Please check the input and try again." },
+      { status: 500 }
+    );
+  }
+}

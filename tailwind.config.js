@@ -1,1 +1,95 @@
-LyoqIEB0eXBlIHtpbXBvcnQoJ3RhaWx3aW5kY3NzJykuQ29uZmlnfSAqLwptb2R1bGUuZXhwb3J0cyA9IHsKICAgIGRhcmtNb2RlOiBbImNsYXNzIl0sCiAgICBjb250ZW50OiBbIi4vaW5kZXguaHRtbCIsICIuL3NyYy8qKi8qLnt0cyx0c3gsanMsanN4fSJdLAogIHRoZW1lOiB7CiAgCWV4dGVuZDogewogIAkJYm9yZGVyUmFkaXVzOiB7CiAgCQkJbGc6ICd2YXIoLS1yYWRpdXMpJywKICAJCQltZDogJ2NhbGModmFyKC0tcmFkaXVzKSAtIDJweCknLAogIAkJCXNtOiAnY2FsYyh2YXIoLS1yYWRpdXMpIC0gNHB4KScKICAJCX0sCiAgCQljb2xvcnM6IHsKICAJCQliYWNrZ3JvdW5kOiAnaHNsKHZhcigtLWJhY2tncm91bmQpKScsCiAgCQkJZm9yZWdyb3VuZDogJ2hzbCh2YXIoLS1mb3JlZ3JvdW5kKSknLAogIAkJCWNhcmQ6IHsKICAJCQkJREVGQVVMVDogJ2hzbCh2YXIoLS1jYXJkKSknLAogIAkJCQlmb3JlZ3JvdW5kOiAnaHNsKHZhcigtLWNhcmQtZm9yZWdyb3VuZCkpJwogIAkJCX0sCiAgCQkJcG9wb3ZlcjogewogIAkJCQlERUZBVUxUOiAnaHNsKHZhcigtLXBvcG92ZXIpKScsCiAgCQkJCWZvcmVncm91bmQ6ICdoc2wodmFyKC0tcG9wb3Zlci1mb3JlZ3JvdW5kKSknCiAgCQkJfSwKICAJCQlwcmltYXJ5OiB7CiAgCQkJCURFRkFVTFQ6ICdoc2wodmFyKC0tcHJpbWFyeSkpJywKICAJCQkJZm9yZWdyb3VuZDogJ2hzbCh2YXIoLS1wcmltYXJ5LWZvcmVncm91bmQpKScKICAJCQl9LAogIAkJCXNlY29uZGFyeTogewogIAkJCQlERUZBVUxUOiAnaHNsKHZhcigtLXNlY29uZGFyeSkpJywKICAJCQkJZm9yZWdyb3VuZDogJ2hzbCh2YXIoLS1zZWNvbmRhcnktZm9yZWdyb3VuZCkpJwogIAkJCX0sCiAgCQkJbXV0ZWQ6IHsKICAJCQkJREVGQVVMVDogJ2hzbCh2YXIoLS1tdXRlZCkpJywKICAJCQkJZm9yZWdyb3VuZDogJ2hzbCh2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKSknCiAgCQkJfSwKICAJCQlhY2NlbnQ6IHsKICAJCQkJREVGQVVMVDogJ2hzbCh2YXIoLS1hY2NlbnQpKScsCiAgCQkJCWZvcmVncm91bmQ6ICdoc2wodmFyKC0tYWNjZW50LWZvcmVncm91bmQpKScKICAJCQl9LAogIAkJCWRlc3RydWN0aXZlOiB7CiAgCQkJCURFRkFVTFQ6ICdoc2wodmFyKC0tZGVzdHJ1Y3RpdmUpKScsCiAgCQkJCWZvcmVncm91bmQ6ICdoc2wodmFyKC0tZGVzdHJ1Y3RpdmUtZm9yZWdyb3VuZCkpJwogIAkJCX0sCiAgCQkJYm9yZGVyOiAnaHNsKHZhcigtLWJvcmRlcikpJywKICAJCQlpbnB1dDogJ2hzbCh2YXIoLS1pbnB1dCkpJywKICAJCQlyaW5nOiAnaHNsKHZhcigtLXJpbmcpKScsCiAgCQkJY2hhcnQ6IHsKICAJCQkJJzEnOiAnaHNsKHZhcigtLWNoYXJ0LTEpKScsCiAgCQkJCScyJzogJ2hzbCh2YXIoLS1jaGFydC0yKSknLAogIAkJCQknMyc6ICdoc2wodmFyKC0tY2hhcnQtMykpJywKICAJCQkJJzQnOiAnaHNsKHZhcigtLWNoYXJ0LTQpKScsCiAgCQkJCSc1JzogJ2hzbCh2YXIoLS1jaGFydC01KSknCiAgCQkJfSwKICAJCQlzaWRlYmFyOiB7CiAgCQkJCURFRkFVTFQ6ICdoc2wodmFyKC0tc2lkZWJhci1iYWNrZ3JvdW5kKSknLAogIAkJCQlmb3JlZ3JvdW5kOiAnaHNsKHZhcigtLXNpZGViYXItZm9yZWdyb3VuZCkpJywKICAJCQkJcHJpbWFyeTogJ2hzbCh2YXIoLS1zaWRlYmFyLXByaW1hcnkpKScsCiAgCQkJCSdwcmltYXJ5LWZvcmVncm91bmQnOiAnaHNsKHZhcigtLXNpZGViYXItcHJpbWFyeS1mb3JlZ3JvdW5kKSknLAogIAkJCQlhY2NlbnQ6ICdoc2wodmFyKC0tc2lkZWJhci1hY2NlbnQpKScsCiAgCQkJCSdhY2NlbnQtZm9yZWdyb3VuZCc6ICdoc2wodmFyKC0tc2lkZWJhci1hY2NlbnQtZm9yZWdyb3VuZCkpJywKICAJCQkJYm9yZGVyOiAnaHNsKHZhcigtLXNpZGViYXItYm9yZGVyKSknLAogIAkJCQlyaW5nOiAnaHNsKHZhcigtLXNpZGViYXItcmluZykpJwogIAkJCX0KICAJCX0sCiAgCQlmb250RmFtaWx5OiB7CiAgCQkJaGVhZGluZzogWyd2YXIoLS1mb250LWhlYWRpbmcpJ10sCiAgCQkJYm9keTogWyd2YXIoLS1mb250LWJvZHkpJ10sCiAgCQkJZGlzcGxheTogWyd2YXIoLS1mb250LWRpc3BsYXkpJ10sCiAgCQkJbW9ubzogWyd2YXIoLS1mb250LW1vbm8pJ10KICAJCX0sCiAgCQlrZXlmcmFtZXM6IHsKICAJCQknYWNjb3JkaW9uLWRvd24nOiB7CiAgCQkJCWZyb206IHsKICAJCQkJCWhlaWdodDogJzAnCiAgCQkJCX0sCiAgCQkJCXRvOiB7CiAgCQkJCQloZWlnaHQ6ICd2YXIoLS1yYWRpeC1hY2NvcmRpb24tY29udGVudC1oZWlnaHQpJwogIAkJCQl9CiAgCQkJfSwKICAJCQknYWNjb3JkaW9uLXVwJzogewogIAkJCQlmcm9tOiB7CiAgCQkJCQloZWlnaHQ6ICd2YXIoLS1yYWRpeC1hY2NvcmRpb24tY29udGVudC1oZWlnaHQpJwogIAkJCQl9LAogIAkJCQl0bzogewogIAkJCQkJaGVpZ2h0OiAnMCcKICAJCQkJfQogIAkJCX0KICAJCX0sCiAgCQlhbmltYXRpb246IHsKICAJCQknYWNjb3JkaW9uLWRvd24nOiAnYWNjb3JkaW9uLWRvd24gMC4ycyBlYXNlLW91dCcsCiAgCQkJJ2FjY29yZGlvbi11cCc6ICdhY2NvcmRpb24tdXAgMC4ycyBlYXNlLW91dCcKICAJCX0KICAJfQogIH0sCiAgcGx1Z2luczogW3JlcXVpcmUoInRhaWx3aW5kY3NzLWFuaW1hdGUiKV0sCn0K
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    darkMode: ["class"],
+    content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
+  theme: {
+  	extend: {
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		colors: {
+  			background: 'hsl(var(--background))',
+  			foreground: 'hsl(var(--foreground))',
+  			card: {
+  				DEFAULT: 'hsl(var(--card))',
+  				foreground: 'hsl(var(--card-foreground))'
+  			},
+  			popover: {
+  				DEFAULT: 'hsl(var(--popover))',
+  				foreground: 'hsl(var(--popover-foreground))'
+  			},
+  			primary: {
+  				DEFAULT: 'hsl(var(--primary))',
+  				foreground: 'hsl(var(--primary-foreground))'
+  			},
+  			secondary: {
+  				DEFAULT: 'hsl(var(--secondary))',
+  				foreground: 'hsl(var(--secondary-foreground))'
+  			},
+  			muted: {
+  				DEFAULT: 'hsl(var(--muted))',
+  				foreground: 'hsl(var(--muted-foreground))'
+  			},
+  			accent: {
+  				DEFAULT: 'hsl(var(--accent))',
+  				foreground: 'hsl(var(--accent-foreground))'
+  			},
+  			destructive: {
+  				DEFAULT: 'hsl(var(--destructive))',
+  				foreground: 'hsl(var(--destructive-foreground))'
+  			},
+  			border: 'hsl(var(--border))',
+  			input: 'hsl(var(--input))',
+  			ring: 'hsl(var(--ring))',
+  			chart: {
+  				'1': 'hsl(var(--chart-1))',
+  				'2': 'hsl(var(--chart-2))',
+  				'3': 'hsl(var(--chart-3))',
+  				'4': 'hsl(var(--chart-4))',
+  				'5': 'hsl(var(--chart-5))'
+  			},
+  			sidebar: {
+  				DEFAULT: 'hsl(var(--sidebar-background))',
+  				foreground: 'hsl(var(--sidebar-foreground))',
+  				primary: 'hsl(var(--sidebar-primary))',
+  				'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+  				accent: 'hsl(var(--sidebar-accent))',
+  				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+  				border: 'hsl(var(--sidebar-border))',
+  				ring: 'hsl(var(--sidebar-ring))'
+  			}
+  		},
+  		fontFamily: {
+  			heading: ['var(--font-heading)'],
+  			body: ['var(--font-body)'],
+  			display: ['var(--font-display)'],
+  			mono: ['var(--font-mono)']
+  		},
+  		keyframes: {
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
+  				}
+  			}
+  		},
+  		animation: {
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out'
+  		}
+  	}
+  },
+  plugins: [require("tailwindcss-animate")],
+}

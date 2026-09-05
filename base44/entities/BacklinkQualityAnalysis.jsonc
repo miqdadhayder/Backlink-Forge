@@ -1,1 +1,79 @@
-ewogICJuYW1lIjogIkJhY2tsaW5rUXVhbGl0eUFuYWx5c2lzIiwKICAidHlwZSI6ICJvYmplY3QiLAogICJwcm9wZXJ0aWVzIjogewogICAgIndlYnNpdGVfdXJsIjogewogICAgICAidHlwZSI6ICJzdHJpbmciCiAgICB9LAogICAgImJhY2tsaW5rX3VybCI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIgogICAgfSwKICAgICJ0YXJnZXRfdXJsIjogewogICAgICAidHlwZSI6ICJzdHJpbmciCiAgICB9LAogICAgImFuY2hvcl90ZXh0IjogewogICAgICAidHlwZSI6ICJzdHJpbmciCiAgICB9LAogICAgIm92ZXJhbGxfc2NvcmUiOiB7CiAgICAgICJ0eXBlIjogIm51bWJlciIsCiAgICAgICJkZWZhdWx0IjogMAogICAgfSwKICAgICJjbGFzc2lmaWNhdGlvbiI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIgogICAgfSwKICAgICJyaXNrX2xldmVsIjogewogICAgICAidHlwZSI6ICJzdHJpbmciCiAgICB9LAogICAgInJlY29tbWVuZGF0aW9uIjogewogICAgICAidHlwZSI6ICJzdHJpbmciCiAgICB9LAogICAgImRhdGFfY29uZmlkZW5jZSI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIgogICAgfSwKICAgICJyZXBvcnRfanNvbiI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgIm1heExlbmd0aCI6IDEyMDAwCiAgICB9CiAgfSwKICAicmVxdWlyZWQiOiBbCiAgICAiYmFja2xpbmtfdXJsIgogIF0sCiAgInJscyI6IHsKICAgICJyZWFkIjogewogICAgICAiJG9yIjogWwogICAgICAgIHsKICAgICAgICAgICJjcmVhdGVkX2J5X2lkIjogInt7dXNlci5pZH19IgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInVzZXJfY29uZGl0aW9uIjogewogICAgICAgICAgICAicm9sZSI6ICJhZG1pbiIKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICAidXBkYXRlIjogewogICAgICAiJG9yIjogWwogICAgICAgIHsKICAgICAgICAgICJjcmVhdGVkX2J5X2lkIjogInt7dXNlci5pZH19IgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInVzZXJfY29uZGl0aW9uIjogewogICAgICAgICAgICAicm9sZSI6ICJhZG1pbiIKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICAiZGVsZXRlIjogewogICAgICAiJG9yIjogWwogICAgICAgIHsKICAgICAgICAgICJjcmVhdGVkX2J5X2lkIjogInt7dXNlci5pZH19IgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInVzZXJfY29uZGl0aW9uIjogewogICAgICAgICAgICAicm9sZSI6ICJhZG1pbiIKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIF0KICAgIH0KICB9Cn0=
+{
+  "name": "BacklinkQualityAnalysis",
+  "type": "object",
+  "properties": {
+    "website_url": {
+      "type": "string"
+    },
+    "backlink_url": {
+      "type": "string"
+    },
+    "target_url": {
+      "type": "string"
+    },
+    "anchor_text": {
+      "type": "string"
+    },
+    "overall_score": {
+      "type": "number",
+      "default": 0
+    },
+    "classification": {
+      "type": "string"
+    },
+    "risk_level": {
+      "type": "string"
+    },
+    "recommendation": {
+      "type": "string"
+    },
+    "data_confidence": {
+      "type": "string"
+    },
+    "report_json": {
+      "type": "string",
+      "maxLength": 12000
+    }
+  },
+  "required": [
+    "backlink_url"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "update": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "delete": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    }
+  }
+}

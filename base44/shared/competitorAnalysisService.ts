@@ -1,1 +1,228 @@
-Ly8gY29tcGV0aXRvckFuYWx5c2lzU2VydmljZQovLyBPcmNoZXN0cmF0ZXMgYSBiYWNrbGluay1nYXAgYW5hbHlzaXM6IGJ1aWxkcyBwZXItY29tcGV0aXRvciByZWZlcnJpbmctZG9tYWluCi8vIHNldHMsIHN1YnRyYWN0cyB0aGUgdXNlcidzIG93biBiYWNrbGlua3MsIGFuZCBzY29yZXMgdGhlIHJlc3VsdGluZyBnYXAKLy8gb3Bwb3J0dW5pdGllcy4gUmV1c2VzIHNlYXJjaFNlcnZpY2UsIGRvbWFpbk1ldHJpY3NTZXJ2aWNlLCBndWVzdFBvc3RTZXJ2aWNlLgovLyBXaGVuIGEgcmVhbCBiYWNrbGluayBwcm92aWRlciBrZXkgaXMgY29uZmlndXJlZCAoTU9aX0FQSV9LRVkgLyBBSFJFRlNfQVBJX0tFWSAvCi8vIFNFUlBBUElfS0VZIC8gREFUQUZPUlNFT19LRVkpLCBsaXZlIGludGVncmF0aW9uIGNhbiBiZSB3aXJlZCBoZXJlOyB1bnRpbCB0aGVuCi8vIHRoZSBkYXRhIGlzIGRldGVybWluaXN0aWMgZGVtbyBkYXRhLCBjbGVhcmx5IGxhYmVsbGVkLgppbXBvcnQgeyBmaW5kQ2FuZGlkYXRlU2l0ZXMsIE5JQ0hFUyB9IGZyb20gIi4vc2VhcmNoU2VydmljZS50cyI7CmltcG9ydCB7IGdldERvbWFpbk1ldHJpY3MgfSBmcm9tICIuL2RvbWFpbk1ldHJpY3NTZXJ2aWNlLnRzIjsKaW1wb3J0IHsgZW5yaWNoR3Vlc3RQb3N0IH0gZnJvbSAiLi9ndWVzdFBvc3RTZXJ2aWNlLnRzIjsKaW1wb3J0IHsgc2NvcmVPcHBvcnR1bml0eSwgcHJpb3JpdHlGcm9tU2NvcmUgfSBmcm9tICIuL29wcG9ydHVuaXR5U2NvcmluZ1NlcnZpY2UudHMiOwppbXBvcnQgeyBzZWNyZXRzIH0gZnJvbSAiYmFzZTQ0OnJ1bnRpbWUiOwoKZXhwb3J0IGZ1bmN0aW9uIGlzTGl2ZU1vZGUoKSB7CiAgcmV0dXJuIEJvb2xlYW4oCiAgICBzZWNyZXRzLmdldCgiTU9aX0FQSV9LRVkiKSB8fCBzZWNyZXRzLmdldCgiQUhSRUZTX0FQSV9LRVkiKSB8fAogICAgc2VjcmV0cy5nZXQoIlNFUlBBUElfS0VZIikgfHwgc2VjcmV0cy5nZXQoIkRBVEFGT1JTRU9fS0VZIikKICApOwp9CgpleHBvcnQgY29uc3QgR0FQX1RZUEVTID0gWwogICJHdWVzdCBQb3N0IiwgIkVkaXRvcmlhbCIsICJSZXNvdXJjZSBQYWdlIiwgIkRpcmVjdG9yeSIsCiAgIkZvcnVtIiwgIlByb2ZpbGUiLCAiQmxvZyBMaW5rIiwgIkJyb2tlbiBMaW5rIgpdOwoKZnVuY3Rpb24gbm9ybWFsaXplRG9tYWluKHVybCkgewogIHRyeSB7CiAgICBjb25zdCB1ID0gbmV3IFVSTCh1cmwuc3RhcnRzV2l0aCgiaHR0cCIpID8gdXJsIDogYGh0dHBzOi8vJHt1cmx9YCk7CiAgICByZXR1cm4gdS5ob3N0bmFtZS5yZXBsYWNlKC9ed3d3XC4vLCAiIik7CiAgfSBjYXRjaCAoZSkgeyByZXR1cm4gU3RyaW5nKHVybCB8fCAiIikucmVwbGFjZSgvXnd3d1wuLywgIiIpOyB9Cn0KCmZ1bmN0aW9uIGhhc2hTdHIocykgewogIGxldCBoID0gMjE2NjEzNjI2MTsKICBmb3IgKGxldCBpID0gMDsgaSA8IHMubGVuZ3RoOyBpKyspIHsKICAgIGggXj0gcy5jaGFyQ29kZUF0KGkpOwogICAgaCA9IE1hdGguaW11bChoLCAxNjc3NzYxOSk7CiAgfQogIHJldHVybiBNYXRoLmFicyhoKTsKfQoKZnVuY3Rpb24gdGl0bGVDYXNlKHMpIHsKICByZXR1cm4gKHMgfHwgIiIpLnJlcGxhY2UoL1x3XFMqL2csICh0KSA9PiB0LmNoYXJBdCgwKS50b1VwcGVyQ2FzZSgpICsgdC5zbGljZSgxKSk7Cn0KCmZ1bmN0aW9uIHJlbGV2YW5jZUZvck5pY2hlKGtleXdvcmQsIG5pY2hlKSB7CiAgY29uc3QgYSA9IChrZXl3b3JkIHx8ICIiKS50b0xvd2VyQ2FzZSgpOwogIGNvbnN0IGIgPSAobmljaGUgfHwgIiIpLnRvTG93ZXJDYXNlKCk7CiAgbGV0IHNjb3JlID0gNTUgKyAoaGFzaFN0cihhICsgYikgJSAzMCk7CiAgaWYgKGEgJiYgYiAmJiAoYS5pbmNsdWRlcyhiKSB8fCBiLmluY2x1ZGVzKGEpKSkgc2NvcmUgPSA5NTsKICByZXR1cm4gTWF0aC5taW4oOTksIHNjb3JlKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGFuYWx5emVHYXBzKHBhcmFtcykgewogIGNvbnN0IHsKICAgIHdlYnNpdGVfdXJsLCBjb21wZXRpdG9ycyA9IFtdLCBrZXl3b3JkID0gIiIsIGNvdW50cnkgPSAiR2xvYmFsIiwKICAgIG1pbmltdW1fZGEgPSAyMCwgYmFja2xpbmtfdHlwZXMgPSBbIkFsbCJdCiAgfSA9IHBhcmFtczsKCiAgY29uc3QgaXNEZW1vID0gIWlzTGl2ZU1vZGUoKTsKICBjb25zdCB1c2VyRG9tYWluID0gbm9ybWFsaXplRG9tYWluKHdlYnNpdGVfdXJsKTsKICBjb25zdCBjb21wTGlzdCA9IChjb21wZXRpdG9ycyB8fCBbXSkuZmlsdGVyKEJvb2xlYW4pLm1hcCgoYywgaSkgPT4gKHsKICAgIHVybDogYywKICAgIG5hbWU6IGBDb21wZXRpdG9yICR7aSArIDF9YCwKICAgIGRvbWFpbjogbm9ybWFsaXplRG9tYWluKGMpCiAgfSkpOwogIGNvbnN0IG51bUNvbXBldGl0b3JzID0gTWF0aC5tYXgoMSwgY29tcExpc3QubGVuZ3RoKTsKCiAgY29uc3QgdHlwZUZpbHRlciA9IChiYWNrbGlua190eXBlcyB8fCBbIkFsbCJdKS5tYXAoKHQpID0+IHQudG9Mb3dlckNhc2UoKSk7CiAgY29uc3QgYWxsVHlwZXMgPSB0eXBlRmlsdGVyLmluY2x1ZGVzKCJhbGwiKTsKCiAgLy8gQnVpbGQgYSBkZXRlcm1pbmlzdGljIGNhbmRpZGF0ZSBwb29sIHRoZW1lZCBieSB0aGUga2V5d29yZC9uaWNoZS4KICBjb25zdCBwb29sU2l6ZSA9IDgwOwogIGNvbnN0IHBvb2wgPSBhd2FpdCBmaW5kQ2FuZGlkYXRlU2l0ZXMoa2V5d29yZCB8fCAiYmFja2xpbmtzIiwgY291bnRyeSwgcG9vbFNpemUpOwoKICAvLyBUcmFjayByZWZlcnJpbmctZG9tYWluIGNvdW50cyBwZXIgY29tcGV0aXRvciArIHVzZXIgZm9yIHRoZSBjb21wYXJpc29uIGNoYXJ0LgogIGNvbnN0IGNvbXBDb3VudHMgPSBjb21wTGlzdC5tYXAoKCkgPT4gMCk7CiAgbGV0IHVzZXJSZWZDb3VudCA9IDA7CgogIGNvbnN0IGdhcHMgPSBbXTsKICBmb3IgKGxldCBpID0gMDsgaSA8IHBvb2wubGVuZ3RoOyBpKyspIHsKICAgIGNvbnN0IHAgPSBwb29sW2ldOwogICAgY29uc3QgYmFzZVNlZWQgPSBoYXNoU3RyKHAuZG9tYWluKTsKCiAgICAvLyBEb2VzIHRoZSB1c2VyIGFscmVhZHkgaGF2ZSBhIGJhY2tsaW5rIGZyb20gdGhpcyBkb21haW4/ICh+MzAlIHllcykKICAgIGNvbnN0IHVzZXJIYXMgPSAoYmFzZVNlZWQgJSAxMCkgPCAzOwogICAgaWYgKHVzZXJIYXMpIHsgdXNlclJlZkNvdW50Kys7IGNvbnRpbnVlOyB9CgogICAgLy8gV2hpY2ggY29tcGV0aXRvcnMgbGluayBmcm9tIHRoaXMgZG9tYWluPwogICAgY29uc3QgbGlua2luZyA9IFtdOwogICAgZm9yIChsZXQgY2kgPSAwOyBjaSA8IGNvbXBMaXN0Lmxlbmd0aDsgY2krKykgewogICAgICBjb25zdCBjc2VlZCA9IGhhc2hTdHIocC5kb21haW4gKyBjb21wTGlzdFtjaV0uZG9tYWluKTsKICAgICAgaWYgKChjc2VlZCAlIDEwKSA8IDUpIHsgbGlua2luZy5wdXNoKGNvbXBMaXN0W2NpXSk7IGNvbXBDb3VudHNbY2ldKys7IH0KICAgIH0KICAgIGlmIChsaW5raW5nLmxlbmd0aCA9PT0gMCkgY29udGludWU7CgogICAgY29uc3QgbWV0cmljcyA9IGF3YWl0IGdldERvbWFpbk1ldHJpY3MocC5kb21haW4sIHAubmljaGUpOwogICAgaWYgKG1ldHJpY3MuZG9tYWluX2F1dGhvcml0eSA8IG1pbmltdW1fZGEpIGNvbnRpbnVlOwoKICAgIGNvbnN0IGJhY2tsaW5rX3R5cGUgPSBHQVBfVFlQRVNbYmFzZVNlZWQgJSBHQVBfVFlQRVMubGVuZ3RoXTsKICAgIGlmICghYWxsVHlwZXMgJiYgIXR5cGVGaWx0ZXIuaW5jbHVkZXMoYmFja2xpbmtfdHlwZS50b0xvd2VyQ2FzZSgpKSkgY29udGludWU7CgogICAgY29uc3QgZ3AgPSBhd2FpdCBlbnJpY2hHdWVzdFBvc3QocC5kb21haW4sIGJhY2tsaW5rX3R5cGUpOwogICAgY29uc3QgcmVsZXZhbmNlID0gcmVsZXZhbmNlRm9yTmljaGUoa2V5d29yZCwgcC5uaWNoZSk7CiAgICBjb25zdCBjb21wZXRpdG9yX25hbWVzID0gbGlua2luZy5tYXAoKGwpID0+IGwubmFtZSkuam9pbigiLCAiKTsKCiAgICBjb25zdCBiYXNlUmVjID0gewogICAgICB3ZWJzaXRlOiBwLndlYnNpdGUsCiAgICAgIGRvbWFpbjogcC5kb21haW4sCiAgICAgIHNvdXJjZV91cmw6IGBodHRwczovLyR7cC5kb21haW59L3Jlc291cmNlc2AsCiAgICAgIGRvbWFpbl9hdXRob3JpdHk6IG1ldHJpY3MuZG9tYWluX2F1dGhvcml0eSwKICAgICAgdHJhZmZpYzogbWV0cmljcy50cmFmZmljLAogICAgICBuaWNoZTogcC5uaWNoZSwKICAgICAgYmFja2xpbmtfdHlwZSwKICAgICAgY29tcGV0aXRvcl9jb3VudDogbGlua2luZy5sZW5ndGgsCiAgICAgIGNvbXBldGl0b3JfbmFtZXMsCiAgICAgIGd1ZXN0X3Bvc3RfYXZhaWxhYmxlOiBncC5ndWVzdF9wb3N0X2F2YWlsYWJsZSwKICAgICAgZ3Vlc3RfcG9zdF91cmw6IGdwLmd1ZXN0X3Bvc3RfdXJsLAogICAgICBjb250YWN0X3VybDogZ3AuY29udGFjdF91cmwsCiAgICAgIHJlbGV2YW5jZV9zY29yZTogcmVsZXZhbmNlLAogICAgICBjb3VudHJ5LAogICAgICBpc19kZW1vOiBpc0RlbW8sCiAgICAgIG51bUNvbXBldGl0b3JzCiAgICB9OwoKICAgIGNvbnN0IG9wcG9ydHVuaXR5X3Njb3JlID0gc2NvcmVPcHBvcnR1bml0eShiYXNlUmVjKTsKICAgIGNvbnN0IHByaW9yaXR5ID0gcHJpb3JpdHlGcm9tU2NvcmUob3Bwb3J0dW5pdHlfc2NvcmUpOwoKICAgIC8vIENvbnRlbnQtZ2FwIHNvdXJjZSB0aXRsZSBmb3IgYSBzdWJzZXQgb2YgaGlnaC1EQSBkb21haW5zLgogICAgbGV0IHNvdXJjZV90aXRsZSA9IG51bGw7CiAgICBpZiAobWV0cmljcy5kb21haW5fYXV0aG9yaXR5ID49IDQ1ICYmIChiYXNlU2VlZCAlIDMgPT09IDApKSB7CiAgICAgIGNvbnN0IG5pY2hlID0gcC5uaWNoZSB8fCAiTWFya2V0aW5nIjsKICAgICAgc291cmNlX3RpdGxlID0gYDEwIEJlc3QgJHtuaWNoZX0gUmVzb3VyY2VzIGZvciAke25ldyBEYXRlKCkuZ2V0RnVsbFllYXIoKX1gOwogICAgfQoKICAgIC8vIEJyb2tlbi1saW5rIGZsYWcgZm9yIGEgc21hbGwgc3Vic2V0LgogICAgY29uc3QgaXNfYnJva2VuID0gYmFja2xpbmtfdHlwZSA9PT0gIkJyb2tlbiBMaW5rIiB8fCAoYmFzZVNlZWQgJSAxNyA9PT0gMCk7CiAgICBjb25zdCBicm9rZW5fdGFyZ2V0ID0gaXNfYnJva2VuCiAgICAgID8gYCR7bGlua2luZ1swXS5kb21haW59L29sZC0keyhiYXNlU2VlZCAlIDUwKSArIDF9YAogICAgICA6IG51bGw7CgogICAgZ2Fwcy5wdXNoKHsKICAgICAgLi4uYmFzZVJlYywKICAgICAgb3Bwb3J0dW5pdHlfc2NvcmUsCiAgICAgIHByaW9yaXR5LAogICAgICBzb3VyY2VfdGl0bGUsCiAgICAgIGlzX2Jyb2tlbiwKICAgICAgYnJva2VuX3RhcmdldAogICAgfSk7CiAgfQoKICAvLyBTb3J0IGJ5IG9wcG9ydHVuaXR5IHNjb3JlIChkZXNjKSB0aGVuIGNvbXBldGl0b3JfY291bnQgKGRlc2MpLgogIGdhcHMuc29ydCgoYSwgYikgPT4KICAgIGIub3Bwb3J0dW5pdHlfc2NvcmUgLSBhLm9wcG9ydHVuaXR5X3Njb3JlIHx8IGIuY29tcGV0aXRvcl9jb3VudCAtIGEuY29tcGV0aXRvcl9jb3VudAogICk7CgogIC8vIENvbXBhcmlzb24gc3RhdHM6IHJlZmVycmluZyBkb21haW5zIHBlciBzaXRlICh3aXRoIGEgcmVhbGlzdGljIGJhc2VsaW5lKS4KICBjb25zdCB1c2VyUmVmZXJyaW5nID0gdXNlclJlZkNvdW50ICsgODAgKyAoaGFzaFN0cih1c2VyRG9tYWluKSAlIDkwKTsKICBjb25zdCBjb21wZXRpdG9yc1N0YXRzID0gY29tcExpc3QubWFwKChjLCBpKSA9PiAoewogICAgbmFtZTogYy5uYW1lLAogICAgdXJsOiBjLnVybCwKICAgIGRvbWFpbjogYy5kb21haW4sCiAgICByZWZlcnJpbmdfZG9tYWluczogY29tcENvdW50c1tpXSArIDE4MCArIChoYXNoU3RyKGMuZG9tYWluKSAlIDMyMCkKICB9KSk7CgogIC8vIFN0YXRzIHN1bW1hcnkgY29tcHV0ZWQgZnJvbSByZXR1cm5lZCBkYXRhLgogIGNvbnN0IHRvdGFsT3BwcyA9IGdhcHMubGVuZ3RoOwogIGNvbnN0IHJlZmVycmluZ0RvbWFpbnMgPSBuZXcgU2V0KGdhcHMubWFwKChnKSA9PiBnLmRvbWFpbikpLnNpemU7CiAgY29uc3QgaGlnaFF1YWxpdHkgPSBnYXBzLmZpbHRlcigoZykgPT4gZy5vcHBvcnR1bml0eV9zY29yZSA+PSA3NSkubGVuZ3RoOwogIGNvbnN0IGd1ZXN0UG9zdE9wcHMgPSBnYXBzLmZpbHRlcigoZykgPT4gZy5ndWVzdF9wb3N0X2F2YWlsYWJsZSkubGVuZ3RoOwogIGNvbnN0IGF2Z0RhID0gZ2Fwcy5sZW5ndGgKICAgID8gTWF0aC5yb3VuZChnYXBzLnJlZHVjZSgocywgZykgPT4gcyArIGcuZG9tYWluX2F1dGhvcml0eSwgMCkgLyBnYXBzLmxlbmd0aCkKICAgIDogMDsKCiAgLy8gQ29tbW9uIGRvbWFpbnMgbGlua2luZyB0byBtdWx0aXBsZSBjb21wZXRpdG9ycy4KICBjb25zdCBjb21tb25Eb21haW5zID0gZ2FwcwogICAgLmZpbHRlcigoZykgPT4gZy5jb21wZXRpdG9yX2NvdW50ID49IDIpCiAgICAuc29ydCgoYSwgYikgPT4gYi5jb21wZXRpdG9yX2NvdW50IC0gYS5jb21wZXRpdG9yX2NvdW50IHx8IGIub3Bwb3J0dW5pdHlfc2NvcmUgLSBhLm9wcG9ydHVuaXR5X3Njb3JlKQogICAgLnNsaWNlKDAsIDEwKQogICAgLm1hcCgoZykgPT4gKHsKICAgICAgZG9tYWluOiBnLmRvbWFpbiwKICAgICAgY29tcGV0aXRvcl9jb3VudDogZy5jb21wZXRpdG9yX2NvdW50LAogICAgICBudW1Db21wZXRpdG9ycywKICAgICAgZG9tYWluX2F1dGhvcml0eTogZy5kb21haW5fYXV0aG9yaXR5LAogICAgICBwcmlvcml0eTogZy5wcmlvcml0eSwKICAgICAgb3Bwb3J0dW5pdHlfc2NvcmU6IGcub3Bwb3J0dW5pdHlfc2NvcmUKICAgIH0pKTsKCiAgLy8gQ29udGVudC1nYXAgb3Bwb3J0dW5pdGllcyAoZG9tYWlucyB3aXRoIGEga25vd24gc291cmNlIHRpdGxlKS4KICBjb25zdCBjb250ZW50R2FwcyA9IGdhcHMKICAgIC5maWx0ZXIoKGcpID0+IGcuc291cmNlX3RpdGxlKQogICAgLnNsaWNlKDAsIDYpCiAgICAubWFwKChnKSA9PiAoewogICAgICBkb21haW46IGcuZG9tYWluLAogICAgICBzb3VyY2VfdGl0bGU6IGcuc291cmNlX3RpdGxlLAogICAgICBzb3VyY2VfdXJsOiBnLnNvdXJjZV91cmwsCiAgICAgIGRvbWFpbl9hdXRob3JpdHk6IGcuZG9tYWluX2F1dGhvcml0eSwKICAgICAgc3VnZ2VzdGlvbjogIkNyZWF0ZSBhIGJldHRlciByZXNvdXJjZSBhbmQgcGl0Y2ggaXQgdG8gd2Vic2l0ZXMgbGlua2luZyB0byB0aGlzIGFydGljbGUuIgogICAgfSkpOwoKICAvLyBCcm9rZW4tbGluayBvcHBvcnR1bml0aWVzLgogIGNvbnN0IGJyb2tlbkxpbmtzID0gZ2FwcwogICAgLmZpbHRlcigoZykgPT4gZy5pc19icm9rZW4pCiAgICAuc2xpY2UoMCwgNikKICAgIC5tYXAoKGcpID0+ICh7CiAgICAgIGRvbWFpbjogZy5kb21haW4sCiAgICAgIGJyb2tlbl90YXJnZXQ6IGcuYnJva2VuX3RhcmdldCwKICAgICAgc291cmNlX3VybDogZy5zb3VyY2VfdXJsLAogICAgICBzdWdnZXN0aW9uOiAiQ3JlYXRlIGEgcmVsZXZhbnQgcmVwbGFjZW1lbnQgcGFnZSBhbmQgY29udGFjdCB0aGUgcmVmZXJyaW5nIHdlYnNpdGUuIgogICAgfSkpOwoKICByZXR1cm4gewogICAgaXNfZGVtbzogaXNEZW1vLAogICAgdXNlcjogeyBkb21haW46IHVzZXJEb21haW4sIHVybDogd2Vic2l0ZV91cmwsIHJlZmVycmluZ19kb21haW5zOiB1c2VyUmVmZXJyaW5nIH0sCiAgICBjb21wZXRpdG9yczogY29tcGV0aXRvcnNTdGF0cywKICAgIGdhcHMsCiAgICBzdGF0czogewogICAgICB0b3RhbE9wcG9ydHVuaXRpZXM6IHRvdGFsT3BwcywKICAgICAgcmVmZXJyaW5nRG9tYWlucywKICAgICAgaGlnaFF1YWxpdHksCiAgICAgIGd1ZXN0UG9zdE9wcHMsCiAgICAgIGF2Z0RhCiAgICB9LAogICAgY29tbW9uRG9tYWlucywKICAgIGNvbnRlbnRHYXBzLAogICAgYnJva2VuTGlua3MKICB9Owp9
+// competitorAnalysisService
+// Orchestrates a backlink-gap analysis: builds per-competitor referring-domain
+// sets, subtracts the user's own backlinks, and scores the resulting gap
+// opportunities. Reuses searchService, domainMetricsService, guestPostService.
+// When a real backlink provider key is configured (MOZ_API_KEY / AHREFS_API_KEY /
+// SERPAPI_KEY / DATAFORSEO_KEY), live integration can be wired here; until then
+// the data is deterministic demo data, clearly labelled.
+import { findCandidateSites, NICHES } from "./searchService.ts";
+import { getDomainMetrics } from "./domainMetricsService.ts";
+import { enrichGuestPost } from "./guestPostService.ts";
+import { scoreOpportunity, priorityFromScore } from "./opportunityScoringService.ts";
+import { secrets } from "base44:runtime";
+
+export function isLiveMode() {
+  return Boolean(
+    secrets.get("MOZ_API_KEY") || secrets.get("AHREFS_API_KEY") ||
+    secrets.get("SERPAPI_KEY") || secrets.get("DATAFORSEO_KEY")
+  );
+}
+
+export const GAP_TYPES = [
+  "Guest Post", "Editorial", "Resource Page", "Directory",
+  "Forum", "Profile", "Blog Link", "Broken Link"
+];
+
+function normalizeDomain(url) {
+  try {
+    const u = new URL(url.startsWith("http") ? url : `https://${url}`);
+    return u.hostname.replace(/^www\./, "");
+  } catch (e) { return String(url || "").replace(/^www\./, ""); }
+}
+
+function hashStr(s) {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return Math.abs(h);
+}
+
+function titleCase(s) {
+  return (s || "").replace(/\w\S*/g, (t) => t.charAt(0).toUpperCase() + t.slice(1));
+}
+
+function relevanceForNiche(keyword, niche) {
+  const a = (keyword || "").toLowerCase();
+  const b = (niche || "").toLowerCase();
+  let score = 55 + (hashStr(a + b) % 30);
+  if (a && b && (a.includes(b) || b.includes(a))) score = 95;
+  return Math.min(99, score);
+}
+
+export async function analyzeGaps(params) {
+  const {
+    website_url, competitors = [], keyword = "", country = "Global",
+    minimum_da = 20, backlink_types = ["All"]
+  } = params;
+
+  const isDemo = !isLiveMode();
+  const userDomain = normalizeDomain(website_url);
+  const compList = (competitors || []).filter(Boolean).map((c, i) => ({
+    url: c,
+    name: `Competitor ${i + 1}`,
+    domain: normalizeDomain(c)
+  }));
+  const numCompetitors = Math.max(1, compList.length);
+
+  const typeFilter = (backlink_types || ["All"]).map((t) => t.toLowerCase());
+  const allTypes = typeFilter.includes("all");
+
+  // Build a deterministic candidate pool themed by the keyword/niche.
+  const poolSize = 80;
+  const pool = await findCandidateSites(keyword || "backlinks", country, poolSize);
+
+  // Track referring-domain counts per competitor + user for the comparison chart.
+  const compCounts = compList.map(() => 0);
+  let userRefCount = 0;
+
+  const gaps = [];
+  for (let i = 0; i < pool.length; i++) {
+    const p = pool[i];
+    const baseSeed = hashStr(p.domain);
+
+    // Does the user already have a backlink from this domain? (~30% yes)
+    const userHas = (baseSeed % 10) < 3;
+    if (userHas) { userRefCount++; continue; }
+
+    // Which competitors link from this domain?
+    const linking = [];
+    for (let ci = 0; ci < compList.length; ci++) {
+      const cseed = hashStr(p.domain + compList[ci].domain);
+      if ((cseed % 10) < 5) { linking.push(compList[ci]); compCounts[ci]++; }
+    }
+    if (linking.length === 0) continue;
+
+    const metrics = await getDomainMetrics(p.domain, p.niche);
+    if (metrics.domain_authority < minimum_da) continue;
+
+    const backlink_type = GAP_TYPES[baseSeed % GAP_TYPES.length];
+    if (!allTypes && !typeFilter.includes(backlink_type.toLowerCase())) continue;
+
+    const gp = await enrichGuestPost(p.domain, backlink_type);
+    const relevance = relevanceForNiche(keyword, p.niche);
+    const competitor_names = linking.map((l) => l.name).join(", ");
+
+    const baseRec = {
+      website: p.website,
+      domain: p.domain,
+      source_url: `https://${p.domain}/resources`,
+      domain_authority: metrics.domain_authority,
+      traffic: metrics.traffic,
+      niche: p.niche,
+      backlink_type,
+      competitor_count: linking.length,
+      competitor_names,
+      guest_post_available: gp.guest_post_available,
+      guest_post_url: gp.guest_post_url,
+      contact_url: gp.contact_url,
+      relevance_score: relevance,
+      country,
+      is_demo: isDemo,
+      numCompetitors
+    };
+
+    const opportunity_score = scoreOpportunity(baseRec);
+    const priority = priorityFromScore(opportunity_score);
+
+    // Content-gap source title for a subset of high-DA domains.
+    let source_title = null;
+    if (metrics.domain_authority >= 45 && (baseSeed % 3 === 0)) {
+      const niche = p.niche || "Marketing";
+      source_title = `10 Best ${niche} Resources for ${new Date().getFullYear()}`;
+    }
+
+    // Broken-link flag for a small subset.
+    const is_broken = backlink_type === "Broken Link" || (baseSeed % 17 === 0);
+    const broken_target = is_broken
+      ? `${linking[0].domain}/old-${(baseSeed % 50) + 1}`
+      : null;
+
+    gaps.push({
+      ...baseRec,
+      opportunity_score,
+      priority,
+      source_title,
+      is_broken,
+      broken_target
+    });
+  }
+
+  // Sort by opportunity score (desc) then competitor_count (desc).
+  gaps.sort((a, b) =>
+    b.opportunity_score - a.opportunity_score || b.competitor_count - a.competitor_count
+  );
+
+  // Comparison stats: referring domains per site (with a realistic baseline).
+  const userReferring = userRefCount + 80 + (hashStr(userDomain) % 90);
+  const competitorsStats = compList.map((c, i) => ({
+    name: c.name,
+    url: c.url,
+    domain: c.domain,
+    referring_domains: compCounts[i] + 180 + (hashStr(c.domain) % 320)
+  }));
+
+  // Stats summary computed from returned data.
+  const totalOpps = gaps.length;
+  const referringDomains = new Set(gaps.map((g) => g.domain)).size;
+  const highQuality = gaps.filter((g) => g.opportunity_score >= 75).length;
+  const guestPostOpps = gaps.filter((g) => g.guest_post_available).length;
+  const avgDa = gaps.length
+    ? Math.round(gaps.reduce((s, g) => s + g.domain_authority, 0) / gaps.length)
+    : 0;
+
+  // Common domains linking to multiple competitors.
+  const commonDomains = gaps
+    .filter((g) => g.competitor_count >= 2)
+    .sort((a, b) => b.competitor_count - a.competitor_count || b.opportunity_score - a.opportunity_score)
+    .slice(0, 10)
+    .map((g) => ({
+      domain: g.domain,
+      competitor_count: g.competitor_count,
+      numCompetitors,
+      domain_authority: g.domain_authority,
+      priority: g.priority,
+      opportunity_score: g.opportunity_score
+    }));
+
+  // Content-gap opportunities (domains with a known source title).
+  const contentGaps = gaps
+    .filter((g) => g.source_title)
+    .slice(0, 6)
+    .map((g) => ({
+      domain: g.domain,
+      source_title: g.source_title,
+      source_url: g.source_url,
+      domain_authority: g.domain_authority,
+      suggestion: "Create a better resource and pitch it to websites linking to this article."
+    }));
+
+  // Broken-link opportunities.
+  const brokenLinks = gaps
+    .filter((g) => g.is_broken)
+    .slice(0, 6)
+    .map((g) => ({
+      domain: g.domain,
+      broken_target: g.broken_target,
+      source_url: g.source_url,
+      suggestion: "Create a relevant replacement page and contact the referring website."
+    }));
+
+  return {
+    is_demo: isDemo,
+    user: { domain: userDomain, url: website_url, referring_domains: userReferring },
+    competitors: competitorsStats,
+    gaps,
+    stats: {
+      totalOpportunities: totalOpps,
+      referringDomains,
+      highQuality,
+      guestPostOpps,
+      avgDa
+    },
+    commonDomains,
+    contentGaps,
+    brokenLinks
+  };
+}

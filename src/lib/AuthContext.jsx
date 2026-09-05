@@ -1,1 +1,160 @@
-aW1wb3J0IFJlYWN0LCB7IGNyZWF0ZUNvbnRleHQsIHVzZVN0YXRlLCB1c2VDb250ZXh0LCB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IGJhc2U0NCB9IGZyb20gJ0AvYXBpL2Jhc2U0NENsaWVudCc7CmltcG9ydCB7IGFwcFBhcmFtcyB9IGZyb20gJ0AvbGliL2FwcC1wYXJhbXMnOwppbXBvcnQgeyBjcmVhdGVBeGlvc0NsaWVudCB9IGZyb20gJ0BiYXNlNDQvc2RrL2Rpc3QvdXRpbHMvYXhpb3MtY2xpZW50JzsKCmNvbnN0IEF1dGhDb250ZXh0ID0gY3JlYXRlQ29udGV4dCgpOwoKZXhwb3J0IGNvbnN0IEF1dGhQcm92aWRlciA9ICh7IGNoaWxkcmVuIH0pID0+IHsKICBjb25zdCBbdXNlciwgc2V0VXNlcl0gPSB1c2VTdGF0ZShudWxsKTsKICBjb25zdCBbaXNBdXRoZW50aWNhdGVkLCBzZXRJc0F1dGhlbnRpY2F0ZWRdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtpc0xvYWRpbmdBdXRoLCBzZXRJc0xvYWRpbmdBdXRoXSA9IHVzZVN0YXRlKHRydWUpOwogIGNvbnN0IFtpc0xvYWRpbmdQdWJsaWNTZXR0aW5ncywgc2V0SXNMb2FkaW5nUHVibGljU2V0dGluZ3NdID0gdXNlU3RhdGUodHJ1ZSk7CiAgY29uc3QgW2F1dGhFcnJvciwgc2V0QXV0aEVycm9yXSA9IHVzZVN0YXRlKG51bGwpOwogIGNvbnN0IFthdXRoQ2hlY2tlZCwgc2V0QXV0aENoZWNrZWRdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFthcHBQdWJsaWNTZXR0aW5ncywgc2V0QXBwUHVibGljU2V0dGluZ3NdID0gdXNlU3RhdGUobnVsbCk7IC8vIENvbnRhaW5zIG9ubHkgeyBpZCwgcHVibGljX3NldHRpbmdzIH0KCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNoZWNrQXBwU3RhdGUoKTsKICB9LCBbXSk7CgogIGNvbnN0IGNoZWNrQXBwU3RhdGUgPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBzZXRJc0xvYWRpbmdQdWJsaWNTZXR0aW5ncyh0cnVlKTsKICAgICAgc2V0QXV0aEVycm9yKG51bGwpOwogICAgICAKICAgICAgLy8gRmlyc3QsIGNoZWNrIGFwcCBwdWJsaWMgc2V0dGluZ3MgKHdpdGggdG9rZW4gaWYgYXZhaWxhYmxlKQogICAgICAvLyBUaGlzIHdpbGwgdGVsbCB1cyBpZiBhdXRoIGlzIHJlcXVpcmVkLCB1c2VyIG5vdCByZWdpc3RlcmVkLCBldGMuCiAgICAgIGNvbnN0IGFwcENsaWVudCA9IGNyZWF0ZUF4aW9zQ2xpZW50KHsKICAgICAgICBiYXNlVVJMOiBgL2FwaS9hcHBzL3B1YmxpY2AsCiAgICAgICAgaGVhZGVyczogewogICAgICAgICAgJ1gtQXBwLUlkJzogYXBwUGFyYW1zLmFwcElkCiAgICAgICAgfSwKICAgICAgICB0b2tlbjogYXBwUGFyYW1zLnRva2VuLCAvLyBJbmNsdWRlIHRva2VuIGlmIGF2YWlsYWJsZQogICAgICAgIGludGVyY2VwdFJlc3BvbnNlczogdHJ1ZQogICAgICB9KTsKICAgICAgCiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcHVibGljU2V0dGluZ3MgPSBhd2FpdCBhcHBDbGllbnQuZ2V0KGAvcHJvZC9wdWJsaWMtc2V0dGluZ3MvYnktaWQvJHthcHBQYXJhbXMuYXBwSWR9YCk7CiAgICAgICAgc2V0QXBwUHVibGljU2V0dGluZ3MocHVibGljU2V0dGluZ3MpOwogICAgICAgIAogICAgICAgIC8vIElmIHdlIGdvdCB0aGUgYXBwIHB1YmxpYyBzZXR0aW5ncyBzdWNjZXNzZnVsbHksIGNoZWNrIGlmIHVzZXIgaXMgYXV0aGVudGljYXRlZAogICAgICAgIGlmIChhcHBQYXJhbXMudG9rZW4pIHsKICAgICAgICAgIGF3YWl0IGNoZWNrVXNlckF1dGgoKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgc2V0SXNMb2FkaW5nQXV0aChmYWxzZSk7CiAgICAgICAgICBzZXRJc0F1dGhlbnRpY2F0ZWQoZmFsc2UpOwogICAgICAgICAgc2V0QXV0aENoZWNrZWQodHJ1ZSk7CiAgICAgICAgfQogICAgICAgIHNldElzTG9hZGluZ1B1YmxpY1NldHRpbmdzKGZhbHNlKTsKICAgICAgfSBjYXRjaCAoYXBwRXJyb3IpIHsKICAgICAgICBjb25zb2xlLmVycm9yKCdBcHAgc3RhdGUgY2hlY2sgZmFpbGVkOicsIGFwcEVycm9yKTsKICAgICAgICAKICAgICAgICAvLyBIYW5kbGUgYXBwLWxldmVsIGVycm9ycwogICAgICAgIGlmIChhcHBFcnJvci5zdGF0dXMgPT09IDQwMyAmJiBhcHBFcnJvci5kYXRhPy5leHRyYV9kYXRhPy5yZWFzb24pIHsKICAgICAgICAgIGNvbnN0IHJlYXNvbiA9IGFwcEVycm9yLmRhdGEuZXh0cmFfZGF0YS5yZWFzb247CiAgICAgICAgICBpZiAocmVhc29uID09PSAnYXV0aF9yZXF1aXJlZCcpIHsKICAgICAgICAgICAgc2V0QXV0aEVycm9yKHsKICAgICAgICAgICAgICB0eXBlOiAnYXV0aF9yZXF1aXJlZCcsCiAgICAgICAgICAgICAgbWVzc2FnZTogJ0F1dGhlbnRpY2F0aW9uIHJlcXVpcmVkJwogICAgICAgICAgICB9KTsKICAgICAgICAgIH0gZWxzZSBpZiAocmVhc29uID09PSAndXNlcl9ub3RfcmVnaXN0ZXJlZCcpIHsKICAgICAgICAgICAgc2V0QXV0aEVycm9yKHsKICAgICAgICAgICAgICB0eXBlOiAndXNlcl9ub3RfcmVnaXN0ZXJlZCcsCiAgICAgICAgICAgICAgbWVzc2FnZTogJ1VzZXIgbm90IHJlZ2lzdGVyZWQgZm9yIHRoaXMgYXBwJwogICAgICAgICAgICB9KTsKICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHNldEF1dGhFcnJvcih7CiAgICAgICAgICAgICAgdHlwZTogcmVhc29uLAogICAgICAgICAgICAgIG1lc3NhZ2U6IGFwcEVycm9yLm1lc3NhZ2UKICAgICAgICAgICAgfSk7CiAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIHNldEF1dGhFcnJvcih7CiAgICAgICAgICAgIHR5cGU6ICd1bmtub3duJywKICAgICAgICAgICAgbWVzc2FnZTogYXBwRXJyb3IubWVzc2FnZSB8fCAnRmFpbGVkIHRvIGxvYWQgYXBwJwogICAgICAgICAgfSk7CiAgICAgICAgfQogICAgICAgIHNldElzTG9hZGluZ1B1YmxpY1NldHRpbmdzKGZhbHNlKTsKICAgICAgICBzZXRJc0xvYWRpbmdBdXRoKGZhbHNlKTsKICAgICAgfQogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgY29uc29sZS5lcnJvcignVW5leHBlY3RlZCBlcnJvcjonLCBlcnJvcik7CiAgICAgIHNldEF1dGhFcnJvcih7CiAgICAgICAgdHlwZTogJ3Vua25vd24nLAogICAgICAgIG1lc3NhZ2U6IGVycm9yLm1lc3NhZ2UgfHwgJ0FuIHVuZXhwZWN0ZWQgZXJyb3Igb2NjdXJyZWQnCiAgICAgIH0pOwogICAgICBzZXRJc0xvYWRpbmdQdWJsaWNTZXR0aW5ncyhmYWxzZSk7CiAgICAgIHNldElzTG9hZGluZ0F1dGgoZmFsc2UpOwogICAgfQogIH07CgogIGNvbnN0IGNoZWNrVXNlckF1dGggPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICAvLyBOb3cgY2hlY2sgaWYgdGhlIHVzZXIgaXMgYXV0aGVudGljYXRlZAogICAgICBzZXRJc0xvYWRpbmdBdXRoKHRydWUpOwogICAgICBjb25zdCBjdXJyZW50VXNlciA9IGF3YWl0IGJhc2U0NC5hdXRoLm1lKCk7CiAgICAgIHNldFVzZXIoY3VycmVudFVzZXIpOwogICAgICBzZXRJc0F1dGhlbnRpY2F0ZWQodHJ1ZSk7CiAgICAgIHNldElzTG9hZGluZ0F1dGgoZmFsc2UpOwogICAgICBzZXRBdXRoQ2hlY2tlZCh0cnVlKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoJ1VzZXIgYXV0aCBjaGVjayBmYWlsZWQ6JywgZXJyb3IpOwogICAgICBzZXRJc0xvYWRpbmdBdXRoKGZhbHNlKTsKICAgICAgc2V0SXNBdXRoZW50aWNhdGVkKGZhbHNlKTsKICAgICAgc2V0QXV0aENoZWNrZWQodHJ1ZSk7CiAgICAgIAogICAgICAvLyBJZiB1c2VyIGF1dGggZmFpbHMsIGl0IG1pZ2h0IGJlIGFuIGV4cGlyZWQgdG9rZW4KICAgICAgaWYgKGVycm9yLnN0YXR1cyA9PT0gNDAxIHx8IGVycm9yLnN0YXR1cyA9PT0gNDAzKSB7CiAgICAgICAgc2V0QXV0aEVycm9yKHsKICAgICAgICAgIHR5cGU6ICdhdXRoX3JlcXVpcmVkJywKICAgICAgICAgIG1lc3NhZ2U6ICdBdXRoZW50aWNhdGlvbiByZXF1aXJlZCcKICAgICAgICB9KTsKICAgICAgfQogICAgfQogIH07CgogIGNvbnN0IGxvZ291dCA9IChzaG91bGRSZWRpcmVjdCA9IHRydWUpID0+IHsKICAgIHNldFVzZXIobnVsbCk7CiAgICBzZXRJc0F1dGhlbnRpY2F0ZWQoZmFsc2UpOwogICAgCiAgICBpZiAoc2hvdWxkUmVkaXJlY3QpIHsKICAgICAgLy8gVXNlIHRoZSBTREsncyBsb2dvdXQgbWV0aG9kIHdoaWNoIGhhbmRsZXMgdG9rZW4gY2xlYW51cCBhbmQgcmVkaXJlY3QKICAgICAgYmFzZTQ0LmF1dGgubG9nb3V0KHdpbmRvdy5sb2NhdGlvbi5ocmVmKTsKICAgIH0gZWxzZSB7CiAgICAgIC8vIEp1c3QgcmVtb3ZlIHRoZSB0b2tlbiB3aXRob3V0IHJlZGlyZWN0CiAgICAgIGJhc2U0NC5hdXRoLmxvZ291dCgpOwogICAgfQogIH07CgogIGNvbnN0IG5hdmlnYXRlVG9Mb2dpbiA9ICgpID0+IHsKICAgIC8vIFVzZSB0aGUgU0RLJ3MgcmVkaXJlY3RUb0xvZ2luIG1ldGhvZAogICAgYmFzZTQ0LmF1dGgucmVkaXJlY3RUb0xvZ2luKHdpbmRvdy5sb2NhdGlvbi5ocmVmKTsKICB9OwoKICByZXR1cm4gKAogICAgPEF1dGhDb250ZXh0LlByb3ZpZGVyIHZhbHVlPXt7IAogICAgICB1c2VyLCAKICAgICAgaXNBdXRoZW50aWNhdGVkLCAKICAgICAgaXNMb2FkaW5nQXV0aCwKICAgICAgaXNMb2FkaW5nUHVibGljU2V0dGluZ3MsCiAgICAgIGF1dGhFcnJvciwKICAgICAgYXBwUHVibGljU2V0dGluZ3MsCiAgICAgIGF1dGhDaGVja2VkLAogICAgICBsb2dvdXQsCiAgICAgIG5hdmlnYXRlVG9Mb2dpbiwKICAgICAgY2hlY2tVc2VyQXV0aCwKICAgICAgY2hlY2tBcHBTdGF0ZQogICAgfX0+CiAgICAgIHtjaGlsZHJlbn0KICAgIDwvQXV0aENvbnRleHQuUHJvdmlkZXI+CiAgKTsKfTsKCmV4cG9ydCBjb25zdCB1c2VBdXRoID0gKCkgPT4gewogIGNvbnN0IGNvbnRleHQgPSB1c2VDb250ZXh0KEF1dGhDb250ZXh0KTsKICBpZiAoIWNvbnRleHQpIHsKICAgIHRocm93IG5ldyBFcnJvcigndXNlQXV0aCBtdXN0IGJlIHVzZWQgd2l0aGluIGFuIEF1dGhQcm92aWRlcicpOwogIH0KICByZXR1cm4gY29udGV4dDsKfTsK
+import React, { createContext, useState, useContext, useEffect } from 'react';
+import { base44 } from '@/api/base44Client';
+import { appParams } from '@/lib/app-params';
+import { createAxiosClient } from '@base44/sdk/dist/utils/axios-client';
+
+const AuthContext = createContext();
+
+export const AuthProvider = ({ children }) => {
+  const [user, setUser] = useState(null);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isLoadingAuth, setIsLoadingAuth] = useState(true);
+  const [isLoadingPublicSettings, setIsLoadingPublicSettings] = useState(true);
+  const [authError, setAuthError] = useState(null);
+  const [authChecked, setAuthChecked] = useState(false);
+  const [appPublicSettings, setAppPublicSettings] = useState(null); // Contains only { id, public_settings }
+
+  useEffect(() => {
+    checkAppState();
+  }, []);
+
+  const checkAppState = async () => {
+    try {
+      setIsLoadingPublicSettings(true);
+      setAuthError(null);
+      
+      // First, check app public settings (with token if available)
+      // This will tell us if auth is required, user not registered, etc.
+      const appClient = createAxiosClient({
+        baseURL: `/api/apps/public`,
+        headers: {
+          'X-App-Id': appParams.appId
+        },
+        token: appParams.token, // Include token if available
+        interceptResponses: true
+      });
+      
+      try {
+        const publicSettings = await appClient.get(`/prod/public-settings/by-id/${appParams.appId}`);
+        setAppPublicSettings(publicSettings);
+        
+        // If we got the app public settings successfully, check if user is authenticated
+        if (appParams.token) {
+          await checkUserAuth();
+        } else {
+          setIsLoadingAuth(false);
+          setIsAuthenticated(false);
+          setAuthChecked(true);
+        }
+        setIsLoadingPublicSettings(false);
+      } catch (appError) {
+        console.error('App state check failed:', appError);
+        
+        // Handle app-level errors
+        if (appError.status === 403 && appError.data?.extra_data?.reason) {
+          const reason = appError.data.extra_data.reason;
+          if (reason === 'auth_required') {
+            setAuthError({
+              type: 'auth_required',
+              message: 'Authentication required'
+            });
+          } else if (reason === 'user_not_registered') {
+            setAuthError({
+              type: 'user_not_registered',
+              message: 'User not registered for this app'
+            });
+          } else {
+            setAuthError({
+              type: reason,
+              message: appError.message
+            });
+          }
+        } else {
+          setAuthError({
+            type: 'unknown',
+            message: appError.message || 'Failed to load app'
+          });
+        }
+        setIsLoadingPublicSettings(false);
+        setIsLoadingAuth(false);
+      }
+    } catch (error) {
+      console.error('Unexpected error:', error);
+      setAuthError({
+        type: 'unknown',
+        message: error.message || 'An unexpected error occurred'
+      });
+      setIsLoadingPublicSettings(false);
+      setIsLoadingAuth(false);
+    }
+  };
+
+  const checkUserAuth = async () => {
+    try {
+      // Now check if the user is authenticated
+      setIsLoadingAuth(true);
+      const currentUser = await base44.auth.me();
+      setUser(currentUser);
+      setIsAuthenticated(true);
+      setIsLoadingAuth(false);
+      setAuthChecked(true);
+    } catch (error) {
+      console.error('User auth check failed:', error);
+      setIsLoadingAuth(false);
+      setIsAuthenticated(false);
+      setAuthChecked(true);
+      
+      // If user auth fails, it might be an expired token
+      if (error.status === 401 || error.status === 403) {
+        setAuthError({
+          type: 'auth_required',
+          message: 'Authentication required'
+        });
+      }
+    }
+  };
+
+  const logout = (shouldRedirect = true) => {
+    setUser(null);
+    setIsAuthenticated(false);
+    
+    if (shouldRedirect) {
+      // Use the SDK's logout method which handles token cleanup and redirect
+      base44.auth.logout(window.location.href);
+    } else {
+      // Just remove the token without redirect
+      base44.auth.logout();
+    }
+  };
+
+  const navigateToLogin = () => {
+    // Use the SDK's redirectToLogin method
+    base44.auth.redirectToLogin(window.location.href);
+  };
+
+  return (
+    <AuthContext.Provider value={{ 
+      user, 
+      isAuthenticated, 
+      isLoadingAuth,
+      isLoadingPublicSettings,
+      authError,
+      appPublicSettings,
+      authChecked,
+      logout,
+      navigateToLogin,
+      checkUserAuth,
+      checkAppState
+    }}>
+      {children}
+    </AuthContext.Provider>
+  );
+};
+
+export const useAuth = () => {
+  const context = useContext(AuthContext);
+  if (!context) {
+    throw new Error('useAuth must be used within an AuthProvider');
+  }
+  return context;
+};

@@ -1,1 +1,18 @@
-ZXhwb3J0IGZ1bmN0aW9uIHNjb3JlTGFiZWwoc2NvcmUpIHsKICBpZiAoc2NvcmUgPj0gODUpIHJldHVybiAiRXhjZWxsZW50IE9wcG9ydHVuaXR5IjsKICBpZiAoc2NvcmUgPj0gNzApIHJldHVybiAiU3Ryb25nIE9wcG9ydHVuaXR5IjsKICBpZiAoc2NvcmUgPj0gNTApIHJldHVybiAiR29vZCBPcHBvcnR1bml0eSI7CiAgcmV0dXJuICJMb3cgUHJpb3JpdHkiOwp9CgpleHBvcnQgZnVuY3Rpb24gcHJpb3JpdHlCYWRnZShwcmlvcml0eSkgewogIGlmIChwcmlvcml0eSA9PT0gIkhpZ2giKSByZXR1cm4gImJnLXJvc2UtNTAgdGV4dC1yb3NlLTYwMCI7CiAgaWYgKHByaW9yaXR5ID09PSAiTWVkaXVtIikgcmV0dXJuICJiZy1hbWJlci01MCB0ZXh0LWFtYmVyLTYwMCI7CiAgcmV0dXJuICJiZy1zbGF0ZS0xMDAgdGV4dC1zbGF0ZS01MDAiOwp9CgpleHBvcnQgZnVuY3Rpb24gcHJpb3JpdHlFbW9qaShwcmlvcml0eSkgewogIGlmIChwcmlvcml0eSA9PT0gIkhpZ2giKSByZXR1cm4gIvCflKUgSGlnaCI7CiAgaWYgKHByaW9yaXR5ID09PSAiTWVkaXVtIikgcmV0dXJuICLwn5+hIE1lZGl1bSI7CiAgcmV0dXJuICLimqogTG93IjsKfQ==
+export function scoreLabel(score) {
+  if (score >= 85) return "Excellent Opportunity";
+  if (score >= 70) return "Strong Opportunity";
+  if (score >= 50) return "Good Opportunity";
+  return "Low Priority";
+}
+
+export function priorityBadge(priority) {
+  if (priority === "High") return "bg-rose-50 text-rose-600";
+  if (priority === "Medium") return "bg-amber-50 text-amber-600";
+  return "bg-slate-100 text-slate-500";
+}
+
+export function priorityEmoji(priority) {
+  if (priority === "High") return "🔥 High";
+  if (priority === "Medium") return "🟡 Medium";
+  return "⚪ Low";
+}

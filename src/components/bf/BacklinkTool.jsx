@@ -1,1 +1,170 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgYmFzZTQ0IH0gZnJvbSAiQC9hcGkvYmFzZTQ0Q2xpZW50IjsKaW1wb3J0IHsgdXNlVG9hc3QgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdXNlLXRvYXN0IjsKaW1wb3J0IFRvb2xGb3JtIGZyb20gIi4vVG9vbEZvcm0iOwppbXBvcnQgTG9hZGluZ1N0YXRlIGZyb20gIi4vTG9hZGluZ1N0YXRlIjsKaW1wb3J0IFJlc3VsdHNEYXNoYm9hcmQgZnJvbSAiLi9SZXN1bHRzRGFzaGJvYXJkIjsKaW1wb3J0IEd1ZXN0UG9zdERpYWxvZyBmcm9tICIuL0d1ZXN0UG9zdERpYWxvZyI7CmltcG9ydCBPdXRyZWFjaERpYWxvZyBmcm9tICIuL091dHJlYWNoRGlhbG9nIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEJhY2tsaW5rVG9vbCgpIHsKICBjb25zdCB7IHRvYXN0IH0gPSB1c2VUb2FzdCgpOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbbG9hZGluZ0NvbXBldGl0b3IsIHNldExvYWRpbmdDb21wZXRpdG9yXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbb3Bwb3J0dW5pdGllcywgc2V0T3Bwb3J0dW5pdGllc10gPSBSZWFjdC51c2VTdGF0ZShbXSk7CiAgY29uc3QgW2lzRGVtbywgc2V0SXNEZW1vXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbcXVlcnksIHNldFF1ZXJ5XSA9IFJlYWN0LnVzZVN0YXRlKG51bGwpOwogIGNvbnN0IFthY3RpdmVUYWIsIHNldEFjdGl2ZVRhYl0gPSBSZWFjdC51c2VTdGF0ZSgiYWxsIik7CiAgY29uc3QgW2F1dGhlZCwgc2V0QXV0aGVkXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbc2F2ZWRJZHMsIHNldFNhdmVkSWRzXSA9IFJlYWN0LnVzZVN0YXRlKG5ldyBTZXQoKSk7CiAgY29uc3QgW2d1aWRlbGluZXMsIHNldEd1aWRlbGluZXNdID0gUmVhY3QudXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW291dHJlYWNoLCBzZXRPdXRyZWFjaF0gPSBSZWFjdC51c2VTdGF0ZShudWxsKTsKICBjb25zdCBbdGVtcGxhdGVzLCBzZXRUZW1wbGF0ZXNdID0gUmVhY3QudXNlU3RhdGUoW10pOwogIGNvbnN0IFthcGlFcnJvciwgc2V0QXBpRXJyb3JdID0gUmVhY3QudXNlU3RhdGUoIiIpOwoKICBSZWFjdC51c2VFZmZlY3QoKCkgPT4gewogICAgYmFzZTQ0LmF1dGguaXNBdXRoZW50aWNhdGVkKCkudGhlbigoYSkgPT4gewogICAgICBzZXRBdXRoZWQoYSk7CiAgICAgIGlmIChhKSB7CiAgICAgICAgbG9hZFNhdmVkKCk7CiAgICAgICAgbG9hZFRlbXBsYXRlcygpOwogICAgICB9CiAgICB9KS5jYXRjaCgoKSA9PiBzZXRBdXRoZWQoZmFsc2UpKTsKICB9LCBbXSk7CgogIGNvbnN0IGxvYWRUZW1wbGF0ZXMgPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCB0ID0gYXdhaXQgYmFzZTQ0LmVudGl0aWVzLkVtYWlsVGVtcGxhdGUubGlzdCgiLXVwZGF0ZWRfZGF0ZSIsIDEwMCk7CiAgICAgIHNldFRlbXBsYXRlcyh0IHx8IFtdKTsKICAgIH0gY2F0Y2ggKGUpIHsgLyogaWdub3JlICovIH0KICB9OwoKICBjb25zdCBsb2FkU2F2ZWQgPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCBzYXZlZCA9IGF3YWl0IGJhc2U0NC5lbnRpdGllcy5TYXZlZE9wcG9ydHVuaXR5Lmxpc3QoIi1jcmVhdGVkX2RhdGUiLCAyMDApOwogICAgICBzZXRTYXZlZElkcyhuZXcgU2V0KChzYXZlZCB8fCBbXSkubWFwKChzKSA9PiBzLm9wcG9ydHVuaXR5X2lkKSkpOwogICAgfSBjYXRjaCAoZSkgeyAvKiBpZ25vcmUgKi8gfQogIH07CgogIGNvbnN0IGdlbmVyYXRlID0gYXN5bmMgKHBhcmFtcywgY29tcGV0aXRvciA9IGZhbHNlKSA9PiB7CiAgICBzZXRBcGlFcnJvcigiIik7CiAgICBjb25zdCBpc0NvbXAgPSBjb21wZXRpdG9yIHx8IHBhcmFtcy5zZWFyY2hfdHlwZSA9PT0gImNvbXBldGl0b3IiOwogICAgaWYgKGlzQ29tcCkgc2V0TG9hZGluZ0NvbXBldGl0b3IodHJ1ZSk7IGVsc2Ugc2V0TG9hZGluZyh0cnVlKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGJhc2U0NC5mdW5jdGlvbnMuaW52b2tlKCJnZW5lcmF0ZU9wcG9ydHVuaXRpZXMiLCB7CiAgICAgICAgLi4ucGFyYW1zLAogICAgICAgIHNlYXJjaF90eXBlOiBpc0NvbXAgPyAiY29tcGV0aXRvciIgOiAiYmFja2xpbmtzIgogICAgICB9KTsKICAgICAgY29uc3QgZGF0YSA9IHJlcy5kYXRhIHx8IHJlczsKICAgICAgaWYgKGRhdGEuZXJyb3IpIHsgc2V0QXBpRXJyb3IoZGF0YS5lcnJvcik7IHJldHVybjsgfQogICAgICBjb25zdCBsaXN0ID0gKGRhdGEub3Bwb3J0dW5pdGllcyB8fCBbXSkubWFwKChvKSA9PiAoewogICAgICAgIC4uLm8sCiAgICAgICAgX2xvY2FsSWQ6IGAke28ud2Vic2l0ZX0tJHtvLnVybH1gCiAgICAgIH0pKTsKICAgICAgc2V0T3Bwb3J0dW5pdGllcyhsaXN0KTsKICAgICAgc2V0SXNEZW1vKGRhdGEuaXNfZGVtbyk7CiAgICAgIHNldFF1ZXJ5KGRhdGEucXVlcnkpOwogICAgICBpZiAoaXNDb21wKSB7CiAgICAgICAgc2V0QWN0aXZlVGFiKCJjb21wZXRpdG9yIik7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgc2V0QWN0aXZlVGFiKHBhcmFtcy5iYWNrbGlua190eXBlID09PSAiR3Vlc3QgUG9zdHMiID8gImd1ZXN0IiA6ICJhbGwiKTsKICAgICAgfQogICAgICBjb25zdCBzZWN0aW9uID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInJlc3VsdHMiKTsKICAgICAgaWYgKHNlY3Rpb24pIHNldFRpbWVvdXQoKCkgPT4gc2VjdGlvbi5zY3JvbGxJbnRvVmlldyh7IGJlaGF2aW9yOiAic21vb3RoIiwgYmxvY2s6ICJzdGFydCIgfSksIDEwMCk7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgc2V0QXBpRXJyb3IoIldlIGNvdWxkbid0IHJldHJpZXZlIGxpdmUgYmFja2xpbmsgZGF0YSByaWdodCBub3cuIFBsZWFzZSB0cnkgYWdhaW4gbGF0ZXIuIik7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICAgICAgc2V0TG9hZGluZ0NvbXBldGl0b3IoZmFsc2UpOwogICAgfQogIH07CgogIGNvbnN0IGhhbmRsZUNvbXBldGl0b3IgPSAoY29tcGV0aXRvcl91cmwpID0+IHsKICAgIGlmICghcXVlcnkpIHsKICAgICAgLy8gTmVlZCBhIHByaW1hcnkgc2VhcmNoIGZpcnN0OyB1c2UgdGhlIGNvbXBldGl0b3IgYXMgdGhlIHdlYnNpdGUrbmljaGUgYmFzaXMuCiAgICAgIGdlbmVyYXRlKHsgd2Vic2l0ZV91cmw6IGNvbXBldGl0b3JfdXJsLCBrZXl3b3JkOiAiYmFja2xpbmtzIiwgY29tcGV0aXRvcl91cmwgfSwgdHJ1ZSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGdlbmVyYXRlKHsgLi4ucXVlcnksIGNvbXBldGl0b3JfdXJsIH0sIHRydWUpOwogIH07CgogIGNvbnN0IGhhbmRsZVNhdmUgPSBhc3luYyAobykgPT4gewogICAgaWYgKCFhdXRoZWQpIHsKICAgICAgdG9hc3QoewogICAgICAgIHRpdGxlOiAiU2lnbiBpbiB0byBzYXZlIiwKICAgICAgICBkZXNjcmlwdGlvbjogIkNyZWF0ZSBhIGZyZWUgYWNjb3VudCB0byBzYXZlIGFuZCB0cmFjayBvcHBvcnR1bml0aWVzLiIKICAgICAgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGNvbnN0IGlkID0gby5fbG9jYWxJZDsKICAgIGlmIChzYXZlZElkcy5oYXMoaWQpKSByZXR1cm47CiAgICB0cnkgewogICAgICBhd2FpdCBiYXNlNDQuZW50aXRpZXMuU2F2ZWRPcHBvcnR1bml0eS5jcmVhdGUoewogICAgICAgIG9wcG9ydHVuaXR5X2lkOiBpZCwKICAgICAgICB3ZWJzaXRlOiBvLndlYnNpdGUsCiAgICAgICAgdXJsOiBvLnVybCwKICAgICAgICBkb21haW5fYXV0aG9yaXR5OiBvLmRvbWFpbl9hdXRob3JpdHksCiAgICAgICAgdHJhZmZpYzogby50cmFmZmljLAogICAgICAgIG5pY2hlOiBvLm5pY2hlLAogICAgICAgIGJhY2tsaW5rX3R5cGU6IG8uYmFja2xpbmtfdHlwZSwKICAgICAgICBndWVzdF9wb3N0X2F2YWlsYWJsZTogby5ndWVzdF9wb3N0X2F2YWlsYWJsZSwKICAgICAgICByZWxldmFuY2Vfc2NvcmU6IG8ucmVsZXZhbmNlX3Njb3JlLAogICAgICAgIGRpZmZpY3VsdHk6IG8uZGlmZmljdWx0eQogICAgICB9KTsKICAgICAgc2V0U2F2ZWRJZHMoKHByZXYpID0+IG5ldyBTZXQocHJldikuYWRkKGlkKSk7CiAgICAgIHRvYXN0KHsgdGl0bGU6ICJPcHBvcnR1bml0eSBzYXZlZCIsIGRlc2NyaXB0aW9uOiBvLndlYnNpdGUgfSk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHRvYXN0KHsgdGl0bGU6ICJDb3VsZCBub3Qgc2F2ZSIsIGRlc2NyaXB0aW9uOiAiUGxlYXNlIHRyeSBhZ2Fpbi4iLCB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiIH0pOwogICAgfQogIH07CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiBpZD0idG9vbCIgY2xhc3NOYW1lPSJiZy1zbGF0ZS01MCBwYi0yMCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTZ4bCBweC00IHNtOnB4LTYiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTJ4bCBwdC0xNiB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtc2xhdGUtOTAwIHNtOnRleHQtM3hsIj5CYWNrbGluayBHZW5lcmF0b3I8L2gyPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQtc2xhdGUtNjAwIj4KICAgICAgICAgICAgRW50ZXIgeW91ciB3ZWJzaXRlIGFuZCBuaWNoZSB0byBkaXNjb3ZlciBiYWNrbGluayBhbmQgZ3Vlc3QtcG9zdGluZyBvcHBvcnR1bml0aWVzLgogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtdC04IG1heC13LTR4bCI+CiAgICAgICAgICA8VG9vbEZvcm0gb25HZW5lcmF0ZT17KHApID0+IGdlbmVyYXRlKHApfSBsb2FkaW5nPXtsb2FkaW5nfSAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7bG9hZGluZyAmJiAoCiAgICAgICAgICA8ZGl2IGlkPSJyZXN1bHRzIiBjbGFzc05hbWU9Im14LWF1dG8gbXQtOCBtYXgtdy00eGwiPgogICAgICAgICAgICA8TG9hZGluZ1N0YXRlIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICB7YXBpRXJyb3IgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gbXQtOCBtYXgtdy00eGwgcm91bmRlZC14bCBiZy1yb3NlLTUwIHB4LTQgcHktMyB0ZXh0LXNtIHRleHQtcm9zZS03MDAiPgogICAgICAgICAgICB7YXBpRXJyb3J9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICB7IWxvYWRpbmcgJiYgb3Bwb3J0dW5pdGllcy5sZW5ndGggPiAwICYmICgKICAgICAgICAgIDxkaXYgaWQ9InJlc3VsdHMiIGNsYXNzTmFtZT0ibXgtYXV0byBtdC04IG1heC13LTV4bCBzY3JvbGwtbXQtMjAiPgogICAgICAgICAgICA8UmVzdWx0c0Rhc2hib2FyZAogICAgICAgICAgICAgIG9wcG9ydHVuaXRpZXM9e29wcG9ydHVuaXRpZXN9CiAgICAgICAgICAgICAgaXNEZW1vPXtpc0RlbW99CiAgICAgICAgICAgICAgcXVlcnk9e3F1ZXJ5fQogICAgICAgICAgICAgIHNhdmVkSWRzPXtzYXZlZElkc30KICAgICAgICAgICAgICBvblNhdmU9e2hhbmRsZVNhdmV9CiAgICAgICAgICAgICAgb25TaG93R3VpZGVsaW5lcz17c2V0R3VpZGVsaW5lc30KICAgICAgICAgICAgICBvblJlYWNoT3V0PXtzZXRPdXRyZWFjaH0KICAgICAgICAgICAgICBhY3RpdmVUYWI9e2FjdGl2ZVRhYn0KICAgICAgICAgICAgICBvblRhYkNoYW5nZT17c2V0QWN0aXZlVGFifQogICAgICAgICAgICAgIG9uQ29tcGV0aXRvclNlYXJjaD17aGFuZGxlQ29tcGV0aXRvcn0KICAgICAgICAgICAgICBsb2FkaW5nQ29tcGV0aXRvcj17bG9hZGluZ0NvbXBldGl0b3J9CiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIDxHdWVzdFBvc3REaWFsb2cgb3Bwb3J0dW5pdHk9e2d1aWRlbGluZXN9IG9uQ2xvc2U9eygpID0+IHNldEd1aWRlbGluZXMobnVsbCl9IC8+CiAgICAgIDxPdXRyZWFjaERpYWxvZyBvcHBvcnR1bml0eT17b3V0cmVhY2h9IHRlbXBsYXRlcz17dGVtcGxhdGVzfSBvbkNsb3NlPXsoKSA9PiBzZXRPdXRyZWFjaChudWxsKX0gLz4KICAgIDwvc2VjdGlvbj4KICApOwp9
+import React from "react";
+import { base44 } from "@/api/base44Client";
+import { useToast } from "@/components/ui/use-toast";
+import ToolForm from "./ToolForm";
+import LoadingState from "./LoadingState";
+import ResultsDashboard from "./ResultsDashboard";
+import GuestPostDialog from "./GuestPostDialog";
+import OutreachDialog from "./OutreachDialog";
+
+export default function BacklinkTool() {
+  const { toast } = useToast();
+  const [loading, setLoading] = React.useState(false);
+  const [loadingCompetitor, setLoadingCompetitor] = React.useState(false);
+  const [opportunities, setOpportunities] = React.useState([]);
+  const [isDemo, setIsDemo] = React.useState(false);
+  const [query, setQuery] = React.useState(null);
+  const [activeTab, setActiveTab] = React.useState("all");
+  const [authed, setAuthed] = React.useState(false);
+  const [savedIds, setSavedIds] = React.useState(new Set());
+  const [guidelines, setGuidelines] = React.useState(null);
+  const [outreach, setOutreach] = React.useState(null);
+  const [templates, setTemplates] = React.useState([]);
+  const [apiError, setApiError] = React.useState("");
+
+  React.useEffect(() => {
+    base44.auth.isAuthenticated().then((a) => {
+      setAuthed(a);
+      if (a) {
+        loadSaved();
+        loadTemplates();
+      }
+    }).catch(() => setAuthed(false));
+  }, []);
+
+  const loadTemplates = async () => {
+    try {
+      const t = await base44.entities.EmailTemplate.list("-updated_date", 100);
+      setTemplates(t || []);
+    } catch (e) { /* ignore */ }
+  };
+
+  const loadSaved = async () => {
+    try {
+      const saved = await base44.entities.SavedOpportunity.list("-created_date", 200);
+      setSavedIds(new Set((saved || []).map((s) => s.opportunity_id)));
+    } catch (e) { /* ignore */ }
+  };
+
+  const generate = async (params, competitor = false) => {
+    setApiError("");
+    const isComp = competitor || params.search_type === "competitor";
+    if (isComp) setLoadingCompetitor(true); else setLoading(true);
+    try {
+      const res = await base44.functions.invoke("generateOpportunities", {
+        ...params,
+        search_type: isComp ? "competitor" : "backlinks"
+      });
+      const data = res.data || res;
+      if (data.error) { setApiError(data.error); return; }
+      const list = (data.opportunities || []).map((o) => ({
+        ...o,
+        _localId: `${o.website}-${o.url}`
+      }));
+      setOpportunities(list);
+      setIsDemo(data.is_demo);
+      setQuery(data.query);
+      if (isComp) {
+        setActiveTab("competitor");
+      } else {
+        setActiveTab(params.backlink_type === "Guest Posts" ? "guest" : "all");
+      }
+      const section = document.getElementById("results");
+      if (section) setTimeout(() => section.scrollIntoView({ behavior: "smooth", block: "start" }), 100);
+    } catch (err) {
+      setApiError("We couldn't retrieve live backlink data right now. Please try again later.");
+    } finally {
+      setLoading(false);
+      setLoadingCompetitor(false);
+    }
+  };
+
+  const handleCompetitor = (competitor_url) => {
+    if (!query) {
+      // Need a primary search first; use the competitor as the website+niche basis.
+      generate({ website_url: competitor_url, keyword: "backlinks", competitor_url }, true);
+      return;
+    }
+    generate({ ...query, competitor_url }, true);
+  };
+
+  const handleSave = async (o) => {
+    if (!authed) {
+      toast({
+        title: "Sign in to save",
+        description: "Create a free account to save and track opportunities."
+      });
+      return;
+    }
+    const id = o._localId;
+    if (savedIds.has(id)) return;
+    try {
+      await base44.entities.SavedOpportunity.create({
+        opportunity_id: id,
+        website: o.website,
+        url: o.url,
+        domain_authority: o.domain_authority,
+        traffic: o.traffic,
+        niche: o.niche,
+        backlink_type: o.backlink_type,
+        guest_post_available: o.guest_post_available,
+        relevance_score: o.relevance_score,
+        difficulty: o.difficulty
+      });
+      setSavedIds((prev) => new Set(prev).add(id));
+      toast({ title: "Opportunity saved", description: o.website });
+    } catch (e) {
+      toast({ title: "Could not save", description: "Please try again.", variant: "destructive" });
+    }
+  };
+
+  return (
+    <section id="tool" className="bg-slate-50 pb-20">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="mx-auto max-w-2xl pt-16 text-center">
+          <h2 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">Backlink Generator</h2>
+          <p className="mt-2 text-slate-600">
+            Enter your website and niche to discover backlink and guest-posting opportunities.
+          </p>
+        </div>
+
+        <div className="mx-auto mt-8 max-w-4xl">
+          <ToolForm onGenerate={(p) => generate(p)} loading={loading} />
+        </div>
+
+        {loading && (
+          <div id="results" className="mx-auto mt-8 max-w-4xl">
+            <LoadingState />
+          </div>
+        )}
+
+        {apiError && (
+          <div className="mx-auto mt-8 max-w-4xl rounded-xl bg-rose-50 px-4 py-3 text-sm text-rose-700">
+            {apiError}
+          </div>
+        )}
+
+        {!loading && opportunities.length > 0 && (
+          <div id="results" className="mx-auto mt-8 max-w-5xl scroll-mt-20">
+            <ResultsDashboard
+              opportunities={opportunities}
+              isDemo={isDemo}
+              query={query}
+              savedIds={savedIds}
+              onSave={handleSave}
+              onShowGuidelines={setGuidelines}
+              onReachOut={setOutreach}
+              activeTab={activeTab}
+              onTabChange={setActiveTab}
+              onCompetitorSearch={handleCompetitor}
+              loadingCompetitor={loadingCompetitor}
+            />
+          </div>
+        )}
+      </div>
+
+      <GuestPostDialog opportunity={guidelines} onClose={() => setGuidelines(null)} />
+      <OutreachDialog opportunity={outreach} templates={templates} onClose={() => setOutreach(null)} />
+    </section>
+  );
+}

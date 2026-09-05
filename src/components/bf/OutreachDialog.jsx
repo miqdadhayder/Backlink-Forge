@@ -1,1 +1,135 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsKICBEaWFsb2csIERpYWxvZ0NvbnRlbnQsIERpYWxvZ0hlYWRlciwgRGlhbG9nVGl0bGUsIERpYWxvZ0Rlc2NyaXB0aW9uCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgVGV4dGFyZWEgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGV4dGFyZWEiOwppbXBvcnQgewogIFNlbGVjdCwgU2VsZWN0Q29udGVudCwgU2VsZWN0SXRlbSwgU2VsZWN0VHJpZ2dlciwgU2VsZWN0VmFsdWUKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHsgQ29weSwgU2VuZCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgpmdW5jdGlvbiBmaWxsVGVtcGxhdGUodGV4dCwgb3Bwb3J0dW5pdHkpIHsKICBpZiAoIXRleHQpIHJldHVybiAiIjsKICByZXR1cm4gdGV4dAogICAgLnJlcGxhY2UoL3t3ZWJzaXRlfS9nLCBvcHBvcnR1bml0eT8ud2Vic2l0ZSB8fCAiIikKICAgIC5yZXBsYWNlKC97dXJsfS9nLCBvcHBvcnR1bml0eT8udXJsIHx8ICIiKQogICAgLnJlcGxhY2UoL3tuaWNoZX0vZywgb3Bwb3J0dW5pdHk/Lm5pY2hlIHx8ICIiKQogICAgLnJlcGxhY2UoL3tkYX0vZywgb3Bwb3J0dW5pdHk/LmRvbWFpbl9hdXRob3JpdHkgIT0gbnVsbCA/IFN0cmluZyhvcHBvcnR1bml0eS5kb21haW5fYXV0aG9yaXR5KSA6ICIiKQogICAgLnJlcGxhY2UoL3t0cmFmZmljfS9nLCBvcHBvcnR1bml0eT8udHJhZmZpYyAhPSBudWxsID8gTnVtYmVyKG9wcG9ydHVuaXR5LnRyYWZmaWMpLnRvTG9jYWxlU3RyaW5nKCkgOiAiIikKICAgIC5yZXBsYWNlKC97dHlwZX0vZywgb3Bwb3J0dW5pdHk/LmJhY2tsaW5rX3R5cGUgfHwgIiIpOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBPdXRyZWFjaERpYWxvZyh7IG9wcG9ydHVuaXR5LCB0ZW1wbGF0ZXMsIG9uQ2xvc2UgfSkgewogIGNvbnN0IFt0ZW1wbGF0ZUlkLCBzZXRUZW1wbGF0ZUlkXSA9IFJlYWN0LnVzZVN0YXRlKCIiKTsKICBjb25zdCBbc3ViamVjdCwgc2V0U3ViamVjdF0gPSBSZWFjdC51c2VTdGF0ZSgiIik7CiAgY29uc3QgW2JvZHksIHNldEJvZHldID0gUmVhY3QudXNlU3RhdGUoIiIpOwogIGNvbnN0IFt0bywgc2V0VG9dID0gUmVhY3QudXNlU3RhdGUoIiIpOwogIGNvbnN0IFtjb3BpZWQsIHNldENvcGllZF0gPSBSZWFjdC51c2VTdGF0ZShmYWxzZSk7CgogIGNvbnN0IGhhc1RlbXBsYXRlcyA9IHRlbXBsYXRlcyAmJiB0ZW1wbGF0ZXMubGVuZ3RoID4gMDsKCiAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsKICAgIGlmIChvcHBvcnR1bml0eSAmJiBoYXNUZW1wbGF0ZXMpIHsKICAgICAgc2V0VGVtcGxhdGVJZCh0ZW1wbGF0ZXNbMF0uaWQpOwogICAgICBzZXRTdWJqZWN0KGZpbGxUZW1wbGF0ZSh0ZW1wbGF0ZXNbMF0uc3ViamVjdCwgb3Bwb3J0dW5pdHkpKTsKICAgICAgc2V0Qm9keShmaWxsVGVtcGxhdGUodGVtcGxhdGVzWzBdLmJvZHksIG9wcG9ydHVuaXR5KSk7CiAgICB9IGVsc2UgewogICAgICBzZXRUZW1wbGF0ZUlkKCIiKTsKICAgICAgc2V0U3ViamVjdCgiIik7CiAgICAgIHNldEJvZHkoIiIpOwogICAgfQogICAgc2V0VG8oIiIpOwogICAgc2V0Q29waWVkKGZhbHNlKTsKICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSByZWFjdC1ob29rcy9leGhhdXN0aXZlLWRlcHMKICB9LCBbb3Bwb3J0dW5pdHldKTsKCiAgY29uc3Qgb25TZWxlY3QgPSAoaWQpID0+IHsKICAgIHNldFRlbXBsYXRlSWQoaWQpOwogICAgY29uc3QgdHBsID0gdGVtcGxhdGVzLmZpbmQoKHQpID0+IHQuaWQgPT09IGlkKTsKICAgIGlmICh0cGwpIHsKICAgICAgc2V0U3ViamVjdChmaWxsVGVtcGxhdGUodHBsLnN1YmplY3QsIG9wcG9ydHVuaXR5KSk7CiAgICAgIHNldEJvZHkoZmlsbFRlbXBsYXRlKHRwbC5ib2R5LCBvcHBvcnR1bml0eSkpOwogICAgfQogIH07CgogIGNvbnN0IGhhbmRsZUNvcHkgPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBhd2FpdCBuYXZpZ2F0b3IuY2xpcGJvYXJkLndyaXRlVGV4dChgU3ViamVjdDogJHtzdWJqZWN0fVxuXG4ke2JvZHl9YCk7CiAgICAgIHNldENvcGllZCh0cnVlKTsKICAgICAgc2V0VGltZW91dCgoKSA9PiBzZXRDb3BpZWQoZmFsc2UpLCAyMDAwKTsKICAgIH0gY2F0Y2ggKGUpIHsgLyogaWdub3JlICovIH0KICB9OwoKICBjb25zdCBoYW5kbGVNYWlsdG8gPSAoKSA9PiB7CiAgICBjb25zdCBtYWlsdG8gPSBgbWFpbHRvOiR7ZW5jb2RlVVJJQ29tcG9uZW50KHRvKX0/c3ViamVjdD0ke2VuY29kZVVSSUNvbXBvbmVudChzdWJqZWN0KX0mYm9keT0ke2VuY29kZVVSSUNvbXBvbmVudChib2R5KX1gOwogICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSBtYWlsdG87CiAgfTsKCiAgcmV0dXJuICgKICAgIDxEaWFsb2cgb3Blbj17Qm9vbGVhbihvcHBvcnR1bml0eSl9IG9uT3BlbkNoYW5nZT17KG9wZW4pID0+ICFvcGVuICYmIG9uQ2xvc2UoKX0+CiAgICAgIDxEaWFsb2dDb250ZW50IGNsYXNzTmFtZT0ic206bWF4LXctMnhsIj4KICAgICAgICB7b3Bwb3J0dW5pdHkgJiYgKAogICAgICAgICAgPD4KICAgICAgICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICAgICAgICA8RGlhbG9nVGl0bGU+UmVhY2ggb3V0IHRvIHtvcHBvcnR1bml0eS53ZWJzaXRlfTwvRGlhbG9nVGl0bGU+CiAgICAgICAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAgICAgICAgREEge29wcG9ydHVuaXR5LmRvbWFpbl9hdXRob3JpdHl9IMK3IHtvcHBvcnR1bml0eS5iYWNrbGlua190eXBlfQogICAgICAgICAgICAgICAge29wcG9ydHVuaXR5Lmd1ZXN0X3Bvc3RfYXZhaWxhYmxlID8gIiDCtyBHdWVzdCBwb3N0IGF2YWlsYWJsZSIgOiAiIn0KICAgICAgICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICAgICAgeyFoYXNUZW1wbGF0ZXMgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYmctYW1iZXItNTAgcHgtMyBweS0yIHRleHQtc20gdGV4dC1hbWJlci04MDAiPgogICAgICAgICAgICAgICAgICBObyB0ZW1wbGF0ZXMgeWV0LiBDcmVhdGUgb3V0cmVhY2ggdGVtcGxhdGVzIGluIHlvdXIgZGFzaGJvYXJkIHRvIHNwZWVkIHVwIG91dHJlYWNoLgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICB7aGFzVGVtcGxhdGVzICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICAgICAgICAgIDxMYWJlbCBjbGFzc05hbWU9InRleHQteHMiPlRlbXBsYXRlPC9MYWJlbD4KICAgICAgICAgICAgICAgICAgPFNlbGVjdCB2YWx1ZT17dGVtcGxhdGVJZH0gb25WYWx1ZUNoYW5nZT17b25TZWxlY3R9PgogICAgICAgICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIGNsYXNzTmFtZT0iaC05Ij48U2VsZWN0VmFsdWUgcGxhY2Vob2xkZXI9IlNlbGVjdCBhIHRlbXBsYXRlIiAvPjwvU2VsZWN0VHJpZ2dlcj4KICAgICAgICAgICAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgICAgICAgICAgIHt0ZW1wbGF0ZXMubWFwKCh0KSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxTZWxlY3RJdGVtIGtleT17dC5pZH0gdmFsdWU9e3QuaWR9Pnt0Lm5hbWV9PC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgICAgICAgICAgICA8L1NlbGVjdD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMS41Ij4KICAgICAgICAgICAgICAgIDxMYWJlbCBjbGFzc05hbWU9InRleHQteHMiPlN1YmplY3Q8L0xhYmVsPgogICAgICAgICAgICAgICAgPElucHV0IHZhbHVlPXtzdWJqZWN0fSBvbkNoYW5nZT17KGUpID0+IHNldFN1YmplY3QoZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iRW1haWwgc3ViamVjdCIgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICAgICAgPExhYmVsIGNsYXNzTmFtZT0idGV4dC14cyI+Qm9keTwvTGFiZWw+CiAgICAgICAgICAgICAgICA8VGV4dGFyZWEgdmFsdWU9e2JvZHl9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0Qm9keShlLnRhcmdldC52YWx1ZSl9IHJvd3M9ezh9IHBsYWNlaG9sZGVyPSJFbWFpbCBib2R5IiAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIHtoYXNUZW1wbGF0ZXMgJiYgKAogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICAgICAgICAgICAgUGxhY2Vob2xkZXJzIGZpbGxlZCBmcm9tIHRoaXMgb3Bwb3J0dW5pdHk6IHsie3dlYnNpdGV9In0sIHsie3VybH0ifSwgeyJ7bmljaGV9In0sIHsie2RhfSJ9LCB7Int0cmFmZmljfSJ9LCB7Int0eXBlfSJ9LgogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMS41Ij4KICAgICAgICAgICAgICAgIDxMYWJlbCBjbGFzc05hbWU9InRleHQteHMiPkNvbnRhY3QgZW1haWwgKG9wdGlvbmFsKTwvTGFiZWw+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgICAgICAgIDxJbnB1dCB2YWx1ZT17dG99IG9uQ2hhbmdlPXsoZSkgPT4gc2V0VG8oZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iZWRpdG9yQGV4YW1wbGUuY29tIiAvPgogICAgICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIG9uQ2xpY2s9e2hhbmRsZU1haWx0b30gZGlzYWJsZWQ9eyF0b30+CiAgICAgICAgICAgICAgICAgICAgPFNlbmQgY2xhc3NOYW1lPSJtci0yIGgtNCB3LTQiIC8+IE9wZW4KICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWVuZCI+CiAgICAgICAgICAgICAgICA8QnV0dG9uIG9uQ2xpY2s9e2hhbmRsZUNvcHl9IGRpc2FibGVkPXshc3ViamVjdCAmJiAhYm9keX0+CiAgICAgICAgICAgICAgICAgIDxDb3B5IGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPiB7Y29waWVkID8gIkNvcGllZCEiIDogIkNvcHkgZW1haWwifQogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC8+CiAgICAgICAgKX0KICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgPC9EaWFsb2c+CiAgKTsKfQ==
+import React from "react";
+import {
+  Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import {
+  Select, SelectContent, SelectItem, SelectTrigger, SelectValue
+} from "@/components/ui/select";
+import { Copy, Send } from "lucide-react";
+
+function fillTemplate(text, opportunity) {
+  if (!text) return "";
+  return text
+    .replace(/{website}/g, opportunity?.website || "")
+    .replace(/{url}/g, opportunity?.url || "")
+    .replace(/{niche}/g, opportunity?.niche || "")
+    .replace(/{da}/g, opportunity?.domain_authority != null ? String(opportunity.domain_authority) : "")
+    .replace(/{traffic}/g, opportunity?.traffic != null ? Number(opportunity.traffic).toLocaleString() : "")
+    .replace(/{type}/g, opportunity?.backlink_type || "");
+}
+
+export default function OutreachDialog({ opportunity, templates, onClose }) {
+  const [templateId, setTemplateId] = React.useState("");
+  const [subject, setSubject] = React.useState("");
+  const [body, setBody] = React.useState("");
+  const [to, setTo] = React.useState("");
+  const [copied, setCopied] = React.useState(false);
+
+  const hasTemplates = templates && templates.length > 0;
+
+  React.useEffect(() => {
+    if (opportunity && hasTemplates) {
+      setTemplateId(templates[0].id);
+      setSubject(fillTemplate(templates[0].subject, opportunity));
+      setBody(fillTemplate(templates[0].body, opportunity));
+    } else {
+      setTemplateId("");
+      setSubject("");
+      setBody("");
+    }
+    setTo("");
+    setCopied(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [opportunity]);
+
+  const onSelect = (id) => {
+    setTemplateId(id);
+    const tpl = templates.find((t) => t.id === id);
+    if (tpl) {
+      setSubject(fillTemplate(tpl.subject, opportunity));
+      setBody(fillTemplate(tpl.body, opportunity));
+    }
+  };
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(`Subject: ${subject}\n\n${body}`);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (e) { /* ignore */ }
+  };
+
+  const handleMailto = () => {
+    const mailto = `mailto:${encodeURIComponent(to)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailto;
+  };
+
+  return (
+    <Dialog open={Boolean(opportunity)} onOpenChange={(open) => !open && onClose()}>
+      <DialogContent className="sm:max-w-2xl">
+        {opportunity && (
+          <>
+            <DialogHeader>
+              <DialogTitle>Reach out to {opportunity.website}</DialogTitle>
+              <DialogDescription>
+                DA {opportunity.domain_authority} · {opportunity.backlink_type}
+                {opportunity.guest_post_available ? " · Guest post available" : ""}
+              </DialogDescription>
+            </DialogHeader>
+            <div className="space-y-4">
+              {!hasTemplates && (
+                <div className="rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-800">
+                  No templates yet. Create outreach templates in your dashboard to speed up outreach.
+                </div>
+              )}
+              {hasTemplates && (
+                <div className="space-y-1.5">
+                  <Label className="text-xs">Template</Label>
+                  <Select value={templateId} onValueChange={onSelect}>
+                    <SelectTrigger className="h-9"><SelectValue placeholder="Select a template" /></SelectTrigger>
+                    <SelectContent>
+                      {templates.map((t) => (
+                        <SelectItem key={t.id} value={t.id}>{t.name}</SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+              )}
+              <div className="space-y-1.5">
+                <Label className="text-xs">Subject</Label>
+                <Input value={subject} onChange={(e) => setSubject(e.target.value)} placeholder="Email subject" />
+              </div>
+              <div className="space-y-1.5">
+                <Label className="text-xs">Body</Label>
+                <Textarea value={body} onChange={(e) => setBody(e.target.value)} rows={8} placeholder="Email body" />
+              </div>
+              {hasTemplates && (
+                <p className="text-xs text-slate-500">
+                  Placeholders filled from this opportunity: {"{website}"}, {"{url}"}, {"{niche}"}, {"{da}"}, {"{traffic}"}, {"{type}"}.
+                </p>
+              )}
+              <div className="space-y-1.5">
+                <Label className="text-xs">Contact email (optional)</Label>
+                <div className="flex gap-2">
+                  <Input value={to} onChange={(e) => setTo(e.target.value)} placeholder="editor@example.com" />
+                  <Button variant="outline" onClick={handleMailto} disabled={!to}>
+                    <Send className="mr-2 h-4 w-4" /> Open
+                  </Button>
+                </div>
+              </div>
+              <div className="flex justify-end">
+                <Button onClick={handleCopy} disabled={!subject && !body}>
+                  <Copy className="mr-2 h-4 w-4" /> {copied ? "Copied!" : "Copy email"}
+                </Button>
+              </div>
+            </div>
+          </>
+        )}
+      </DialogContent>
+    </Dialog>
+  );
+}

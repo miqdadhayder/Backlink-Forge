@@ -1,1 +1,122 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgdXNlTmF2aWdhdGUgfSBmcm9tICJyZWFjdC1yb3V0ZXItZG9tIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IEFycm93UmlnaHQgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgbW9tZW50IGZyb20gIm1vbWVudCI7CmltcG9ydCB7IERpYWxvZywgRGlhbG9nQ29udGVudCwgRGlhbG9nSGVhZGVyLCBEaWFsb2dUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwoKZXhwb3J0IGZ1bmN0aW9uIFNpdGVtYXBUYWIoeyBhbmFseXNlcyB9KSB7CiAgY29uc3QgbmF2aWdhdGUgPSB1c2VOYXZpZ2F0ZSgpOwogIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IFJlYWN0LnVzZVN0YXRlKG51bGwpOwoKICBjb25zdCBnZW5lcmF0aW9ucyA9IGFuYWx5c2VzLmZpbHRlcigoYSkgPT4gYS50eXBlID09PSAiZ2VuZXJhdGUiKTsKICBjb25zdCB2YWxpZGF0aW9ucyA9IGFuYWx5c2VzLmZpbHRlcigoYSkgPT4gYS50eXBlID09PSAidmFsaWRhdGUiKTsKICBjb25zdCB1cmxzQW5hbHl6ZWQgPSBhbmFseXNlcy5yZWR1Y2UoKHMsIGEpID0+IHMgKyAoYS51cmxzX2ZvdW5kIHx8IDApLCAwKTsKICBjb25zdCBsYXN0ID0gYW5hbHlzZXNbMF07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTQgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTQiPgogICAgICAgIDxDYXJkIGxhYmVsPSJUb3RhbCBHZW5lcmF0aW9ucyIgdmFsdWU9e2dlbmVyYXRpb25zLmxlbmd0aH0gLz4KICAgICAgICA8Q2FyZCBsYWJlbD0iVG90YWwgVmFsaWRhdGlvbnMiIHZhbHVlPXt2YWxpZGF0aW9ucy5sZW5ndGh9IC8+CiAgICAgICAgPENhcmQgbGFiZWw9IlVSTHMgQW5hbHl6ZWQiIHZhbHVlPXt1cmxzQW5hbHl6ZWR9IC8+CiAgICAgICAgPENhcmQgbGFiZWw9Ikxhc3QgQW5hbHlzaXMiIHZhbHVlPXtsYXN0ID8gbW9tZW50KGxhc3QuY3JlYXRlZF9kYXRlKS5mb3JtYXQoIk1NTSBEIikgOiAi4oCUIn0gLz4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgcC02IHNoYWRvdy1zbSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgZ2FwLTQgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTkwMCI+WE1MIFNpdGVtYXAgR2VuZXJhdG9yICYgVmFsaWRhdG9yPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQtc20gdGV4dC1zbGF0ZS01MDAiPkNyYXdsIHlvdXIgc2l0ZSwgZ2VuZXJhdGUgYSBzaXRlbWFwLCBhbmQgdmFsaWRhdGUgZXhpc3Rpbmcgc2l0ZW1hcHMgZm9yIGVycm9ycy48L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxCdXR0b24gb25DbGljaz17KCkgPT4gbmF2aWdhdGUoIi9zaXRlbWFwLWdlbmVyYXRvciIpfT5PcGVuIFRvb2wgPEFycm93UmlnaHQgY2xhc3NOYW1lPSJtbC0yIGgtNCB3LTQiIC8+PC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXdoaXRlIHNoYWRvdy1zbSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlci1iIGJvcmRlci1zbGF0ZS0xMDAgcC00Ij48aDMgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1zbGF0ZS05MDAiPlNpdGVtYXAgSGlzdG9yeTwvaDM+PC9kaXY+CiAgICAgICAge2FuYWx5c2VzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgIDxwIGNsYXNzTmFtZT0icC04IHRleHQtY2VudGVyIHRleHQtc20gdGV4dC1zbGF0ZS01MDAiPgogICAgICAgICAgICBObyBzaXRlbWFwIGFuYWx5c2VzIHlldC4gPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBuYXZpZ2F0ZSgiL3NpdGVtYXAtZ2VuZXJhdG9yIil9IGNsYXNzTmFtZT0iZm9udC1tZWRpdW0gdGV4dC1zbGF0ZS05MDAgdW5kZXJsaW5lIj5SdW4geW91ciBmaXJzdCBhbmFseXNpczwvYnV0dG9uPi4KICAgICAgICAgIDwvcD4KICAgICAgICApIDogKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im92ZXJmbG93LXgtYXV0byI+CiAgICAgICAgICAgIDx0YWJsZSBjbGFzc05hbWU9InctZnVsbCBtaW4tdy1bODIwcHhdIHRleHQtbGVmdCB0ZXh0LXNtIj4KICAgICAgICAgICAgICA8dGhlYWQgY2xhc3NOYW1lPSJib3JkZXItYiBib3JkZXItc2xhdGUtMTAwIGJnLXNsYXRlLTUwIHRleHQteHMgdXBwZXJjYXNlIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0icHgtNCBweS0zIGZvbnQtbWVkaXVtIj5XZWJzaXRlPC90aD4KICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0icHgtNCBweS0zIGZvbnQtbWVkaXVtIj5UeXBlPC90aD4KICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0icHgtNCBweS0zIGZvbnQtbWVkaXVtIj5VUkxzIEZvdW5kPC90aD4KICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0icHgtNCBweS0zIGZvbnQtbWVkaXVtIj5JbmNsdWRlZDwvdGg+CiAgICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InB4LTQgcHktMyBmb250LW1lZGl1bSI+RXJyb3JzPC90aD4KICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0icHgtNCBweS0zIGZvbnQtbWVkaXVtIj5TaXRlbWFwIFR5cGU8L3RoPgogICAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJweC00IHB5LTMgZm9udC1tZWRpdW0iPlN0YXR1czwvdGg+CiAgICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InB4LTQgcHktMyBmb250LW1lZGl1bSI+RGF0ZTwvdGg+CiAgICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InB4LTQgcHktMyBmb250LW1lZGl1bSI+PC90aD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgPC90aGVhZD4KICAgICAgICAgICAgICA8dGJvZHkgY2xhc3NOYW1lPSJkaXZpZGUteSBkaXZpZGUtc2xhdGUtNTAiPgogICAgICAgICAgICAgICAge2FuYWx5c2VzLm1hcCgoYSkgPT4gKAogICAgICAgICAgICAgICAgICA8dHIga2V5PXthLmlkfSBjbGFzc05hbWU9ImhvdmVyOmJnLXNsYXRlLTUwLzYwIj4KICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJtYXgtdy1bMjIwcHhdIHRydW5jYXRlIHB4LTQgcHktMyB0ZXh0LXNsYXRlLTcwMCIgdGl0bGU9e2Eud2Vic2l0ZV91cmx9PnthLndlYnNpdGVfdXJsfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0zIGNhcGl0YWxpemUgdGV4dC1zbGF0ZS02MDAiPnthLnR5cGV9PC90ZD4KICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTMgdGV4dC1zbGF0ZS02MDAiPnthLnVybHNfZm91bmQgfHwgMH08L3RkPgogICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyB0ZXh0LXNsYXRlLTYwMCI+e2EudXJsc19pbmNsdWRlZCB8fCAwfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0zIHRleHQtc2xhdGUtNjAwIj57YS5lcnJvcnMgfHwgMH08L3RkPgogICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyB0ZXh0LXNsYXRlLTYwMCI+e2Euc2l0ZW1hcF90eXBlIHx8ICLigJQifTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0zIHRleHQtc2xhdGUtNjAwIj57YS5zdGF0dXN9PC90ZD4KICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTMgdGV4dC1zbGF0ZS01MDAiPnttb21lbnQoYS5jcmVhdGVkX2RhdGUpLmZvcm1hdCgiTU1NIEQiKX08L3RkPgogICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyI+PEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IHNldE9wZW4oYSl9PlZpZXcgUmVwb3J0PC9CdXR0b24+PC90ZD4KICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvdGJvZHk+CiAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIDxEaWFsb2cgb3Blbj17ISFvcGVufSBvbk9wZW5DaGFuZ2U9eyh2KSA9PiAhdiAmJiBzZXRPcGVuKG51bGwpfT4KICAgICAgICA8RGlhbG9nQ29udGVudCBjbGFzc05hbWU9Im1heC13LTJ4bCI+CiAgICAgICAgICA8RGlhbG9nSGVhZGVyPjxEaWFsb2dUaXRsZT5TaXRlbWFwIFJlcG9ydDwvRGlhbG9nVGl0bGU+PC9EaWFsb2dIZWFkZXI+CiAgICAgICAgICB7b3BlbiAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMgdGV4dC1zbSI+CiAgICAgICAgICAgICAgPFJvdyBrPSJXZWJzaXRlIiB2PXtvcGVuLndlYnNpdGVfdXJsfSAvPgogICAgICAgICAgICAgIDxSb3cgaz0iVHlwZSIgdj17b3Blbi50eXBlfSAvPgogICAgICAgICAgICAgIDxSb3cgaz0iVVJMcyBGb3VuZCIgdj17b3Blbi51cmxzX2ZvdW5kfSAvPgogICAgICAgICAgICAgIDxSb3cgaz0iVVJMcyBJbmNsdWRlZCIgdj17b3Blbi51cmxzX2luY2x1ZGVkfSAvPgogICAgICAgICAgICAgIDxSb3cgaz0iRXJyb3JzIiB2PXtvcGVuLmVycm9yc30gLz4KICAgICAgICAgICAgICA8Um93IGs9Ildhcm5pbmdzIiB2PXtvcGVuLndhcm5pbmdzfSAvPgogICAgICAgICAgICAgIHtvcGVuLmhlYWx0aCAhPSBudWxsICYmIDxSb3cgaz0iSGVhbHRoIFNjb3JlIiB2PXtgJHtvcGVuLmhlYWx0aH0vMTAwYH0gLz59CiAgICAgICAgICAgICAgPFJvdyBrPSJSb2JvdHMudHh0IiB2PXtvcGVuLnJvYm90c19mb3VuZCA/ICJGb3VuZCIgOiAiTm90IGZvdW5kIn0gLz4KICAgICAgICAgICAgICB7b3Blbi5leGlzdGluZ19zaXRlbWFwcyAmJiA8Um93IGs9IkV4aXN0aW5nIFNpdGVtYXBzIiB2PXtvcGVuLmV4aXN0aW5nX3NpdGVtYXBzfSAvPn0KICAgICAgICAgICAgICB7b3Blbi54bWxfcHJldmlldyAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbGF0ZS01MDAiPlhNTCBQcmV2aWV3PC9kaXY+CiAgICAgICAgICAgICAgICAgIDxwcmUgY2xhc3NOYW1lPSJtdC0xIG1heC1oLTYwIG92ZXJmbG93LWF1dG8gcm91bmRlZC1sZyBiZy1zbGF0ZS05MDAgcC0zIHRleHQteHMgdGV4dC1zbGF0ZS0zMDAiPjxjb2RlPntvcGVuLnhtbF9wcmV2aWV3fTwvY29kZT48L3ByZT4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICAgIDwvRGlhbG9nPgogICAgPC9kaXY+CiAgKTsKfQoKZnVuY3Rpb24gQ2FyZCh7IGxhYmVsLCB2YWx1ZSB9KSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBiZy13aGl0ZSBwLTYgc2hhZG93LXNtIj4KICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1zbGF0ZS01MDAiPntsYWJlbH08L2Rpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgdGV4dC0zeGwgZm9udC1zZW1pYm9sZCB0cmFja2luZy10aWdodCB0ZXh0LXNsYXRlLTkwMCI+e3R5cGVvZiB2YWx1ZSA9PT0gIm51bWJlciIgPyB2YWx1ZS50b0xvY2FsZVN0cmluZygpIDogdmFsdWV9PC9kaXY+CiAgICA8L2Rpdj4KICApOwp9CgpmdW5jdGlvbiBSb3coeyBrLCB2IH0pIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIGdhcC00Ij4KICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNsYXRlLTUwMCI+e2t9PC9zcGFuPgogICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtcmlnaHQgdGV4dC1zbGF0ZS05MDAgYnJlYWstYWxsIj57U3RyaW5nKHYgPz8gIuKAlCIpfTwvc3Bhbj4KICAgIDwvZGl2PgogICk7Cn0=
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+import moment from "moment";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+
+export function SitemapTab({ analyses }) {
+  const navigate = useNavigate();
+  const [open, setOpen] = React.useState(null);
+
+  const generations = analyses.filter((a) => a.type === "generate");
+  const validations = analyses.filter((a) => a.type === "validate");
+  const urlsAnalyzed = analyses.reduce((s, a) => s + (a.urls_found || 0), 0);
+  const last = analyses[0];
+
+  return (
+    <div className="space-y-6">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <Card label="Total Generations" value={generations.length} />
+        <Card label="Total Validations" value={validations.length} />
+        <Card label="URLs Analyzed" value={urlsAnalyzed} />
+        <Card label="Last Analysis" value={last ? moment(last.created_date).format("MMM D") : "—"} />
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h3 className="text-base font-semibold text-slate-900">XML Sitemap Generator & Validator</h3>
+            <p className="mt-1 text-sm text-slate-500">Crawl your site, generate a sitemap, and validate existing sitemaps for errors.</p>
+          </div>
+          <Button onClick={() => navigate("/sitemap-generator")}>Open Tool <ArrowRight className="ml-2 h-4 w-4" /></Button>
+        </div>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <div className="border-b border-slate-100 p-4"><h3 className="text-sm font-semibold text-slate-900">Sitemap History</h3></div>
+        {analyses.length === 0 ? (
+          <p className="p-8 text-center text-sm text-slate-500">
+            No sitemap analyses yet. <button onClick={() => navigate("/sitemap-generator")} className="font-medium text-slate-900 underline">Run your first analysis</button>.
+          </p>
+        ) : (
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[820px] text-left text-sm">
+              <thead className="border-b border-slate-100 bg-slate-50 text-xs uppercase text-slate-500">
+                <tr>
+                  <th className="px-4 py-3 font-medium">Website</th>
+                  <th className="px-4 py-3 font-medium">Type</th>
+                  <th className="px-4 py-3 font-medium">URLs Found</th>
+                  <th className="px-4 py-3 font-medium">Included</th>
+                  <th className="px-4 py-3 font-medium">Errors</th>
+                  <th className="px-4 py-3 font-medium">Sitemap Type</th>
+                  <th className="px-4 py-3 font-medium">Status</th>
+                  <th className="px-4 py-3 font-medium">Date</th>
+                  <th className="px-4 py-3 font-medium"></th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-50">
+                {analyses.map((a) => (
+                  <tr key={a.id} className="hover:bg-slate-50/60">
+                    <td className="max-w-[220px] truncate px-4 py-3 text-slate-700" title={a.website_url}>{a.website_url}</td>
+                    <td className="px-4 py-3 capitalize text-slate-600">{a.type}</td>
+                    <td className="px-4 py-3 text-slate-600">{a.urls_found || 0}</td>
+                    <td className="px-4 py-3 text-slate-600">{a.urls_included || 0}</td>
+                    <td className="px-4 py-3 text-slate-600">{a.errors || 0}</td>
+                    <td className="px-4 py-3 text-slate-600">{a.sitemap_type || "—"}</td>
+                    <td className="px-4 py-3 text-slate-600">{a.status}</td>
+                    <td className="px-4 py-3 text-slate-500">{moment(a.created_date).format("MMM D")}</td>
+                    <td className="px-4 py-3"><Button variant="ghost" size="sm" onClick={() => setOpen(a)}>View Report</Button></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+
+      <Dialog open={!!open} onOpenChange={(v) => !v && setOpen(null)}>
+        <DialogContent className="max-w-2xl">
+          <DialogHeader><DialogTitle>Sitemap Report</DialogTitle></DialogHeader>
+          {open && (
+            <div className="space-y-3 text-sm">
+              <Row k="Website" v={open.website_url} />
+              <Row k="Type" v={open.type} />
+              <Row k="URLs Found" v={open.urls_found} />
+              <Row k="URLs Included" v={open.urls_included} />
+              <Row k="Errors" v={open.errors} />
+              <Row k="Warnings" v={open.warnings} />
+              {open.health != null && <Row k="Health Score" v={`${open.health}/100`} />}
+              <Row k="Robots.txt" v={open.robots_found ? "Found" : "Not found"} />
+              {open.existing_sitemaps && <Row k="Existing Sitemaps" v={open.existing_sitemaps} />}
+              {open.xml_preview && (
+                <div>
+                  <div className="text-slate-500">XML Preview</div>
+                  <pre className="mt-1 max-h-60 overflow-auto rounded-lg bg-slate-900 p-3 text-xs text-slate-300"><code>{open.xml_preview}</code></pre>
+                </div>
+              )}
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}
+
+function Card({ label, value }) {
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <div className="text-sm text-slate-500">{label}</div>
+      <div className="mt-2 text-3xl font-semibold tracking-tight text-slate-900">{typeof value === "number" ? value.toLocaleString() : value}</div>
+    </div>
+  );
+}
+
+function Row({ k, v }) {
+  return (
+    <div className="flex justify-between gap-4">
+      <span className="text-slate-500">{k}</span>
+      <span className="text-right text-slate-900 break-all">{String(v ?? "—")}</span>
+    </div>
+  );
+}

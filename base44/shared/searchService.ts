@@ -1,1 +1,65 @@
-Ly8gc2VhcmNoU2VydmljZQovLyBSZXNwb25zaWJsZSBmb3IgZmluZGluZyBjYW5kaWRhdGUgd2Vic2l0ZXMgZm9yIGEgZ2l2ZW4gbmljaGUva2V5d29yZC9jb3VudHJ5LgovLyBXaGVuIGEgcmVhbCBTRVJQIC8gc2l0ZS1kaXNjb3ZlcnkgQVBJIGtleSBpcyBhdmFpbGFibGUsIGNhbGwgaXQgaGVyZS4KLy8gT3RoZXJ3aXNlIHJldHVybiBhIGN1cmF0ZWQgcG9vbCBvZiBkZW1vIGRvbWFpbnMgdGhlbWVkIGJ5IHRoZSBrZXl3b3JkLgppbXBvcnQgeyBzZWNyZXRzIH0gZnJvbSAiYmFzZTQ0OnJ1bnRpbWUiOwoKZXhwb3J0IGZ1bmN0aW9uIGhhc0xpdmVTZWFyY2hQcm92aWRlcigpIHsKICByZXR1cm4gQm9vbGVhbihzZWNyZXRzLmdldCgiU0VSUEFQSV9LRVkiKSB8fCBzZWNyZXRzLmdldCgiREFUQUZPUlNFT19LRVkiKSk7Cn0KCmNvbnN0IEJBU0VfRE9NQUlOUyA9IFsKICAiYmxvZ2h1YiIsICJtYXJrZXRlcnNndWlkZSIsICJ0ZWNocHVsc2UiLCAiZ3Jvd3Rod2Vla2x5IiwgInNlb25ld3MiLAogICJjb250ZW50bG9vcCIsICJkaWdpdGFsaW5zaWRlciIsICJuaWNoZXBvc3QiLCAid3JpdGVsYWIiLCAibWVkaWFjb3JlIiwKICAiYXV0aG9yaXR5YmxvZyIsICJpbnNpZGVycG9zdCIsICJ0aGVtYXJrZXRpbmdyZXZpZXciLCAiZGV2am91cm5hbCIsCiAgInN0YXJ0dXBzdG9yeSIsICJmb3VuZGVybm90ZXMiLCAiYnVzaW5lc3N0YWxrIiwgImV4cGVydGNvbHVtbiIsCiAgImRhaWx5ZGlnZXN0IiwgImluZHVzdHJ5dm9pY2UiLCAicHJvaW5zaWdodHMiLCAidGhlbGVhZGVyc2JvYXJkIiwKICAiY3JlYXRpdmV3ZWIiLCAiY29kZWNyYWZ0IiwgImFpd2Vla2x5IiwgInNtYXJ0aHViIiwgImxpbmtidWlsZGVyIiwKICAib3V0cmVhY2hwcm8iLCAicmVzb3VyY2VpbmRleCIsICJkaXJodWIiLCAiZm9ydW1uZXQiLCAicHJvZmlsZWxpc3QiLAogICJndWVzdHBvc3QiLCAid3JpdGVmb3J1cyIsICJjb250cmlidXRvcmNlbnRyYWwiLCAibWVkaXVtcG9zdCIsICJ2b3htZWRpYSIsCiAgInF1b3JhaHViIiwgInJlZGRpdGxpa2UiLCAic3RhY2tvdmVyZmxvd2lzaCIsICJwcm9kdWN0aHVudGlzaCIsICJkZXZ0b2lzaCIsCiAgImhhc2hub2RlaXNoIiwgIm1lZGl1bWlzaCIsICJzdWJzdGFja2lzaCIsICJnaG9zdGJsb2ciLCAid29yZHByZXNzbWFnIiwKICAid2l4aW5zaWRlciIsICJzaG9waWZ5YmxvZyIsICJodWJzcG90bWFnYXppbmUiLCAibW96am91cm5hbCIsICJhaHJlZnNyZXZpZXciCl07Cgpjb25zdCBOSUNIRVMgPSBbCiAgIkRpZ2l0YWwgTWFya2V0aW5nIiwgIlRlY2hub2xvZ3kiLCAiV2ViIERldmVsb3BtZW50IiwgIkJ1c2luZXNzIiwKICAiRmluYW5jZSIsICJIZWFsdGgiLCAiTGlmZXN0eWxlIiwgIkVkdWNhdGlvbiIsICJTYWFTIiwgIlN0YXJ0dXBzIgpdOwoKY29uc3QgVFlQRVMgPSBbCiAgIkd1ZXN0IFBvc3QiLCAiUmVzb3VyY2UgUGFnZSIsICJCdXNpbmVzcyBEaXJlY3RvcnkiLCAiUHJvZmlsZSBMaW5rIiwKICAiQmxvZyBDb21tZW50IiwgIkZvcnVtIiwgIkJyb2tlbiBMaW5rIiwgIkNvbXBldGl0b3IgT3Bwb3J0dW5pdHkiCl07Cgpjb25zdCBDT1VOVFJZX1RMRFMgPSB7CiAgR2xvYmFsOiAiIiwgVVNBOiAiLmNvbSIsIFVLOiAiLmNvLnVrIiwgQ2FuYWRhOiAiLmNhIiwgQXVzdHJhbGlhOiAiLmNvbS5hdSIsCiAgUGFraXN0YW46ICIucGsiLCBJbmRpYTogIi5pbiIsIFVBRTogIi5hZSIKfTsKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBmaW5kQ2FuZGlkYXRlU2l0ZXMoa2V5d29yZCwgY291bnRyeSwgY291bnQpIHsKICBpZiAoaGFzTGl2ZVNlYXJjaFByb3ZpZGVyKCkpIHsKICAgIC8vIFRPRE86IGNhbGwgU0VSUC9EYXRhRm9yU0VPIEFQSSB1c2luZyBzZWNyZXRzLmdldCgiU0VSUEFQSV9LRVkiKQogIH0KICBjb25zdCB0bGQgPSBDT1VOVFJZX1RMRFNbY291bnRyeV0gfHwgIiI7CiAgY29uc3Qga3cgPSAoa2V5d29yZCB8fCAiIikudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9bXmEtejAtOV0vZywgIiIpLnNsaWNlKDAsIDEwKTsKICBjb25zdCByZXN1bHRzID0gW107CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBjb3VudDsgaSsrKSB7CiAgICBjb25zdCBiYXNlID0gQkFTRV9ET01BSU5TWyhpICsgKGt3Lmxlbmd0aCB8fCAwKSkgJSBCQVNFX0RPTUFJTlMubGVuZ3RoXTsKICAgIGNvbnN0IHN1ZmZpeCA9IGkgPj0gQkFTRV9ET01BSU5TLmxlbmd0aCA/IFN0cmluZyhpICsgMSkgOiAiIjsKICAgIGNvbnN0IGRvbWFpbiA9IGAke2Jhc2V9JHtrd30ke3N1ZmZpeH0ke3RsZH1gLnJlcGxhY2UoL1xzL2csICIiKTsKICAgIHJlc3VsdHMucHVzaCh7CiAgICAgIGRvbWFpbiwKICAgICAgd2Vic2l0ZTogY2FwaXRhbGl6ZShiYXNlKSArIChzdWZmaXggPyBgICR7c3VmZml4fWAgOiAiIiksCiAgICAgIG5pY2hlOiBOSUNIRVNbaSAlIE5JQ0hFUy5sZW5ndGhdLAogICAgICBiYWNrbGlua190eXBlOiBUWVBFU1tpICUgVFlQRVMubGVuZ3RoXQogICAgfSk7CiAgfQogIHJldHVybiByZXN1bHRzOwp9CgpmdW5jdGlvbiBjYXBpdGFsaXplKHMpIHsKICByZXR1cm4gcy5jaGFyQXQoMCkudG9VcHBlckNhc2UoKSArIHMuc2xpY2UoMSk7Cn0KCmV4cG9ydCB7IE5JQ0hFUywgVFlQRVMsIEJBU0VfRE9NQUlOUyB9Ow==
+// searchService
+// Responsible for finding candidate websites for a given niche/keyword/country.
+// When a real SERP / site-discovery API key is available, call it here.
+// Otherwise return a curated pool of demo domains themed by the keyword.
+import { secrets } from "base44:runtime";
+
+export function hasLiveSearchProvider() {
+  return Boolean(secrets.get("SERPAPI_KEY") || secrets.get("DATAFORSEO_KEY"));
+}
+
+const BASE_DOMAINS = [
+  "bloghub", "marketersguide", "techpulse", "growthweekly", "seonews",
+  "contentloop", "digitalinsider", "nichepost", "writelab", "mediacore",
+  "authorityblog", "insiderpost", "themarketingreview", "devjournal",
+  "startupstory", "foundernotes", "businesstalk", "expertcolumn",
+  "dailydigest", "industryvoice", "proinsights", "theleadersboard",
+  "creativeweb", "codecraft", "aiweekly", "smarthub", "linkbuilder",
+  "outreachpro", "resourceindex", "dirhub", "forumnet", "profilelist",
+  "guestpost", "writeforus", "contributorcentral", "mediumpost", "voxmedia",
+  "quorahub", "redditlike", "stackoverflowish", "producthuntish", "devtoish",
+  "hashnodeish", "mediumish", "substackish", "ghostblog", "wordpressmag",
+  "wixinsider", "shopifyblog", "hubspotmagazine", "mozjournal", "ahrefsreview"
+];
+
+const NICHES = [
+  "Digital Marketing", "Technology", "Web Development", "Business",
+  "Finance", "Health", "Lifestyle", "Education", "SaaS", "Startups"
+];
+
+const TYPES = [
+  "Guest Post", "Resource Page", "Business Directory", "Profile Link",
+  "Blog Comment", "Forum", "Broken Link", "Competitor Opportunity"
+];
+
+const COUNTRY_TLDS = {
+  Global: "", USA: ".com", UK: ".co.uk", Canada: ".ca", Australia: ".com.au",
+  Pakistan: ".pk", India: ".in", UAE: ".ae"
+};
+
+export async function findCandidateSites(keyword, country, count) {
+  if (hasLiveSearchProvider()) {
+    // TODO: call SERP/DataForSEO API using secrets.get("SERPAPI_KEY")
+  }
+  const tld = COUNTRY_TLDS[country] || "";
+  const kw = (keyword || "").toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 10);
+  const results = [];
+  for (let i = 0; i < count; i++) {
+    const base = BASE_DOMAINS[(i + (kw.length || 0)) % BASE_DOMAINS.length];
+    const suffix = i >= BASE_DOMAINS.length ? String(i + 1) : "";
+    const domain = `${base}${kw}${suffix}${tld}`.replace(/\s/g, "");
+    results.push({
+      domain,
+      website: capitalize(base) + (suffix ? ` ${suffix}` : ""),
+      niche: NICHES[i % NICHES.length],
+      backlink_type: TYPES[i % TYPES.length]
+    });
+  }
+  return results;
+}
+
+function capitalize(s) {
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+export { NICHES, TYPES, BASE_DOMAINS };

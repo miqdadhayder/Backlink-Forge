@@ -1,1 +1,188 @@
-Ly8gQ2xpZW50LXNpZGUgZXhwb3J0IHV0aWxpdGllcyBmb3IgdGhlIEJhY2tsaW5rIFF1YWxpdHkgQ2hlY2tlci4KaW1wb3J0IHsganNQREYgfSBmcm9tICJqc3BkZiI7CgpmdW5jdGlvbiBjc3ZDZWxsKHYpIHsKICBjb25zdCBzID0gdiA9PSBudWxsID8gIiIgOiBTdHJpbmcodik7CiAgaWYgKC9bIixcbl0vLnRlc3QocykpIHJldHVybiBgIiR7cy5yZXBsYWNlKC8iL2csICciIicpfSJgOwogIHJldHVybiBzOwp9CgpleHBvcnQgZnVuY3Rpb24gcmVwb3J0VG9Dc3YocmVwb3J0KSB7CiAgY29uc3Qgcm93cyA9IFsKICAgIFsiRmllbGQiLCAiVmFsdWUiXSwKICAgIFsiQmFja2xpbmsgVVJMIiwgcmVwb3J0LmlucHV0cy5iYWNrbGlua191cmxdLAogICAgWyJZb3VyIFdlYnNpdGUgVVJMIiwgcmVwb3J0LmlucHV0cy53ZWJzaXRlX3VybF0sCiAgICBbIlRhcmdldCBQYWdlIFVSTCIsIHJlcG9ydC5pbnB1dHMudGFyZ2V0X3VybCB8fCAiIl0sCiAgICBbIkFuY2hvciBUZXh0IChwcm92aWRlZCkiLCByZXBvcnQuaW5wdXRzLmFuY2hvcl90ZXh0IHx8ICIiXSwKICAgIFsiT3ZlcmFsbCBTY29yZSIsIHJlcG9ydC5vdmVyYWxsX3Njb3JlXSwKICAgIFsiQ2xhc3NpZmljYXRpb24iLCByZXBvcnQuY2xhc3NpZmljYXRpb25dLAogICAgWyJSaXNrIExldmVsIiwgcmVwb3J0LnJpc2tfbGV2ZWxdLAogICAgWyJSZWNvbW1lbmRhdGlvbiIsIHJlcG9ydC5yZWNvbW1lbmRhdGlvbi5hY3Rpb25dLAogICAgWyJEYXRhIENvbmZpZGVuY2UiLCByZXBvcnQuZGF0YV9jb25maWRlbmNlXSwKICAgIFsiU291cmNlIFVSTCAoZmluYWwpIiwgcmVwb3J0LnNvdXJjZS5maW5hbF91cmxdLAogICAgWyJIVFRQIFN0YXR1cyIsIHJlcG9ydC5zb3VyY2UuaHR0cF9zdGF0dXNdLAogICAgWyJTb3VyY2UgRG9tYWluIiwgcmVwb3J0LnNvdXJjZS5kb21haW5dLAogICAgWyJMaW5rIEZvdW5kIiwgcmVwb3J0LmxpbmsuZm91bmQgPyAiWWVzIiA6ICJObyJdLAogICAgWyJMaW5rIEF0dHJpYnV0ZSIsIHJlcG9ydC5saW5rLmF0dHJpYnV0ZV0sCiAgICBbIkRldGVjdGVkIEFuY2hvciIsIHJlcG9ydC5saW5rLmFuY2hvciB8fCAiIl0sCiAgICBbIkxpbmsgUGxhY2VtZW50IiwgcmVwb3J0LmxpbmsucGxhY2VtZW50IHx8ICIiXSwKICAgIFsiV29yZCBDb3VudCIsIHJlcG9ydC5zb3VyY2Uud29yZF9jb3VudF0sCiAgICBbIk91dGJvdW5kIExpbmtzIiwgcmVwb3J0LnNvdXJjZS5vdXRib3VuZF9saW5rc10sCiAgICBbIkFuYWx5emVkIEF0IiwgcmVwb3J0LmFuYWx5emVkX2F0XQogIF07CiAgKHJlcG9ydC5mYWN0b3JzIHx8IFtdKS5mb3JFYWNoKChmKSA9PiB7CiAgICByb3dzLnB1c2goW2BGYWN0b3I6ICR7Zi5uYW1lfWAsIGYuc2NvcmUgPT0gbnVsbCA/IGYuc3RhdHVzIDogYCR7Zi5zY29yZX0vMTAwICgke2Yuc3RhdHVzfSlgXSk7CiAgfSk7CiAgKHJlcG9ydC5yaXNrX3NpZ25hbHMgfHwgW10pLmZvckVhY2goKHIpID0+IHsKICAgIHJvd3MucHVzaChbYFJpc2s6ICR7ci5sYWJlbH1gLCBgJHtyLnNldmVyaXR5fSDigJQgJHtyLmV4cGxhbmF0aW9ufWBdKTsKICB9KTsKICByZXR1cm4gcm93cy5tYXAoKHIpID0+IHIubWFwKGNzdkNlbGwpLmpvaW4oIiwiKSkuam9pbigiXG4iKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGJ1bGtUb0NzdihpdGVtcykgewogIGNvbnN0IHJvd3MgPSBbCiAgICBbIlNvdXJjZSBEb21haW4iLCAiU291cmNlIFVSTCIsICJUYXJnZXQgUGFnZSIsICJBbmNob3IiLCAiTGluayBUeXBlIiwgIlF1YWxpdHkgU2NvcmUiLCAiQ2xhc3NpZmljYXRpb24iLCAiUmlzayIsICJSZWNvbW1lbmRhdGlvbiIsICJEYXRhIENvbmZpZGVuY2UiXQogIF07CiAgaXRlbXMuZm9yRWFjaCgoaXQpID0+IHsKICAgIGNvbnN0IHIgPSBpdC5yZXBvcnQgfHwgaXQ7CiAgICByb3dzLnB1c2goWwogICAgICByLnNvdXJjZT8uZG9tYWluIHx8ICIiLAogICAgICByLmlucHV0cz8uYmFja2xpbmtfdXJsIHx8ICIiLAogICAgICByLmlucHV0cz8udGFyZ2V0X3VybCB8fCAiIiwKICAgICAgci5saW5rPy5hbmNob3IgfHwgci5pbnB1dHM/LmFuY2hvcl90ZXh0IHx8ICIiLAogICAgICByLmxpbms/LmF0dHJpYnV0ZSB8fCAiIiwKICAgICAgci5vdmVyYWxsX3Njb3JlID8/ICIiLAogICAgICByLmNsYXNzaWZpY2F0aW9uIHx8ICIiLAogICAgICByLnJpc2tfbGV2ZWwgfHwgIiIsCiAgICAgIHIucmVjb21tZW5kYXRpb24/LmFjdGlvbiB8fCAiIiwKICAgICAgci5kYXRhX2NvbmZpZGVuY2UgfHwgIiIKICAgIF0pOwogIH0pOwogIHJldHVybiByb3dzLm1hcCgocikgPT4gci5tYXAoY3N2Q2VsbCkuam9pbigiLCIpKS5qb2luKCJcbiIpOwp9CgpmdW5jdGlvbiBkb3dubG9hZChmaWxlbmFtZSwgY29udGVudCwgbWltZSkgewogIGNvbnN0IGJsb2IgPSBuZXcgQmxvYihbY29udGVudF0sIHsgdHlwZTogbWltZSB9KTsKICBjb25zdCB1cmwgPSBVUkwuY3JlYXRlT2JqZWN0VVJMKGJsb2IpOwogIGNvbnN0IGEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJhIik7CiAgYS5ocmVmID0gdXJsOwogIGEuZG93bmxvYWQgPSBmaWxlbmFtZTsKICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOwogIGEuY2xpY2soKTsKICBkb2N1bWVudC5ib2R5LnJlbW92ZUNoaWxkKGEpOwogIFVSTC5yZXZva2VPYmplY3RVUkwodXJsKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGRvd25sb2FkQ3N2KGZpbGVuYW1lLCBjb250ZW50KSB7CiAgZG93bmxvYWQoZmlsZW5hbWUsIGNvbnRlbnQsICJ0ZXh0L2NzdjtjaGFyc2V0PXV0Zi04OyIpOwp9CgpleHBvcnQgZnVuY3Rpb24gZG93bmxvYWRSZXBvcnRQZGYocmVwb3J0KSB7CiAgY29uc3QgZG9jID0gbmV3IGpzUERGKHsgdW5pdDogInB0IiwgZm9ybWF0OiAiYTQiIH0pOwogIGNvbnN0IFcgPSBkb2MuaW50ZXJuYWwucGFnZVNpemUuZ2V0V2lkdGgoKTsKICBsZXQgeSA9IDQ4OwogIGNvbnN0IGJyYW5kID0gIkJhY2tsaW5rRm9yZ2UiOwogIGNvbnN0IGFjY2VudCA9IFsxNSwgMjMsIDQyXTsKCiAgZG9jLnNldEZpbGxDb2xvcihhY2NlbnRbMF0sIGFjY2VudFsxXSwgYWNjZW50WzJdKTsKICBkb2MucmVjdCgwLCAwLCBXLCA2LCAiRiIpOwoKICBkb2Muc2V0Rm9udCgiaGVsdmV0aWNhIiwgImJvbGQiKTsKICBkb2Muc2V0Rm9udFNpemUoMTgpOwogIGRvYy5zZXRUZXh0Q29sb3IoYWNjZW50WzBdLCBhY2NlbnRbMV0sIGFjY2VudFsyXSk7CiAgZG9jLnRleHQoYnJhbmQsIDQwLCB5KTsKICBkb2Muc2V0Rm9udFNpemUoMTEpOwogIGRvYy5zZXRGb250KCJoZWx2ZXRpY2EiLCAibm9ybWFsIik7CiAgZG9jLnNldFRleHRDb2xvcigxMDAsIDExNiwgMTM5KTsKICBkb2MudGV4dCgiQmFja2xpbmsgUXVhbGl0eSBSZXBvcnQiLCBXIC0gNDAsIHksIHsgYWxpZ246ICJyaWdodCIgfSk7CiAgeSArPSA2OwogIGRvYy5zZXREcmF3Q29sb3IoMjI2LCAyMzIsIDI0MCk7CiAgZG9jLmxpbmUoNDAsIHksIFcgLSA0MCwgeSk7CiAgeSArPSAyNjsKCiAgZG9jLnNldEZvbnQoImhlbHZldGljYSIsICJib2xkIik7CiAgZG9jLnNldEZvbnRTaXplKDIyKTsKICBkb2Muc2V0VGV4dENvbG9yKGFjY2VudFswXSwgYWNjZW50WzFdLCBhY2NlbnRbMl0pOwogIGRvYy50ZXh0KGAke3JlcG9ydC5vdmVyYWxsX3Njb3JlfSAvIDEwMGAsIDQwLCB5KTsKICBkb2Muc2V0Rm9udFNpemUoMTMpOwogIGRvYy50ZXh0KHJlcG9ydC5jbGFzc2lmaWNhdGlvbiwgMTgwLCB5KTsKICB5ICs9IDg7CiAgZG9jLnNldEZvbnQoImhlbHZldGljYSIsICJub3JtYWwiKTsKICBkb2Muc2V0Rm9udFNpemUoMTApOwogIGRvYy5zZXRUZXh0Q29sb3IoMTAwLCAxMTYsIDEzOSk7CiAgZG9jLnRleHQoYFJpc2s6ICR7cmVwb3J0LnJpc2tfbGV2ZWx9ICAgfCAgIFJlY29tbWVuZGF0aW9uOiAke3JlcG9ydC5yZWNvbW1lbmRhdGlvbi5hY3Rpb259ICAgfCAgIERhdGEgY29uZmlkZW5jZTogJHtyZXBvcnQuZGF0YV9jb25maWRlbmNlfWAsIDQwLCB5KTsKICB5ICs9IDI0OwoKICBjb25zdCBzZWN0aW9uID0gKHRpdGxlKSA9PiB7CiAgICB5ICs9IDg7CiAgICBkb2Muc2V0Rm9udCgiaGVsdmV0aWNhIiwgImJvbGQiKTsKICAgIGRvYy5zZXRGb250U2l6ZSgxMik7CiAgICBkb2Muc2V0VGV4dENvbG9yKGFjY2VudFswXSwgYWNjZW50WzFdLCBhY2NlbnRbMl0pOwogICAgZG9jLnRleHQodGl0bGUsIDQwLCB5KTsKICAgIHkgKz0gMTQ7CiAgICBkb2Muc2V0Rm9udCgiaGVsdmV0aWNhIiwgIm5vcm1hbCIpOwogICAgZG9jLnNldEZvbnRTaXplKDEwKTsKICAgIGRvYy5zZXRUZXh0Q29sb3IoNTEsIDY1LCA4NSk7CiAgfTsKCiAgY29uc3Qga3YgPSAobGFiZWwsIHZhbHVlKSA9PiB7CiAgICBpZiAoeSA+IDc4MCkgeyBkb2MuYWRkUGFnZSgpOyB5ID0gNDg7IH0KICAgIGRvYy5zZXRUZXh0Q29sb3IoMTAwLCAxMTYsIDEzOSk7CiAgICBkb2MudGV4dChsYWJlbCwgNDAsIHkpOwogICAgZG9jLnNldFRleHRDb2xvcigxNSwgMjMsIDQyKTsKICAgIGNvbnN0IGxpbmVzID0gZG9jLnNwbGl0VGV4dFRvU2l6ZShTdHJpbmcodmFsdWUgPT0gbnVsbCA/ICIiIDogdmFsdWUpLCBXIC0gMTYwKTsKICAgIGRvYy50ZXh0KGxpbmVzLCAxNjAsIHkpOwogICAgeSArPSBNYXRoLm1heCgxNCwgbGluZXMubGVuZ3RoICogMTIpOwogIH07CgogIHNlY3Rpb24oIkxpbmsgRGV0YWlscyIpOwogIGt2KCJCYWNrbGluayBVUkwiLCByZXBvcnQuaW5wdXRzLmJhY2tsaW5rX3VybCk7CiAga3YoIllvdXIgV2Vic2l0ZSIsIHJlcG9ydC5pbnB1dHMud2Vic2l0ZV91cmwpOwogIGt2KCJUYXJnZXQgUGFnZSIsIHJlcG9ydC5pbnB1dHMudGFyZ2V0X3VybCB8fCAi4oCUIik7CiAga3YoIkFuY2hvciAocHJvdmlkZWQpIiwgcmVwb3J0LmlucHV0cy5hbmNob3JfdGV4dCB8fCAi4oCUIik7CiAga3YoIlNvdXJjZSBVUkwgKGZpbmFsKSIsIHJlcG9ydC5zb3VyY2UuZmluYWxfdXJsKTsKICBrdigiSFRUUCBTdGF0dXMiLCByZXBvcnQuc291cmNlLmh0dHBfc3RhdHVzKTsKICBrdigiU291cmNlIERvbWFpbiIsIHJlcG9ydC5zb3VyY2UuZG9tYWluKTsKICBrdigiTGluayBGb3VuZCIsIHJlcG9ydC5saW5rLmZvdW5kID8gIlllcyIgOiAiTm8iKTsKICBrdigiTGluayBBdHRyaWJ1dGUiLCByZXBvcnQubGluay5hdHRyaWJ1dGUpOwogIGt2KCJEZXRlY3RlZCBBbmNob3IiLCByZXBvcnQubGluay5hbmNob3IgfHwgIuKAlCIpOwogIGt2KCJMaW5rIFBsYWNlbWVudCIsIHJlcG9ydC5saW5rLnBsYWNlbWVudCB8fCAi4oCUIik7CiAga3YoIldvcmQgQ291bnQiLCByZXBvcnQuc291cmNlLndvcmRfY291bnQpOwogIGt2KCJBbmFseXplZCBBdCIsIHJlcG9ydC5hbmFseXplZF9hdCk7CgogIHNlY3Rpb24oIlF1YWxpdHkgQnJlYWtkb3duIik7CiAgKHJlcG9ydC5mYWN0b3JzIHx8IFtdKS5mb3JFYWNoKChmKSA9PiB7CiAgICBjb25zdCB2YWwgPSBmLmF2YWlsYWJsZSA/IGAke2Yuc2NvcmV9LzEwMCDigJQgJHtmLnN0YXR1c31gIDogZi5zdGF0dXM7CiAgICBrdihmLm5hbWUsIHZhbCk7CiAgfSk7CgogIHNlY3Rpb24oIlJpc2sgQW5hbHlzaXMiKTsKICBpZiAoIXJlcG9ydC5yaXNrX3NpZ25hbHMgfHwgcmVwb3J0LnJpc2tfc2lnbmFscy5sZW5ndGggPT09IDApIHsKICAgIGt2KCJTaWduYWxzIiwgIk5vIHN1c3BpY2lvdXMgb3IgbG93LXF1YWxpdHkgc2lnbmFscyBkZXRlY3RlZC4iKTsKICB9IGVsc2UgewogICAgcmVwb3J0LnJpc2tfc2lnbmFscy5mb3JFYWNoKChyKSA9PiB7CiAgICAgIGt2KGAke3IubGFiZWx9ICgke3Iuc2V2ZXJpdHl9KWAsIHIuZXhwbGFuYXRpb24pOwogICAgfSk7CiAgfQoKICBzZWN0aW9uKCJSZWNvbW1lbmRhdGlvbiIpOwogIGt2KHJlcG9ydC5yZWNvbW1lbmRhdGlvbi5hY3Rpb24sIHJlcG9ydC5yZWNvbW1lbmRhdGlvbi50ZXh0KTsKCiAgc2VjdGlvbigiRGF0YSBDb25maWRlbmNlICYgTWV0aG9kb2xvZ3kiKTsKICBrdigiRGF0YSBDb25maWRlbmNlIiwgcmVwb3J0LmRhdGFfY29uZmlkZW5jZSk7CiAgKHJlcG9ydC5tZXRob2RvbG9neSB8fCBbXSkuZm9yRWFjaCgobSkgPT4gewogICAga3YobS5mYWN0b3IsIG0uaW5jbHVkZWQgPyBgV2VpZ2h0ICR7bS53ZWlnaHR9JSDigJQgaW5jbHVkZWRgIDogIk5vdCBhdmFpbGFibGUg4oCUIGV4Y2x1ZGVkIGZyb20gc2NvcmUiKTsKICB9KTsKCiAgeSArPSAxNjsKICBpZiAoeSA+IDc4MCkgeyBkb2MuYWRkUGFnZSgpOyB5ID0gNDg7IH0KICBkb2Muc2V0RHJhd0NvbG9yKDIyNiwgMjMyLCAyNDApOwogIGRvYy5saW5lKDQwLCB5LCBXIC0gNDAsIHkpOwogIHkgKz0gMTY7CiAgZG9jLnNldEZvbnRTaXplKDkpOwogIGRvYy5zZXRUZXh0Q29sb3IoMTQ4LCAxNjMsIDE4NCk7CiAgZG9jLnRleHQoIkdlbmVyYXRlZCBieSBCYWNrbGlua0ZvcmdlLiBTY29yZXMgYXJlIGNvbXB1dGVkIG9ubHkgZnJvbSBzaWduYWxzIHRoYXQgY291bGQgYmUgdmVyaWZpZWQgb3IiLCA0MCwgeSk7CiAgZG9jLnRleHQoImV4cGxpY2l0bHkgbWFya2VkIGFzIGVzdGltYXRlZC4gTm8gYXV0aG9yaXR5LCB0cmFmZmljLCBvciBzcGFtLXNjb3JlIG1ldHJpY3MgYXJlIGZhYnJpY2F0ZWQuIiwgNDAsIHkgKyAxMik7CgogIGRvYy5zYXZlKGBiYWNrbGluay1xdWFsaXR5LXJlcG9ydC0ke0RhdGUubm93KCl9LnBkZmApOwp9
+// Client-side export utilities for the Backlink Quality Checker.
+import { jsPDF } from "jspdf";
+
+function csvCell(v) {
+  const s = v == null ? "" : String(v);
+  if (/[",\n]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+  return s;
+}
+
+export function reportToCsv(report) {
+  const rows = [
+    ["Field", "Value"],
+    ["Backlink URL", report.inputs.backlink_url],
+    ["Your Website URL", report.inputs.website_url],
+    ["Target Page URL", report.inputs.target_url || ""],
+    ["Anchor Text (provided)", report.inputs.anchor_text || ""],
+    ["Overall Score", report.overall_score],
+    ["Classification", report.classification],
+    ["Risk Level", report.risk_level],
+    ["Recommendation", report.recommendation.action],
+    ["Data Confidence", report.data_confidence],
+    ["Source URL (final)", report.source.final_url],
+    ["HTTP Status", report.source.http_status],
+    ["Source Domain", report.source.domain],
+    ["Link Found", report.link.found ? "Yes" : "No"],
+    ["Link Attribute", report.link.attribute],
+    ["Detected Anchor", report.link.anchor || ""],
+    ["Link Placement", report.link.placement || ""],
+    ["Word Count", report.source.word_count],
+    ["Outbound Links", report.source.outbound_links],
+    ["Analyzed At", report.analyzed_at]
+  ];
+  (report.factors || []).forEach((f) => {
+    rows.push([`Factor: ${f.name}`, f.score == null ? f.status : `${f.score}/100 (${f.status})`]);
+  });
+  (report.risk_signals || []).forEach((r) => {
+    rows.push([`Risk: ${r.label}`, `${r.severity} — ${r.explanation}`]);
+  });
+  return rows.map((r) => r.map(csvCell).join(",")).join("\n");
+}
+
+export function bulkToCsv(items) {
+  const rows = [
+    ["Source Domain", "Source URL", "Target Page", "Anchor", "Link Type", "Quality Score", "Classification", "Risk", "Recommendation", "Data Confidence"]
+  ];
+  items.forEach((it) => {
+    const r = it.report || it;
+    rows.push([
+      r.source?.domain || "",
+      r.inputs?.backlink_url || "",
+      r.inputs?.target_url || "",
+      r.link?.anchor || r.inputs?.anchor_text || "",
+      r.link?.attribute || "",
+      r.overall_score ?? "",
+      r.classification || "",
+      r.risk_level || "",
+      r.recommendation?.action || "",
+      r.data_confidence || ""
+    ]);
+  });
+  return rows.map((r) => r.map(csvCell).join(",")).join("\n");
+}
+
+function download(filename, content, mime) {
+  const blob = new Blob([content], { type: mime });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+export function downloadCsv(filename, content) {
+  download(filename, content, "text/csv;charset=utf-8;");
+}
+
+export function downloadReportPdf(report) {
+  const doc = new jsPDF({ unit: "pt", format: "a4" });
+  const W = doc.internal.pageSize.getWidth();
+  let y = 48;
+  const brand = "BacklinkForge";
+  const accent = [15, 23, 42];
+
+  doc.setFillColor(accent[0], accent[1], accent[2]);
+  doc.rect(0, 0, W, 6, "F");
+
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(18);
+  doc.setTextColor(accent[0], accent[1], accent[2]);
+  doc.text(brand, 40, y);
+  doc.setFontSize(11);
+  doc.setFont("helvetica", "normal");
+  doc.setTextColor(100, 116, 139);
+  doc.text("Backlink Quality Report", W - 40, y, { align: "right" });
+  y += 6;
+  doc.setDrawColor(226, 232, 240);
+  doc.line(40, y, W - 40, y);
+  y += 26;
+
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(22);
+  doc.setTextColor(accent[0], accent[1], accent[2]);
+  doc.text(`${report.overall_score} / 100`, 40, y);
+  doc.setFontSize(13);
+  doc.text(report.classification, 180, y);
+  y += 8;
+  doc.setFont("helvetica", "normal");
+  doc.setFontSize(10);
+  doc.setTextColor(100, 116, 139);
+  doc.text(`Risk: ${report.risk_level}   |   Recommendation: ${report.recommendation.action}   |   Data confidence: ${report.data_confidence}`, 40, y);
+  y += 24;
+
+  const section = (title) => {
+    y += 8;
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(12);
+    doc.setTextColor(accent[0], accent[1], accent[2]);
+    doc.text(title, 40, y);
+    y += 14;
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(10);
+    doc.setTextColor(51, 65, 85);
+  };
+
+  const kv = (label, value) => {
+    if (y > 780) { doc.addPage(); y = 48; }
+    doc.setTextColor(100, 116, 139);
+    doc.text(label, 40, y);
+    doc.setTextColor(15, 23, 42);
+    const lines = doc.splitTextToSize(String(value == null ? "" : value), W - 160);
+    doc.text(lines, 160, y);
+    y += Math.max(14, lines.length * 12);
+  };
+
+  section("Link Details");
+  kv("Backlink URL", report.inputs.backlink_url);
+  kv("Your Website", report.inputs.website_url);
+  kv("Target Page", report.inputs.target_url || "—");
+  kv("Anchor (provided)", report.inputs.anchor_text || "—");
+  kv("Source URL (final)", report.source.final_url);
+  kv("HTTP Status", report.source.http_status);
+  kv("Source Domain", report.source.domain);
+  kv("Link Found", report.link.found ? "Yes" : "No");
+  kv("Link Attribute", report.link.attribute);
+  kv("Detected Anchor", report.link.anchor || "—");
+  kv("Link Placement", report.link.placement || "—");
+  kv("Word Count", report.source.word_count);
+  kv("Analyzed At", report.analyzed_at);
+
+  section("Quality Breakdown");
+  (report.factors || []).forEach((f) => {
+    const val = f.available ? `${f.score}/100 — ${f.status}` : f.status;
+    kv(f.name, val);
+  });
+
+  section("Risk Analysis");
+  if (!report.risk_signals || report.risk_signals.length === 0) {
+    kv("Signals", "No suspicious or low-quality signals detected.");
+  } else {
+    report.risk_signals.forEach((r) => {
+      kv(`${r.label} (${r.severity})`, r.explanation);
+    });
+  }
+
+  section("Recommendation");
+  kv(report.recommendation.action, report.recommendation.text);
+
+  section("Data Confidence & Methodology");
+  kv("Data Confidence", report.data_confidence);
+  (report.methodology || []).forEach((m) => {
+    kv(m.factor, m.included ? `Weight ${m.weight}% — included` : "Not available — excluded from score");
+  });
+
+  y += 16;
+  if (y > 780) { doc.addPage(); y = 48; }
+  doc.setDrawColor(226, 232, 240);
+  doc.line(40, y, W - 40, y);
+  y += 16;
+  doc.setFontSize(9);
+  doc.setTextColor(148, 163, 184);
+  doc.text("Generated by BacklinkForge. Scores are computed only from signals that could be verified or", 40, y);
+  doc.text("explicitly marked as estimated. No authority, traffic, or spam-score metrics are fabricated.", 40, y + 12);
+
+  doc.save(`backlink-quality-report-${Date.now()}.pdf`);
+}

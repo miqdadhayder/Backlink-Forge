@@ -1,1 +1,41 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKCmNvbnN0IFNURVBTID0gWwogIHsKICAgIG51bTogIjAxIiwKICAgIHRpdGxlOiAiRW50ZXIgWW91ciBXZWJzaXRlIiwKICAgIGRlc2M6ICJBZGQgeW91ciB3ZWJzaXRlIGFuZCB0YXJnZXQgbmljaGUgdG8gZGVmaW5lIHdoZXJlIHlvdSB3YW50IGJhY2tsaW5rcy4iCiAgfSwKICB7CiAgICBudW06ICIwMiIsCiAgICB0aXRsZTogIkdlbmVyYXRlIE9wcG9ydHVuaXRpZXMiLAogICAgZGVzYzogIk91ciBzeXN0ZW0gYW5hbHl6ZXMgcG90ZW50aWFsIGJhY2tsaW5rIGFuZCBndWVzdC1wb3N0aW5nIG9wcG9ydHVuaXRpZXMuIgogIH0sCiAgewogICAgbnVtOiAiMDMiLAogICAgdGl0bGU6ICJCdWlsZCBCZXR0ZXIgTGlua3MiLAogICAgZGVzYzogIlJldmlldyBvcHBvcnR1bml0aWVzIGFuZCB2aXNpdCByZWxldmFudCB3ZWJzaXRlcyB0byBzdGFydCBvdXRyZWFjaC4iCiAgfQpdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG93SXRXb3JrcygpIHsKICByZXR1cm4gKAogICAgPHNlY3Rpb24gaWQ9Imhvdy1pdC13b3JrcyIgY2xhc3NOYW1lPSJiZy13aGl0ZSBweS0yMCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTZ4bCBweC00IHNtOnB4LTYiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTJ4bCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtc2xhdGUtOTAwIj5Ib3cgSXQgV29ya3M8L2gyPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIHRleHQtc2xhdGUtNjAwIj5UaHJlZSBzaW1wbGUgc3RlcHMgdG8gYmV0dGVyIGxpbmstYnVpbGRpbmcuPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xMiBncmlkIGdhcC02IG1kOmdyaWQtY29scy0zIj4KICAgICAgICAgIHtTVEVQUy5tYXAoKHMpID0+ICgKICAgICAgICAgICAgPGRpdiBrZXk9e3MubnVtfSBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXNsYXRlLTUwLzUwIHAtOCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmRpZ28tNjAwIj57cy5udW19PC9zcGFuPgogICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9Im10LTQgdGV4dC1sZyBmb250LXNlbWlib2xkIHRleHQtc2xhdGUtOTAwIj57cy50aXRsZX08L2gzPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIGxlYWRpbmctcmVsYXhlZCB0ZXh0LXNsYXRlLTYwMCI+e3MuZGVzY308L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn0=
+import React from "react";
+
+const STEPS = [
+  {
+    num: "01",
+    title: "Enter Your Website",
+    desc: "Add your website and target niche to define where you want backlinks."
+  },
+  {
+    num: "02",
+    title: "Generate Opportunities",
+    desc: "Our system analyzes potential backlink and guest-posting opportunities."
+  },
+  {
+    num: "03",
+    title: "Build Better Links",
+    desc: "Review opportunities and visit relevant websites to start outreach."
+  }
+];
+
+export default function HowItWorks() {
+  return (
+    <section id="how-it-works" className="bg-white py-20">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-3xl font-semibold tracking-tight text-slate-900">How It Works</h2>
+          <p className="mt-3 text-slate-600">Three simple steps to better link-building.</p>
+        </div>
+        <div className="mt-12 grid gap-6 md:grid-cols-3">
+          {STEPS.map((s) => (
+            <div key={s.num} className="rounded-2xl border border-slate-200 bg-slate-50/50 p-8">
+              <span className="text-sm font-semibold text-indigo-600">{s.num}</span>
+              <h3 className="mt-4 text-lg font-semibold text-slate-900">{s.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">{s.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

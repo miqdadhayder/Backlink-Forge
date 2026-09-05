@@ -1,1 +1,54 @@
-Ly8gQ1NWIC8gZmlsZSBkb3dubG9hZCBoZWxwZXJzIGZvciB0aGUgc2l0ZW1hcCB0b29scyDigJQgYnVpbGRzIHJlYWwgZmlsZXMgY2xpZW50LXNpZGUuCgpmdW5jdGlvbiBjc3ZFc2NhcGUodikgewogIGNvbnN0IHMgPSBTdHJpbmcodiA9PSBudWxsID8gIiIgOiB2KTsKICBpZiAocy5pbmNsdWRlcygiLCIpIHx8IHMuaW5jbHVkZXMoJyInKSB8fCBzLmluY2x1ZGVzKCJcbiIpKSByZXR1cm4gYCIke3MucmVwbGFjZSgvIi9nLCAnIiInKX0iYDsKICByZXR1cm4gczsKfQoKZnVuY3Rpb24gdHJpZ2dlckRvd25sb2FkKGNvbnRlbnQsIGZpbGVuYW1lLCB0eXBlKSB7CiAgY29uc3QgYmxvYiA9IG5ldyBCbG9iKFtjb250ZW50XSwgeyB0eXBlOiBgJHt0eXBlfTtjaGFyc2V0PXV0Zi04O2AgfSk7CiAgY29uc3QgdXJsID0gVVJMLmNyZWF0ZU9iamVjdFVSTChibG9iKTsKICBjb25zdCBhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiYSIpOwogIGEuaHJlZiA9IHVybDsKICBhLnNldEF0dHJpYnV0ZSgiZG93bmxvYWQiLCBmaWxlbmFtZSk7CiAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChhKTsKICBhLmNsaWNrKCk7CiAgZG9jdW1lbnQuYm9keS5yZW1vdmVDaGlsZChhKTsKICBVUkwucmV2b2tlT2JqZWN0VVJMKHVybCk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBkb3dubG9hZFRleHQodGV4dCwgZmlsZW5hbWUsIHR5cGUgPSAiYXBwbGljYXRpb24veG1sIikgewogIHRyaWdnZXJEb3dubG9hZCh0ZXh0LCBmaWxlbmFtZSwgdHlwZSk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBleHBvcnRTaXRlbWFwQ3N2KHVybHMsIGZpbGVuYW1lID0gInNpdGVtYXAtcmVwb3J0LmNzdiIpIHsKICBjb25zdCBoZWFkZXJzID0gWwogICAgIlVSTCIsICJGaW5hbCBVUkwiLCAiU3RhdHVzIENvZGUiLCAiU3RhdHVzIiwgIkNhbm9uaWNhbCIsCiAgICAiSW5kZXhhYmxlIiwgIkluY2x1ZGVkIiwgIkV4Y2x1c2lvbiBSZWFzb24iLCAiQ29udGVudC1UeXBlIiwgIkRlcHRoIgogIF07CiAgY29uc3Qgcm93cyA9ICh1cmxzIHx8IFtdKS5tYXAoKHUpID0+CiAgICBbdS51cmwsIHUuZmluYWxfdXJsLCB1LnN0YXR1cywgdS5zdGF0dXNfbGFiZWwsIHUuY2Fub25pY2FsIHx8ICIiLAogICAgIHUuaW5kZXhhYmxlID8gIlllcyIgOiAiTm8iLCB1LmluY2x1ZGVkID8gIlllcyIgOiAiTm8iLAogICAgIHUuZXhjbHVzaW9uX3JlYXNvbiB8fCAiIiwgdS5jb250ZW50X3R5cGUsIHUuZGVwdGhdLm1hcChjc3ZFc2NhcGUpLmpvaW4oIiwiKQogICk7CiAgdHJpZ2dlckRvd25sb2FkKFtoZWFkZXJzLmpvaW4oIiwiKSwgLi4ucm93c10uam9pbigiXG4iKSwgZmlsZW5hbWUsICJ0ZXh0L2NzdiIpOwp9CgpleHBvcnQgZnVuY3Rpb24gZXhwb3J0VmFsaWRhdGlvbkNzdihyZXN1bHQsIGZpbGVuYW1lID0gInNpdGVtYXAtdmFsaWRhdGlvbi1yZXBvcnQuY3N2IikgewogIGNvbnN0IGlzc3VlcyA9IHJlc3VsdC5pc3N1ZXMgfHwgW107CiAgY29uc3Qgc3VtbWFyeSA9IFsKICAgIFsiU2l0ZW1hcCBIZWFsdGgiLCByZXN1bHQuaGVhbHRoXSwKICAgIFsiVVJMcyBGb3VuZCIsIHJlc3VsdC5zdGF0cy51cmxfY291bnRdLAogICAgWyJEdXBsaWNhdGVzIiwgcmVzdWx0LnN0YXRzLmR1cGxpY2F0ZV9jb3VudF0sCiAgICBbIkludmFsaWQgVVJMcyIsIHJlc3VsdC5zdGF0cy5pbnZhbGlkX2NvdW50XSwKICAgIFsiTm9uLUhUVFBTIiwgcmVzdWx0LnN0YXRzLm5vbl9odHRwc19jb3VudF0sCiAgICBbIkVycm9ycyIsIGlzc3Vlcy5maWx0ZXIoKGkpID0+IGkuc2V2ZXJpdHkgPT09ICJlcnJvciIpLmxlbmd0aF0sCiAgICBbIldhcm5pbmdzIiwgaXNzdWVzLmZpbHRlcigoaSkgPT4gaS5zZXZlcml0eSA9PT0gIndhcm5pbmciKS5sZW5ndGhdCiAgXS5tYXAoKHIpID0+IHIubWFwKGNzdkVzY2FwZSkuam9pbigiLCIpKTsKICBjb25zdCBoZWFkZXJzID0gWyJVUkwiLCAiSXNzdWUgVHlwZSIsICJTZXZlcml0eSIsICJTdGF0dXMiLCAiUmVjb21tZW5kYXRpb24iXTsKICBjb25zdCByb3dzID0gaXNzdWVzLm1hcCgoaSkgPT4KICAgIFtpLnVybCwgaS50eXBlLCBpLnNldmVyaXR5LCBpLnN0YXR1cyA9PSBudWxsID8gIiIgOiBpLnN0YXR1cywgaS5yZWNvbW1lbmRhdGlvbl0ubWFwKGNzdkVzY2FwZSkuam9pbigiLCIpCiAgKTsKICB0cmlnZ2VyRG93bmxvYWQoW3N1bW1hcnkuam9pbigiXG4iKSwgIiIsIGhlYWRlcnMuam9pbigiLCIpLCAuLi5yb3dzXS5qb2luKCJcbiIpLCBmaWxlbmFtZSwgInRleHQvY3N2Iik7Cn0=
+// CSV / file download helpers for the sitemap tools — builds real files client-side.
+
+function csvEscape(v) {
+  const s = String(v == null ? "" : v);
+  if (s.includes(",") || s.includes('"') || s.includes("\n")) return `"${s.replace(/"/g, '""')}"`;
+  return s;
+}
+
+function triggerDownload(content, filename, type) {
+  const blob = new Blob([content], { type: `${type};charset=utf-8;` });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.setAttribute("download", filename);
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+export function downloadText(text, filename, type = "application/xml") {
+  triggerDownload(text, filename, type);
+}
+
+export function exportSitemapCsv(urls, filename = "sitemap-report.csv") {
+  const headers = [
+    "URL", "Final URL", "Status Code", "Status", "Canonical",
+    "Indexable", "Included", "Exclusion Reason", "Content-Type", "Depth"
+  ];
+  const rows = (urls || []).map((u) =>
+    [u.url, u.final_url, u.status, u.status_label, u.canonical || "",
+     u.indexable ? "Yes" : "No", u.included ? "Yes" : "No",
+     u.exclusion_reason || "", u.content_type, u.depth].map(csvEscape).join(",")
+  );
+  triggerDownload([headers.join(","), ...rows].join("\n"), filename, "text/csv");
+}
+
+export function exportValidationCsv(result, filename = "sitemap-validation-report.csv") {
+  const issues = result.issues || [];
+  const summary = [
+    ["Sitemap Health", result.health],
+    ["URLs Found", result.stats.url_count],
+    ["Duplicates", result.stats.duplicate_count],
+    ["Invalid URLs", result.stats.invalid_count],
+    ["Non-HTTPS", result.stats.non_https_count],
+    ["Errors", issues.filter((i) => i.severity === "error").length],
+    ["Warnings", issues.filter((i) => i.severity === "warning").length]
+  ].map((r) => r.map(csvEscape).join(","));
+  const headers = ["URL", "Issue Type", "Severity", "Status", "Recommendation"];
+  const rows = issues.map((i) =>
+    [i.url, i.type, i.severity, i.status == null ? "" : i.status, i.recommendation].map(csvEscape).join(",")
+  );
+  triggerDownload([summary.join("\n"), "", headers.join(","), ...rows].join("\n"), filename, "text/csv");
+}

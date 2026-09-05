@@ -1,1 +1,37 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKCmZ1bmN0aW9uIFJvdyh7IGxhYmVsLCB2YWx1ZSwgbGluayB9KSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIGdhcC0xIGJvcmRlci1iIGJvcmRlci1zbGF0ZS0xMDAgcHktMyBzbTpncmlkLWNvbHMtMyI+CiAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCI+e2xhYmVsfTwvc3Bhbj4KICAgICAge2xpbmsgPyAoCiAgICAgICAgPGEgaHJlZj17dmFsdWV9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiIGNsYXNzTmFtZT0iYnJlYWstYWxsIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1zbGF0ZS05MDAgdW5kZXJsaW5lIHNtOmNvbC1zcGFuLTIiPnt2YWx1ZX08L2E+CiAgICAgICkgOiAoCiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJicmVhay1hbGwgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTkwMCBzbTpjb2wtc3Bhbi0yIj57dmFsdWUgfHwgIuKAlCJ9PC9zcGFuPgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTGlua0RldGFpbHMoeyByZXBvcnQgfSkgewogIGNvbnN0IHsgc291cmNlLCBsaW5rLCBpbnB1dHMgfSA9IHJlcG9ydDsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXdoaXRlIHAtNiBzaGFkb3ctc20iPgogICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTkwMCI+QmFja2xpbmsgRGV0YWlsczwvaDM+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIj4KICAgICAgICA8Um93IGxhYmVsPSJTb3VyY2UgVVJMIiB2YWx1ZT17aW5wdXRzLmJhY2tsaW5rX3VybH0gbGluayAvPgogICAgICAgIDxSb3cgbGFiZWw9IlNvdXJjZSAoZmluYWwpIiB2YWx1ZT17c291cmNlLmZpbmFsX3VybH0gbGluaz17c291cmNlLmZpbmFsX3VybD8uc3RhcnRzV2l0aCgiaHR0cCIpfSAvPgogICAgICAgIDxSb3cgbGFiZWw9IlNvdXJjZSBEb21haW4iIHZhbHVlPXtzb3VyY2UuZG9tYWlufSAvPgogICAgICAgIDxSb3cgbGFiZWw9IlNvdXJjZSBQYWdlIiB2YWx1ZT17c291cmNlLnBhZ2VfcGF0aH0gLz4KICAgICAgICA8Um93IGxhYmVsPSJUYXJnZXQgVVJMIiB2YWx1ZT17aW5wdXRzLnRhcmdldF91cmx9IGxpbmsgLz4KICAgICAgICA8Um93IGxhYmVsPSJZb3VyIFdlYnNpdGUiIHZhbHVlPXtpbnB1dHMud2Vic2l0ZV91cmx9IGxpbmsgLz4KICAgICAgICA8Um93IGxhYmVsPSJBbmNob3IgVGV4dCIgdmFsdWU9e2xpbmsuYW5jaG9yIHx8IGlucHV0cy5hbmNob3JfdGV4dH0gLz4KICAgICAgICA8Um93IGxhYmVsPSJMaW5rIEF0dHJpYnV0ZSIgdmFsdWU9e2xpbmsuYXR0cmlidXRlfSAvPgogICAgICAgIDxSb3cgbGFiZWw9IkxpbmsgUGxhY2VtZW50IiB2YWx1ZT17bGluay5wbGFjZW1lbnR9IC8+CiAgICAgICAgPFJvdyBsYWJlbD0iSFRUUCBTdGF0dXMiIHZhbHVlPXtzb3VyY2UuaHR0cF9zdGF0dXMgfHwgIlVuYWJsZSB0byB2ZXJpZnkifSAvPgogICAgICAgIDxSb3cgbGFiZWw9IlJlZGlyZWN0ZWQiIHZhbHVlPXtzb3VyY2UucmVkaXJlY3RlZCA/IGBZZXMg4oaSICR7c291cmNlLnJlZGlyZWN0X3RhcmdldCB8fCBzb3VyY2UuZmluYWxfdXJsfWAgOiAiTm8ifSAvPgogICAgICAgIDxSb3cgbGFiZWw9Ikxhc3QgQ2hlY2tlZCIgdmFsdWU9e25ldyBEYXRlKHJlcG9ydC5hbmFseXplZF9hdCkudG9Mb2NhbGVTdHJpbmcoKX0gLz4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9
+import React from "react";
+
+function Row({ label, value, link }) {
+  return (
+    <div className="grid grid-cols-1 gap-1 border-b border-slate-100 py-3 sm:grid-cols-3">
+      <span className="text-sm text-slate-500">{label}</span>
+      {link ? (
+        <a href={value} target="_blank" rel="noopener noreferrer" className="break-all text-sm font-medium text-slate-900 underline sm:col-span-2">{value}</a>
+      ) : (
+        <span className="break-all text-sm font-medium text-slate-900 sm:col-span-2">{value || "—"}</span>
+      )}
+    </div>
+  );
+}
+
+export default function LinkDetails({ report }) {
+  const { source, link, inputs } = report;
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <h3 className="text-base font-semibold text-slate-900">Backlink Details</h3>
+      <div className="mt-3">
+        <Row label="Source URL" value={inputs.backlink_url} link />
+        <Row label="Source (final)" value={source.final_url} link={source.final_url?.startsWith("http")} />
+        <Row label="Source Domain" value={source.domain} />
+        <Row label="Source Page" value={source.page_path} />
+        <Row label="Target URL" value={inputs.target_url} link />
+        <Row label="Your Website" value={inputs.website_url} link />
+        <Row label="Anchor Text" value={link.anchor || inputs.anchor_text} />
+        <Row label="Link Attribute" value={link.attribute} />
+        <Row label="Link Placement" value={link.placement} />
+        <Row label="HTTP Status" value={source.http_status || "Unable to verify"} />
+        <Row label="Redirected" value={source.redirected ? `Yes → ${source.redirect_target || source.final_url}` : "No"} />
+        <Row label="Last Checked" value={new Date(report.analyzed_at).toLocaleString()} />
+      </div>
+    </div>
+  );
+}

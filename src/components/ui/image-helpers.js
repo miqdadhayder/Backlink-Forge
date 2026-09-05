@@ -1,1 +1,91 @@
-Y29uc3QgV0lYX01FRElBX0hPU1RTID0gewogICJtZWRpYS5iYXNlNDQuY29tIjogIi9pbWFnZXMvcHVibGljLyIsCiAgInN0YXRpYy53aXhzdGF0aWMuY29tIjogIi9tZWRpYS8iLAp9CgpleHBvcnQgY29uc3QgREVGQVVMVF9UUkFOU0ZPUk1fV0lEVEggPSAxMDI0CmV4cG9ydCBjb25zdCBJTUFHRV9MT0FEX01PREUgPSB7CiAgT1BUSU1JWkVEOiAib3B0aW1pemVkIiwKICBPUklHSU5BTDogIm9yaWdpbmFsIiwKICBGQUxMQkFDSzogImZhbGxiYWNrIiwKfQoKY29uc3QgREVWSUNFX1BJWEVMX1JBVElPUyA9IFsxLCAyLCAzXQpjb25zdCBNQVhfRElNRU5TSU9OID0gNjAwMAoKLyoqIFJldHVybnMgdHJhbnNmb3JtIG1ldGFkYXRhIG9ubHkgZm9yIGNhbm9uaWNhbCBwdWJsaWMgV2l4IGltYWdlIFVSTHMuICovCmV4cG9ydCBmdW5jdGlvbiBwYXJzZVdpeE1lZGlhVXJsKHNyYykgewogIHRyeSB7CiAgICBjb25zdCB1cmwgPSBuZXcgVVJMKHNyYykKICAgIGlmICgKICAgICAgdXJsLnByb3RvY29sICE9PSAiaHR0cHM6IiB8fAogICAgICB1cmwudXNlcm5hbWUgfHwKICAgICAgdXJsLnBhc3N3b3JkIHx8CiAgICAgICh1cmwucG9ydCAmJiB1cmwucG9ydCAhPT0gIjQ0MyIpCiAgICApIHsKICAgICAgcmV0dXJuIG51bGwKICAgIH0KCiAgICBjb25zdCBwYXRoUHJlZml4ID0gV0lYX01FRElBX0hPU1RTW3VybC5ob3N0bmFtZV0KICAgIGlmICghcGF0aFByZWZpeCkgcmV0dXJuIG51bGwKCiAgICBjb25zdCB0cmFuc2Zvcm1lZCA9IHVybC5wYXRobmFtZS5tYXRjaCgvXiguKilcL3YxXC8oPzpmaWxsfGZpdClcL1teL10rXC9bXi9dKyQvaSkKICAgIGNvbnN0IGJhc2VQYXRoID0gdHJhbnNmb3JtZWQgPyB0cmFuc2Zvcm1lZFsxXSA6IHVybC5wYXRobmFtZQogICAgY29uc3QgZmlsZW5hbWUgPSBiYXNlUGF0aC5zcGxpdCgiLyIpLnBvcCgpCiAgICBpZiAoCiAgICAgICFiYXNlUGF0aC5zdGFydHNXaXRoKHBhdGhQcmVmaXgpIHx8CiAgICAgICFmaWxlbmFtZSB8fAogICAgICAhL1wuW2EtejAtOV0rJC9pLnRlc3QoZmlsZW5hbWUpIHx8CiAgICAgIC9cLnN2ZyQvaS50ZXN0KGZpbGVuYW1lKQogICAgKSB7CiAgICAgIHJldHVybiBudWxsCiAgICB9CgogICAgcmV0dXJuIHsgYmFzZVVybDogYCR7dXJsLm9yaWdpbn0ke2Jhc2VQYXRofWAsIGZpbGVuYW1lIH0KICB9IGNhdGNoIHsKICAgIHJldHVybiBudWxsCiAgfQp9Cgpjb25zdCBjbGFtcERpbSA9IChuKSA9PiBNYXRoLm1pbihNYXRoLm1heChNYXRoLnJvdW5kKG4pLCAxKSwgTUFYX0RJTUVOU0lPTikKY29uc3QgY2xhbXAwMSA9IChuKSA9PiBNYXRoLm1pbigxLCBNYXRoLm1heCgwLCBuKSkKCmV4cG9ydCBmdW5jdGlvbiBidWlsZFRyYW5zZm9ybVVybCgKICB7IGJhc2VVcmwsIGZpbGVuYW1lIH0sCiAgeyB3aWR0aCwgaGVpZ2h0LCBjcm9wLCBmb2NhbFBvaW50LCBxdWFsaXR5IH0KKSB7CiAgY29uc3QgcGFyYW1zID0gW2B3XyR7Y2xhbXBEaW0od2lkdGgpfWAsIGBoXyR7Y2xhbXBEaW0oaGVpZ2h0IHx8IHdpZHRoKX1gXQogIGlmIChjcm9wKSB7CiAgICBwYXJhbXMucHVzaCgKICAgICAgZm9jYWxQb2ludAogICAgICAgID8gYGZwXyR7Y2xhbXAwMShmb2NhbFBvaW50LngpLnRvRml4ZWQoMil9XyR7Y2xhbXAwMShmb2NhbFBvaW50LnkpLnRvRml4ZWQoMil9YAogICAgICAgIDogImFsX2MiCiAgICApCiAgfQogIHBhcmFtcy5wdXNoKGBxXyR7cXVhbGl0eX1gLCAidXNtXzAuNjZfMS4wMF8wLjAxIiwgImVuY193ZWJwIiwgInF1YWxpdHlfYXV0byIpCiAgY29uc3Qgb3V0cHV0TmFtZSA9IC9cLmdpZiQvaS50ZXN0KGZpbGVuYW1lKQogICAgPyBmaWxlbmFtZQogICAgOiBmaWxlbmFtZS5yZXBsYWNlKC9cLlthLXowLTldKyQvaSwgIiIpICsgIi53ZWJwIgogIHJldHVybiBgJHtiYXNlVXJsfS92MS8ke2Nyb3AgPyAiZmlsbCIgOiAiZml0In0vJHtwYXJhbXMuam9pbigiLCIpfS8ke291dHB1dE5hbWV9YAp9CgpleHBvcnQgZnVuY3Rpb24gYnVpbGRTcmNTZXQocGFyc2VkLCBvcHRpb25zKSB7CiAgcmV0dXJuIERFVklDRV9QSVhFTF9SQVRJT1MubWFwKAogICAgKGRwcikgPT4KICAgICAgYCR7YnVpbGRUcmFuc2Zvcm1VcmwocGFyc2VkLCB7CiAgICAgICAgLi4ub3B0aW9ucywKICAgICAgICB3aWR0aDogb3B0aW9ucy53aWR0aCAqIGRwciwKICAgICAgICBoZWlnaHQ6IG9wdGlvbnMuaGVpZ2h0ID8gb3B0aW9ucy5oZWlnaHQgKiBkcHIgOiB1bmRlZmluZWQsCiAgICAgIH0pfSAke2Rwcn14YAogICkuam9pbigiLCAiKQp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0T3JpZ2luYWxJbWFnZVVybChzcmMsIHBhcnNlZCkgewogIHJldHVybiBwYXJzZWQ/LmJhc2VVcmwgfHwgc3JjCn0KCmV4cG9ydCBmdW5jdGlvbiBuZXh0SW1hZ2VMb2FkTW9kZShtb2RlKSB7CiAgcmV0dXJuIG1vZGUgPT09IElNQUdFX0xPQURfTU9ERS5PUFRJTUlaRUQKICAgID8gSU1BR0VfTE9BRF9NT0RFLk9SSUdJTkFMCiAgICA6IElNQUdFX0xPQURfTU9ERS5GQUxMQkFDSwp9Cg==
+const WIX_MEDIA_HOSTS = {
+  "media.base44.com": "/images/public/",
+  "static.wixstatic.com": "/media/",
+}
+
+export const DEFAULT_TRANSFORM_WIDTH = 1024
+export const IMAGE_LOAD_MODE = {
+  OPTIMIZED: "optimized",
+  ORIGINAL: "original",
+  FALLBACK: "fallback",
+}
+
+const DEVICE_PIXEL_RATIOS = [1, 2, 3]
+const MAX_DIMENSION = 6000
+
+/** Returns transform metadata only for canonical public Wix image URLs. */
+export function parseWixMediaUrl(src) {
+  try {
+    const url = new URL(src)
+    if (
+      url.protocol !== "https:" ||
+      url.username ||
+      url.password ||
+      (url.port && url.port !== "443")
+    ) {
+      return null
+    }
+
+    const pathPrefix = WIX_MEDIA_HOSTS[url.hostname]
+    if (!pathPrefix) return null
+
+    const transformed = url.pathname.match(/^(.*)\/v1\/(?:fill|fit)\/[^/]+\/[^/]+$/i)
+    const basePath = transformed ? transformed[1] : url.pathname
+    const filename = basePath.split("/").pop()
+    if (
+      !basePath.startsWith(pathPrefix) ||
+      !filename ||
+      !/\.[a-z0-9]+$/i.test(filename) ||
+      /\.svg$/i.test(filename)
+    ) {
+      return null
+    }
+
+    return { baseUrl: `${url.origin}${basePath}`, filename }
+  } catch {
+    return null
+  }
+}
+
+const clampDim = (n) => Math.min(Math.max(Math.round(n), 1), MAX_DIMENSION)
+const clamp01 = (n) => Math.min(1, Math.max(0, n))
+
+export function buildTransformUrl(
+  { baseUrl, filename },
+  { width, height, crop, focalPoint, quality }
+) {
+  const params = [`w_${clampDim(width)}`, `h_${clampDim(height || width)}`]
+  if (crop) {
+    params.push(
+      focalPoint
+        ? `fp_${clamp01(focalPoint.x).toFixed(2)}_${clamp01(focalPoint.y).toFixed(2)}`
+        : "al_c"
+    )
+  }
+  params.push(`q_${quality}`, "usm_0.66_1.00_0.01", "enc_webp", "quality_auto")
+  const outputName = /\.gif$/i.test(filename)
+    ? filename
+    : filename.replace(/\.[a-z0-9]+$/i, "") + ".webp"
+  return `${baseUrl}/v1/${crop ? "fill" : "fit"}/${params.join(",")}/${outputName}`
+}
+
+export function buildSrcSet(parsed, options) {
+  return DEVICE_PIXEL_RATIOS.map(
+    (dpr) =>
+      `${buildTransformUrl(parsed, {
+        ...options,
+        width: options.width * dpr,
+        height: options.height ? options.height * dpr : undefined,
+      })} ${dpr}x`
+  ).join(", ")
+}
+
+export function getOriginalImageUrl(src, parsed) {
+  return parsed?.baseUrl || src
+}
+
+export function nextImageLoadMode(mode) {
+  return mode === IMAGE_LOAD_MODE.OPTIMIZED
+    ? IMAGE_LOAD_MODE.ORIGINAL
+    : IMAGE_LOAD_MODE.FALLBACK
+}

@@ -1,1 +1,188 @@
-aW1wb3J0IHsgc2FmZVVybCwgbm9ybWFsaXplVXJsLCBzYW1lSG9zdCwgZXNjYXBlUmUgfSBmcm9tICIuL3VybE5vcm1hbGl6ZXIudHMiOwppbXBvcnQgeyBmZXRjaFJvYm90cywgaXNBbGxvd2VkLCBSb2JvdHNJbmZvIH0gZnJvbSAiLi9yb2JvdHNTZXJ2aWNlLnRzIjsKaW1wb3J0IHsgZGVjaWRlSW5kZXhhYmxlIH0gZnJvbSAiLi9pbmRleGFiaWxpdHkudHMiOwoKY29uc3QgVElNRU9VVF9NUyA9IDcwMDA7CmNvbnN0IFVBID0gIkJhY2tsaW5rRm9yZ2VTaXRlbWFwQm90LzEuMCAoK2h0dHBzOi8vYmFja2xpbmtmb3JnZS5jb20vYm90KSI7CmNvbnN0IERFQURMSU5FX01TID0gMjUwMDA7CmNvbnN0IEhBUkRfVVJMX0NBUCA9IDI1MDsKCmV4cG9ydCBpbnRlcmZhY2UgQ3Jhd2xlZFVybCB7CiAgdXJsOiBzdHJpbmc7CiAgZmluYWxfdXJsOiBzdHJpbmcgfCBudWxsOwogIHN0YXR1czogbnVtYmVyOwogIHN0YXR1c19sYWJlbDogc3RyaW5nOwogIGNvbnRlbnRfdHlwZTogc3RyaW5nOwogIGNhbm9uaWNhbDogc3RyaW5nIHwgbnVsbDsKICBpbmRleGFibGU6IGJvb2xlYW47CiAgaW5jbHVkZWQ6IGJvb2xlYW47CiAgZXhjbHVzaW9uX3JlYXNvbjogc3RyaW5nIHwgbnVsbDsKICBkZXB0aDogbnVtYmVyOwp9CgpleHBvcnQgaW50ZXJmYWNlIENyYXdsUmVzdWx0IHsKICB1cmxzOiBDcmF3bGVkVXJsW107CiAgcm9ib3RzOiBSb2JvdHNJbmZvOwogIGV4aXN0aW5nX3NpdGVtYXBzOiBzdHJpbmdbXTsKICBzdGF0czogeyBkaXNjb3ZlcmVkOiBudW1iZXI7IHZhbGlkOiBudW1iZXI7IGV4Y2x1ZGVkOiBudW1iZXI7IGVycm9yczogbnVtYmVyOyBpbmNsdWRlZDogbnVtYmVyIH07CiAgY2FwcGVkOiBib29sZWFuOwp9CgpmdW5jdGlvbiBzdGF0dXNMYWJlbChjb2RlOiBudW1iZXIpOiBzdHJpbmcgewogIGlmIChjb2RlID09PSAwKSByZXR1cm4gIlRpbWVvdXQiOwogIGlmIChjb2RlID49IDUwMCkgcmV0dXJuICJTZXJ2ZXIgRXJyb3IiOwogIGlmIChjb2RlID09PSA0MDQpIHJldHVybiAiTm90IEZvdW5kIjsKICBpZiAoY29kZSA9PT0gNDAzKSByZXR1cm4gIkZvcmJpZGRlbiI7CiAgaWYgKGNvZGUgPj0gNDAwKSByZXR1cm4gIkNsaWVudCBFcnJvciI7CiAgaWYgKGNvZGUgPj0gMzAwKSByZXR1cm4gIlJlZGlyZWN0IjsKICBpZiAoY29kZSA+PSAyMDApIHJldHVybiAiT0siOwogIHJldHVybiAiVW5rbm93biI7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjcmF3bChvcHRzOiB7CiAgc3RhcnRVcmw6IHN0cmluZzsKICBtYXhVcmxzOiBudW1iZXI7CiAgbWF4RGVwdGg6IG51bWJlcjsgLy8gMCA9IHVubGltaXRlZAogIGluY2x1ZGVUeXBlczogc3RyaW5nW107CiAgZXhjbHVkZVBhdHRlcm5zOiBzdHJpbmdbXTsKfSk6IFByb21pc2U8Q3Jhd2xSZXN1bHQ+IHsKICBjb25zdCBzdGFydCA9IHNhZmVVcmwob3B0cy5zdGFydFVybCk7CiAgaWYgKCFzdGFydCkgdGhyb3cgbmV3IEVycm9yKCJJbnZhbGlkIHN0YXJ0IFVSTCIpOwogIGNvbnN0IG9yaWdpbiA9IHN0YXJ0Lm9yaWdpbjsKICBjb25zdCBpbmNsdWRlTm9uSHRtbCA9CiAgICBvcHRzLmluY2x1ZGVUeXBlcy5pbmNsdWRlcygiUERGcyIpIHx8IG9wdHMuaW5jbHVkZVR5cGVzLmluY2x1ZGVzKCJJbWFnZXMiKTsKCiAgY29uc3Qgcm9ib3RzID0gYXdhaXQgZmV0Y2hSb2JvdHMob3JpZ2luKTsKICBjb25zdCBleGlzdGluZ19zaXRlbWFwcyA9IEFycmF5LmZyb20obmV3IFNldChyb2JvdHMuc2l0ZW1hcHMpKTsKCiAgY29uc3QgZGVhZGxpbmUgPSBEYXRlLm5vdygpICsgREVBRExJTkVfTVM7CiAgY29uc3QgbWF4VXJscyA9IE1hdGgubWF4KDEsIE1hdGgubWluKG9wdHMubWF4VXJscywgSEFSRF9VUkxfQ0FQKSk7CiAgY29uc3QgbWF4RGVwdGggPSBvcHRzLm1heERlcHRoID09PSAwID8gOTkgOiBvcHRzLm1heERlcHRoOwoKICBjb25zdCBzZWVuID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgY29uc3QgcmVzdWx0czogQ3Jhd2xlZFVybFtdID0gW107CiAgbGV0IHF1ZXVlOiB7IHVybDogc3RyaW5nOyBkZXB0aDogbnVtYmVyIH1bXSA9IFt7IHVybDogc3RhcnQudG9TdHJpbmcoKSwgZGVwdGg6IDAgfV07CiAgc2Vlbi5hZGQoc3RhcnQudG9TdHJpbmcoKSk7CiAgbGV0IGNhcHBlZCA9IGZhbHNlOwoKICBjb25zdCBleGNsdWRlUmVzID0gKG9wdHMuZXhjbHVkZVBhdHRlcm5zIHx8IFtdKQogICAgLm1hcCgocCkgPT4gcC50cmltKCkpCiAgICAuZmlsdGVyKEJvb2xlYW4pCiAgICAubWFwKChwKSA9PiBuZXcgUmVnRXhwKGVzY2FwZVJlKHApLnJlcGxhY2UoL1xcXCovZywgIi4qIikpKTsKCiAgY29uc3QgZW5xdWV1ZSA9IChyYXdVcmw6IHN0cmluZywgYmFzZTogc3RyaW5nLCBkZXB0aDogbnVtYmVyKSA9PiB7CiAgICBjb25zdCBuID0gbm9ybWFsaXplVXJsKHJhd1VybCwgYmFzZSk7CiAgICBpZiAoIW4pIHJldHVybjsKICAgIGlmICghc2FtZUhvc3Qobiwgb3JpZ2luKSkgcmV0dXJuOwogICAgaWYgKHNlZW4uaGFzKG4pKSByZXR1cm47CiAgICBpZiAoZGVwdGggPiBtYXhEZXB0aCkgcmV0dXJuOwogICAgaWYgKGV4Y2x1ZGVSZXMuc29tZSgocmUpID0+IHJlLnRlc3QobikpKSByZXR1cm47CiAgICBzZWVuLmFkZChuKTsKICAgIHF1ZXVlLnB1c2goeyB1cmw6IG4sIGRlcHRoIH0pOwogIH07CgogIHdoaWxlIChxdWV1ZS5sZW5ndGggPiAwICYmIHJlc3VsdHMubGVuZ3RoIDwgbWF4VXJscykgewogICAgaWYgKERhdGUubm93KCkgPiBkZWFkbGluZSkgewogICAgICBjYXBwZWQgPSB0cnVlOwogICAgICBicmVhazsKICAgIH0KICAgIGNvbnN0IGJhdGNoID0gcXVldWUuc3BsaWNlKDAsIE1hdGgubWluKDgsIHF1ZXVlLmxlbmd0aCwgbWF4VXJscyAtIHJlc3VsdHMubGVuZ3RoKSk7CiAgICBjb25zdCBzZXR0bGVkID0gYXdhaXQgUHJvbWlzZS5hbGxTZXR0bGVkKAogICAgICBiYXRjaC5tYXAoKGl0ZW0pID0+IGZldGNoVXJsKGl0ZW0udXJsLCBpdGVtLmRlcHRoLCByb2JvdHMsIGluY2x1ZGVOb25IdG1sKSkKICAgICk7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGJhdGNoLmxlbmd0aDsgaSsrKSB7CiAgICAgIGNvbnN0IGl0ZW0gPSBiYXRjaFtpXTsKICAgICAgY29uc3QgcyA9IHNldHRsZWRbaV07CiAgICAgIGlmIChzLnN0YXR1cyAhPT0gImZ1bGZpbGxlZCIpIHsKICAgICAgICByZXN1bHRzLnB1c2goewogICAgICAgICAgdXJsOiBpdGVtLnVybCwgZmluYWxfdXJsOiBudWxsLCBzdGF0dXM6IDAsIHN0YXR1c19sYWJlbDogIkVycm9yIiwKICAgICAgICAgIGNvbnRlbnRfdHlwZTogIiIsIGNhbm9uaWNhbDogbnVsbCwgaW5kZXhhYmxlOiBmYWxzZSwgaW5jbHVkZWQ6IGZhbHNlLAogICAgICAgICAgZXhjbHVzaW9uX3JlYXNvbjogIlVucmVhY2hhYmxlIiwgZGVwdGg6IGl0ZW0uZGVwdGgKICAgICAgICB9KTsKICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICBjb25zdCB7IHJlc3VsdCwgbGlua3MgfSA9IHMudmFsdWU7CiAgICAgIHJlc3VsdHMucHVzaChyZXN1bHQpOwogICAgICBpZiAobGlua3MubGVuZ3RoKSB7CiAgICAgICAgZm9yIChjb25zdCBsIG9mIGxpbmtzKSBlbnF1ZXVlKGwsIGl0ZW0udXJsLCBpdGVtLmRlcHRoICsgMSk7CiAgICAgIH0KICAgIH0KICB9CiAgaWYgKHF1ZXVlLmxlbmd0aCA+IDApIGNhcHBlZCA9IHRydWU7CgogIGNvbnN0IHN0YXRzID0gewogICAgZGlzY292ZXJlZDogc2Vlbi5zaXplLAogICAgdmFsaWQ6IHJlc3VsdHMuZmlsdGVyKChyKSA9PiByLnN0YXR1cyA+PSAyMDAgJiYgci5zdGF0dXMgPCA0MDApLmxlbmd0aCwKICAgIGV4Y2x1ZGVkOiByZXN1bHRzLmZpbHRlcigocikgPT4gIXIuaW5jbHVkZWQpLmxlbmd0aCwKICAgIGVycm9yczogcmVzdWx0cy5maWx0ZXIoKHIpID0+IHIuc3RhdHVzID09PSAwIHx8IHIuc3RhdHVzID49IDQwMCkubGVuZ3RoLAogICAgaW5jbHVkZWQ6IHJlc3VsdHMuZmlsdGVyKChyKSA9PiByLmluY2x1ZGVkKS5sZW5ndGgKICB9OwogIHJldHVybiB7IHVybHM6IHJlc3VsdHMsIHJvYm90cywgZXhpc3Rpbmdfc2l0ZW1hcHMsIHN0YXRzLCBjYXBwZWQgfTsKfQoKYXN5bmMgZnVuY3Rpb24gZmV0Y2hVcmwoCiAgdXJsOiBzdHJpbmcsCiAgZGVwdGg6IG51bWJlciwKICByb2JvdHM6IFJvYm90c0luZm8sCiAgaW5jbHVkZU5vbkh0bWw6IGJvb2xlYW4KKTogUHJvbWlzZTx7IHJlc3VsdDogQ3Jhd2xlZFVybDsgbGlua3M6IHN0cmluZ1tdIH0+IHsKICBjb25zdCBsaW5rczogc3RyaW5nW10gPSBbXTsKICBjb25zdCByZXN1bHQ6IENyYXdsZWRVcmwgPSB7CiAgICB1cmwsIGZpbmFsX3VybDogbnVsbCwgc3RhdHVzOiAwLCBzdGF0dXNfbGFiZWw6ICJFcnJvciIsIGNvbnRlbnRfdHlwZTogIiIsCiAgICBjYW5vbmljYWw6IG51bGwsIGluZGV4YWJsZTogZmFsc2UsIGluY2x1ZGVkOiBmYWxzZSwgZXhjbHVzaW9uX3JlYXNvbjogbnVsbCwgZGVwdGgKICB9OwoKICBpZiAoIWlzQWxsb3dlZCh1cmwsIHJvYm90cykpIHsKICAgIHJlc3VsdC5zdGF0dXNfbGFiZWwgPSAiQmxvY2tlZCI7CiAgICByZXN1bHQuZXhjbHVzaW9uX3JlYXNvbiA9ICJCbG9ja2VkIGJ5IHJvYm90cy50eHQiOwogICAgcmV0dXJuIHsgcmVzdWx0LCBsaW5rcyB9OwogIH0KCiAgdHJ5IHsKICAgIGNvbnN0IGN0cmwgPSBuZXcgQWJvcnRDb250cm9sbGVyKCk7CiAgICBjb25zdCB0ID0gc2V0VGltZW91dCgoKSA9PiBjdHJsLmFib3J0KCksIFRJTUVPVVRfTVMpOwogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2godXJsLCB7CiAgICAgIG1ldGhvZDogIkdFVCIsCiAgICAgIHJlZGlyZWN0OiAiZm9sbG93IiwKICAgICAgc2lnbmFsOiBjdHJsLnNpZ25hbCwKICAgICAgaGVhZGVyczogeyAiVXNlci1BZ2VudCI6IFVBLCAiQWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsKi8qO3E9MC44IiB9CiAgICB9KTsKICAgIGNsZWFyVGltZW91dCh0KTsKICAgIHJlc3VsdC5maW5hbF91cmwgPSByZXMudXJsIHx8IHVybDsKICAgIHJlc3VsdC5zdGF0dXMgPSByZXMuc3RhdHVzOwogICAgcmVzdWx0LnN0YXR1c19sYWJlbCA9IHN0YXR1c0xhYmVsKHJlcy5zdGF0dXMpOwogICAgcmVzdWx0LmNvbnRlbnRfdHlwZSA9IHJlcy5oZWFkZXJzLmdldCgiY29udGVudC10eXBlIikgfHwgIiI7CiAgICBjb25zdCBpc0h0bWwgPSAvdGV4dFwvaHRtbHxhcHBsaWNhdGlvblwveGh0bWwvaS50ZXN0KHJlc3VsdC5jb250ZW50X3R5cGUpOwogICAgY29uc3QgaXNSZWRpcmVjdCA9IHJlcy5yZWRpcmVjdGVkIHx8IChyZXMuc3RhdHVzID49IDMwMCAmJiByZXMuc3RhdHVzIDwgNDAwKTsKICAgIGxldCBub2luZGV4ID0gZmFsc2U7CiAgICBsZXQgY2Fub25pY2FsOiBzdHJpbmcgfCBudWxsID0gbnVsbDsKICAgIGlmIChpc0h0bWwpIHsKICAgICAgY29uc3QgYm9keSA9IGF3YWl0IHJlcy50ZXh0KCk7CiAgICAgIG5vaW5kZXggPSAvPG1ldGFbXj5dK25hbWU9WyInXXJvYm90c1siJ11bXj5dKmNvbnRlbnQ9WyInXVteIiddKm5vaW5kZXgvaS50ZXN0KGJvZHkpOwogICAgICBjb25zdCBjbSA9IGJvZHkubWF0Y2goLzxsaW5rW14+XStyZWw9WyInXWNhbm9uaWNhbFsiJ11bXj5dKmhyZWY9WyInXShbXiInXSspWyInXS9pKTsKICAgICAgaWYgKGNtKSBjYW5vbmljYWwgPSBub3JtYWxpemVVcmwoY21bMV0sIHVybCk7CiAgICAgIGNvbnN0IGhyZWZzID0gYm9keS5tYXRjaCgvaHJlZj1bIiddKFteIiddKylbIiddL2dpKSB8fCBbXTsKICAgICAgZm9yIChjb25zdCBoIG9mIGhyZWZzKSB7CiAgICAgICAgY29uc3QgbSA9IGgubWF0Y2goL2hyZWY9WyInXShbXiInXSspWyInXS9pKTsKICAgICAgICBpZiAobSkgbGlua3MucHVzaChtWzFdKTsKICAgICAgfQogICAgfQogICAgY29uc3Qgc2VsZlVybCA9IG5vcm1hbGl6ZVVybChyZXN1bHQuZmluYWxfdXJsIHx8IHVybCkgfHwgdXJsOwogICAgY29uc3QgZGVjID0gZGVjaWRlSW5kZXhhYmxlKHsKICAgICAgc3RhdHVzQ29kZTogcmVzLnN0YXR1cywgaXNSZWRpcmVjdCwgY29udGVudFR5cGU6IHJlc3VsdC5jb250ZW50X3R5cGUsCiAgICAgIGNhbm9uaWNhbCwgc2VsZlVybCwgbm9pbmRleCwgcm9ib3RzQmxvY2tlZDogZmFsc2UsIGluY2x1ZGVOb25IdG1sCiAgICB9KTsKICAgIHJlc3VsdC5jYW5vbmljYWwgPSBjYW5vbmljYWw7CiAgICByZXN1bHQuaW5kZXhhYmxlID0gZGVjLmluZGV4YWJsZTsKICAgIHJlc3VsdC5pbmNsdWRlZCA9IGRlYy5pbmNsdWRlZDsKICAgIHJlc3VsdC5leGNsdXNpb25fcmVhc29uID0gZGVjLnJlYXNvbjsKICAgIGlmIChjYW5vbmljYWwgJiYgc2FtZUhvc3QoY2Fub25pY2FsLCB1cmwpICYmIGNhbm9uaWNhbCAhPT0gc2VsZlVybCkgewogICAgICBsaW5rcy5wdXNoKGNhbm9uaWNhbCk7CiAgICB9CiAgfSBjYXRjaCAoZSkgewogICAgcmVzdWx0LnN0YXR1cyA9IDA7CiAgICByZXN1bHQuc3RhdHVzX2xhYmVsID0gIlRpbWVvdXQiOwogICAgcmVzdWx0LmV4Y2x1c2lvbl9yZWFzb24gPSAiVW5yZWFjaGFibGUiOwogIH0KICByZXR1cm4geyByZXN1bHQsIGxpbmtzIH07Cn0=
+import { safeUrl, normalizeUrl, sameHost, escapeRe } from "./urlNormalizer.ts";
+import { fetchRobots, isAllowed, RobotsInfo } from "./robotsService.ts";
+import { decideIndexable } from "./indexability.ts";
+
+const TIMEOUT_MS = 7000;
+const UA = "BacklinkForgeSitemapBot/1.0 (+https://backlinkforge.com/bot)";
+const DEADLINE_MS = 25000;
+const HARD_URL_CAP = 250;
+
+export interface CrawledUrl {
+  url: string;
+  final_url: string | null;
+  status: number;
+  status_label: string;
+  content_type: string;
+  canonical: string | null;
+  indexable: boolean;
+  included: boolean;
+  exclusion_reason: string | null;
+  depth: number;
+}
+
+export interface CrawlResult {
+  urls: CrawledUrl[];
+  robots: RobotsInfo;
+  existing_sitemaps: string[];
+  stats: { discovered: number; valid: number; excluded: number; errors: number; included: number };
+  capped: boolean;
+}
+
+function statusLabel(code: number): string {
+  if (code === 0) return "Timeout";
+  if (code >= 500) return "Server Error";
+  if (code === 404) return "Not Found";
+  if (code === 403) return "Forbidden";
+  if (code >= 400) return "Client Error";
+  if (code >= 300) return "Redirect";
+  if (code >= 200) return "OK";
+  return "Unknown";
+}
+
+export async function crawl(opts: {
+  startUrl: string;
+  maxUrls: number;
+  maxDepth: number; // 0 = unlimited
+  includeTypes: string[];
+  excludePatterns: string[];
+}): Promise<CrawlResult> {
+  const start = safeUrl(opts.startUrl);
+  if (!start) throw new Error("Invalid start URL");
+  const origin = start.origin;
+  const includeNonHtml =
+    opts.includeTypes.includes("PDFs") || opts.includeTypes.includes("Images");
+
+  const robots = await fetchRobots(origin);
+  const existing_sitemaps = Array.from(new Set(robots.sitemaps));
+
+  const deadline = Date.now() + DEADLINE_MS;
+  const maxUrls = Math.max(1, Math.min(opts.maxUrls, HARD_URL_CAP));
+  const maxDepth = opts.maxDepth === 0 ? 99 : opts.maxDepth;
+
+  const seen = new Set<string>();
+  const results: CrawledUrl[] = [];
+  let queue: { url: string; depth: number }[] = [{ url: start.toString(), depth: 0 }];
+  seen.add(start.toString());
+  let capped = false;
+
+  const excludeRes = (opts.excludePatterns || [])
+    .map((p) => p.trim())
+    .filter(Boolean)
+    .map((p) => new RegExp(escapeRe(p).replace(/\\\*/g, ".*")));
+
+  const enqueue = (rawUrl: string, base: string, depth: number) => {
+    const n = normalizeUrl(rawUrl, base);
+    if (!n) return;
+    if (!sameHost(n, origin)) return;
+    if (seen.has(n)) return;
+    if (depth > maxDepth) return;
+    if (excludeRes.some((re) => re.test(n))) return;
+    seen.add(n);
+    queue.push({ url: n, depth });
+  };
+
+  while (queue.length > 0 && results.length < maxUrls) {
+    if (Date.now() > deadline) {
+      capped = true;
+      break;
+    }
+    const batch = queue.splice(0, Math.min(8, queue.length, maxUrls - results.length));
+    const settled = await Promise.allSettled(
+      batch.map((item) => fetchUrl(item.url, item.depth, robots, includeNonHtml))
+    );
+    for (let i = 0; i < batch.length; i++) {
+      const item = batch[i];
+      const s = settled[i];
+      if (s.status !== "fulfilled") {
+        results.push({
+          url: item.url, final_url: null, status: 0, status_label: "Error",
+          content_type: "", canonical: null, indexable: false, included: false,
+          exclusion_reason: "Unreachable", depth: item.depth
+        });
+        continue;
+      }
+      const { result, links } = s.value;
+      results.push(result);
+      if (links.length) {
+        for (const l of links) enqueue(l, item.url, item.depth + 1);
+      }
+    }
+  }
+  if (queue.length > 0) capped = true;
+
+  const stats = {
+    discovered: seen.size,
+    valid: results.filter((r) => r.status >= 200 && r.status < 400).length,
+    excluded: results.filter((r) => !r.included).length,
+    errors: results.filter((r) => r.status === 0 || r.status >= 400).length,
+    included: results.filter((r) => r.included).length
+  };
+  return { urls: results, robots, existing_sitemaps, stats, capped };
+}
+
+async function fetchUrl(
+  url: string,
+  depth: number,
+  robots: RobotsInfo,
+  includeNonHtml: boolean
+): Promise<{ result: CrawledUrl; links: string[] }> {
+  const links: string[] = [];
+  const result: CrawledUrl = {
+    url, final_url: null, status: 0, status_label: "Error", content_type: "",
+    canonical: null, indexable: false, included: false, exclusion_reason: null, depth
+  };
+
+  if (!isAllowed(url, robots)) {
+    result.status_label = "Blocked";
+    result.exclusion_reason = "Blocked by robots.txt";
+    return { result, links };
+  }
+
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+    const res = await fetch(url, {
+      method: "GET",
+      redirect: "follow",
+      signal: ctrl.signal,
+      headers: { "User-Agent": UA, "Accept": "text/html,application/xhtml+xml,*/*;q=0.8" }
+    });
+    clearTimeout(t);
+    result.final_url = res.url || url;
+    result.status = res.status;
+    result.status_label = statusLabel(res.status);
+    result.content_type = res.headers.get("content-type") || "";
+    const isHtml = /text\/html|application\/xhtml/i.test(result.content_type);
+    const isRedirect = res.redirected || (res.status >= 300 && res.status < 400);
+    let noindex = false;
+    let canonical: string | null = null;
+    if (isHtml) {
+      const body = await res.text();
+      noindex = /<meta[^>]+name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(body);
+      const cm = body.match(/<link[^>]+rel=["']canonical["'][^>]*href=["']([^"']+)["']/i);
+      if (cm) canonical = normalizeUrl(cm[1], url);
+      const hrefs = body.match(/href=["']([^"']+)["']/gi) || [];
+      for (const h of hrefs) {
+        const m = h.match(/href=["']([^"']+)["']/i);
+        if (m) links.push(m[1]);
+      }
+    }
+    const selfUrl = normalizeUrl(result.final_url || url) || url;
+    const dec = decideIndexable({
+      statusCode: res.status, isRedirect, contentType: result.content_type,
+      canonical, selfUrl, noindex, robotsBlocked: false, includeNonHtml
+    });
+    result.canonical = canonical;
+    result.indexable = dec.indexable;
+    result.included = dec.included;
+    result.exclusion_reason = dec.reason;
+    if (canonical && sameHost(canonical, url) && canonical !== selfUrl) {
+      links.push(canonical);
+    }
+  } catch (e) {
+    result.status = 0;
+    result.status_label = "Timeout";
+    result.exclusion_reason = "Unreachable";
+  }
+  return { result, links };
+}

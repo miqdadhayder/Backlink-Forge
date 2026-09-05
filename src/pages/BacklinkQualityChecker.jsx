@@ -1,1 +1,146 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTGluayB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBHYXVnZSwgTGlzdENoZWNrcywgSGlzdG9yeSwgTGluazIsIEFycm93TGVmdCwgQWxlcnRDaXJjbGUsIExvZ0luIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IEhlYWRlciBmcm9tICJAL2NvbXBvbmVudHMvYmYvSGVhZGVyIjsKaW1wb3J0IEZvb3RlciBmcm9tICJAL2NvbXBvbmVudHMvYmYvRm9vdGVyIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IGJhc2U0NCB9IGZyb20gIkAvYXBpL2Jhc2U0NENsaWVudCI7CmltcG9ydCB7IHVzZVRvYXN0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3VzZS10b2FzdCI7CmltcG9ydCB7IFRvb2x0aXBQcm92aWRlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS90b29sdGlwIjsKaW1wb3J0IFF1YWxpdHlDaGVja2VyRm9ybSBmcm9tICJAL2NvbXBvbmVudHMvYnFjL1F1YWxpdHlDaGVja2VyRm9ybSI7CmltcG9ydCBRdWFsaXR5TG9hZGluZyBmcm9tICJAL2NvbXBvbmVudHMvYnFjL1F1YWxpdHlMb2FkaW5nIjsKaW1wb3J0IFF1YWxpdHlSZXBvcnQgZnJvbSAiQC9jb21wb25lbnRzL2JxYy9RdWFsaXR5UmVwb3J0IjsKaW1wb3J0IEJ1bGtBbmFseXNpcyBmcm9tICJAL2NvbXBvbmVudHMvYnFjL0J1bGtBbmFseXNpcyI7CmltcG9ydCBBbmFseXNpc0hpc3RvcnkgZnJvbSAiQC9jb21wb25lbnRzL2JxYy9BbmFseXNpc0hpc3RvcnkiOwppbXBvcnQgRWR1Y2F0aW9uYWxDb250ZW50IGZyb20gIkAvY29tcG9uZW50cy9icWMvRWR1Y2F0aW9uYWxDb250ZW50IjsKaW1wb3J0IEZpbmFsQ3RhIGZyb20gIkAvY29tcG9uZW50cy9icWMvRmluYWxDdGEiOwoKY29uc3QgVEFCUyA9IFsKICB7IGlkOiAic2luZ2xlIiwgbGFiZWw6ICJTaW5nbGUgQW5hbHlzaXMiLCBpY29uOiBHYXVnZSB9LAogIHsgaWQ6ICJidWxrIiwgbGFiZWw6ICJNdWx0aXBsZSBCYWNrbGlua3MiLCBpY29uOiBMaXN0Q2hlY2tzIH0sCiAgeyBpZDogImhpc3RvcnkiLCBsYWJlbDogIkhpc3RvcnkiLCBpY29uOiBIaXN0b3J5IH0KXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEJhY2tsaW5rUXVhbGl0eUNoZWNrZXIoKSB7CiAgY29uc3QgeyB0b2FzdCB9ID0gdXNlVG9hc3QoKTsKICBjb25zdCBbdGFiLCBzZXRUYWJdID0gUmVhY3QudXNlU3RhdGUoInNpbmdsZSIpOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbcmVwb3J0LCBzZXRSZXBvcnRdID0gUmVhY3QudXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSBSZWFjdC51c2VTdGF0ZShudWxsKTsKICBjb25zdCBbYXV0aGVkLCBzZXRBdXRoZWRdID0gUmVhY3QudXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtjaGVja2VkQXV0aCwgc2V0Q2hlY2tlZEF1dGhdID0gUmVhY3QudXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IHJlc3VsdHNSZWYgPSBSZWFjdC51c2VSZWYobnVsbCk7CgogIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7CiAgICBiYXNlNDQuYXV0aC5pc0F1dGhlbnRpY2F0ZWQoKS50aGVuKHNldEF1dGhlZCkuY2F0Y2goKCkgPT4gc2V0QXV0aGVkKGZhbHNlKSkuZmluYWxseSgoKSA9PiBzZXRDaGVja2VkQXV0aCh0cnVlKSk7CiAgfSwgW10pOwoKICBjb25zdCBhbmFseXplID0gYXN5bmMgKHZhbHVlcykgPT4gewogICAgc2V0TG9hZGluZyh0cnVlKTsKICAgIHNldEVycm9yKG51bGwpOwogICAgc2V0UmVwb3J0KG51bGwpOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgYmFzZTQ0LmZ1bmN0aW9ucy5pbnZva2UoImFuYWx5emVCYWNrbGlua1F1YWxpdHkiLCB2YWx1ZXMpOwogICAgICBjb25zdCBkYXRhID0gcmVzLmRhdGE7CiAgICAgIGlmICghZGF0YSB8fCBkYXRhLmVycm9yKSB7CiAgICAgICAgc2V0RXJyb3IoZGF0YT8uZXJyb3IgfHwgIldlIGNvdWxkbid0IGFuYWx5emUgdGhpcyBiYWNrbGluay4gUGxlYXNlIHRyeSBhZ2Fpbi4iKTsKICAgICAgfSBlbHNlIGlmIChkYXRhLnJlcG9ydCkgewogICAgICAgIHNldFJlcG9ydChkYXRhLnJlcG9ydCk7CiAgICAgICAgc2V0VGltZW91dCgoKSA9PiByZXN1bHRzUmVmLmN1cnJlbnQ/LnNjcm9sbEludG9WaWV3KHsgYmVoYXZpb3I6ICJzbW9vdGgiLCBibG9jazogInN0YXJ0IiB9KSwgMTAwKTsKICAgICAgICBpZiAoZGF0YS51c2FnZSAmJiBkYXRhLnVzYWdlLmxpbWl0ICYmIGRhdGEudXNhZ2UudXNlZCA+PSBkYXRhLnVzYWdlLmxpbWl0KSB7CiAgICAgICAgICB0b2FzdCh7IHRpdGxlOiBgWW91J3ZlIHVzZWQgJHtkYXRhLnVzYWdlLnVzZWR9LyR7ZGF0YS51c2FnZS5saW1pdH0gZnJlZSBhbmFseXNlcyB0b2RheS5gIH0pOwogICAgICAgIH0KICAgICAgfSBlbHNlIHsKICAgICAgICBzZXRFcnJvcigiVW5leHBlY3RlZCByZXNwb25zZSBmcm9tIHRoZSBhbmFseXNpcyBzZXJ2aWNlLiIpOwogICAgICB9CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIGNvbnN0IHN0YXR1cyA9IGU/LnJlc3BvbnNlPy5zdGF0dXM7CiAgICAgIGlmIChzdGF0dXMgPT09IDQyOSkgc2V0RXJyb3IoIllvdSd2ZSByZWFjaGVkIHlvdXIgZnJlZSBhbmFseXNpcyBsaW1pdCBmb3IgdG9kYXkuIFVwZ3JhZGUgeW91ciBwbGFuIHRvIGNvbnRpbnVlLiIpOwogICAgICBlbHNlIGlmIChzdGF0dXMgPT09IDQwMCkgc2V0RXJyb3IoZT8ucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8ICJQbGVhc2UgY2hlY2sgdGhlIFVSTHMgeW91IGVudGVyZWQuIik7CiAgICAgIGVsc2Ugc2V0RXJyb3IoIldlIGNvdWxkbid0IGFuYWx5emUgdGhpcyBiYWNrbGluayByaWdodCBub3cuIFBsZWFzZSB0cnkgYWdhaW4gaW4gYSBtb21lbnQuIik7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICAgIH0KICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1zbGF0ZS01MCI+CiAgICAgIDxIZWFkZXIgLz4KICAgICAgPFRvb2x0aXBQcm92aWRlcj4KICAgICAgICA8bWFpbiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctNnhsIHB4LTQgcGItMTIgc206cHgtNiI+CiAgICAgICAgICA8TGluayB0bz0iLyIgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgdGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCBob3Zlcjp0ZXh0LXNsYXRlLTkwMCI+CiAgICAgICAgICAgIDxBcnJvd0xlZnQgY2xhc3NOYW1lPSJtci0xIGgtNCB3LTQiIC8+IEJhY2sgdG8gaG9tZQogICAgICAgICAgPC9MaW5rPgoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC00IGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGgtMTAgdy0xMCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC14bCBiZy1zbGF0ZS05MDAgdGV4dC13aGl0ZSI+CiAgICAgICAgICAgICAgPEdhdWdlIGNsYXNzTmFtZT0iaC01IHctNSIgLz4KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQgdGV4dC1zbGF0ZS05MDAgc206dGV4dC0zeGwiPkJhY2tsaW5rIFF1YWxpdHkgQ2hlY2tlcjwvaDE+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtc2xhdGUtNTAwIj5BbmFseXplIHRoZSBTRU8gdmFsdWUsIHJlbGV2YW5jZSwgYXV0aG9yaXR5LCBhbmQgcG90ZW50aWFsIHJpc2tzIG9mIGFueSBiYWNrbGluay48L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAgICB7VEFCUy5tYXAoKHQpID0+ICgKICAgICAgICAgICAgICA8YnV0dG9uIGtleT17dC5pZH0gb25DbGljaz17KCkgPT4gc2V0VGFiKHQuaWQpfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtbGcgYm9yZGVyIHB4LTQgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRyYW5zaXRpb24gJHsKICAgICAgICAgICAgICAgICAgdGFiID09PSB0LmlkID8gImJvcmRlci1zbGF0ZS05MDAgYmctc2xhdGUtOTAwIHRleHQtd2hpdGUiIDogImJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgdGV4dC1zbGF0ZS02MDAgaG92ZXI6Ym9yZGVyLXNsYXRlLTMwMCIKICAgICAgICAgICAgICAgIH1gfT4KICAgICAgICAgICAgICAgIDx0Lmljb24gY2xhc3NOYW1lPSJoLTQgdy00IiAvPiB7dC5sYWJlbH0KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNiI+CiAgICAgICAgICAgIHt0YWIgPT09ICJzaW5nbGUiICYmICgKICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgPFF1YWxpdHlDaGVja2VyRm9ybSBvbkFuYWx5emU9e2FuYWx5emV9IGxvYWRpbmc9e2xvYWRpbmd9IC8+CiAgICAgICAgICAgICAgICB7bG9hZGluZyAmJiA8ZGl2IGNsYXNzTmFtZT0ibXQtNiI+PFF1YWxpdHlMb2FkaW5nIC8+PC9kaXY+fQogICAgICAgICAgICAgICAge2Vycm9yICYmICFsb2FkaW5nICYmICgKICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZmxleCBpdGVtcy1zdGFydCBnYXAtMiByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLXJvc2UtMjAwIGJnLXJvc2UtNTAgcC00IHRleHQtc20gdGV4dC1yb3NlLTcwMCI+CiAgICAgICAgICAgICAgICAgICAgPEFsZXJ0Q2lyY2xlIGNsYXNzTmFtZT0ibXQtMC41IGgtNCB3LTQgZmxleC1zaHJpbmstMCIgLz4gPHNwYW4+e2Vycm9yfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgeyFsb2FkaW5nICYmICFyZXBvcnQgJiYgIWVycm9yICYmICgKICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgcC0xMCB0ZXh0LWNlbnRlciBzaGFkb3ctc20iPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibXgtYXV0byBmbGV4IGgtMTIgdy0xMiBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC14bCBiZy1zbGF0ZS0xMDAiPgogICAgICAgICAgICAgICAgICAgICAgPExpbmsyIGNsYXNzTmFtZT0iaC02IHctNiB0ZXh0LXNsYXRlLTQwMCIgLz4KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibXQtNCB0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTkwMCI+Q2hlY2sgWW91ciBCYWNrbGluayBRdWFsaXR5PC9oMz4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im14LWF1dG8gbXQtMSBtYXgtdy1tZCB0ZXh0LXNtIHRleHQtc2xhdGUtNTAwIj5FbnRlciBhIGJhY2tsaW5rIFVSTCB0byBzZWUgaG93IHZhbHVhYmxlIGFuZCB0cnVzdHdvcnRoeSB0aGUgbGluayBtYXkgYmUuPC9wPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICB7cmVwb3J0ICYmICFsb2FkaW5nICYmICgKICAgICAgICAgICAgICAgICAgPGRpdiByZWY9e3Jlc3VsdHNSZWZ9IGNsYXNzTmFtZT0ibXQtNiI+CiAgICAgICAgICAgICAgICAgICAgPFF1YWxpdHlSZXBvcnQgcmVwb3J0PXtyZXBvcnR9IG9uUmVhbmFseXplPXsoKSA9PiB7IHNldFJlcG9ydChudWxsKTsgc2V0RXJyb3IobnVsbCk7IH19IC8+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgKX0KCiAgICAgICAgICAgIHt0YWIgPT09ICJidWxrIiAmJiA8QnVsa0FuYWx5c2lzIC8+fQoKICAgICAgICAgICAge3RhYiA9PT0gImhpc3RvcnkiICYmICgKICAgICAgICAgICAgICBjaGVja2VkQXV0aCAmJiBhdXRoZWQKICAgICAgICAgICAgICAgID8gPEFuYWx5c2lzSGlzdG9yeSBvbk9wZW49eyhyKSA9PiB7IHNldFJlcG9ydChyKTsgc2V0VGFiKCJzaW5nbGUiKTsgfX0gLz4KICAgICAgICAgICAgICAgIDogY2hlY2tlZEF1dGggJiYgIWF1dGhlZCA/ICgKICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXdoaXRlIHAtMTAgdGV4dC1jZW50ZXIgc2hhZG93LXNtIj4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1zbGF0ZS02MDAiPlNpZ24gaW4gdG8gc2F2ZSBhbmQgcmV2aXNpdCB5b3VyIGFuYWx5c2lzIGhpc3RvcnkuPC9wPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC00Ij4KICAgICAgICAgICAgICAgICAgICAgIDxMaW5rIHRvPSIvbG9naW4iPjxCdXR0b24gc2l6ZT0ic20iPjxMb2dJbiBjbGFzc05hbWU9Im1yLTIgaC00IHctNCIgLz4gU2lnbiBJbjwvQnV0dG9uPjwvTGluaz4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApIDogbnVsbAogICAgICAgICAgICApfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9tYWluPgoKICAgICAgICA8RWR1Y2F0aW9uYWxDb250ZW50IC8+CiAgICAgICAgPEZpbmFsQ3RhIC8+CiAgICAgIDwvVG9vbHRpcFByb3ZpZGVyPgogICAgICA8Rm9vdGVyIC8+CiAgICA8L2Rpdj4KICApOwp9
+import React from "react";
+import { Link } from "react-router-dom";
+import { Gauge, ListChecks, History, Link2, ArrowLeft, AlertCircle, LogIn } from "lucide-react";
+import Header from "@/components/bf/Header";
+import Footer from "@/components/bf/Footer";
+import { Button } from "@/components/ui/button";
+import { base44 } from "@/api/base44Client";
+import { useToast } from "@/components/ui/use-toast";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import QualityCheckerForm from "@/components/bqc/QualityCheckerForm";
+import QualityLoading from "@/components/bqc/QualityLoading";
+import QualityReport from "@/components/bqc/QualityReport";
+import BulkAnalysis from "@/components/bqc/BulkAnalysis";
+import AnalysisHistory from "@/components/bqc/AnalysisHistory";
+import EducationalContent from "@/components/bqc/EducationalContent";
+import FinalCta from "@/components/bqc/FinalCta";
+
+const TABS = [
+  { id: "single", label: "Single Analysis", icon: Gauge },
+  { id: "bulk", label: "Multiple Backlinks", icon: ListChecks },
+  { id: "history", label: "History", icon: History }
+];
+
+export default function BacklinkQualityChecker() {
+  const { toast } = useToast();
+  const [tab, setTab] = React.useState("single");
+  const [loading, setLoading] = React.useState(false);
+  const [report, setReport] = React.useState(null);
+  const [error, setError] = React.useState(null);
+  const [authed, setAuthed] = React.useState(false);
+  const [checkedAuth, setCheckedAuth] = React.useState(false);
+  const resultsRef = React.useRef(null);
+
+  React.useEffect(() => {
+    base44.auth.isAuthenticated().then(setAuthed).catch(() => setAuthed(false)).finally(() => setCheckedAuth(true));
+  }, []);
+
+  const analyze = async (values) => {
+    setLoading(true);
+    setError(null);
+    setReport(null);
+    try {
+      const res = await base44.functions.invoke("analyzeBacklinkQuality", values);
+      const data = res.data;
+      if (!data || data.error) {
+        setError(data?.error || "We couldn't analyze this backlink. Please try again.");
+      } else if (data.report) {
+        setReport(data.report);
+        setTimeout(() => resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 100);
+        if (data.usage && data.usage.limit && data.usage.used >= data.usage.limit) {
+          toast({ title: `You've used ${data.usage.used}/${data.usage.limit} free analyses today.` });
+        }
+      } else {
+        setError("Unexpected response from the analysis service.");
+      }
+    } catch (e) {
+      const status = e?.response?.status;
+      if (status === 429) setError("You've reached your free analysis limit for today. Upgrade your plan to continue.");
+      else if (status === 400) setError(e?.response?.data?.error || "Please check the URLs you entered.");
+      else setError("We couldn't analyze this backlink right now. Please try again in a moment.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-slate-50">
+      <Header />
+      <TooltipProvider>
+        <main className="mx-auto max-w-6xl px-4 pb-12 sm:px-6">
+          <Link to="/" className="inline-flex items-center text-sm text-slate-500 hover:text-slate-900">
+            <ArrowLeft className="mr-1 h-4 w-4" /> Back to home
+          </Link>
+
+          <div className="mt-4 flex items-center gap-3">
+            <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 text-white">
+              <Gauge className="h-5 w-5" />
+            </span>
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">Backlink Quality Checker</h1>
+              <p className="text-sm text-slate-500">Analyze the SEO value, relevance, authority, and potential risks of any backlink.</p>
+            </div>
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-2">
+            {TABS.map((t) => (
+              <button key={t.id} onClick={() => setTab(t.id)}
+                className={`inline-flex items-center gap-2 rounded-lg border px-4 py-2 text-sm font-medium transition ${
+                  tab === t.id ? "border-slate-900 bg-slate-900 text-white" : "border-slate-200 bg-white text-slate-600 hover:border-slate-300"
+                }`}>
+                <t.icon className="h-4 w-4" /> {t.label}
+              </button>
+            ))}
+          </div>
+
+          <div className="mt-6">
+            {tab === "single" && (
+              <>
+                <QualityCheckerForm onAnalyze={analyze} loading={loading} />
+                {loading && <div className="mt-6"><QualityLoading /></div>}
+                {error && !loading && (
+                  <div className="mt-6 flex items-start gap-2 rounded-2xl border border-rose-200 bg-rose-50 p-4 text-sm text-rose-700">
+                    <AlertCircle className="mt-0.5 h-4 w-4 flex-shrink-0" /> <span>{error}</span>
+                  </div>
+                )}
+                {!loading && !report && !error && (
+                  <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-10 text-center shadow-sm">
+                    <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100">
+                      <Link2 className="h-6 w-6 text-slate-400" />
+                    </span>
+                    <h3 className="mt-4 text-base font-semibold text-slate-900">Check Your Backlink Quality</h3>
+                    <p className="mx-auto mt-1 max-w-md text-sm text-slate-500">Enter a backlink URL to see how valuable and trustworthy the link may be.</p>
+                  </div>
+                )}
+                {report && !loading && (
+                  <div ref={resultsRef} className="mt-6">
+                    <QualityReport report={report} onReanalyze={() => { setReport(null); setError(null); }} />
+                  </div>
+                )}
+              </>
+            )}
+
+            {tab === "bulk" && <BulkAnalysis />}
+
+            {tab === "history" && (
+              checkedAuth && authed
+                ? <AnalysisHistory onOpen={(r) => { setReport(r); setTab("single"); }} />
+                : checkedAuth && !authed ? (
+                  <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center shadow-sm">
+                    <p className="text-sm text-slate-600">Sign in to save and revisit your analysis history.</p>
+                    <div className="mt-4">
+                      <Link to="/login"><Button size="sm"><LogIn className="mr-2 h-4 w-4" /> Sign In</Button></Link>
+                    </div>
+                  </div>
+                ) : null
+            )}
+          </div>
+        </main>
+
+        <EducationalContent />
+        <FinalCta />
+      </TooltipProvider>
+      <Footer />
+    </div>
+  );
+}

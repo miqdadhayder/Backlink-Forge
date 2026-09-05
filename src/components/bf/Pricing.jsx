@@ -1,1 +1,78 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENoZWNrIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKCmNvbnN0IFBMQU5TID0gWwogIHsKICAgIG5hbWU6ICJGcmVlIiwKICAgIHByaWNlOiAiJDAiLAogICAgcGVyaW9kOiAiZm9yZXZlciIsCiAgICBjdGE6ICJTdGFydCBGcmVlIiwKICAgIHRvOiAiL3JlZ2lzdGVyIiwKICAgIGZlYXR1cmVzOiBbIjEwIHNlYXJjaGVzL21vbnRoIiwgIjEwIHJlc3VsdHMvc2VhcmNoIiwgIkJhc2ljIGZpbHRlcnMiXQogIH0sCiAgewogICAgbmFtZTogIlBybyIsCiAgICBwcmljZTogIiQyOSIsCiAgICBwZXJpb2Q6ICJwZXIgbW9udGgiLAogICAgY3RhOiAiVXBncmFkZSB0byBQcm8iLAogICAgdG86ICIvcmVnaXN0ZXIiLAogICAgaGlnaGxpZ2h0ZWQ6IHRydWUsCiAgICBmZWF0dXJlczogWyIxMDAgc2VhcmNoZXMvbW9udGgiLCAiMTAwIHJlc3VsdHMvc2VhcmNoIiwgIkFkdmFuY2VkIGZpbHRlcnMiLCAiRXhwb3J0IHJlc3VsdHMiLCAiQ29tcGV0aXRvciBhbmFseXNpcyJdCiAgfSwKICB7CiAgICBuYW1lOiAiQWdlbmN5IiwKICAgIHByaWNlOiAiJDk5IiwKICAgIHBlcmlvZDogInBlciBtb250aCIsCiAgICBjdGE6ICJDb250YWN0IFNhbGVzIiwKICAgIHRvOiAiL3JlZ2lzdGVyIiwKICAgIGZlYXR1cmVzOiBbIlVubGltaXRlZCBzZWFyY2hlcyIsICI1MDAgcmVzdWx0cy9zZWFyY2giLCAiQ1NWIGV4cG9ydCIsICJBZHZhbmNlZCBjb21wZXRpdG9yIGFuYWx5c2lzIiwgIlByaW9yaXR5IHByb2Nlc3NpbmciXQogIH0KXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFByaWNpbmcoKSB7CiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGlkPSJwcmljaW5nIiBjbGFzc05hbWU9ImJnLXNsYXRlLTUwIHB5LTIwIj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctNnhsIHB4LTQgc206cHgtNiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctMnhsIHRleHQtY2VudGVyIj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHQgdGV4dC1zbGF0ZS05MDAiPlNpbXBsZSBQcmljaW5nPC9oMj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LXNsYXRlLTYwMCI+U3RhcnQgZnJlZS4gVXBncmFkZSB3aGVuIHlvdSBuZWVkIG1vcmUuPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xMiBncmlkIGdhcC02IGxnOmdyaWQtY29scy0zIj4KICAgICAgICAgIHtQTEFOUy5tYXAoKHApID0+ICgKICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGtleT17cC5uYW1lfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIHJvdW5kZWQtMnhsIGJvcmRlciBiZy13aGl0ZSBwLTggc2hhZG93LXNtICR7CiAgICAgICAgICAgICAgICBwLmhpZ2hsaWdodGVkID8gImJvcmRlci1zbGF0ZS05MDAgcmluZy0xIHJpbmctc2xhdGUtOTAwIiA6ICJib3JkZXItc2xhdGUtMjAwIgogICAgICAgICAgICAgIH1gfQogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3AuaGlnaGxpZ2h0ZWQgJiYgKAogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJhYnNvbHV0ZSAtdG9wLTMgbGVmdC0xLzIgLXRyYW5zbGF0ZS14LTEvMiByb3VuZGVkLWZ1bGwgYmctc2xhdGUtOTAwIHB4LTMgcHktMSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtd2hpdGUiPgogICAgICAgICAgICAgICAgICBNb3N0IFBvcHVsYXIKICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtbGcgZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTkwMCI+e3AubmFtZX08L2gzPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIGZsZXggaXRlbXMtYmFzZWxpbmUgZ2FwLTEiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LTR4bCBmb250LXNlbWlib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtc2xhdGUtOTAwIj57cC5wcmljZX08L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1zbGF0ZS01MDAiPi8ge3AucGVyaW9kfTwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJtdC02IHNwYWNlLXktMyI+CiAgICAgICAgICAgICAgICB7cC5mZWF0dXJlcy5tYXAoKGYpID0+ICgKICAgICAgICAgICAgICAgICAgPGxpIGtleT17Zn0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0yIHRleHQtc20gdGV4dC1zbGF0ZS02MDAiPgogICAgICAgICAgICAgICAgICAgIDxDaGVjayBjbGFzc05hbWU9Im10LTAuNSBoLTQgdy00IGZsZXgtc2hyaW5rLTAgdGV4dC1lbWVyYWxkLTYwMCIgLz4KICAgICAgICAgICAgICAgICAgICB7Zn0KICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgPGEgaHJlZj0iL3JlZ2lzdGVyIj4KICAgICAgICAgICAgICAgIDxCdXR0b24gY2xhc3NOYW1lPSJtdC04IHctZnVsbCIgdmFyaWFudD17cC5oaWdobGlnaHRlZCA/ICJkZWZhdWx0IiA6ICJvdXRsaW5lIn0+CiAgICAgICAgICAgICAgICAgIHtwLmN0YX0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQ==
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { Check } from "lucide-react";
+
+const PLANS = [
+  {
+    name: "Free",
+    price: "$0",
+    period: "forever",
+    cta: "Start Free",
+    to: "/register",
+    features: ["10 searches/month", "10 results/search", "Basic filters"]
+  },
+  {
+    name: "Pro",
+    price: "$29",
+    period: "per month",
+    cta: "Upgrade to Pro",
+    to: "/register",
+    highlighted: true,
+    features: ["100 searches/month", "100 results/search", "Advanced filters", "Export results", "Competitor analysis"]
+  },
+  {
+    name: "Agency",
+    price: "$99",
+    period: "per month",
+    cta: "Contact Sales",
+    to: "/register",
+    features: ["Unlimited searches", "500 results/search", "CSV export", "Advanced competitor analysis", "Priority processing"]
+  }
+];
+
+export default function Pricing() {
+  return (
+    <section id="pricing" className="bg-slate-50 py-20">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-3xl font-semibold tracking-tight text-slate-900">Simple Pricing</h2>
+          <p className="mt-3 text-slate-600">Start free. Upgrade when you need more.</p>
+        </div>
+        <div className="mt-12 grid gap-6 lg:grid-cols-3">
+          {PLANS.map((p) => (
+            <div
+              key={p.name}
+              className={`relative rounded-2xl border bg-white p-8 shadow-sm ${
+                p.highlighted ? "border-slate-900 ring-1 ring-slate-900" : "border-slate-200"
+              }`}
+            >
+              {p.highlighted && (
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-slate-900 px-3 py-1 text-xs font-medium text-white">
+                  Most Popular
+                </span>
+              )}
+              <h3 className="text-lg font-semibold text-slate-900">{p.name}</h3>
+              <div className="mt-3 flex items-baseline gap-1">
+                <span className="text-4xl font-semibold tracking-tight text-slate-900">{p.price}</span>
+                <span className="text-sm text-slate-500">/ {p.period}</span>
+              </div>
+              <ul className="mt-6 space-y-3">
+                {p.features.map((f) => (
+                  <li key={f} className="flex items-start gap-2 text-sm text-slate-600">
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-emerald-600" />
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <a href="/register">
+                <Button className="mt-8 w-full" variant={p.highlighted ? "default" : "outline"}>
+                  {p.cta}
+                </Button>
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -1,1 +1,168 @@
-aW1wb3J0IHsgY3JlYXRlQ2xpZW50RnJvbVJlcXVlc3QgfSBmcm9tICducG06QGJhc2U0NC9zZGtAMC44LjQwJzsKaW1wb3J0IHsgYW5hbHl6ZUdhcHMgfSBmcm9tICIuLi8uLi9zaGFyZWQvY29tcGV0aXRvckFuYWx5c2lzU2VydmljZS50cyI7Cgpjb25zdCBGUkVFX01PTlRITFlfTElNSVQgPSAzOwoKZnVuY3Rpb24gaXNWYWxpZFVybChzdHIpIHsKICB0cnkgewogICAgY29uc3QgdSA9IG5ldyBVUkwoc3RyLnN0YXJ0c1dpdGgoImh0dHAiKSA/IHN0ciA6IGBodHRwczovLyR7c3RyfWApOwogICAgcmV0dXJuIEJvb2xlYW4odS5ob3N0bmFtZSAmJiB1Lmhvc3RuYW1lLmluY2x1ZGVzKCIuIikpOwogIH0gY2F0Y2ggKGUpIHsgcmV0dXJuIGZhbHNlOyB9Cn0KCmZ1bmN0aW9uIG5vcm1hbGl6ZURvbWFpbih1cmwpIHsKICB0cnkgewogICAgY29uc3QgdSA9IG5ldyBVUkwodXJsLnN0YXJ0c1dpdGgoImh0dHAiKSA/IHVybCA6IGBodHRwczovLyR7dXJsfWApOwogICAgcmV0dXJuIHUuaG9zdG5hbWUucmVwbGFjZSgvXnd3d1wuLywgIiIpLnRvTG93ZXJDYXNlKCk7CiAgfSBjYXRjaCAoZSkgeyByZXR1cm4gU3RyaW5nKHVybCB8fCAiIikudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9ed3d3XC4vLCAiIik7IH0KfQoKZnVuY3Rpb24gaXNTYW1lTW9udGgoZGF0ZVN0ciwgcmVmKSB7CiAgY29uc3QgZCA9IG5ldyBEYXRlKGRhdGVTdHIpOwogIHJldHVybiBkLmdldEZ1bGxZZWFyKCkgPT09IHJlZi5nZXRGdWxsWWVhcigpICYmIGQuZ2V0TW9udGgoKSA9PT0gcmVmLmdldE1vbnRoKCk7Cn0KCmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uKHJlcSkgewogIHRyeSB7CiAgICBjb25zdCBiYXNlNDQgPSBjcmVhdGVDbGllbnRGcm9tUmVxdWVzdChyZXEpOwogICAgY29uc3QgdXNlciA9IGF3YWl0IGJhc2U0NC5hdXRoLm1lKCk7CiAgICBpZiAoIXVzZXIpIHJldHVybiBSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJQbGVhc2Ugc2lnbiBpbiB0byBydW4gYSBiYWNrbGluayBnYXAgYW5hbHlzaXMuIiB9LCB7IHN0YXR1czogNDAxIH0pOwoKICAgIGNvbnN0IGJvZHkgPSBhd2FpdCByZXEuanNvbigpOwogICAgY29uc3QgewogICAgICB3ZWJzaXRlX3VybCwgY29tcGV0aXRvcnMsIGtleXdvcmQsIGNvdW50cnksIG1pbmltdW1fZGEsIGJhY2tsaW5rX3R5cGVzCiAgICB9ID0gYm9keSB8fCB7fTsKCiAgICAvLyBWYWxpZGF0ZSB1c2VyIHdlYnNpdGUKICAgIGlmICghd2Vic2l0ZV91cmwgfHwgIWlzVmFsaWRVcmwod2Vic2l0ZV91cmwpKSB7CiAgICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJQbGVhc2UgZW50ZXIgYSB2YWxpZCB3ZWJzaXRlIFVSTC4iIH0sIHsgc3RhdHVzOiA0MDAgfSk7CiAgICB9CgogICAgY29uc3QgY29tcExpc3QgPSBBcnJheS5pc0FycmF5KGNvbXBldGl0b3JzKQogICAgICA/IGNvbXBldGl0b3JzLm1hcCgoYykgPT4gKGMgfHwgIiIpLnRyaW0oKSkuZmlsdGVyKEJvb2xlYW4pCiAgICAgIDogW107CiAgICBpZiAoY29tcExpc3QubGVuZ3RoIDwgMSB8fCBjb21wTGlzdC5sZW5ndGggPiA1KSB7CiAgICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJQbGVhc2UgYWRkIGJldHdlZW4gMSBhbmQgNSBjb21wZXRpdG9yIHdlYnNpdGVzLiIgfSwgeyBzdGF0dXM6IDQwMCB9KTsKICAgIH0KICAgIGZvciAoY29uc3QgYyBvZiBjb21wTGlzdCkgewogICAgICBpZiAoIWlzVmFsaWRVcmwoYykpIHsKICAgICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAiUGxlYXNlIGVudGVyIGEgdmFsaWQgY29tcGV0aXRvciBVUkwuIiB9LCB7IHN0YXR1czogNDAwIH0pOwogICAgICB9CiAgICB9CiAgICBjb25zdCB1c2VyRG9tID0gbm9ybWFsaXplRG9tYWluKHdlYnNpdGVfdXJsKTsKICAgIGNvbnN0IGNvbXBEb21zID0gY29tcExpc3QubWFwKG5vcm1hbGl6ZURvbWFpbik7CiAgICBpZiAoY29tcERvbXMuc29tZSgoZCkgPT4gZCA9PT0gdXNlckRvbSkpIHsKICAgICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIllvdXIgd2Vic2l0ZSBjYW5ub3QgYWxzbyBiZSBhIGNvbXBldGl0b3IuIiB9LCB7IHN0YXR1czogNDAwIH0pOwogICAgfQogICAgY29uc3QgdW5pcSA9IG5ldyBTZXQoY29tcERvbXMpOwogICAgaWYgKHVuaXEuc2l6ZSAhPT0gY29tcERvbXMubGVuZ3RoKSB7CiAgICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJUaGlzIGNvbXBldGl0b3IgaGFzIGFscmVhZHkgYmVlbiBhZGRlZC4iIH0sIHsgc3RhdHVzOiA0MDAgfSk7CiAgICB9CgogICAgLy8gVXNhZ2UgbGltaXQgKEZyZWUgcGxhbikuIEFkbWlucyBhcmUgdW5saW1pdGVkLgogICAgY29uc3Qgbm93ID0gbmV3IERhdGUoKTsKICAgIGxldCBtb250aENvdW50ID0gMDsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlY2VudCA9IGF3YWl0IGJhc2U0NC5lbnRpdGllcy5CYWNrbGlua0dhcEFuYWx5c2lzLmxpc3QoIi1jcmVhdGVkX2RhdGUiLCAxMDApOwogICAgICBtb250aENvdW50ID0gKHJlY2VudCB8fCBbXSkuZmlsdGVyKChhKSA9PiBpc1NhbWVNb250aChhLmNyZWF0ZWRfZGF0ZSwgbm93KSkubGVuZ3RoOwogICAgfSBjYXRjaCAoZSkgeyAvKiBpZ25vcmUgKi8gfQogICAgY29uc3QgaXNBZG1pbiA9IHVzZXIucm9sZSA9PT0gImFkbWluIjsKICAgIGlmICghaXNBZG1pbiAmJiBtb250aENvdW50ID49IEZSRUVfTU9OVEhMWV9MSU1JVCkgewogICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7CiAgICAgICAgZXJyb3I6ICJZb3UndmUgcmVhY2hlZCB5b3VyIG1vbnRobHkgY29tcGV0aXRvciBhbmFseXNpcyBsaW1pdC4gVXBncmFkZSB5b3VyIHBsYW4gdG8gY29udGludWUuIgogICAgICB9LCB7IHN0YXR1czogNDI5IH0pOwogICAgfQoKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGFuYWx5emVHYXBzKHsKICAgICAgd2Vic2l0ZV91cmwsCiAgICAgIGNvbXBldGl0b3JzOiBjb21wTGlzdCwKICAgICAga2V5d29yZDogKGtleXdvcmQgfHwgIiIpLnRyaW0oKSwKICAgICAgY291bnRyeTogY291bnRyeSB8fCAiR2xvYmFsIiwKICAgICAgbWluaW11bV9kYTogTWF0aC5taW4oOTAsIE1hdGgubWF4KDAsIE51bWJlcihtaW5pbXVtX2RhKSB8fCAyMCkpLAogICAgICBiYWNrbGlua190eXBlczogQXJyYXkuaXNBcnJheShiYWNrbGlua190eXBlcykgJiYgYmFja2xpbmtfdHlwZXMubGVuZ3RoID8gYmFja2xpbmtfdHlwZXMgOiBbIkFsbCJdCiAgICB9KTsKCiAgICAvLyBQZXJzaXN0IHRoZSBhbmFseXNpcyArIGNvbXBldGl0b3JzICsgZ2FwcyAoYmVzdC1lZmZvcnQpLgogICAgbGV0IGFuYWx5c2lzX2lkID0gbnVsbDsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGFuYWx5c2lzID0gYXdhaXQgYmFzZTQ0LmVudGl0aWVzLkJhY2tsaW5rR2FwQW5hbHlzaXMuY3JlYXRlKHsKICAgICAgICB3ZWJzaXRlX3VybCwKICAgICAgICBrZXl3b3JkOiAoa2V5d29yZCB8fCAiIikudHJpbSgpLAogICAgICAgIGNvdW50cnk6IGNvdW50cnkgfHwgIkdsb2JhbCIsCiAgICAgICAgbWluaW11bV9kYTogTWF0aC5taW4oOTAsIE1hdGgubWF4KDAsIE51bWJlcihtaW5pbXVtX2RhKSB8fCAyMCkpLAogICAgICAgIGJhY2tsaW5rX3R5cGVzOiAoQXJyYXkuaXNBcnJheShiYWNrbGlua190eXBlcykgPyBiYWNrbGlua190eXBlcyA6IFsiQWxsIl0pLmpvaW4oIiwgIiksCiAgICAgICAgc3RhdHVzOiAiY29tcGxldGVkIiwKICAgICAgICByZXN1bHRfY291bnQ6IHJlc3VsdC5nYXBzLmxlbmd0aCwKICAgICAgICBpc19kZW1vOiByZXN1bHQuaXNfZGVtbywKICAgICAgICBjb21wZXRpdG9yc19zdW1tYXJ5OiBjb21wTGlzdC5qb2luKCIsICIpCiAgICAgIH0pOwogICAgICBhbmFseXNpc19pZCA9IGFuYWx5c2lzLmlkOwoKICAgICAgaWYgKHJlc3VsdC5jb21wZXRpdG9ycy5sZW5ndGggPiAwKSB7CiAgICAgICAgYXdhaXQgYmFzZTQ0LmVudGl0aWVzLkNvbXBldGl0b3IuYnVsa0NyZWF0ZSgKICAgICAgICAgIHJlc3VsdC5jb21wZXRpdG9ycy5tYXAoKGMpID0+ICh7CiAgICAgICAgICAgIGFuYWx5c2lzX2lkLAogICAgICAgICAgICBjb21wZXRpdG9yX3VybDogYy51cmwsCiAgICAgICAgICAgIGNvbXBldGl0b3JfbmFtZTogYy5uYW1lLAogICAgICAgICAgICByZWZlcnJpbmdfZG9tYWluczogYy5yZWZlcnJpbmdfZG9tYWlucwogICAgICAgICAgfSkpCiAgICAgICAgKTsKICAgICAgfQogICAgICBpZiAocmVzdWx0LmdhcHMubGVuZ3RoID4gMCkgewogICAgICAgIGF3YWl0IGJhc2U0NC5lbnRpdGllcy5CYWNrbGlua0dhcC5idWxrQ3JlYXRlKAogICAgICAgICAgcmVzdWx0LmdhcHMubWFwKChnKSA9PiAoewogICAgICAgICAgICBhbmFseXNpc19pZCwKICAgICAgICAgICAgZG9tYWluOiBnLmRvbWFpbiwKICAgICAgICAgICAgc291cmNlX3VybDogZy5zb3VyY2VfdXJsLAogICAgICAgICAgICBzb3VyY2VfdGl0bGU6IGcuc291cmNlX3RpdGxlLAogICAgICAgICAgICBkb21haW5fYXV0aG9yaXR5OiBnLmRvbWFpbl9hdXRob3JpdHksCiAgICAgICAgICAgIHRyYWZmaWM6IGcudHJhZmZpYywKICAgICAgICAgICAgYmFja2xpbmtfdHlwZTogZy5iYWNrbGlua190eXBlLAogICAgICAgICAgICBjb21wZXRpdG9yX2NvdW50OiBnLmNvbXBldGl0b3JfY291bnQsCiAgICAgICAgICAgIGNvbXBldGl0b3JfbmFtZXM6IGcuY29tcGV0aXRvcl9uYW1lcywKICAgICAgICAgICAgcmVsZXZhbmNlX3Njb3JlOiBnLnJlbGV2YW5jZV9zY29yZSwKICAgICAgICAgICAgb3Bwb3J0dW5pdHlfc2NvcmU6IGcub3Bwb3J0dW5pdHlfc2NvcmUsCiAgICAgICAgICAgIHByaW9yaXR5OiBnLnByaW9yaXR5LAogICAgICAgICAgICBndWVzdF9wb3N0X3VybDogZy5ndWVzdF9wb3N0X3VybCwKICAgICAgICAgICAgY29udGFjdF91cmw6IGcuY29udGFjdF91cmwsCiAgICAgICAgICAgIG5pY2hlOiBnLm5pY2hlLAogICAgICAgICAgICBjb3VudHJ5OiBnLmNvdW50cnksCiAgICAgICAgICAgIGlzX2Jyb2tlbjogZy5pc19icm9rZW4sCiAgICAgICAgICAgIGlzX2RlbW86IGcuaXNfZGVtbwogICAgICAgICAgfSkpCiAgICAgICAgKTsKICAgICAgfQogICAgfSBjYXRjaCAoZSkgewogICAgICAvLyBQZXJzaXN0ZW5jZSBpcyBiZXN0LWVmZm9ydDsgbmV2ZXIgYmxvY2sgdGhlIHJlc3VsdCBvbiBzdG9yYWdlIGZhaWx1cmVzLgogICAgfQoKICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsKICAgICAgYW5hbHlzaXNfaWQsCiAgICAgIGlzX2RlbW86IHJlc3VsdC5pc19kZW1vLAogICAgICB1c2VyOiByZXN1bHQudXNlciwKICAgICAgY29tcGV0aXRvcnM6IHJlc3VsdC5jb21wZXRpdG9ycywKICAgICAgZ2FwczogcmVzdWx0LmdhcHMsCiAgICAgIHN0YXRzOiByZXN1bHQuc3RhdHMsCiAgICAgIGNvbW1vbkRvbWFpbnM6IHJlc3VsdC5jb21tb25Eb21haW5zLAogICAgICBjb250ZW50R2FwczogcmVzdWx0LmNvbnRlbnRHYXBzLAogICAgICBicm9rZW5MaW5rczogcmVzdWx0LmJyb2tlbkxpbmtzLAogICAgICBxdWVyeTogewogICAgICAgIHdlYnNpdGVfdXJsLAogICAgICAgIGNvbXBldGl0b3JzOiBjb21wTGlzdCwKICAgICAgICBrZXl3b3JkOiAoa2V5d29yZCB8fCAiIikudHJpbSgpLAogICAgICAgIGNvdW50cnk6IGNvdW50cnkgfHwgIkdsb2JhbCIsCiAgICAgICAgbWluaW11bV9kYSwKICAgICAgICBiYWNrbGlua190eXBlczogYmFja2xpbmtfdHlwZXMgfHwgWyJBbGwiXQogICAgICB9LAogICAgICB1c2FnZTogewogICAgICAgIHVzZWQ6IG1vbnRoQ291bnQgKyAxLAogICAgICAgIGxpbWl0OiBpc0FkbWluID8gbnVsbCA6IEZSRUVfTU9OVEhMWV9MSU1JVAogICAgICB9CiAgICB9KTsKICB9IGNhdGNoIChlcnJvcikgewogICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oCiAgICAgIHsgZXJyb3I6ICJMaXZlIGJhY2tsaW5rIGRhdGEgaXMgY3VycmVudGx5IHVuYXZhaWxhYmxlLiBQbGVhc2UgdHJ5IGFnYWluIGxhdGVyLiIgfSwKICAgICAgeyBzdGF0dXM6IDUwMCB9CiAgICApOwogIH0KfQ==
+import { createClientFromRequest } from 'npm:@base44/sdk@0.8.40';
+import { analyzeGaps } from "../../shared/competitorAnalysisService.ts";
+
+const FREE_MONTHLY_LIMIT = 3;
+
+function isValidUrl(str) {
+  try {
+    const u = new URL(str.startsWith("http") ? str : `https://${str}`);
+    return Boolean(u.hostname && u.hostname.includes("."));
+  } catch (e) { return false; }
+}
+
+function normalizeDomain(url) {
+  try {
+    const u = new URL(url.startsWith("http") ? url : `https://${url}`);
+    return u.hostname.replace(/^www\./, "").toLowerCase();
+  } catch (e) { return String(url || "").toLowerCase().replace(/^www\./, ""); }
+}
+
+function isSameMonth(dateStr, ref) {
+  const d = new Date(dateStr);
+  return d.getFullYear() === ref.getFullYear() && d.getMonth() === ref.getMonth();
+}
+
+export default async function(req) {
+  try {
+    const base44 = createClientFromRequest(req);
+    const user = await base44.auth.me();
+    if (!user) return Response.json({ error: "Please sign in to run a backlink gap analysis." }, { status: 401 });
+
+    const body = await req.json();
+    const {
+      website_url, competitors, keyword, country, minimum_da, backlink_types
+    } = body || {};
+
+    // Validate user website
+    if (!website_url || !isValidUrl(website_url)) {
+      return Response.json({ error: "Please enter a valid website URL." }, { status: 400 });
+    }
+
+    const compList = Array.isArray(competitors)
+      ? competitors.map((c) => (c || "").trim()).filter(Boolean)
+      : [];
+    if (compList.length < 1 || compList.length > 5) {
+      return Response.json({ error: "Please add between 1 and 5 competitor websites." }, { status: 400 });
+    }
+    for (const c of compList) {
+      if (!isValidUrl(c)) {
+        return Response.json({ error: "Please enter a valid competitor URL." }, { status: 400 });
+      }
+    }
+    const userDom = normalizeDomain(website_url);
+    const compDoms = compList.map(normalizeDomain);
+    if (compDoms.some((d) => d === userDom)) {
+      return Response.json({ error: "Your website cannot also be a competitor." }, { status: 400 });
+    }
+    const uniq = new Set(compDoms);
+    if (uniq.size !== compDoms.length) {
+      return Response.json({ error: "This competitor has already been added." }, { status: 400 });
+    }
+
+    // Usage limit (Free plan). Admins are unlimited.
+    const now = new Date();
+    let monthCount = 0;
+    try {
+      const recent = await base44.entities.BacklinkGapAnalysis.list("-created_date", 100);
+      monthCount = (recent || []).filter((a) => isSameMonth(a.created_date, now)).length;
+    } catch (e) { /* ignore */ }
+    const isAdmin = user.role === "admin";
+    if (!isAdmin && monthCount >= FREE_MONTHLY_LIMIT) {
+      return Response.json({
+        error: "You've reached your monthly competitor analysis limit. Upgrade your plan to continue."
+      }, { status: 429 });
+    }
+
+    const result = await analyzeGaps({
+      website_url,
+      competitors: compList,
+      keyword: (keyword || "").trim(),
+      country: country || "Global",
+      minimum_da: Math.min(90, Math.max(0, Number(minimum_da) || 20)),
+      backlink_types: Array.isArray(backlink_types) && backlink_types.length ? backlink_types : ["All"]
+    });
+
+    // Persist the analysis + competitors + gaps (best-effort).
+    let analysis_id = null;
+    try {
+      const analysis = await base44.entities.BacklinkGapAnalysis.create({
+        website_url,
+        keyword: (keyword || "").trim(),
+        country: country || "Global",
+        minimum_da: Math.min(90, Math.max(0, Number(minimum_da) || 20)),
+        backlink_types: (Array.isArray(backlink_types) ? backlink_types : ["All"]).join(", "),
+        status: "completed",
+        result_count: result.gaps.length,
+        is_demo: result.is_demo,
+        competitors_summary: compList.join(", ")
+      });
+      analysis_id = analysis.id;
+
+      if (result.competitors.length > 0) {
+        await base44.entities.Competitor.bulkCreate(
+          result.competitors.map((c) => ({
+            analysis_id,
+            competitor_url: c.url,
+            competitor_name: c.name,
+            referring_domains: c.referring_domains
+          }))
+        );
+      }
+      if (result.gaps.length > 0) {
+        await base44.entities.BacklinkGap.bulkCreate(
+          result.gaps.map((g) => ({
+            analysis_id,
+            domain: g.domain,
+            source_url: g.source_url,
+            source_title: g.source_title,
+            domain_authority: g.domain_authority,
+            traffic: g.traffic,
+            backlink_type: g.backlink_type,
+            competitor_count: g.competitor_count,
+            competitor_names: g.competitor_names,
+            relevance_score: g.relevance_score,
+            opportunity_score: g.opportunity_score,
+            priority: g.priority,
+            guest_post_url: g.guest_post_url,
+            contact_url: g.contact_url,
+            niche: g.niche,
+            country: g.country,
+            is_broken: g.is_broken,
+            is_demo: g.is_demo
+          }))
+        );
+      }
+    } catch (e) {
+      // Persistence is best-effort; never block the result on storage failures.
+    }
+
+    return Response.json({
+      analysis_id,
+      is_demo: result.is_demo,
+      user: result.user,
+      competitors: result.competitors,
+      gaps: result.gaps,
+      stats: result.stats,
+      commonDomains: result.commonDomains,
+      contentGaps: result.contentGaps,
+      brokenLinks: result.brokenLinks,
+      query: {
+        website_url,
+        competitors: compList,
+        keyword: (keyword || "").trim(),
+        country: country || "Global",
+        minimum_da,
+        backlink_types: backlink_types || ["All"]
+      },
+      usage: {
+        used: monthCount + 1,
+        limit: isAdmin ? null : FREE_MONTHLY_LIMIT
+      }
+    });
+  } catch (error) {
+    return Response.json(
+      { error: "Live backlink data is currently unavailable. Please try again later." },
+      { status: 500 }
+    );
+  }
+}

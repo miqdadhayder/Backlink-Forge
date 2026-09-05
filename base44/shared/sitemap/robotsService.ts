@@ -1,1 +1,96 @@
-aW1wb3J0IHsgc2FmZVVybCB9IGZyb20gIi4vdXJsTm9ybWFsaXplci50cyI7CgpleHBvcnQgaW50ZXJmYWNlIFJvYm90c0luZm8gewogIGZvdW5kOiBib29sZWFuOwogIHN0YXR1czogbnVtYmVyIHwgbnVsbDsKICBzaXRlbWFwczogc3RyaW5nW107CiAgcnVsZXM6IHsgcGF0aDogc3RyaW5nOyBhbGxvdzogYm9vbGVhbiB9W107Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBmZXRjaFJvYm90cyhvcmlnaW46IHN0cmluZyk6IFByb21pc2U8Um9ib3RzSW5mbz4gewogIGNvbnN0IGluZm86IFJvYm90c0luZm8gPSB7IGZvdW5kOiBmYWxzZSwgc3RhdHVzOiBudWxsLCBzaXRlbWFwczogW10sIHJ1bGVzOiBbXSB9OwogIGNvbnN0IHVybCA9IG9yaWdpbi5yZXBsYWNlKC9cLyQvLCAiIikgKyAiL3JvYm90cy50eHQiOwogIGNvbnN0IHUgPSBzYWZlVXJsKHVybCk7CiAgaWYgKCF1KSByZXR1cm4gaW5mbzsKICB0cnkgewogICAgY29uc3QgY3RybCA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKICAgIGNvbnN0IHQgPSBzZXRUaW1lb3V0KCgpID0+IGN0cmwuYWJvcnQoKSwgODAwMCk7CiAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCh1cmwsIHsKICAgICAgbWV0aG9kOiAiR0VUIiwKICAgICAgc2lnbmFsOiBjdHJsLnNpZ25hbCwKICAgICAgcmVkaXJlY3Q6ICJmb2xsb3ciLAogICAgICBoZWFkZXJzOiB7ICJVc2VyLUFnZW50IjogIkJhY2tsaW5rRm9yZ2VTaXRlbWFwQm90LzEuMCIgfQogICAgfSk7CiAgICBjbGVhclRpbWVvdXQodCk7CiAgICBpbmZvLnN0YXR1cyA9IHJlcy5zdGF0dXM7CiAgICBpZiAocmVzLnN0YXR1cyAhPT0gMjAwKSByZXR1cm4gaW5mbzsKICAgIGluZm8uZm91bmQgPSB0cnVlOwogICAgY29uc3QgdGV4dCA9IGF3YWl0IHJlcy50ZXh0KCk7CiAgICBwYXJzZVJvYm90cyh0ZXh0LCBpbmZvKTsKICB9IGNhdGNoIChlKSB7CiAgICAvKiBuZXR3b3JrL3RpbWVvdXQg4oCUIHRyZWF0IGFzIG5vdCBmb3VuZCAqLwogIH0KICByZXR1cm4gaW5mbzsKfQoKZnVuY3Rpb24gcGFyc2VSb2JvdHModGV4dDogc3RyaW5nLCBpbmZvOiBSb2JvdHNJbmZvKSB7CiAgbGV0IGluU3RhciA9IGZhbHNlOwogIGNvbnN0IGxpbmVzID0gdGV4dC5zcGxpdCgvXHI/XG4vKTsKICBmb3IgKGNvbnN0IHJhdyBvZiBsaW5lcykgewogICAgY29uc3QgbGluZSA9IHJhdy5zcGxpdCgiIyIpWzBdLnRyaW0oKTsKICAgIGlmICghbGluZSkgY29udGludWU7CiAgICBjb25zdCBpZHggPSBsaW5lLmluZGV4T2YoIjoiKTsKICAgIGlmIChpZHggPT09IC0xKSBjb250aW51ZTsKICAgIGNvbnN0IGZpZWxkID0gbGluZS5zbGljZSgwLCBpZHgpLnRyaW0oKS50b0xvd2VyQ2FzZSgpOwogICAgY29uc3QgdmFsdWUgPSBsaW5lLnNsaWNlKGlkeCArIDEpLnRyaW0oKTsKICAgIGlmIChmaWVsZCA9PT0gInVzZXItYWdlbnQiKSB7CiAgICAgIGluU3RhciA9IHZhbHVlID09PSAiKiI7CiAgICAgIGNvbnRpbnVlOwogICAgfQogICAgaWYgKGZpZWxkID09PSAic2l0ZW1hcCIpIHsKICAgICAgaWYgKHZhbHVlKSBpbmZvLnNpdGVtYXBzLnB1c2godmFsdWUpOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGlmICghaW5TdGFyKSBjb250aW51ZTsKICAgIGlmIChmaWVsZCA9PT0gImFsbG93IikgewogICAgICBpbmZvLnJ1bGVzLnB1c2goeyBwYXRoOiB2YWx1ZSwgYWxsb3c6IHRydWUgfSk7CiAgICB9IGVsc2UgaWYgKGZpZWxkID09PSAiZGlzYWxsb3ciKSB7CiAgICAgIGlmICh2YWx1ZSA9PT0gIiIpIGNvbnRpbnVlOwogICAgICBpbmZvLnJ1bGVzLnB1c2goeyBwYXRoOiB2YWx1ZSwgYWxsb3c6IGZhbHNlIH0pOwogICAgfQogIH0KICAvLyBMb25nZXN0IHBhdGggd2luczsgb24gdGllcywgYWxsb3cgd2lucy4KICBpbmZvLnJ1bGVzLnNvcnQoKGEsIGIpID0+CiAgICBiLnBhdGgubGVuZ3RoIC0gYS5wYXRoLmxlbmd0aCB8fCAoYS5hbGxvdyA9PT0gYi5hbGxvdyA/IDAgOiBhLmFsbG93ID8gLTEgOiAxKQogICk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBpc0FsbG93ZWQodXJsOiBzdHJpbmcsIHJvYm90czogUm9ib3RzSW5mbyk6IGJvb2xlYW4gewogIGlmICghcm9ib3RzLmZvdW5kKSByZXR1cm4gdHJ1ZTsKICB0cnkgewogICAgY29uc3QgdSA9IG5ldyBVUkwodXJsKTsKICAgIGNvbnN0IHBhdGggPSB1LnBhdGhuYW1lICsgdS5zZWFyY2g7CiAgICBmb3IgKGNvbnN0IHIgb2Ygcm9ib3RzLnJ1bGVzKSB7CiAgICAgIGlmIChtYXRjaGVzKHBhdGgsIHIucGF0aCkpIHJldHVybiByLmFsbG93OwogICAgfQogICAgcmV0dXJuIHRydWU7CiAgfSBjYXRjaCAoZSkgewogICAgcmV0dXJuIHRydWU7CiAgfQp9CgpmdW5jdGlvbiBtYXRjaGVzKHBhdGg6IHN0cmluZywgcGF0dGVybjogc3RyaW5nKTogYm9vbGVhbiB7CiAgaWYgKCFwYXR0ZXJuKSByZXR1cm4gZmFsc2U7CiAgbGV0IHJlID0gIl4iOwogIGZvciAobGV0IGkgPSAwOyBpIDwgcGF0dGVybi5sZW5ndGg7IGkrKykgewogICAgY29uc3QgYyA9IHBhdHRlcm5baV07CiAgICBpZiAoYyA9PT0gIioiKSByZSArPSAiLioiOwogICAgZWxzZSBpZiAoYyA9PT0gIiQiKSByZSArPSAiJCI7CiAgICBlbHNlIHJlICs9IGMucmVwbGFjZSgvWy4qKz9eJHt9KCl8W1xdXFxdL2csICJcXCQmIik7CiAgfQogIHRyeSB7CiAgICByZXR1cm4gbmV3IFJlZ0V4cChyZSkudGVzdChwYXRoKTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4gcGF0aC5zdGFydHNXaXRoKHBhdHRlcm4pOwogIH0KfQ==
+import { safeUrl } from "./urlNormalizer.ts";
+
+export interface RobotsInfo {
+  found: boolean;
+  status: number | null;
+  sitemaps: string[];
+  rules: { path: string; allow: boolean }[];
+}
+
+export async function fetchRobots(origin: string): Promise<RobotsInfo> {
+  const info: RobotsInfo = { found: false, status: null, sitemaps: [], rules: [] };
+  const url = origin.replace(/\/$/, "") + "/robots.txt";
+  const u = safeUrl(url);
+  if (!u) return info;
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 8000);
+    const res = await fetch(url, {
+      method: "GET",
+      signal: ctrl.signal,
+      redirect: "follow",
+      headers: { "User-Agent": "BacklinkForgeSitemapBot/1.0" }
+    });
+    clearTimeout(t);
+    info.status = res.status;
+    if (res.status !== 200) return info;
+    info.found = true;
+    const text = await res.text();
+    parseRobots(text, info);
+  } catch (e) {
+    /* network/timeout — treat as not found */
+  }
+  return info;
+}
+
+function parseRobots(text: string, info: RobotsInfo) {
+  let inStar = false;
+  const lines = text.split(/\r?\n/);
+  for (const raw of lines) {
+    const line = raw.split("#")[0].trim();
+    if (!line) continue;
+    const idx = line.indexOf(":");
+    if (idx === -1) continue;
+    const field = line.slice(0, idx).trim().toLowerCase();
+    const value = line.slice(idx + 1).trim();
+    if (field === "user-agent") {
+      inStar = value === "*";
+      continue;
+    }
+    if (field === "sitemap") {
+      if (value) info.sitemaps.push(value);
+      continue;
+    }
+    if (!inStar) continue;
+    if (field === "allow") {
+      info.rules.push({ path: value, allow: true });
+    } else if (field === "disallow") {
+      if (value === "") continue;
+      info.rules.push({ path: value, allow: false });
+    }
+  }
+  // Longest path wins; on ties, allow wins.
+  info.rules.sort((a, b) =>
+    b.path.length - a.path.length || (a.allow === b.allow ? 0 : a.allow ? -1 : 1)
+  );
+}
+
+export function isAllowed(url: string, robots: RobotsInfo): boolean {
+  if (!robots.found) return true;
+  try {
+    const u = new URL(url);
+    const path = u.pathname + u.search;
+    for (const r of robots.rules) {
+      if (matches(path, r.path)) return r.allow;
+    }
+    return true;
+  } catch (e) {
+    return true;
+  }
+}
+
+function matches(path: string, pattern: string): boolean {
+  if (!pattern) return false;
+  let re = "^";
+  for (let i = 0; i < pattern.length; i++) {
+    const c = pattern[i];
+    if (c === "*") re += ".*";
+    else if (c === "$") re += "$";
+    else re += c.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+  try {
+    return new RegExp(re).test(path);
+  } catch (e) {
+    return path.startsWith(pattern);
+  }
+}

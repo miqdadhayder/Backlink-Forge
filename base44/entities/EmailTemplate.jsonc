@@ -1,1 +1,20 @@
-ewogICJuYW1lIjogIkVtYWlsVGVtcGxhdGUiLAogICJ0eXBlIjogIm9iamVjdCIsCiAgInByb3BlcnRpZXMiOiB7CiAgICAibmFtZSI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIgogICAgfSwKICAgICJzdWJqZWN0IjogewogICAgICAidHlwZSI6ICJzdHJpbmciCiAgICB9LAogICAgImJvZHkiOiB7CiAgICAgICJ0eXBlIjogInN0cmluZyIKICAgIH0KICB9LAogICJyZXF1aXJlZCI6IFsKICAgICJuYW1lIiwKICAgICJzdWJqZWN0IiwKICAgICJib2R5IgogIF0KfQ==
+{
+  "name": "EmailTemplate",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "subject",
+    "body"
+  ]
+}

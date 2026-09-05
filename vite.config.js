@@ -1,1 +1,19 @@
-aW1wb3J0IGJhc2U0NCBmcm9tICJAYmFzZTQ0L3ZpdGUtcGx1Z2luIgppbXBvcnQgcmVhY3QgZnJvbSAnQHZpdGVqcy9wbHVnaW4tcmVhY3QnCmltcG9ydCB7IGRlZmluZUNvbmZpZyB9IGZyb20gJ3ZpdGUnCgovLyBodHRwczovL3ZpdGUuZGV2L2NvbmZpZy8KZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsKICBwbHVnaW5zOiBbCiAgICBiYXNlNDQoewogICAgICAvLyBTdXBwb3J0IGZvciBsZWdhY3kgY29kZSB0aGF0IGltcG9ydHMgdGhlIGJhc2U0NCBTREsgd2l0aCBAL2ludGVncmF0aW9ucywgQC9lbnRpdGllcywgZXRjLgogICAgICAvLyBjYW4gYmUgcmVtb3ZlZCBpZiB0aGUgY29kZSBoYXMgYmVlbiB1cGRhdGVkIHRvIHVzZSB0aGUgbmV3IFNESyBpbXBvcnRzIGZyb20gQGJhc2U0NC9zZGsKICAgICAgbGVnYWN5U0RLSW1wb3J0czogcHJvY2Vzcy5lbnYuQkFTRTQ0X0xFR0FDWV9TREtfSU1QT1JUUyA9PT0gJ3RydWUnLAogICAgICBobXJOb3RpZmllcjogdHJ1ZSwKICAgICAgbmF2aWdhdGlvbk5vdGlmaWVyOiB0cnVlLAogICAgICBhbmFseXRpY3NUcmFja2VyOiB0cnVlLAogICAgICB2aXN1YWxFZGl0QWdlbnQ6IHRydWUKICAgIH0pLAogICAgcmVhY3QoKSwKICBdCn0pOwo=
+import base44 from "@base44/vite-plugin"
+import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [
+    base44({
+      // Support for legacy code that imports the base44 SDK with @/integrations, @/entities, etc.
+      // can be removed if the code has been updated to use the new SDK imports from @base44/sdk
+      legacySDKImports: process.env.BASE44_LEGACY_SDK_IMPORTS === 'true',
+      hmrNotifier: true,
+      navigationNotifier: true,
+      analyticsTracker: true,
+      visualEditAgent: true
+    }),
+    react(),
+  ]
+});

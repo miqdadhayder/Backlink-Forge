@@ -1,1 +1,24 @@
-ZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdFRyYWZmaWMobikgewogIGlmICghbiAmJiBuICE9PSAwKSByZXR1cm4gIuKAlCI7CiAgaWYgKG4gPj0gMTAwMDAwMCkgcmV0dXJuIChuIC8gMTAwMDAwMCkudG9GaXhlZCgxKS5yZXBsYWNlKC9cLjAkLywgIiIpICsgIk0iOwogIGlmIChuID49IDEwMDApIHJldHVybiBNYXRoLnJvdW5kKG4gLyAxMDAwKSArICJLIjsKICByZXR1cm4gU3RyaW5nKG4pOwp9CgpleHBvcnQgZnVuY3Rpb24gZGlmZmljdWx0eUNvbG9yKGQpIHsKICBpZiAoZCA9PT0gIkVhc3kiKSByZXR1cm4gInRleHQtZW1lcmFsZC02MDAgYmctZW1lcmFsZC01MCI7CiAgaWYgKGQgPT09ICJNZWRpdW0iKSByZXR1cm4gInRleHQtYW1iZXItNjAwIGJnLWFtYmVyLTUwIjsKICByZXR1cm4gInRleHQtcm9zZS02MDAgYmctcm9zZS01MCI7Cn0KCmV4cG9ydCBmdW5jdGlvbiBkYUNvbG9yKGRhKSB7CiAgaWYgKGRhID49IDcwKSByZXR1cm4gInRleHQtZW1lcmFsZC02MDAiOwogIGlmIChkYSA+PSA0MCkgcmV0dXJuICJ0ZXh0LWFtYmVyLTYwMCI7CiAgcmV0dXJuICJ0ZXh0LXNsYXRlLTUwMCI7Cn0KCmV4cG9ydCBmdW5jdGlvbiByZWxldmFuY2VDb2xvcihzY29yZSkgewogIGlmIChzY29yZSA+PSA4NSkgcmV0dXJuICJiZy1lbWVyYWxkLTUwMCI7CiAgaWYgKHNjb3JlID49IDcwKSByZXR1cm4gImJnLWFtYmVyLTUwMCI7CiAgcmV0dXJuICJiZy1zbGF0ZS00MDAiOwp9
+export function formatTraffic(n) {
+  if (!n && n !== 0) return "—";
+  if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
+  if (n >= 1000) return Math.round(n / 1000) + "K";
+  return String(n);
+}
+
+export function difficultyColor(d) {
+  if (d === "Easy") return "text-emerald-600 bg-emerald-50";
+  if (d === "Medium") return "text-amber-600 bg-amber-50";
+  return "text-rose-600 bg-rose-50";
+}
+
+export function daColor(da) {
+  if (da >= 70) return "text-emerald-600";
+  if (da >= 40) return "text-amber-600";
+  return "text-slate-500";
+}
+
+export function relevanceColor(score) {
+  if (score >= 85) return "bg-emerald-500";
+  if (score >= 70) return "bg-amber-500";
+  return "bg-slate-400";
+}

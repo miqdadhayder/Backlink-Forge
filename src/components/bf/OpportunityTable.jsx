@@ -1,1 +1,91 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7CiAgRXh0ZXJuYWxMaW5rLCBCb29rbWFyaywgQm9va21hcmtDaGVjaywgRmlsZVRleHQsIEluZm8sIE1haWwKfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBmb3JtYXRUcmFmZmljLCBkaWZmaWN1bHR5Q29sb3IsIGRhQ29sb3IsIHJlbGV2YW5jZUNvbG9yIH0gZnJvbSAiQC91dGlscy9vcHBvcnR1bml0eUhlbHBlcnMiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gT3Bwb3J0dW5pdHlUYWJsZSh7IG9wcG9ydHVuaXRpZXMsIHNhdmVkSWRzLCBvblNhdmUsIG9uU2hvd0d1aWRlbGluZXMsIG9uUmVhY2hPdXQgfSkgewogIGlmICghb3Bwb3J0dW5pdGllcyB8fCBvcHBvcnR1bml0aWVzLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1zbGF0ZS0zMDAgYmctd2hpdGUgcC0xMiB0ZXh0LWNlbnRlciI+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtc2xhdGUtNTAwIj5ObyBvcHBvcnR1bml0aWVzIG1hdGNoIHlvdXIgZmlsdGVycy4gVHJ5IGxvd2VyaW5nIHRoZSBtaW5pbXVtIERBIG9yIGNoYW5naW5nIHRoZSBmaWx0ZXJzLjwvcD4KICAgICAgPC9kaXY+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJvdmVyZmxvdy14LWF1dG8gcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgc2hhZG93LXNtIj4KICAgICAgPHRhYmxlIGNsYXNzTmFtZT0idy1mdWxsIG1pbi13LVs4MjBweF0gdGV4dC1sZWZ0IHRleHQtc20iPgogICAgICAgIDx0aGVhZCBjbGFzc05hbWU9ImJvcmRlci1iIGJvcmRlci1zbGF0ZS0yMDAgYmctc2xhdGUtNTAgdGV4dC14cyB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZSB0ZXh0LXNsYXRlLTUwMCI+CiAgICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InB4LTQgcHktMyBmb250LW1lZGl1bSI+V2Vic2l0ZTwvdGg+CiAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InB4LTQgcHktMyBmb250LW1lZGl1bSI+REE8L3RoPgogICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJweC00IHB5LTMgZm9udC1tZWRpdW0iPlRyYWZmaWM8L3RoPgogICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJweC00IHB5LTMgZm9udC1tZWRpdW0iPlR5cGU8L3RoPgogICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJweC00IHB5LTMgZm9udC1tZWRpdW0iPkd1ZXN0IFBvc3Q8L3RoPgogICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJweC00IHB5LTMgZm9udC1tZWRpdW0iPlJlbGV2YW5jZTwvdGg+CiAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InB4LTQgcHktMyBmb250LW1lZGl1bSI+RGlmZmljdWx0eTwvdGg+CiAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InB4LTQgcHktMyB0ZXh0LXJpZ2h0IGZvbnQtbWVkaXVtIj5BY3Rpb248L3RoPgogICAgICAgICAgPC90cj4KICAgICAgICA8L3RoZWFkPgogICAgICAgIDx0Ym9keSBjbGFzc05hbWU9ImRpdmlkZS15IGRpdmlkZS1zbGF0ZS0xMDAiPgogICAgICAgICAge29wcG9ydHVuaXRpZXMubWFwKChvLCBpKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGlzU2F2ZWQgPSBzYXZlZElkcyAmJiBzYXZlZElkcy5oYXMoby5fbG9jYWxJZCB8fCBvLnVybCB8fCBgJHtvLndlYnNpdGV9LSR7aX1gKTsKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICA8dHIga2V5PXtpfSBjbGFzc05hbWU9ImhvdmVyOmJnLXNsYXRlLTUwLzYwIj4KICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTkwMCI+e28ud2Vic2l0ZX08L2Rpdj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LVsyMDBweF0gdHJ1bmNhdGUgdGV4dC14cyB0ZXh0LXNsYXRlLTUwMCI+e28udXJsfTwvZGl2PgogICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YHRleHQtYmFzZSBmb250LXNlbWlib2xkICR7ZGFDb2xvcihvLmRvbWFpbl9hdXRob3JpdHkpfWB9PntvLmRvbWFpbl9hdXRob3JpdHl9PC9zcGFuPgogICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyB0ZXh0LXNsYXRlLTcwMCI+e2Zvcm1hdFRyYWZmaWMoby50cmFmZmljKX08L3RkPgogICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0zIj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtZmxleCByb3VuZGVkLW1kIGJnLXNsYXRlLTEwMCBweC0yIHB5LTEgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTcwMCI+e28uYmFja2xpbmtfdHlwZX08L3NwYW4+CiAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0zIj4KICAgICAgICAgICAgICAgICAge28uZ3Vlc3RfcG9zdF9hdmFpbGFibGUKICAgICAgICAgICAgICAgICAgICA/IDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggcm91bmRlZC1tZCBiZy1lbWVyYWxkLTUwIHB4LTIgcHktMSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtZW1lcmFsZC03MDAiPlllczwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA6IDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXNsYXRlLTQwMCI+Tm88L3NwYW4+fQogICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMS41IHctMTIgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtZnVsbCBiZy1zbGF0ZS0xMDAiPgogICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2BoLWZ1bGwgJHtyZWxldmFuY2VDb2xvcihvLnJlbGV2YW5jZV9zY29yZSl9YH0gc3R5bGU9e3sgd2lkdGg6IGAke28ucmVsZXZhbmNlX3Njb3JlfSVgIH19IC8+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtc2xhdGUtNzAwIj57by5yZWxldmFuY2Vfc2NvcmV9JTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0zIj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgaW5saW5lLWZsZXggcm91bmRlZC1tZCBweC0yIHB5LTEgdGV4dC14cyBmb250LW1lZGl1bSAke2RpZmZpY3VsdHlDb2xvcihvLmRpZmZpY3VsdHkpfWB9PntvLmRpZmZpY3VsdHl9PC9zcGFuPgogICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWVuZCBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj17by51cmx9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiPgogICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iPlZpZXc8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgICAgICAge28uZ3Vlc3RfcG9zdF9hdmFpbGFibGUgJiYgby5ndWVzdF9wb3N0X3VybCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJzbSIgb25DbGljaz17KCkgPT4gb25TaG93R3VpZGVsaW5lcyhvKX0+CiAgICAgICAgICAgICAgICAgICAgICAgIDxGaWxlVGV4dCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9InNtIiBvbkNsaWNrPXsoKSA9PiBvblNhdmUobyl9IGRpc2FibGVkPXtpc1NhdmVkfT4KICAgICAgICAgICAgICAgICAgICAgIHtpc1NhdmVkID8gPEJvb2ttYXJrQ2hlY2sgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtZW1lcmFsZC02MDAiIC8+IDogPEJvb2ttYXJrIGNsYXNzTmFtZT0iaC00IHctNCIgLz59CiAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAge29uUmVhY2hPdXQgJiYgKAogICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IG9uUmVhY2hPdXQobyl9IHRpdGxlPSJSZWFjaCBvdXQiPgogICAgICAgICAgICAgICAgICAgICAgICA8TWFpbCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgKTsKICAgICAgICAgIH0pfQogICAgICAgIDwvdGJvZHk+CiAgICAgIDwvdGFibGU+CiAgICA8L2Rpdj4KICApOwp9
+import React from "react";
+import { Button } from "@/components/ui/button";
+import {
+  ExternalLink, Bookmark, BookmarkCheck, FileText, Info, Mail
+} from "lucide-react";
+import { formatTraffic, difficultyColor, daColor, relevanceColor } from "@/utils/opportunityHelpers";
+
+export default function OpportunityTable({ opportunities, savedIds, onSave, onShowGuidelines, onReachOut }) {
+  if (!opportunities || opportunities.length === 0) {
+    return (
+      <div className="rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center">
+        <p className="text-sm text-slate-500">No opportunities match your filters. Try lowering the minimum DA or changing the filters.</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
+      <table className="w-full min-w-[820px] text-left text-sm">
+        <thead className="border-b border-slate-200 bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
+          <tr>
+            <th className="px-4 py-3 font-medium">Website</th>
+            <th className="px-4 py-3 font-medium">DA</th>
+            <th className="px-4 py-3 font-medium">Traffic</th>
+            <th className="px-4 py-3 font-medium">Type</th>
+            <th className="px-4 py-3 font-medium">Guest Post</th>
+            <th className="px-4 py-3 font-medium">Relevance</th>
+            <th className="px-4 py-3 font-medium">Difficulty</th>
+            <th className="px-4 py-3 text-right font-medium">Action</th>
+          </tr>
+        </thead>
+        <tbody className="divide-y divide-slate-100">
+          {opportunities.map((o, i) => {
+            const isSaved = savedIds && savedIds.has(o._localId || o.url || `${o.website}-${i}`);
+            return (
+              <tr key={i} className="hover:bg-slate-50/60">
+                <td className="px-4 py-3">
+                  <div className="font-medium text-slate-900">{o.website}</div>
+                  <div className="max-w-[200px] truncate text-xs text-slate-500">{o.url}</div>
+                </td>
+                <td className="px-4 py-3">
+                  <span className={`text-base font-semibold ${daColor(o.domain_authority)}`}>{o.domain_authority}</span>
+                </td>
+                <td className="px-4 py-3 text-slate-700">{formatTraffic(o.traffic)}</td>
+                <td className="px-4 py-3">
+                  <span className="inline-flex rounded-md bg-slate-100 px-2 py-1 text-xs font-medium text-slate-700">{o.backlink_type}</span>
+                </td>
+                <td className="px-4 py-3">
+                  {o.guest_post_available
+                    ? <span className="inline-flex rounded-md bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-700">Yes</span>
+                    : <span className="text-xs text-slate-400">No</span>}
+                </td>
+                <td className="px-4 py-3">
+                  <div className="flex items-center gap-2">
+                    <div className="h-1.5 w-12 overflow-hidden rounded-full bg-slate-100">
+                      <div className={`h-full ${relevanceColor(o.relevance_score)}`} style={{ width: `${o.relevance_score}%` }} />
+                    </div>
+                    <span className="text-xs font-medium text-slate-700">{o.relevance_score}%</span>
+                  </div>
+                </td>
+                <td className="px-4 py-3">
+                  <span className={`inline-flex rounded-md px-2 py-1 text-xs font-medium ${difficultyColor(o.difficulty)}`}>{o.difficulty}</span>
+                </td>
+                <td className="px-4 py-3">
+                  <div className="flex items-center justify-end gap-1">
+                    <a href={o.url} target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="sm">View</Button>
+                    </a>
+                    {o.guest_post_available && o.guest_post_url && (
+                      <Button variant="ghost" size="sm" onClick={() => onShowGuidelines(o)}>
+                        <FileText className="h-4 w-4" />
+                      </Button>
+                    )}
+                    <Button variant="ghost" size="sm" onClick={() => onSave(o)} disabled={isSaved}>
+                      {isSaved ? <BookmarkCheck className="h-4 w-4 text-emerald-600" /> : <Bookmark className="h-4 w-4" />}
+                    </Button>
+                    {onReachOut && (
+                      <Button variant="ghost" size="sm" onClick={() => onReachOut(o)} title="Reach out">
+                        <Mail className="h-4 w-4" />
+                      </Button>
+                    )}
+                  </div>
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+}

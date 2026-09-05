@@ -1,1 +1,83 @@
-aW1wb3J0IHsgVG9hc3RlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS90b2FzdGVyIgppbXBvcnQgeyBRdWVyeUNsaWVudFByb3ZpZGVyIH0gZnJvbSAnQHRhbnN0YWNrL3JlYWN0LXF1ZXJ5JwppbXBvcnQgeyBxdWVyeUNsaWVudEluc3RhbmNlIH0gZnJvbSAnQC9saWIvcXVlcnktY2xpZW50JwppbXBvcnQgeyBCcm93c2VyUm91dGVyIGFzIFJvdXRlciwgUm91dGUsIFJvdXRlcywgTmF2aWdhdGUgfSBmcm9tICdyZWFjdC1yb3V0ZXItZG9tJzsKaW1wb3J0IFBhZ2VOb3RGb3VuZCBmcm9tICcuL2xpYi9QYWdlTm90Rm91bmQnOwppbXBvcnQgeyBBdXRoUHJvdmlkZXIsIHVzZUF1dGggfSBmcm9tICdAL2xpYi9BdXRoQ29udGV4dCc7CmltcG9ydCBVc2VyTm90UmVnaXN0ZXJlZEVycm9yIGZyb20gJ0AvY29tcG9uZW50cy9Vc2VyTm90UmVnaXN0ZXJlZEVycm9yJzsKaW1wb3J0IFNjcm9sbFRvVG9wIGZyb20gJy4vY29tcG9uZW50cy9TY3JvbGxUb1RvcCc7Ci8vIEFkZCBwYWdlIGltcG9ydHMgaGVyZQppbXBvcnQgSG9tZSBmcm9tICdAL3BhZ2VzL0hvbWUnOwppbXBvcnQgQWJvdXQgZnJvbSAnQC9wYWdlcy9BYm91dCc7CmltcG9ydCBDb250YWN0IGZyb20gJ0AvcGFnZXMvQ29udGFjdCc7CmltcG9ydCBEYXNoYm9hcmQgZnJvbSAnQC9wYWdlcy9EYXNoYm9hcmQnOwppbXBvcnQgQmFja2xpbmtHYXBGaW5kZXIgZnJvbSAnQC9wYWdlcy9CYWNrbGlua0dhcEZpbmRlcic7CmltcG9ydCBTaXRlbWFwR2VuZXJhdG9yIGZyb20gJ0AvcGFnZXMvU2l0ZW1hcEdlbmVyYXRvcic7CmltcG9ydCBCYWNrbGlua1F1YWxpdHlDaGVja2VyIGZyb20gJ0AvcGFnZXMvQmFja2xpbmtRdWFsaXR5Q2hlY2tlcic7CmltcG9ydCBMb2dpbiBmcm9tICdAL3BhZ2VzL0xvZ2luJzsKaW1wb3J0IFJlZ2lzdGVyIGZyb20gJ0AvcGFnZXMvUmVnaXN0ZXInOwppbXBvcnQgRm9yZ290UGFzc3dvcmQgZnJvbSAnQC9wYWdlcy9Gb3Jnb3RQYXNzd29yZCc7CmltcG9ydCBSZXNldFBhc3N3b3JkIGZyb20gJ0AvcGFnZXMvUmVzZXRQYXNzd29yZCc7CmltcG9ydCBQcm90ZWN0ZWRSb3V0ZSBmcm9tICdAL2NvbXBvbmVudHMvUHJvdGVjdGVkUm91dGUnOwoKY29uc3QgQXV0aGVudGljYXRlZEFwcCA9ICgpID0+IHsKICBjb25zdCB7IGlzTG9hZGluZ0F1dGgsIGlzTG9hZGluZ1B1YmxpY1NldHRpbmdzLCBhdXRoRXJyb3IsIG5hdmlnYXRlVG9Mb2dpbiB9ID0gdXNlQXV0aCgpOwoKICAvLyBTaG93IGxvYWRpbmcgc3Bpbm5lciB3aGlsZSBjaGVja2luZyBhcHAgcHVibGljIHNldHRpbmdzIG9yIGF1dGgKICBpZiAoaXNMb2FkaW5nUHVibGljU2V0dGluZ3MgfHwgaXNMb2FkaW5nQXV0aCkgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTggaC04IGJvcmRlci00IGJvcmRlci1zbGF0ZS0yMDAgYm9yZGVyLXQtc2xhdGUtODAwIHJvdW5kZWQtZnVsbCBhbmltYXRlLXNwaW4iPjwvZGl2PgogICAgICA8L2Rpdj4KICAgICk7CiAgfQoKICAvLyBIYW5kbGUgYXV0aGVudGljYXRpb24gZXJyb3JzCiAgaWYgKGF1dGhFcnJvcikgewogICAgaWYgKGF1dGhFcnJvci50eXBlID09PSAndXNlcl9ub3RfcmVnaXN0ZXJlZCcpIHsKICAgICAgcmV0dXJuIDxVc2VyTm90UmVnaXN0ZXJlZEVycm9yIC8+OwogICAgfSBlbHNlIGlmIChhdXRoRXJyb3IudHlwZSA9PT0gJ2F1dGhfcmVxdWlyZWQnKSB7CiAgICAgIC8vIFJlZGlyZWN0IHRvIGxvZ2luIGF1dG9tYXRpY2FsbHkKICAgICAgbmF2aWdhdGVUb0xvZ2luKCk7CiAgICAgIHJldHVybiBudWxsOwogICAgfQogIH0KCiAgLy8gUmVuZGVyIHRoZSBtYWluIGFwcAogIHJldHVybiAoCiAgICA8Um91dGVzPgogICAgICA8Um91dGUgcGF0aD0iLyIgZWxlbWVudD17PEhvbWUgLz59IC8+CiAgICAgIDxSb3V0ZSBwYXRoPSIvYWJvdXQiIGVsZW1lbnQ9ezxBYm91dCAvPn0gLz4KICAgICAgPFJvdXRlIHBhdGg9Ii9jb250YWN0IiBlbGVtZW50PXs8Q29udGFjdCAvPn0gLz4KICAgICAgPFJvdXRlIHBhdGg9Ii9iYWNrbGluay1xdWFsaXR5LWNoZWNrZXIiIGVsZW1lbnQ9ezxCYWNrbGlua1F1YWxpdHlDaGVja2VyIC8+fSAvPgogICAgICA8Um91dGUgcGF0aD0iL2xvZ2luIiBlbGVtZW50PXs8TG9naW4gLz59IC8+CiAgICAgIDxSb3V0ZSBwYXRoPSIvcmVnaXN0ZXIiIGVsZW1lbnQ9ezxSZWdpc3RlciAvPn0gLz4KICAgICAgPFJvdXRlIHBhdGg9Ii9mb3Jnb3QtcGFzc3dvcmQiIGVsZW1lbnQ9ezxGb3Jnb3RQYXNzd29yZCAvPn0gLz4KICAgICAgPFJvdXRlIHBhdGg9Ii9yZXNldC1wYXNzd29yZCIgZWxlbWVudD17PFJlc2V0UGFzc3dvcmQgLz59IC8+CiAgICAgIDxSb3V0ZSBlbGVtZW50PXs8UHJvdGVjdGVkUm91dGUgdW5hdXRoZW50aWNhdGVkRWxlbWVudD17PE5hdmlnYXRlIHRvPSIvbG9naW4iIHJlcGxhY2UgLz59IC8+fT4KICAgICAgICA8Um91dGUgcGF0aD0iL2Rhc2hib2FyZCIgZWxlbWVudD17PERhc2hib2FyZCAvPn0gLz4KICAgICAgICA8Um91dGUgcGF0aD0iL2JhY2tsaW5rLWdhcC1maW5kZXIiIGVsZW1lbnQ9ezxCYWNrbGlua0dhcEZpbmRlciAvPn0gLz4KICAgICAgICA8Um91dGUgcGF0aD0iL3NpdGVtYXAtZ2VuZXJhdG9yIiBlbGVtZW50PXs8U2l0ZW1hcEdlbmVyYXRvciAvPn0gLz4KICAgICAgPC9Sb3V0ZT4KICAgICAgPFJvdXRlIHBhdGg9IioiIGVsZW1lbnQ9ezxQYWdlTm90Rm91bmQgLz59IC8+CiAgICA8L1JvdXRlcz4KICApOwp9OwoKCmZ1bmN0aW9uIEFwcCgpIHsKCiAgcmV0dXJuICgKICAgIDxBdXRoUHJvdmlkZXI+CiAgICAgIDxRdWVyeUNsaWVudFByb3ZpZGVyIGNsaWVudD17cXVlcnlDbGllbnRJbnN0YW5jZX0+CiAgICAgICAgPFJvdXRlcj4KICAgICAgICAgIDxTY3JvbGxUb1RvcCAvPgogICAgICAgICAgPEF1dGhlbnRpY2F0ZWRBcHAgLz4KICAgICAgICA8L1JvdXRlcj4KICAgICAgICA8VG9hc3RlciAvPgogICAgICA8L1F1ZXJ5Q2xpZW50UHJvdmlkZXI+CiAgICA8L0F1dGhQcm92aWRlcj4KICApCn0KCmV4cG9ydCBkZWZhdWx0IEFwcA==
+import { Toaster } from "@/components/ui/toaster"
+import { QueryClientProvider } from '@tanstack/react-query'
+import { queryClientInstance } from '@/lib/query-client'
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import PageNotFound from './lib/PageNotFound';
+import { AuthProvider, useAuth } from '@/lib/AuthContext';
+import UserNotRegisteredError from '@/components/UserNotRegisteredError';
+import ScrollToTop from './components/ScrollToTop';
+// Add page imports here
+import Home from '@/pages/Home';
+import About from '@/pages/About';
+import Contact from '@/pages/Contact';
+import Dashboard from '@/pages/Dashboard';
+import BacklinkGapFinder from '@/pages/BacklinkGapFinder';
+import SitemapGenerator from '@/pages/SitemapGenerator';
+import BacklinkQualityChecker from '@/pages/BacklinkQualityChecker';
+import Login from '@/pages/Login';
+import Register from '@/pages/Register';
+import ForgotPassword from '@/pages/ForgotPassword';
+import ResetPassword from '@/pages/ResetPassword';
+import ProtectedRoute from '@/components/ProtectedRoute';
+
+const AuthenticatedApp = () => {
+  const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
+
+  // Show loading spinner while checking app public settings or auth
+  if (isLoadingPublicSettings || isLoadingAuth) {
+    return (
+      <div className="fixed inset-0 flex items-center justify-center">
+        <div className="w-8 h-8 border-4 border-slate-200 border-t-slate-800 rounded-full animate-spin"></div>
+      </div>
+    );
+  }
+
+  // Handle authentication errors
+  if (authError) {
+    if (authError.type === 'user_not_registered') {
+      return <UserNotRegisteredError />;
+    } else if (authError.type === 'auth_required') {
+      // Redirect to login automatically
+      navigateToLogin();
+      return null;
+    }
+  }
+
+  // Render the main app
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/backlink-quality-checker" element={<BacklinkQualityChecker />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+      <Route path="/forgot-password" element={<ForgotPassword />} />
+      <Route path="/reset-password" element={<ResetPassword />} />
+      <Route element={<ProtectedRoute unauthenticatedElement={<Navigate to="/login" replace />} />}>
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/backlink-gap-finder" element={<BacklinkGapFinder />} />
+        <Route path="/sitemap-generator" element={<SitemapGenerator />} />
+      </Route>
+      <Route path="*" element={<PageNotFound />} />
+    </Routes>
+  );
+};
+
+
+function App() {
+
+  return (
+    <AuthProvider>
+      <QueryClientProvider client={queryClientInstance}>
+        <Router>
+          <ScrollToTop />
+          <AuthenticatedApp />
+        </Router>
+        <Toaster />
+      </QueryClientProvider>
+    </AuthProvider>
+  )
+}
+
+export default App

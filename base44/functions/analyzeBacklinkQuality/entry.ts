@@ -1,1 +1,143 @@
-aW1wb3J0IHsgY3JlYXRlQ2xpZW50RnJvbVJlcXVlc3QgfSBmcm9tICducG06QGJhc2U0NC9zZGtAMC44LjQwJzsKaW1wb3J0IHsgYW5hbHl6ZUJhY2tsaW5rIH0gZnJvbSAiLi4vLi4vc2hhcmVkL2JhY2tsaW5rUXVhbGl0eVNlcnZpY2UudHMiOwppbXBvcnQgeyBzYWZlVXJsIH0gZnJvbSAiLi4vLi4vc2hhcmVkL3NpdGVtYXAvdXJsTm9ybWFsaXplci50cyI7Cgpjb25zdCBGUkVFX0RBSUxZX0xJTUlUID0gNTsKY29uc3QgQlVMS19NQVhfUk9XUyA9IDI1OwoKZnVuY3Rpb24gaXNTYW1lRGF5KGRhdGVTdHI6IHN0cmluZywgcmVmOiBEYXRlKTogYm9vbGVhbiB7CiAgY29uc3QgZCA9IG5ldyBEYXRlKGRhdGVTdHIpOwogIHJldHVybiBkLmdldEZ1bGxZZWFyKCkgPT09IHJlZi5nZXRGdWxsWWVhcigpICYmIGQuZ2V0TW9udGgoKSA9PT0gcmVmLmdldE1vbnRoKCkgJiYgZC5nZXREYXRlKCkgPT09IHJlZi5nZXREYXRlKCk7Cn0KCmZ1bmN0aW9uIG5vcm1hbGl6ZUlucHV0VXJsKHN0cjogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCB7CiAgaWYgKCFzdHIpIHJldHVybiBudWxsOwogIGNvbnN0IHMgPSBzdHIudHJpbSgpOwogIGNvbnN0IHdpdGhQcm90byA9IC9eaHR0cHM/OlwvXC8vaS50ZXN0KHMpID8gcyA6IGBodHRwczovLyR7c31gOwogIHJldHVybiBzYWZlVXJsKHdpdGhQcm90bykgPyB3aXRoUHJvdG8gOiBudWxsOwp9CgpmdW5jdGlvbiBmYWxsYmFja1JlcG9ydChyOiBhbnksIG1zZzogc3RyaW5nKTogYW55IHsKICByZXR1cm4gewogICAgaW5wdXRzOiByLAogICAgc291cmNlOiB7IGZpbmFsX3VybDogci5iYWNrbGlua191cmwsIGh0dHBfc3RhdHVzOiAwLCBjb250ZW50X3R5cGU6ICIiLCByZWRpcmVjdGVkOiBmYWxzZSwgcmVkaXJlY3RfdGFyZ2V0OiBudWxsLCB0aXRsZTogbnVsbCwgZGVzY3JpcHRpb246IG51bGwsIGRvbWFpbjogIiIsIHBhZ2VfcGF0aDogIiIsIHdvcmRfY291bnQ6IDAsIG91dGJvdW5kX2xpbmtzOiAwLCByZWFjaGFibGU6IGZhbHNlLCBlcnJvcjogbXNnIH0sCiAgICBsaW5rOiB7IGZvdW5kOiBmYWxzZSwgaHJlZjogbnVsbCwgcmVsOiBudWxsLCBhdHRyaWJ1dGU6ICJVbmtub3duIiwgYW5jaG9yOiBudWxsLCBwbGFjZW1lbnQ6IG51bGwsIGhpZGRlbjogZmFsc2UgfSwKICAgIGZhY3RvcnM6IFtdLAogICAgb3ZlcmFsbF9zY29yZTogMCwKICAgIGNsYXNzaWZpY2F0aW9uOiAiVmVyeSBMb3cgUXVhbGl0eSIsCiAgICByaXNrX2xldmVsOiAiTG93IiwKICAgIHJpc2tfc2lnbmFsczogW10sCiAgICByZWNvbW1lbmRhdGlvbjogeyBhY3Rpb246ICJJbnZlc3RpZ2F0ZSIsIHRleHQ6IG1zZyB9LAogICAgZGF0YV9jb25maWRlbmNlOiAiTG93IiwKICAgIG1ldGhvZG9sb2d5OiBbXSwKICAgIGFuYWx5emVkX2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksCiAgICBlcnJvcjogbXNnCiAgfTsKfQoKYXN5bmMgZnVuY3Rpb24gc2FmZUFuYWx5emUocjogYW55LCByb2JvdHNDYWNoZTogTWFwPHN0cmluZywgYW55Pik6IFByb21pc2U8YW55PiB7CiAgdHJ5IHsKICAgIHJldHVybiBhd2FpdCBhbmFseXplQmFja2xpbmsociwgeyBza2lwVGFyZ2V0RmV0Y2g6IHRydWUsIHJvYm90c0NhY2hlIH0pOwogIH0gY2F0Y2ggKGUpIHsKICAgIHJldHVybiBmYWxsYmFja1JlcG9ydChyLCAiQW5hbHlzaXMgZmFpbGVkIGZvciB0aGlzIHJvdy4iKTsKICB9Cn0KCmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uKHJlcTogUmVxdWVzdCk6IFByb21pc2U8UmVzcG9uc2U+IHsKICB0cnkgewogICAgY29uc3QgYmFzZTQ0ID0gY3JlYXRlQ2xpZW50RnJvbVJlcXVlc3QocmVxKTsKICAgIGxldCB1c2VyOiBhbnkgPSBudWxsOwogICAgdHJ5IHsgdXNlciA9IGF3YWl0IGJhc2U0NC5hdXRoLm1lKCk7IH0gY2F0Y2ggKGUpIHsgLyogYW5vbnltb3VzIGFsbG93ZWQgKi8gfQoKICAgIGNvbnN0IGJvZHkgPSBhd2FpdCByZXEuanNvbigpLmNhdGNoKCgpID0+ICh7fSkpOwoKICAgIC8vIC0tLS0gQnVsayBtb2RlIC0tLS0KICAgIGlmIChBcnJheS5pc0FycmF5KGJvZHkuYnVsaykpIHsKICAgICAgY29uc3Qgcm93cyA9IGJvZHkuYnVsawogICAgICAgIC5zbGljZSgwLCBCVUxLX01BWF9ST1dTKQogICAgICAgIC5tYXAoKHI6IGFueSkgPT4gKHsKICAgICAgICAgIHdlYnNpdGVfdXJsOiBTdHJpbmcoci53ZWJzaXRlX3VybCB8fCAiIiksCiAgICAgICAgICBiYWNrbGlua191cmw6IFN0cmluZyhyLmJhY2tsaW5rX3VybCB8fCAiIiksCiAgICAgICAgICB0YXJnZXRfdXJsOiByLnRhcmdldF91cmwgPyBTdHJpbmcoci50YXJnZXRfdXJsKSA6IG51bGwsCiAgICAgICAgICBhbmNob3JfdGV4dDogci5hbmNob3JfdGV4dCA/IFN0cmluZyhyLmFuY2hvcl90ZXh0KSA6IG51bGwKICAgICAgICB9KSkKICAgICAgICAuZmlsdGVyKChyOiBhbnkpID0+IHIuYmFja2xpbmtfdXJsKTsKCiAgICAgIGlmICghcm93cy5sZW5ndGgpIHsKICAgICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAiUGxlYXNlIHByb3ZpZGUgYXQgbGVhc3Qgb25lIGJhY2tsaW5rIFVSTCB0byBhbmFseXplLiIgfSwgeyBzdGF0dXM6IDQwMCB9KTsKICAgICAgfQoKICAgICAgY29uc3Qgcm9ib3RzQ2FjaGUgPSBuZXcgTWFwPHN0cmluZywgYW55PigpOwogICAgICBjb25zdCByZXN1bHRzOiBhbnlbXSA9IFtdOwogICAgICBmb3IgKGxldCBpID0gMDsgaSA8IHJvd3MubGVuZ3RoOyBpICs9IDUpIHsKICAgICAgICBjb25zdCBiYXRjaCA9IHJvd3Muc2xpY2UoaSwgaSArIDUpOwogICAgICAgIGNvbnN0IG91dCA9IGF3YWl0IFByb21pc2UuYWxsKGJhdGNoLm1hcCgocjogYW55KSA9PiBzYWZlQW5hbHl6ZShyLCByb2JvdHNDYWNoZSkpKTsKICAgICAgICByZXN1bHRzLnB1c2goLi4ub3V0KTsKICAgICAgfQogICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IHJlc3VsdHMgfSk7CiAgICB9CgogICAgLy8gLS0tLSBTaW5nbGUgbW9kZSAtLS0tCiAgICBjb25zdCB3ZWJzaXRlX3VybCA9IG5vcm1hbGl6ZUlucHV0VXJsKGJvZHkud2Vic2l0ZV91cmwpOwogICAgY29uc3QgYmFja2xpbmtfdXJsID0gbm9ybWFsaXplSW5wdXRVcmwoYm9keS5iYWNrbGlua191cmwpOwogICAgY29uc3QgdGFyZ2V0X3VybCA9IGJvZHkudGFyZ2V0X3VybCA/IG5vcm1hbGl6ZUlucHV0VXJsKGJvZHkudGFyZ2V0X3VybCkgOiBudWxsOwogICAgY29uc3QgYW5jaG9yX3RleHQgPSBib2R5LmFuY2hvcl90ZXh0ID8gU3RyaW5nKGJvZHkuYW5jaG9yX3RleHQpLnRyaW0oKS5zbGljZSgwLCAyMDApIDogbnVsbDsKCiAgICBpZiAoIWJhY2tsaW5rX3VybCkgewogICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAiUGxlYXNlIGVudGVyIGEgdmFsaWQgYmFja2xpbmsgVVJMIChpbmNsdWRpbmcgaHR0cHM6Ly8pLiIgfSwgeyBzdGF0dXM6IDQwMCB9KTsKICAgIH0KCiAgICBjb25zdCBub3cgPSBuZXcgRGF0ZSgpOwogICAgbGV0IGRheUNvdW50ID0gMDsKICAgIGNvbnN0IGlzQWRtaW4gPSB1c2VyICYmIHVzZXIucm9sZSA9PT0gImFkbWluIjsKICAgIGlmICh1c2VyICYmICFpc0FkbWluKSB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcmVjZW50ID0gYXdhaXQgYmFzZTQ0LmVudGl0aWVzLkJhY2tsaW5rUXVhbGl0eUFuYWx5c2lzLmxpc3QoIi1jcmVhdGVkX2RhdGUiLCAxMDApOwogICAgICAgIGRheUNvdW50ID0gKHJlY2VudCB8fCBbXSkuZmlsdGVyKChhOiBhbnkpID0+IGlzU2FtZURheShhLmNyZWF0ZWRfZGF0ZSwgbm93KSkubGVuZ3RoOwogICAgICB9IGNhdGNoIChlKSB7IC8qIGlnbm9yZSAqLyB9CiAgICAgIGlmIChkYXlDb3VudCA+PSBGUkVFX0RBSUxZX0xJTUlUKSB7CiAgICAgICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oCiAgICAgICAgICB7IGVycm9yOiBgWW91J3ZlIHJlYWNoZWQgeW91ciBmcmVlIGxpbWl0IG9mICR7RlJFRV9EQUlMWV9MSU1JVH0gYW5hbHlzZXMgdG9kYXkuIFVwZ3JhZGUgeW91ciBwbGFuIHRvIGNvbnRpbnVlLmAgfSwKICAgICAgICAgIHsgc3RhdHVzOiA0MjkgfQogICAgICAgICk7CiAgICAgIH0KICAgIH0KCiAgICBjb25zdCByZXBvcnQgPSBhd2FpdCBhbmFseXplQmFja2xpbmsoewogICAgICB3ZWJzaXRlX3VybDogd2Vic2l0ZV91cmwgfHwgU3RyaW5nKGJvZHkud2Vic2l0ZV91cmwgfHwgIiIpLnRyaW0oKSwKICAgICAgYmFja2xpbmtfdXJsLAogICAgICB0YXJnZXRfdXJsLAogICAgICBhbmNob3JfdGV4dAogICAgfSk7CgogICAgbGV0IGFuYWx5c2lzX2lkOiBzdHJpbmcgfCBudWxsID0gbnVsbDsKICAgIGlmICh1c2VyKSB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcmVjID0gYXdhaXQgYmFzZTQ0LmVudGl0aWVzLkJhY2tsaW5rUXVhbGl0eUFuYWx5c2lzLmNyZWF0ZSh7CiAgICAgICAgICB3ZWJzaXRlX3VybDogcmVwb3J0LmlucHV0cy53ZWJzaXRlX3VybCwKICAgICAgICAgIGJhY2tsaW5rX3VybDogcmVwb3J0LmlucHV0cy5iYWNrbGlua191cmwsCiAgICAgICAgICB0YXJnZXRfdXJsOiByZXBvcnQuaW5wdXRzLnRhcmdldF91cmwgfHwgIiIsCiAgICAgICAgICBhbmNob3JfdGV4dDogcmVwb3J0LmlucHV0cy5hbmNob3JfdGV4dCB8fCAiIiwKICAgICAgICAgIG92ZXJhbGxfc2NvcmU6IHJlcG9ydC5vdmVyYWxsX3Njb3JlLAogICAgICAgICAgY2xhc3NpZmljYXRpb246IHJlcG9ydC5jbGFzc2lmaWNhdGlvbiwKICAgICAgICAgIHJpc2tfbGV2ZWw6IHJlcG9ydC5yaXNrX2xldmVsLAogICAgICAgICAgcmVjb21tZW5kYXRpb246IHJlcG9ydC5yZWNvbW1lbmRhdGlvbi5hY3Rpb24sCiAgICAgICAgICBkYXRhX2NvbmZpZGVuY2U6IHJlcG9ydC5kYXRhX2NvbmZpZGVuY2UsCiAgICAgICAgICByZXBvcnRfanNvbjogSlNPTi5zdHJpbmdpZnkocmVwb3J0KS5zbGljZSgwLCAxMjAwMCkKICAgICAgICB9KTsKICAgICAgICBhbmFseXNpc19pZCA9IHJlYy5pZDsKICAgICAgfSBjYXRjaCAoZSkgeyAvKiBwZXJzaXN0ZW5jZSBpcyBiZXN0LWVmZm9ydCAqLyB9CiAgICB9CgogICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oewogICAgICByZXBvcnQsCiAgICAgIGFuYWx5c2lzX2lkLAogICAgICB1c2FnZTogdXNlciA/IHsgdXNlZDogZGF5Q291bnQgKyAxLCBsaW1pdDogaXNBZG1pbiA/IG51bGwgOiBGUkVFX0RBSUxZX0xJTUlUIH0gOiBudWxsCiAgICB9KTsKICB9IGNhdGNoIChlcnJvcikgewogICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oCiAgICAgIHsgZXJyb3I6ICJXZSBjb3VsZG4ndCBhbmFseXplIHRoaXMgYmFja2xpbmsuIFBsZWFzZSBjaGVjayB0aGUgVVJMcyBhbmQgdHJ5IGFnYWluLiIgfSwKICAgICAgeyBzdGF0dXM6IDUwMCB9CiAgICApOwogIH0KfQ==
+import { createClientFromRequest } from 'npm:@base44/sdk@0.8.40';
+import { analyzeBacklink } from "../../shared/backlinkQualityService.ts";
+import { safeUrl } from "../../shared/sitemap/urlNormalizer.ts";
+
+const FREE_DAILY_LIMIT = 5;
+const BULK_MAX_ROWS = 25;
+
+function isSameDay(dateStr: string, ref: Date): boolean {
+  const d = new Date(dateStr);
+  return d.getFullYear() === ref.getFullYear() && d.getMonth() === ref.getMonth() && d.getDate() === ref.getDate();
+}
+
+function normalizeInputUrl(str: string): string | null {
+  if (!str) return null;
+  const s = str.trim();
+  const withProto = /^https?:\/\//i.test(s) ? s : `https://${s}`;
+  return safeUrl(withProto) ? withProto : null;
+}
+
+function fallbackReport(r: any, msg: string): any {
+  return {
+    inputs: r,
+    source: { final_url: r.backlink_url, http_status: 0, content_type: "", redirected: false, redirect_target: null, title: null, description: null, domain: "", page_path: "", word_count: 0, outbound_links: 0, reachable: false, error: msg },
+    link: { found: false, href: null, rel: null, attribute: "Unknown", anchor: null, placement: null, hidden: false },
+    factors: [],
+    overall_score: 0,
+    classification: "Very Low Quality",
+    risk_level: "Low",
+    risk_signals: [],
+    recommendation: { action: "Investigate", text: msg },
+    data_confidence: "Low",
+    methodology: [],
+    analyzed_at: new Date().toISOString(),
+    error: msg
+  };
+}
+
+async function safeAnalyze(r: any, robotsCache: Map<string, any>): Promise<any> {
+  try {
+    return await analyzeBacklink(r, { skipTargetFetch: true, robotsCache });
+  } catch (e) {
+    return fallbackReport(r, "Analysis failed for this row.");
+  }
+}
+
+export default async function(req: Request): Promise<Response> {
+  try {
+    const base44 = createClientFromRequest(req);
+    let user: any = null;
+    try { user = await base44.auth.me(); } catch (e) { /* anonymous allowed */ }
+
+    const body = await req.json().catch(() => ({}));
+
+    // ---- Bulk mode ----
+    if (Array.isArray(body.bulk)) {
+      const rows = body.bulk
+        .slice(0, BULK_MAX_ROWS)
+        .map((r: any) => ({
+          website_url: String(r.website_url || ""),
+          backlink_url: String(r.backlink_url || ""),
+          target_url: r.target_url ? String(r.target_url) : null,
+          anchor_text: r.anchor_text ? String(r.anchor_text) : null
+        }))
+        .filter((r: any) => r.backlink_url);
+
+      if (!rows.length) {
+        return Response.json({ error: "Please provide at least one backlink URL to analyze." }, { status: 400 });
+      }
+
+      const robotsCache = new Map<string, any>();
+      const results: any[] = [];
+      for (let i = 0; i < rows.length; i += 5) {
+        const batch = rows.slice(i, i + 5);
+        const out = await Promise.all(batch.map((r: any) => safeAnalyze(r, robotsCache)));
+        results.push(...out);
+      }
+      return Response.json({ results });
+    }
+
+    // ---- Single mode ----
+    const website_url = normalizeInputUrl(body.website_url);
+    const backlink_url = normalizeInputUrl(body.backlink_url);
+    const target_url = body.target_url ? normalizeInputUrl(body.target_url) : null;
+    const anchor_text = body.anchor_text ? String(body.anchor_text).trim().slice(0, 200) : null;
+
+    if (!backlink_url) {
+      return Response.json({ error: "Please enter a valid backlink URL (including https://)." }, { status: 400 });
+    }
+
+    const now = new Date();
+    let dayCount = 0;
+    const isAdmin = user && user.role === "admin";
+    if (user && !isAdmin) {
+      try {
+        const recent = await base44.entities.BacklinkQualityAnalysis.list("-created_date", 100);
+        dayCount = (recent || []).filter((a: any) => isSameDay(a.created_date, now)).length;
+      } catch (e) { /* ignore */ }
+      if (dayCount >= FREE_DAILY_LIMIT) {
+        return Response.json(
+          { error: `You've reached your free limit of ${FREE_DAILY_LIMIT} analyses today. Upgrade your plan to continue.` },
+          { status: 429 }
+        );
+      }
+    }
+
+    const report = await analyzeBacklink({
+      website_url: website_url || String(body.website_url || "").trim(),
+      backlink_url,
+      target_url,
+      anchor_text
+    });
+
+    let analysis_id: string | null = null;
+    if (user) {
+      try {
+        const rec = await base44.entities.BacklinkQualityAnalysis.create({
+          website_url: report.inputs.website_url,
+          backlink_url: report.inputs.backlink_url,
+          target_url: report.inputs.target_url || "",
+          anchor_text: report.inputs.anchor_text || "",
+          overall_score: report.overall_score,
+          classification: report.classification,
+          risk_level: report.risk_level,
+          recommendation: report.recommendation.action,
+          data_confidence: report.data_confidence,
+          report_json: JSON.stringify(report).slice(0, 12000)
+        });
+        analysis_id = rec.id;
+      } catch (e) { /* persistence is best-effort */ }
+    }
+
+    return Response.json({
+      report,
+      analysis_id,
+      usage: user ? { used: dayCount + 1, limit: isAdmin ? null : FREE_DAILY_LIMIT } : null
+    });
+  } catch (error) {
+    return Response.json(
+      { error: "We couldn't analyze this backlink. Please check the URLs and try again." },
+      { status: 500 }
+    );
+  }
+}
