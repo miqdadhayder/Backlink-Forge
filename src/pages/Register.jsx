@@ -10,9 +10,11 @@ import AuthLayout from "@/components/AuthLayout";
 import GoogleIcon from "@/components/GoogleIcon";
 import { toast } from "@/components/ui/use-toast";
 import { safeReturnTo } from "@/lib/authReturnTo";
+import { normalizeEmail, validatePassword } from "@/lib/authValidation";
 
 export default function Register() {
   const [email, setEmail] = useState("");
+  const [displayName, setDisplayName] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
@@ -23,13 +25,28 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
+    const normalizedEmail = normalizeEmail(email);
+    if (!displayName.trim()) {
+      setError("Enter your name.");
+      return;
+    }
+    if (!normalizedEmail || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalizedEmail)) {
+      setError("Enter a valid email address.");
+      return;
+    }
+    const passwordError = validatePassword(password);
+    if (passwordError) {
+      setError(passwordError);
+      return;
+    }
     if (password !== confirmPassword) {
       setError("Passwords do not match");
       return;
     }
     setLoading(true);
     try {
-      await base44.auth.register({ email, password });
+      await base44.auth.register({ email: normalizedEmail, password });
+      setEmail(normalizedEmail);
       setShowOtp(true);
     } catch (err) {
       setError(err.message || "Registration failed");
@@ -46,6 +63,7 @@ export default function Register() {
       if (result?.access_token) {
         base44.auth.setToken(result.access_token);
       }
+      await base44.auth.updateMe({ display_name: displayName.trim() });
       window.location.href = safeReturnTo();
     } catch (err) {
       setError(err.message || "Invalid verification code");
@@ -168,6 +186,21 @@ export default function Register() {
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="space-y-2">
+          <Label htmlFor="display-name">Name</Label>
+          <Input
+            id="display-name"
+            type="text"
+            autoComplete="name"
+            autoFocus
+            placeholder="Your name"
+            value={displayName}
+            onChange={(e) => setDisplayName(e.target.value)}
+            className="h-12"
+            maxLength={120}
+            required
+          />
+        </div>
+        <div className="space-y-2">
           <Label htmlFor="email">Email</Label>
           <div className="relative">
             <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" aria-hidden="true" />
@@ -175,7 +208,6 @@ export default function Register() {
               id="email"
               type="email"
               autoComplete="email"
-              autoFocus
               placeholder="you@example.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}

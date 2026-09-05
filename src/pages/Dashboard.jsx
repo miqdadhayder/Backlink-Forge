@@ -13,6 +13,7 @@ import { formatTraffic } from "@/utils/opportunityHelpers";
 import TemplateManager from "@/components/bf/TemplateManager";
 import { GapFinderCTA, GapHistory, SavedGaps } from "@/components/bf/gap/DashboardGapSections";
 import { SitemapTab } from "@/components/bf/sitemap/SitemapDashboardSections";
+import { validatePassword } from "@/lib/authValidation";
 
 const TABS = [
   { id: "overview", label: "Overview", icon: BarChart3 },
@@ -291,15 +292,92 @@ function UsageTab({ searches }) {
 }
 
 function AccountTab({ user, onSignOut }) {
+  const [displayName, setDisplayName] = React.useState(user?.display_name || "");
+  const [currentPassword, setCurrentPassword] = React.useState("");
+  const [newPassword, setNewPassword] = React.useState("");
+  const [confirmPassword, setConfirmPassword] = React.useState("");
+  const [message, setMessage] = React.useState("");
+  const [error, setError] = React.useState("");
+  const [saving, setSaving] = React.useState(false);
+
+  const updateProfile = async (event) => {
+    event.preventDefault();
+    setMessage("");
+    setError("");
+    if (!displayName.trim()) {
+      setError("Enter a display name.");
+      return;
+    }
+    setSaving(true);
+    try {
+      await base44.auth.updateMe({ display_name: displayName.trim() });
+      setMessage("Profile updated.");
+    } catch (err) {
+      setError(err.message || "Could not update your profile.");
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  const changePassword = async (event) => {
+    event.preventDefault();
+    setMessage("");
+    setError("");
+    const passwordError = validatePassword(newPassword);
+    if (passwordError) {
+      setError(passwordError);
+      return;
+    }
+    if (newPassword !== confirmPassword) {
+      setError("New passwords do not match.");
+      return;
+    }
+    setSaving(true);
+    try {
+      await base44.auth.changePassword({
+        userId: user.id,
+        currentPassword,
+        newPassword
+      });
+      setCurrentPassword("");
+      setNewPassword("");
+      setConfirmPassword("");
+      setMessage("Password changed successfully.");
+    } catch (err) {
+      setError(err.message || "Could not change your password.");
+    } finally {
+      setSaving(false);
+    }
+  };
+
   return (
-    <div className="max-w-md rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+    <div className="grid max-w-2xl gap-6 md:grid-cols-2">
+      <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
       <h3 className="text-base font-semibold text-slate-900">Account</h3>
       <dl className="mt-4 space-y-3 text-sm">
-        <div className="flex justify-between"><dt className="text-slate-500">Name</dt><dd className="text-slate-900">{user?.full_name || "—"}</dd></div>
+        <div className="flex justify-between"><dt className="text-slate-500">Name</dt><dd className="text-slate-900">{user?.display_name || user?.full_name || "—"}</dd></div>
         <div className="flex justify-between"><dt className="text-slate-500">Email</dt><dd className="text-slate-900">{user?.email || "—"}</dd></div>
+        <div className="flex justify-between"><dt className="text-slate-500">Email verified</dt><dd className="text-slate-900">{user?.is_verified ? "Yes" : "No"}</dd></div>
         <div className="flex justify-between"><dt className="text-slate-500">Role</dt><dd className="text-slate-900">{user?.role || "user"}</dd></div>
       </dl>
       <Button variant="outline" className="mt-6" onClick={onSignOut}>Sign out</Button>
+      </div>
+      <div className="space-y-6">
+        <form onSubmit={updateProfile} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 className="text-base font-semibold text-slate-900">Profile</h3>
+          <label className="mt-4 block text-sm font-medium text-slate-700" htmlFor="display-name">Display name</label>
+          <input id="display-name" value={displayName} onChange={(event) => setDisplayName(event.target.value)} maxLength={120} className="mt-2 h-10 w-full rounded-md border border-slate-300 px-3 text-sm" />
+          <Button type="submit" className="mt-4" disabled={saving}>Save profile</Button>
+        </form>
+        <form onSubmit={changePassword} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 className="text-base font-semibold text-slate-900">Change password</h3>
+          <input aria-label="Current password" type="password" autoComplete="current-password" placeholder="Current password" value={currentPassword} onChange={(event) => setCurrentPassword(event.target.value)} className="mt-4 h-10 w-full rounded-md border border-slate-300 px-3 text-sm" required />
+          <input aria-label="New password" type="password" autoComplete="new-password" placeholder="New password" value={newPassword} onChange={(event) => setNewPassword(event.target.value)} className="mt-3 h-10 w-full rounded-md border border-slate-300 px-3 text-sm" required />
+          <input aria-label="Confirm new password" type="password" autoComplete="new-password" placeholder="Confirm new password" value={confirmPassword} onChange={(event) => setConfirmPassword(event.target.value)} className="mt-3 h-10 w-full rounded-md border border-slate-300 px-3 text-sm" required />
+          <Button type="submit" className="mt-4" disabled={saving}>Change password</Button>
+        </form>
+        {(message || error) && <p className={`text-sm ${error ? "text-rose-600" : "text-emerald-600"}`} role="status">{error || message}</p>}
+      </div>
     </div>
   );
 }

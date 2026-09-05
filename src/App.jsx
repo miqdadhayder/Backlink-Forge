@@ -50,8 +50,8 @@ const AuthenticatedApp = () => {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/backlink-quality-checker" element={<BacklinkQualityChecker />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Register />} />
+      <Route path="/login" element={<PublicOnly><Login /></PublicOnly>} />
+      <Route path="/register" element={<PublicOnly><Register /></PublicOnly>} />
       <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route path="/reset-password" element={<ResetPassword />} />
       <Route element={<ProtectedRoute unauthenticatedElement={<Navigate to="/login" replace />} />}>
@@ -62,6 +62,11 @@ const AuthenticatedApp = () => {
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
+};
+
+const PublicOnly = ({ children }) => {
+  const { isAuthenticated } = useAuth();
+  return isAuthenticated ? <Navigate to="/dashboard" replace /> : children;
 };
 
 
