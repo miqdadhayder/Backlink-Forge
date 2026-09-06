@@ -2,20 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Link2, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { base44 } from "@/api/base44Client";
-import { useToast } from "@/components/ui/use-toast";
+import { useAuth } from "@/lib/AuthContext";
+import { supabase } from "@/lib/supabaseClient";
 
 export default function Header() {
-  const { toast } = useToast();
-  const [authed, setAuthed] = React.useState(false);
-
-  React.useEffect(() => {
-    base44.auth.isAuthenticated().then(setAuthed).catch(() => setAuthed(false));
-  }, []);
+  const { isAuthenticated: authed } = useAuth();
 
   const handleSignOut = async () => {
-    await base44.auth.logout();
-    setAuthed(false);
+    await supabase.auth.signOut();
+    window.location.href = "/";
   };
 
   const scrollTo = (id) => (e) => {

@@ -2,7 +2,7 @@
 // Responsible for Domain Authority / traffic estimates.
 // When a real provider key (e.g. MOZ_API_KEY, AHREFS_API_KEY) is available,
 // call the live API here. Otherwise return deterministic demo metrics.
-import { secrets } from "base44:runtime";
+import { secrets } from "./envSecrets.ts";
 
 export function hasLiveMetricsProvider() {
   return Boolean(secrets.get("MOZ_API_KEY") || secrets.get("AHREFS_API_KEY"));

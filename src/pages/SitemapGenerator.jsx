@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { base44 } from "@/api/base44Client";
+import { useAuth } from "@/lib/AuthContext";
+import { supabase } from "@/lib/supabaseClient";
 import { Button } from "@/components/ui/button";
 import { Link2, ArrowLeft, FileCode2, Gauge, Info } from "lucide-react";
 import SitemapForm from "@/components/bf/sitemap/SitemapForm";
@@ -10,7 +12,7 @@ import ValidateForm from "@/components/bf/sitemap/ValidateForm";
 import ValidateResults from "@/components/bf/sitemap/ValidateResults";
 
 export default function SitemapGenerator() {
-  const [authed, setAuthed] = React.useState(false);
+  const { isAuthenticated: authed } = useAuth();
   const [tab, setTab] = React.useState("generate");
   const [genLoading, setGenLoading] = React.useState(false);
   const [genResult, setGenResult] = React.useState(null);
@@ -21,16 +23,6 @@ export default function SitemapGenerator() {
   const [valError, setValError] = React.useState("");
   const [valPrefill, setValPrefill] = React.useState("");
   const [usage, setUsage] = React.useState(null);
-
-  React.useEffect(() => {
-    base44.auth.isAuthenticated().then((a) => {
-      setAuthed(a);
-      if (!a) window.location.href = "/login";
-    }).catch(() => {
-      setAuthed(false);
-      window.location.href = "/login";
-    });
-  }, []);
 
   const scrollToRes = () => {
     const el = document.getElementById("sitemap-results");
@@ -81,7 +73,7 @@ export default function SitemapGenerator() {
   };
 
   const handleSignOut = async () => {
-    await base44.auth.logout();
+    await supabase.auth.signOut();
     window.location.href = "/";
   };
 

@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { base44 } from "@/api/base44Client";
+import { useAuth } from "@/lib/AuthContext";
+import { supabase } from "@/lib/supabaseClient";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { Link2, ArrowLeft, Target, AlertCircle, Gauge } from "lucide-react";
@@ -13,7 +15,7 @@ export default function BacklinkGapFinder() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const [authed, setAuthed] = React.useState(false);
+  const { isAuthenticated: authed } = useAuth();
   const [loading, setLoading] = React.useState(false);
   const [data, setData] = React.useState(null);
   const [query, setQuery] = React.useState(null);
@@ -23,21 +25,13 @@ export default function BacklinkGapFinder() {
   const [usage, setUsage] = React.useState(null);
 
   React.useEffect(() => {
-    base44.auth.isAuthenticated().then((a) => {
-      setAuthed(a);
-      if (a) {
-        loadSaved();
-        const reopenId = searchParams.get("analysis");
-        if (reopenId) loadAnalysis(reopenId);
-      } else {
-        window.location.href = "/login";
-      }
-    }).catch(() => {
-      setAuthed(false);
-      window.location.href = "/login";
-    });
+    if (authed) {
+      loadSaved();
+      const reopenId = searchParams.get("analysis");
+      if (reopenId) loadAnalysis(reopenId);
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [authed]);
 
   const loadSaved = async () => {
     try {
@@ -181,7 +175,7 @@ export default function BacklinkGapFinder() {
   };
 
   const handleSignOut = async () => {
-    await base44.auth.logout();
+    await supabase.auth.signOut();
     window.location.href = "/";
   };
 

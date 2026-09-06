@@ -1,7 +1,7 @@
 // guestPostService
 // Responsible for guest-post-specific enrichment: "Write for Us" availability,
 // guest post page URL, contact page URL, submission requirements.
-import { secrets } from "base44:runtime";
+import { secrets } from "./envSecrets.ts";
 
 export function hasLiveGuestPostProvider() {
   return Boolean(secrets.get("GUESTPOST_API_KEY"));

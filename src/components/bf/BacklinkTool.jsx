@@ -6,6 +6,7 @@ import LoadingState from "./LoadingState";
 import ResultsDashboard from "./ResultsDashboard";
 import GuestPostDialog from "./GuestPostDialog";
 import OutreachDialog from "./OutreachDialog";
+import { useAuth } from "@/lib/AuthContext";
 
 export default function BacklinkTool() {
   const { toast } = useToast();
@@ -15,7 +16,7 @@ export default function BacklinkTool() {
   const [isDemo, setIsDemo] = React.useState(false);
   const [query, setQuery] = React.useState(null);
   const [activeTab, setActiveTab] = React.useState("all");
-  const [authed, setAuthed] = React.useState(false);
+  const { isAuthenticated: authed } = useAuth();
   const [savedIds, setSavedIds] = React.useState(new Set());
   const [guidelines, setGuidelines] = React.useState(null);
   const [outreach, setOutreach] = React.useState(null);
@@ -23,14 +24,11 @@ export default function BacklinkTool() {
   const [apiError, setApiError] = React.useState("");
 
   React.useEffect(() => {
-    base44.auth.isAuthenticated().then((a) => {
-      setAuthed(a);
-      if (a) {
-        loadSaved();
-        loadTemplates();
-      }
-    }).catch(() => setAuthed(false));
-  }, []);
+    if (authed) {
+      loadSaved();
+      loadTemplates();
+    }
+  }, [authed]);
 
   const loadTemplates = async () => {
     try {

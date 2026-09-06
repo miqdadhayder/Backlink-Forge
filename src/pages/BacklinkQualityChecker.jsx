@@ -5,6 +5,7 @@ import Header from "@/components/bf/Header";
 import Footer from "@/components/bf/Footer";
 import { Button } from "@/components/ui/button";
 import { base44 } from "@/api/base44Client";
+import { useAuth } from "@/lib/AuthContext";
 import { useToast } from "@/components/ui/use-toast";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import QualityCheckerForm from "@/components/bqc/QualityCheckerForm";
@@ -27,12 +28,12 @@ export default function BacklinkQualityChecker() {
   const [loading, setLoading] = React.useState(false);
   const [report, setReport] = React.useState(null);
   const [error, setError] = React.useState(null);
-  const [authed, setAuthed] = React.useState(false);
+  const { isAuthenticated: authed } = useAuth();
   const [checkedAuth, setCheckedAuth] = React.useState(false);
   const resultsRef = React.useRef(null);
 
   React.useEffect(() => {
-    base44.auth.isAuthenticated().then(setAuthed).catch(() => setAuthed(false)).finally(() => setCheckedAuth(true));
+    setCheckedAuth(true);
   }, []);
 
   const analyze = async (values) => {

@@ -2,7 +2,7 @@
 // Responsible for finding candidate websites for a given niche/keyword/country.
 // When a real SERP / site-discovery API key is available, call it here.
 // Otherwise return a curated pool of demo domains themed by the keyword.
-import { secrets } from "base44:runtime";
+import { secrets } from "./envSecrets.ts";
 
 export function hasLiveSearchProvider() {
   return Boolean(secrets.get("SERPAPI_KEY") || secrets.get("DATAFORSEO_KEY"));

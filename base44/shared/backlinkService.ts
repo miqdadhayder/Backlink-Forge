@@ -4,7 +4,7 @@
 import { findCandidateSites } from "./searchService.ts";
 import { getDomainMetrics } from "./domainMetricsService.ts";
 import { enrichGuestPost } from "./guestPostService.ts";
-import { secrets } from "base44:runtime";
+import { secrets } from "./envSecrets.ts";
 
 export function isLiveMode() {
   return Boolean(

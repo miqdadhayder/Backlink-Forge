@@ -14,6 +14,8 @@ import TemplateManager from "@/components/bf/TemplateManager";
 import { GapFinderCTA, GapHistory, SavedGaps } from "@/components/bf/gap/DashboardGapSections";
 import { SitemapTab } from "@/components/bf/sitemap/SitemapDashboardSections";
 import { validatePassword } from "@/lib/authValidation";
+import { useAuth } from "@/lib/AuthContext";
+import { supabase } from "@/lib/supabaseClient";
 
 const TABS = [
   { id: "overview", label: "Overview", icon: BarChart3 },
@@ -31,7 +33,8 @@ const TABS = [
 
 export default function Dashboard() {
   const { toast } = useToast();
-  const [user, setUser] = React.useState(null);
+  const { user: authUser } = useAuth();
+  const [user, setUser] = React.useState(authUser);
   const [searches, setSearches] = React.useState([]);
   const [saved, setSaved] = React.useState([]);
   const [templates, setTemplates] = React.useState([]);
@@ -43,8 +46,7 @@ export default function Dashboard() {
   React.useEffect(() => {
     (async () => {
       try {
-        const me = await base44.auth.me();
-        setUser(me);
+        setUser(authUser);
         const [s, sv, tp, ga, sg, sm] = await Promise.all([
           base44.entities.Search.list("-created_date", 100).catch(() => []),
           base44.entities.SavedOpportunity.list("-created_date", 200).catch(() => []),
@@ -59,11 +61,9 @@ export default function Dashboard() {
         setGapAnalyses(ga || []);
         setSavedGaps(sg || []);
         setSitemapAnalyses(sm || []);
-      } catch (e) {
-        window.location.href = "/login";
-      }
+      } catch (e) { /* data loading is best effort while the Neon API migration is in progress */ }
     })();
-  }, []);
+  }, [authUser]);
 
   const totalOpps = React.useMemo(
     () => searches.reduce((sum, s) => sum + (s.opportunities_found || 0), 0),
@@ -95,7 +95,7 @@ export default function Dashboard() {
   };
 
   const handleSignOut = async () => {
-    await base44.auth.logout();
+    await supabase.auth.signOut();
     window.location.href = "/";
   };
 
@@ -310,7 +310,7 @@ function AccountTab({ user, onSignOut }) {
     }
     setSaving(true);
     try {
-      await base44.auth.updateMe({ display_name: displayName.trim() });
+      await supabase.auth.updateUser({ data: { full_name: displayName.trim() } });
       setMessage("Profile updated.");
     } catch (err) {
       setError(err.message || "Could not update your profile.");
@@ -334,11 +334,7 @@ function AccountTab({ user, onSignOut }) {
     }
     setSaving(true);
     try {
-      await base44.auth.changePassword({
-        userId: user.id,
-        currentPassword,
-        newPassword
-      });
+      await supabase.auth.updateUser({ password: newPassword });
       setCurrentPassword("");
       setNewPassword("");
       setConfirmPassword("");
